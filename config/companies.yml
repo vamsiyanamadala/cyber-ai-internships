@@ -1,0 +1,158 @@
+# ===========================================================================
+# COMPANY LIST  —  one line per company, grouped by ATS platform.
+# ===========================================================================
+# Coverage = this list. The engine polls only the companies here, so a longer
+# list means broader reach. Tokens are BEST-EFFORT: a company's board slug isn't
+# reliably guessable from its name, and companies move between platforms. The
+# engine skips any token that 404s or sits on a different ATS, so a wrong entry
+# never breaks a run — it just yields nothing. Add generously; keep what works.
+#
+# VERIFY a token in 10 seconds by opening its board in a browser:
+#   greenhouse:      https://boards.greenhouse.io/<token>
+#   lever:           https://jobs.lever.co/<token>
+#   ashby:           https://jobs.ashbyhq.com/<token>
+#   smartrecruiters: https://careers.smartrecruiters.com/<token>
+# If it loads a job board, the token is right. If it 404s, the company is on a
+# different platform (try moving it to another block) or uses a custom portal
+# (many large enterprises — apply to those directly; this engine won't see them).
+#
+# Format per platform:
+#   <ats>:
+#     - simpleslug                      # name == token
+#     - name: "Nice Name"               # explicit name + token
+#       token: "board-slug"
+# ===========================================================================
+
+companies:
+
+  # GET https://boards-api.greenhouse.io/v1/boards/<token>/jobs?content=true
+  greenhouse:
+    # --- AI / ML ---
+    - anthropic
+    - databricks
+    - scaleai
+    - figma
+    - notion
+    - asana
+    - grammarly
+    - instabase
+    - hebbia
+    - abridge
+    # --- cybersecurity ---
+    - cloudflare
+    - snyk
+    - tenable
+    - rapid7
+    - crowdstrike
+    - sentinelone
+    - okta
+    - hashicorp
+    - datadog
+    - arcticwolf
+    - huntress
+    - sysdig
+    - abnormalsecurity
+    - netskope
+    - cybereason
+    - semgrep
+    - chainguard
+    - hackerone
+    - bugcrowd
+    - axonius
+    - expel
+    - dragos
+    - recordedfuture
+    - cyberark
+    - proofpoint
+    - varonis
+    - illumio
+    - claroty
+    - armis
+    - lacework
+    - orcasecurity
+    - aquasecurity
+    - wiz
+    - snowflake
+    # --- broader tech (strong H-1B sponsors, hire cyber + AI) ---
+    - airbnb
+    - coinbase
+    - robinhood
+    - dropbox
+    - gitlab
+    - samsara
+    - brex
+    - plaid
+    - benchling
+    - discord
+    - reddit
+    - doordash
+    - instacart
+    - affirm
+    - chime
+    - twilio
+    - mongodb
+    - confluent
+    - elastic
+    - cockroachlabs
+    - postman
+    - amplitude
+    - airtable
+    - rippling
+    - retool
+    - gusto
+    - sofi
+    - lyft
+    - pinterest
+
+  # GET https://api.lever.co/v0/postings/<token>?mode=json
+  lever:
+    - palantir
+    - netflix
+    - spotify
+
+  # GET https://api.ashbyhq.com/posting-api/job-board/<token>?includeCompensation=true
+  ashby:
+    # --- AI / ML labs & infra (Ashby is common here) ---
+    - openai
+    - cohere
+    - mistral
+    - huggingface
+    - perplexity
+    - together
+    - fireworks
+    - contextual
+    - modal
+    - baseten
+    - groq
+    - sambanova
+    - cerebras
+    - anyscale
+    - glean
+    - harvey
+    - writer
+    - sierra
+    - runwayml
+    - elevenlabs
+    - replit
+    - vercel
+    - linear
+    # --- security & fintech on Ashby ---
+    - ramp
+    - vanta
+    - mercury
+    - watershed
+    - material          # Material Security (verify)
+    - jupiterone
+
+  # GET https://api.smartrecruiters.com/v1/companies/<token>/postings
+  smartrecruiters:
+    - name: "Visa"
+      token: "Visa"
+    - name: "Bosch"
+      token: "BoschGroup"
+
+  # Workday (experimental): POST https://<host>/wday/cxs/<tenant>/<site>/jobs
+  # Posted dates are relative and unreliable; the engine falls back to
+  # first-seen. Tenants/sites aren't guessable — fill host/site from the real
+  # careers URL if you add any. Left empty by default.
+  workday: []

@@ -1,0 +1,413 @@
+"""Render a self-contained HTML dashboard for GitHub Pages.
+
+Everything (data, CSS, JS) is inlined into one file, so it can be served
+statically from ``docs/index.html`` with no backend. Role data is embedded as
+a JSON blob and filtered/sorted client-side.
+
+Design: a "sponsorship clearance board." The element that makes this project
+different from a plain internship list — H-1B sponsorship — is the hero: every
+verified sponsor gets a stamped badge with its real USCIS petition count.
+"""
+
+from __future__ import annotations
+
+import html
+import json
+from datetime import datetime, timezone
+
+_CATEGORY_ORDER = {"Cybersecurity": 0, "AI/ML": 1}
+
+
+def _records(roles, new_uids):
+    out = []
+    for r in roles:
+        out.append({
+            "company": r.company or "",
+            "title": r.title or "",
+            "type": r.role_type or "",
+            "category": r.category or "",
+            "location": r.location or "",
+            "pay": r.pay or "",
+            "posted": r.posted_at or "",
+            "estimated": (r.posted_source or "unknown") != "source",
+            "url": r.url or "",
+            "petitions": int(r.sponsor_petitions or 0),
+            "sponsor": bool(r.sponsor_history),
+            "isNew": r.uid in new_uids,
+            "skills": list(r.skills or [])[:6],
+        })
+    # newest first by default; unknown/blank dates sort last
+    out.sort(key=lambda d: (d["posted"] or "0000-00-00"), reverse=True)
+    return out
+
+
+def render_dashboard(roles, stats, settings, new_uids=None) -> str:
+    new_uids = new_uids or stats.get("new_uids") or set()
+    records = _records(roles, new_uids)
+    now = datetime.now(timezone.utc).strftime("%b %d, %Y · %H:%M UTC")
+
+    cyber = sum(1 for r in records if r["category"] == "Cybersecurity")
+    ai = sum(1 for r in records if r["category"] == "AI/ML")
+    sponsors_indexed = stats.get("sponsors_indexed", 0)
+
+    meta = {
+        "open": len(records),
+        "new": sum(1 for r in records if r["isNew"]),
+        "cyber": cyber,
+        "ai": ai,
+        "sponsorsIndexed": sponsors_indexed,
+        "companiesPolled": stats.get("companies", 0),
+        "updated": now,
+        "mode": getattr(settings, "sponsorship_mode", "require_history"),
+        "minPetitions": getattr(settings, "min_petitions", 1),
+    }
+
+    data_json = json.dumps(records, ensure_ascii=False)
+    meta_json = json.dumps(meta, ensure_ascii=False)
+
+    page = _TEMPLATE
+    page = page.replace("/*__META__*/", meta_json)
+    page = page.replace("/*__DATA__*/", data_json)
+    return page
+
+
+# NOTE: kept as a plain string (not an f-string) so CSS/JS braces need no
+# escaping. Data is injected via the /*__META__*/ and /*__DATA__*/ markers.
+_TEMPLATE = r"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cyber &amp; AI Internships — Sponsorship Clearance Board</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Mono:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0F1B2D; --ink-soft:#3B4D63; --ink-faint:#7E8DA0;
+    --paper:#EEF1F5; --surface:#FFFFFF; --surface-2:#F7F9FB;
+    --line:#D8DFE8; --line-strong:#C3CDD9;
+    --verify:#0C7A54; --verify-ink:#083F2C; --verify-bg:#E7F3ED;
+    --new:#B45309; --new-bg:#FBEFDD;
+    --stamp:#0C7A54;
+    --radius:10px;
+    --shadow:0 1px 0 rgba(15,27,45,.04), 0 8px 24px -18px rgba(15,27,45,.30);
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--paper); color:var(--ink);
+    font-family:"IBM Plex Sans",system-ui,sans-serif; font-size:15px; line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit}
+  .mono{font-family:"IBM Plex Mono",ui-monospace,monospace}
+  .wrap{max-width:1120px; margin:0 auto; padding:0 20px}
+
+  /* ---- console header ---- */
+  header.console{
+    background:var(--ink); color:#EAF0F7;
+    border-bottom:3px solid var(--verify);
+  }
+  .console .wrap{padding-top:26px; padding-bottom:22px}
+  .eyebrow{
+    font-family:"IBM Plex Mono",monospace; font-size:11.5px; letter-spacing:.16em;
+    text-transform:uppercase; color:#8FE3C4; margin:0 0 10px;
+  }
+  h1{
+    font-family:"Space Grotesk",sans-serif; font-weight:700;
+    font-size:clamp(26px,4.4vw,40px); line-height:1.04; margin:0 0 6px; letter-spacing:-.01em;
+  }
+  h1 .thin{color:#9FB2C7; font-weight:500}
+  .sub{color:#B7C6D6; margin:0 0 20px; max-width:60ch; font-size:14.5px}
+  .readout{
+    display:flex; flex-wrap:wrap; gap:10px 12px; align-items:stretch;
+    font-family:"IBM Plex Mono",monospace;
+  }
+  .stat{
+    background:rgba(255,255,255,.05); border:1px solid rgba(255,255,255,.12);
+    border-radius:8px; padding:9px 13px; min-width:96px;
+  }
+  .stat .n{display:block; font-size:20px; font-weight:600; letter-spacing:-.02em}
+  .stat .l{display:block; font-size:10.5px; letter-spacing:.11em; text-transform:uppercase; color:#8FA6BC; margin-top:2px}
+  .stat.hot .n{color:#FCD9A6}
+  .stat.ok .n{color:#7FE6BF}
+
+  /* ---- controls ---- */
+  .controls{
+    position:sticky; top:0; z-index:5; background:rgba(238,241,245,.92);
+    backdrop-filter:saturate(1.4) blur(8px); border-bottom:1px solid var(--line);
+  }
+  .controls .wrap{display:flex; flex-wrap:wrap; gap:12px; align-items:center; padding-top:14px; padding-bottom:14px}
+  .search{position:relative; flex:1 1 260px; min-width:220px}
+  .search input{
+    width:100%; font-family:"IBM Plex Mono",monospace; font-size:13.5px;
+    padding:10px 12px 10px 34px; border:1px solid var(--line-strong); border-radius:9px;
+    background:var(--surface); color:var(--ink);
+  }
+  .search input:focus{outline:2px solid var(--verify); outline-offset:1px; border-color:transparent}
+  .search svg{position:absolute; left:11px; top:50%; transform:translateY(-50%); width:15px; height:15px; color:var(--ink-faint)}
+  .segwrap{display:flex; flex-wrap:wrap; gap:8px}
+  .seg{display:inline-flex; border:1px solid var(--line-strong); border-radius:9px; overflow:hidden; background:var(--surface)}
+  .seg button{
+    font-family:"IBM Plex Mono",monospace; font-size:12px; letter-spacing:.02em;
+    border:0; background:transparent; color:var(--ink-soft); padding:8px 12px; cursor:pointer;
+    border-right:1px solid var(--line);
+  }
+  .seg button:last-child{border-right:0}
+  .seg button[aria-pressed="true"]{background:var(--ink); color:#fff}
+  .seg button:focus-visible{outline:2px solid var(--verify); outline-offset:-2px}
+  .toggle{
+    display:inline-flex; align-items:center; gap:8px; font-family:"IBM Plex Mono",monospace;
+    font-size:12px; color:var(--ink-soft); border:1px solid var(--line-strong);
+    background:var(--surface); padding:8px 12px; border-radius:9px; cursor:pointer;
+  }
+  .toggle[aria-pressed="true"]{background:var(--verify-bg); border-color:var(--verify); color:var(--verify-ink)}
+  .toggle .dot{width:9px; height:9px; border-radius:50%; background:var(--line-strong)}
+  .toggle[aria-pressed="true"] .dot{background:var(--verify)}
+  .sortsel{font-family:"IBM Plex Mono",monospace; font-size:12px; padding:8px 10px; border:1px solid var(--line-strong); border-radius:9px; background:var(--surface); color:var(--ink-soft)}
+
+  /* ---- results ---- */
+  main .wrap{padding-top:22px; padding-bottom:60px}
+  .rowcount{font-family:"IBM Plex Mono",monospace; font-size:12px; color:var(--ink-faint); letter-spacing:.04em; text-transform:uppercase; margin:0 2px 12px}
+
+  table{width:100%; border-collapse:separate; border-spacing:0}
+  thead th{
+    font-family:"IBM Plex Mono",monospace; font-size:11px; letter-spacing:.09em; text-transform:uppercase;
+    color:var(--ink-faint); text-align:left; font-weight:600; padding:0 14px 10px; white-space:nowrap;
+  }
+  thead th.sortable{cursor:pointer}
+  thead th.sortable:hover{color:var(--ink)}
+  thead th .arr{opacity:.5; font-size:10px}
+  tbody tr{background:var(--surface)}
+  tbody td{border-top:1px solid var(--line); padding:15px 14px; vertical-align:top}
+  tbody tr:first-child td{border-top:0}
+  tbody tr td:first-child{border-left:1px solid var(--line)}
+  tbody tr td:last-child{border-right:1px solid var(--line)}
+  tbody tr:first-child td:first-child{border-top-left-radius:var(--radius)}
+  tbody tr:first-child td:last-child{border-top-right-radius:var(--radius)}
+  tbody tr:last-child td:first-child{border-bottom-left-radius:var(--radius)}
+  tbody tr:last-child td:last-child{border-bottom-right-radius:var(--radius)}
+  tbody tr.isnew td{background:linear-gradient(90deg,var(--new-bg),transparent 60%)}
+
+  .co{font-family:"Space Grotesk",sans-serif; font-weight:700; font-size:16px; letter-spacing:-.01em}
+  .role{font-weight:500; margin-top:3px}
+  .skills{margin-top:7px; display:flex; flex-wrap:wrap; gap:5px}
+  .skills span{font-family:"IBM Plex Mono",monospace; font-size:10.5px; color:var(--ink-soft); background:var(--surface-2); border:1px solid var(--line); padding:2px 6px; border-radius:5px}
+
+  .badge{display:inline-flex; align-items:center; gap:6px; font-family:"IBM Plex Mono",monospace; font-size:11px; padding:3px 8px; border-radius:6px; white-space:nowrap}
+  .badge.type{background:var(--surface-2); border:1px solid var(--line); color:var(--ink-soft)}
+  .badge.new{background:var(--new-bg); color:var(--new); border:1px solid #E9C99B; letter-spacing:.06em; text-transform:uppercase; font-weight:600}
+
+  /* the signature: a passport-style clearance stamp */
+  .stamp{
+    display:inline-flex; flex-direction:column; align-items:center; gap:1px;
+    font-family:"IBM Plex Mono",monospace; color:var(--verify-ink);
+    border:1.5px dashed var(--verify); background:var(--verify-bg);
+    padding:5px 9px; border-radius:8px; transform:rotate(-2.2deg); line-height:1.1;
+  }
+  .stamp .t{font-size:9.5px; letter-spacing:.14em; text-transform:uppercase; font-weight:600}
+  .stamp .n{font-size:14px; font-weight:600; letter-spacing:-.01em}
+  .stamp .u{font-size:8.5px; letter-spacing:.1em; text-transform:uppercase; color:var(--verify)}
+  .nostamp{font-family:"IBM Plex Mono",monospace; font-size:10.5px; color:var(--ink-faint); border:1px dashed var(--line-strong); padding:6px 9px; border-radius:8px; text-align:center; max-width:120px}
+
+  .when{font-family:"IBM Plex Mono",monospace; font-size:12.5px; color:var(--ink-soft); white-space:nowrap}
+  .when .est{color:var(--ink-faint)}
+  .loc{color:var(--ink-soft); font-size:13.5px}
+  .pay{font-family:"IBM Plex Mono",monospace; font-size:12px; color:var(--verify-ink); margin-top:3px}
+
+  .apply{display:inline-flex; align-items:center; gap:6px; font-family:"IBM Plex Mono",monospace; font-size:12px; font-weight:600; text-decoration:none; color:#fff; background:var(--ink); padding:9px 13px; border-radius:8px; white-space:nowrap}
+  .apply:hover{background:var(--verify)}
+  .apply:focus-visible{outline:2px solid var(--verify); outline-offset:2px}
+
+  .empty{border:1px dashed var(--line-strong); border-radius:var(--radius); padding:44px 20px; text-align:center; color:var(--ink-soft); background:var(--surface)}
+  .empty .big{font-family:"Space Grotesk",sans-serif; font-weight:700; font-size:18px; color:var(--ink); margin-bottom:6px}
+
+  footer{border-top:1px solid var(--line); background:var(--surface)}
+  footer .wrap{padding-top:26px; padding-bottom:40px; color:var(--ink-soft); font-size:13px}
+  footer h2{font-family:"Space Grotesk",sans-serif; font-size:14px; letter-spacing:.02em; margin:0 0 8px; color:var(--ink)}
+  footer p{margin:0 0 12px; max-width:78ch}
+  footer .files{font-family:"IBM Plex Mono",monospace; font-size:12px}
+  footer a{color:var(--verify-ink); text-decoration:underline; text-underline-offset:2px}
+
+  /* ---- responsive: table becomes cards ---- */
+  @media (max-width:760px){
+    thead{position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0)}
+    table, tbody, tr, td{display:block; width:100%}
+    tbody tr{border:1px solid var(--line); border-radius:var(--radius); margin-bottom:12px; padding:4px 2px}
+    tbody td{border:0 !important; padding:8px 14px}
+    tbody tr td:first-child{border-radius:0}
+    .cell-clear{display:flex; align-items:center; gap:12px}
+  }
+  @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<header class="console">
+  <div class="wrap">
+    <p class="eyebrow" id="eyebrow">Live feed · auto-generated</p>
+    <h1>Cyber &amp; AI Internships<br><span class="thin">cleared for H-1B sponsorship</span></h1>
+    <p class="sub">Early-career cybersecurity and AI/ML roles across US employers — filtered to companies with an H-1B track record in USCIS data, with postings that refuse sponsorship removed.</p>
+    <div class="readout" id="readout"></div>
+  </div>
+</header>
+
+<div class="controls">
+  <div class="wrap">
+    <label class="search">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+      <input id="q" type="search" placeholder="search company, role, skill, location…" autocomplete="off" aria-label="Search roles">
+    </label>
+    <div class="segwrap">
+      <div class="seg" id="catseg" role="group" aria-label="Filter by domain">
+        <button data-cat="all" aria-pressed="true">All</button>
+        <button data-cat="Cybersecurity" aria-pressed="false">Cyber</button>
+        <button data-cat="AI/ML" aria-pressed="false">AI/ML</button>
+      </div>
+      <div class="seg" id="typeseg" role="group" aria-label="Filter by type">
+        <button data-type="all" aria-pressed="true">All</button>
+        <button data-type="Internship" aria-pressed="false">Intern</button>
+        <button data-type="Co-op" aria-pressed="false">Co-op</button>
+        <button data-type="Apprenticeship" aria-pressed="false">Apprentice</button>
+      </div>
+    </div>
+    <button class="toggle" id="sponsoronly" aria-pressed="false"><span class="dot"></span>verified sponsors only</button>
+    <select class="sortsel" id="sort" aria-label="Sort by">
+      <option value="posted">newest</option>
+      <option value="petitions">most petitions</option>
+      <option value="company">company A–Z</option>
+    </select>
+  </div>
+</div>
+
+<main>
+  <div class="wrap">
+    <p class="rowcount" id="rowcount"></p>
+    <div id="results"></div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <h2>How to read this board</h2>
+    <p>Each role that clears shows a <strong>sponsorship stamp</strong> with the employer's approved H-1B petition count from the USCIS Employer Data Hub. That count is <em>past</em> activity — the best public proxy for "this employer sponsors," not a guarantee for any specific posting. A company with no stamp may still sponsor (new or small employers, or a name that didn't match); one with a stamp may decline for a given role. Dates marked <span class="mono">~</span> are estimated from when the engine first saw the posting, because the source didn't publish one. Always confirm on the employer's application page.</p>
+    <p class="files" id="files"></p>
+  </div>
+</footer>
+
+<script id="meta" type="application/json">/*__META__*/</script>
+<script id="data" type="application/json">/*__DATA__*/</script>
+<script>
+(function(){
+  var META = JSON.parse(document.getElementById('meta').textContent);
+  var DATA = JSON.parse(document.getElementById('data').textContent);
+  var esc = function(s){var d=document.createElement('div'); d.textContent=s==null?'':String(s); return d.innerHTML;};
+  var fmt = function(n){return (n||0).toLocaleString('en-US');};
+
+  // readout
+  var readout = document.getElementById('readout');
+  var cells = [
+    {n:META.open, l:'open roles'},
+    {n:META.new, l:'new · 48h', cls:'hot'},
+    {n:META.cyber, l:'cybersecurity'},
+    {n:META.ai, l:'ai / ml'},
+    {n:fmt(META.sponsorsIndexed), l:'sponsors indexed', cls:'ok'},
+    {n:META.companiesPolled, l:'companies polled'}
+  ];
+  readout.innerHTML = cells.map(function(c){
+    return '<div class="stat '+(c.cls||'')+'"><span class="n">'+esc(c.n)+'</span><span class="l">'+esc(c.l)+'</span></div>';
+  }).join('');
+  document.getElementById('eyebrow').textContent = 'Auto-generated · updated '+META.updated+' · mode: '+META.mode;
+  document.getElementById('files').innerHTML =
+    'Data: <a href="../data/internships.csv">CSV</a> · <a href="../data/internships.json">JSON</a> · <a href="feed.xml">RSS</a> · source on GitHub. '+
+    'Policy: '+esc(META.mode)+' (min petitions '+esc(META.minPetitions)+').';
+
+  var state = {q:'', cat:'all', type:'all', sponsor:false, sort:'posted'};
+
+  function passes(r){
+    if(state.cat!=='all' && r.category!==state.cat) return false;
+    if(state.type!=='all' && r.type!==state.type) return false;
+    if(state.sponsor && !r.sponsor) return false;
+    if(state.q){
+      var hay=(r.company+' '+r.title+' '+r.location+' '+(r.skills||[]).join(' ')).toLowerCase();
+      if(hay.indexOf(state.q)===-1) return false;
+    }
+    return true;
+  }
+  function sorter(a,b){
+    if(state.sort==='company') return a.company.localeCompare(b.company);
+    if(state.sort==='petitions') return (b.petitions||0)-(a.petitions||0);
+    return (b.posted||'').localeCompare(a.posted||''); // newest
+  }
+
+  function stamp(r){
+    if(r.sponsor && r.petitions>0){
+      return '<div class="stamp" title="'+fmt(r.petitions)+' approved H-1B petitions on record"><span class="t">Sponsor ✓</span><span class="n">'+fmt(r.petitions)+'</span><span class="u">petitions</span></div>';
+    }
+    if(r.sponsor){
+      return '<div class="stamp" title="Employer has H-1B history"><span class="t">Sponsor ✓</span><span class="u">on record</span></div>';
+    }
+    return '<div class="nostamp">no USCIS match — verify manually</div>';
+  }
+
+  function row(r){
+    var newCls = r.isNew ? ' isnew' : '';
+    var badges = '<span class="badge type">'+esc(r.type||'—')+'</span>';
+    if(r.isNew) badges += ' <span class="badge new">New</span>';
+    var skills = (r.skills&&r.skills.length) ? '<div class="skills">'+r.skills.map(function(s){return '<span>'+esc(s)+'</span>';}).join('')+'</div>' : '';
+    var loc = '<div class="loc">'+esc(r.location||'—')+'</div>'+(r.pay?'<div class="pay">'+esc(r.pay)+'</div>':'');
+    var when = r.posted ? '<span class="when">'+esc(r.posted)+(r.estimated?' <span class="est">~</span>':'')+'</span>' : '<span class="when est">—</span>';
+    var apply = '<a class="apply" href="'+esc(r.url)+'" target="_blank" rel="noopener">Apply ↗</a>';
+    return '<tr class="'+newCls+'">'+
+      '<td><div class="cell-clear"><div><div class="co">'+esc(r.company)+'</div><div class="role">'+esc(r.title)+'</div>'+skills+'</div></div></td>'+
+      '<td>'+stamp(r)+'</td>'+
+      '<td>'+badges+'</td>'+
+      '<td>'+loc+'</td>'+
+      '<td>'+when+'</td>'+
+      '<td>'+apply+'</td>'+
+    '</tr>';
+  }
+
+  function render(){
+    var rows = DATA.filter(passes).sort(sorter);
+    var rc = document.getElementById('rowcount');
+    var results = document.getElementById('results');
+    rc.textContent = rows.length + (rows.length===1?' role':' roles') + ' shown of ' + DATA.length;
+    if(!rows.length){
+      results.innerHTML = '<div class="empty"><div class="big">Nothing matches those filters.</div>Try clearing the search or switching "verified sponsors only" off.</div>';
+      return;
+    }
+    results.innerHTML = '<table><thead><tr>'+
+      '<th>Company &amp; role</th>'+
+      '<th class="sortable" data-sort="petitions">Sponsorship <span class="arr">▼</span></th>'+
+      '<th>Type</th><th>Location</th>'+
+      '<th class="sortable" data-sort="posted">Posted <span class="arr">▼</span></th>'+
+      '<th></th>'+
+      '</tr></thead><tbody>'+rows.map(row).join('')+'</tbody></table>';
+    results.querySelectorAll('th.sortable').forEach(function(th){
+      th.addEventListener('click', function(){ state.sort=th.getAttribute('data-sort'); document.getElementById('sort').value=state.sort; render(); });
+    });
+  }
+
+  // wire controls
+  var qEl=document.getElementById('q'); var t;
+  qEl.addEventListener('input', function(){ clearTimeout(t); t=setTimeout(function(){ state.q=qEl.value.trim().toLowerCase(); render(); }, 90); });
+  function segWire(id, key){
+    document.getElementById(id).addEventListener('click', function(e){
+      var b=e.target.closest('button'); if(!b) return;
+      state[key]=b.getAttribute('data-'+key);
+      this.querySelectorAll('button').forEach(function(x){x.setAttribute('aria-pressed', x===b?'true':'false');});
+      render();
+    });
+  }
+  segWire('catseg','cat'); segWire('typeseg','type');
+  var sp=document.getElementById('sponsoronly');
+  sp.addEventListener('click', function(){ state.sponsor=!state.sponsor; sp.setAttribute('aria-pressed', state.sponsor?'true':'false'); render(); });
+  document.getElementById('sort').addEventListener('change', function(e){ state.sort=e.target.value; render(); });
+
+  render();
+})();
+</script>
+</body>
+</html>
+"""

@@ -1,0 +1,49 @@
+# ---------------------------------------------------------------------------
+# Engine settings.  Everything here is optional; omitted keys use code defaults.
+# ---------------------------------------------------------------------------
+
+# Which domains and role types to keep.
+categories: ["Cybersecurity", "AI/ML"]
+role_types: ["Internship", "Co-op", "Apprenticeship"]
+us_only: true
+
+# --- Sponsorship policy -----------------------------------------------------
+# require_history : keep a role only if the employer has an H-1B track record
+#                   AND the posting does not say "no sponsorship". This is the
+#                   strictest option and matches "only companies that sponsor".
+#                   Tradeoff: hides employers with no petitions on record yet
+#                   (new/small companies that might still sponsor).
+# exclude_negative: keep everything EXCEPT postings that explicitly refuse to
+#                   sponsor. Broader; use if you'd rather not miss startups.
+# flag_only       : keep everything and just annotate (original-repo behavior).
+sponsorship_mode: "require_history"
+
+# Minimum approved H-1B petitions on record to count as "has a track record".
+# Raise this to be stricter (e.g. 10 mirrors the reference repo's ✓ rule).
+min_petitions: 1
+
+# Drop roles that require US citizenship or a security clearance (an
+# international candidate can't take these and they can't lead to sponsorship).
+exclude_citizenship_required: true
+
+# --- Freshness --------------------------------------------------------------
+new_window_hours: 48        # a role is 🆕 for this long after first_seen
+
+# --- HTTP / crawl politeness ------------------------------------------------
+concurrency: 24             # max simultaneous requests
+per_host_delay_ms: 400      # min gap between requests to the same host
+timeout_s: 20
+max_retries: 3
+circuit_fail_threshold: 5   # open a host's circuit after N straight failures
+circuit_cooldown_s: 900
+user_agent: "intern-engine/1.0 (+https://github.com/your/repo)"
+
+# --- Data / output paths (relative to repo root) ----------------------------
+h1b_dir: "data/h1b"                        # drop USCIS FY CSVs here
+h1b_sample: "data/h1b_employers.sample.csv"
+state_path: "data/state.json"
+out_readme: "README.md"
+out_csv: "data/internships.csv"
+out_json: "data/internships.json"
+out_rss: "docs/feed.xml"
+site_url: "https://github.com/your/repo"

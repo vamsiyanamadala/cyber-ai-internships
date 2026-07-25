@@ -1,0 +1,51 @@
+name: update-internships
+
+on:
+  schedule:
+    - cron: "17 */2 * * *"      # every 2 hours (UTC). Tune to taste.
+  workflow_dispatch: {}          # manual "Run workflow" button
+  push:
+    branches: [main]
+    paths:
+      - "config/**"
+      - "src/**"
+      - "run.py"
+
+concurrency:
+  group: update-internships
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run engine
+        run: python run.py
+
+      - name: Commit regenerated files
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md data/internships.csv data/internships.json docs/feed.xml docs/index.html data/state.json
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "chore: update internships ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+            git push
+          fi
