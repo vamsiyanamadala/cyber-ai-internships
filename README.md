@@ -1,6 +1,6 @@
 # Cybersecurity & AI Internships, Co-ops & Apprenticeships (US)
 
-A self-updating engine that tracks **10 open** early-career Cybersecurity and AI/ML roles in the United States and rebuilds this page automatically. **1 new** in the last 48h · **107 companies polled** · updated Jul 28, 2026 at 21:36 UTC.
+A self-updating engine that tracks **10 open** early-career Cybersecurity and AI/ML roles in the United States and rebuilds this page automatically. **2 new** in the last 48h · **107 companies polled** · updated Jul 28, 2026 at 23:21 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -17,6 +17,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
+| affirm ✓ | Analyst 🆕 | Internship | Remote US · $115,000 - $165,000 | 2026-07-28 ~ | [Apply](https://job-boards.greenhouse.io/affirm/jobs/7808667003) |
 | pinterest ✓ | Machine Learning Engineer II, Computer Vision Applied Science | Internship | San Francisco, CA, US; Remote, US | 2026-07-25 ~ | [Apply](https://www.pinterestcareers.com/jobs/?gh_jid=7697137) |
 | pinterest ✓ | Sr. Machine Learning Engineer, Applied Science | Internship | San Francisco, CA, US; Remote, US | 2026-07-25 ~ | [Apply](https://www.pinterestcareers.com/jobs/?gh_jid=6894747) |
 | pinterest ✓ | Staff Machine Learning Engineer, Computer Vision | Internship | San Francisco, CA, US; Remote, US | 2026-07-25 ~ | [Apply](https://www.pinterestcareers.com/jobs/?gh_jid=8015537) |
@@ -24,19 +25,19 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | databricks ✓ | PhD GenAI Research Scientist Intern | Internship | San Francisco, California | 2026-07-25 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=7011263002) |
 | databricks ✓ | Staff Data Scientist - Trust and Safety | Internship | San Francisco, California | 2026-07-25 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=8178287002) |
 | brex ✓ | Brex Rotational Program | Internship | Salt Lake City, Utah, United States · $58,700 - 66,038 | 2026-07-25 ~ | [Apply](https://www.brex.com/careers/8516003002?gh_jid=8516003002) |
-| affirm ✓ | Analyst I | Internship | Remote US · $115,000 - $165,000 | 2026-07-25 ~ | [Apply](https://job-boards.greenhouse.io/affirm/jobs/7808667003) |
 | Bosch ✓ | Internship Software Development – AI Agents & LLMs | Internship | München, BY, de | 2026-06-26 | [Apply](https://api.smartrecruiters.com/v1/companies/BoschGroup/postings/744000134461010) |
 
-## Recently closed — 2 in the last 14 days
+## Recently closed — 3 in the last 14 days
 
 - Bosch — Autonomous Driving – Internship in Machine Learning
 - Bosch — Mandatory Internship AI and Robotics
+- affirm — Analyst I
 
 ## How this stays current
 
 A small async Python engine reads public ATS feeds (ashby, greenhouse, lever, smartrecruiters) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 107 companies · 54 feeds fetched · 10 open roles · 187.0s.
+Engine (last run): 107 companies · 54 feeds fetched · 10 open roles · 287.0s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
