@@ -34,13 +34,13 @@
       "etag": "W/\"job-board:fcb5c9e16f69a40d0fbf33373053b830f3811755bbc7e413e02d1c57e0eb5105\""
     },
     "https://api.ashbyhq.com/posting-api/job-board/baseten?includeCompensation=true": {
-      "etag": "W/\"job-board:b04fd89b338a4b771c3f4b1582a0b01232e067432854f6a78aef43fc279bf89e\""
+      "etag": "W/\"job-board:a600960a6db46ad6d16341c778af42a396d6bd649a366d813f786f68e8aeff96\""
     },
     "https://api.ashbyhq.com/posting-api/job-board/cerebras?includeCompensation=true": {
       "etag": "W/\"job-board:ef75abe34158565289d6ac534df8de89366b98e2e4bc1a13ea0f3161b03b26d3\""
     },
     "https://api.ashbyhq.com/posting-api/job-board/cohere?includeCompensation=true": {
-      "etag": "W/\"job-board:ac7a8df81c07987a342ff1a67857e3ddabf7681e07a27f454229d6b0a4655f73\""
+      "etag": "W/\"job-board:3e96a08ae3840035bcd64e68fb56529d9dcc04eb9d219af022325fd62b1dc395\""
     },
     "https://api.ashbyhq.com/posting-api/job-board/elevenlabs?includeCompensation=true": {
       "etag": "W/\"job-board:f3b306f1a3cfb298caa74dacaa25aaa34a84d225ed8c0deb7000d7a2d4583552\""
@@ -49,7 +49,7 @@
       "etag": "W/\"job-board:e3e1778027fb73cae49ef373306680d9e5624f33bca8fdf614a65a8eca1c074e\""
     },
     "https://api.ashbyhq.com/posting-api/job-board/harvey?includeCompensation=true": {
-      "etag": "W/\"job-board:e9a7a29cdead14bcacb3eff1e12f648b606e1120aa6b2d636ca36ad03ee6f8bb\""
+      "etag": "W/\"job-board:3fa0996c7d5719f544a1a3826195884c8e27cd530bee1f8899020599eb490a6f\""
     },
     "https://api.ashbyhq.com/posting-api/job-board/linear?includeCompensation=true": {
       "etag": "W/\"job-board:f311e820a432224be5e45c4d0d2d6e28a8c81478bb60ffeead70d37a603ef865\""
@@ -64,10 +64,10 @@
       "etag": "W/\"job-board:643d43eeba0b7a56dd7a9b6a19ab0e27e702428df02b43c538030164a0ecc8c0\""
     },
     "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true": {
-      "etag": "W/\"job-board:e2f0547fd16b49786ae93221653dde6961a9dfe600dc75dd6c54e0afe43d840f\""
+      "etag": "W/\"job-board:83eab053db16a48be835481e7749d4cda665301550e64d9919b3587ca7a3f2c1\""
     },
     "https://api.ashbyhq.com/posting-api/job-board/perplexity?includeCompensation=true": {
-      "etag": "W/\"job-board:1f79e31e772ece90daac6e3c87cdbee758dfe7f7a3f25e7bf321ef96927186a6\""
+      "etag": "W/\"job-board:1bf0daf8aba7fa9ff6b09efd1a6dbd6e459c1f685f0617ccfb755ec5fc268ca9\""
     },
     "https://api.ashbyhq.com/posting-api/job-board/ramp?includeCompensation=true": {
       "etag": "W/\"job-board:22bc0ae86b05a0f7cb2caec30c45bd760a2d07574d9fc2602de7f327a75a960b\""
@@ -76,7 +76,7 @@
       "etag": "W/\"job-board:65b5276b55388317d12e6ced73883038ef4a0da351f23fd7b961e01cae2971fa\""
     },
     "https://api.ashbyhq.com/posting-api/job-board/sierra?includeCompensation=true": {
-      "etag": "W/\"job-board:a71c307950387bfc300af7ff02519272c09bf37de0f68f81794a5745a9fdae31\""
+      "etag": "W/\"job-board:f4f00a12f1eaa29df35970c1f46751265ae7720a4c032c294581329b2cffb7c2\""
     },
     "https://api.ashbyhq.com/posting-api/job-board/vanta?includeCompensation=true": {
       "etag": "W/\"job-board:a03db8eaf5de7c320bb66543f04b2d9b2c6dc778938d7abd77580ee641cdf845\""
@@ -103,64 +103,64 @@
       "etag": "W/\"f1f87-GARD2cSq1PjepclYOI8yaRqNIVY\""
     },
     "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?limit=100&offset=0": {
-      "etag": "W/\"4d4b2-hJc99nizclVp5WmjWKi+W+W1FWc\""
+      "etag": "W/\"4d298-DOG1v4/Kw98eF8yFMHQXDZqKRRU\""
     },
     "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?limit=100&offset=100": {
-      "etag": "W/\"4c70f-QSQdgAh/gxRxB8ebO5oIiF6LDmo\""
+      "etag": "W/\"4c4bb-EoYlYLhwTq7QZM1Wg7NF6Mon8T8\""
     },
     "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?limit=100&offset=1000": {
-      "etag": "W/\"4da3a-gVcVCaEcKmNT6DfLJPRjsZkJnuE\""
+      "etag": "W/\"4da46-1g8VcTy5lmBlno60A/GGNQP3FQ0\""
     },
     "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?limit=100&offset=1100": {
-      "etag": "W/\"4d210-eTsHnd8U8xfiH8oTvzVhFEa4Wd8\""
+      "etag": "W/\"4d844-e/rq8BkPiwauWgm7zMzpQnVFzrU\""
     },
     "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?limit=100&offset=1200": {
-      "etag": "W/\"4cb5a-WMkCJwiYGfaGJKqaGiB0kO7ma2Q\""
+      "etag": "W/\"4c922-67sCptftDLUYj3aKaBXVs96uB+U\""
     },
     "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?limit=100&offset=1300": {
-      "etag": "W/\"4d486-osjovkeGN2KjURjPS4Ky/ozmMPo\""
+      "etag": "W/\"4d631-2bxrHt9DEuDOxwWiT24xHNpRDbk\""
     },
     "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?limit=100&offset=1400": {
-      "etag": "W/\"4cf93-NVXYn581wj0AHF56eoVTMspWH2o\""
+      "etag": "W/\"4ce78-J2zEz+xJkg6rV0ycE3RHRJ62byQ\""
     },
     "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?limit=100&offset=1500": {
-      "etag": "W/\"4c90d-VoR7VwEftuusCwKQpeTwdb5E22Q\""
+      "etag": "W/\"4caa9-WRlHDQDoEjEIThRfPLpsf0YkBoA\""
     },
     "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?limit=100&offset=1600": {
-      "etag": "W/\"4d4a5-svatyeZRE2SO4spQb2zbvvFtt54\""
+      "etag": "W/\"4d5a7-21QzZ0lxQjNNkmAAa4Bi19SyRxc\""
     },
     "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?limit=100&offset=1700": {
-      "etag": "W/\"4b8ad-YLocOQd2espDqjTH1iT7LhijOfY\""
+      "etag": "W/\"4b53d-ZQEKm4JWEYs1T8CLHE3mpPLsX2c\""
     },
     "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?limit=100&offset=1800": {
-      "etag": "W/\"4d95f-6r5VMYSpshAO1k17pRunZSfYmcc\""
+      "etag": "W/\"4dca7-SdtjloqIPULJ7P1xXXD0e2zNKlc\""
     },
     "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?limit=100&offset=1900": {
-      "etag": "W/\"4c57b-7G0G5b1xygnZ38LE6fXLtzIDopc\""
+      "etag": "W/\"4c18c-ADUlbSctl87KPhiz5GFOL+bP1q8\""
     },
     "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?limit=100&offset=200": {
-      "etag": "W/\"4d252-eW3/iX2f2dxgnw5kXm017MIlzeI\""
+      "etag": "W/\"4d6a1-S8w08ozN2XVddYZSMxqfK4MwYrY\""
     },
     "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?limit=100&offset=300": {
-      "etag": "W/\"4ce70-5hwFIwIJuWFoX3hlYA0zrUCMN7E\""
+      "etag": "W/\"4cebc-734AvT5s3HHzrpjZvE9dx6V4KeI\""
     },
     "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?limit=100&offset=400": {
-      "etag": "W/\"4cd94-y8MFStUvmFBv7JsICYx4MvymisM\""
+      "etag": "W/\"4cb8f-CM7Wwk9naW5Vv//eY9vKNPJZJS0\""
     },
     "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?limit=100&offset=500": {
-      "etag": "W/\"4f75d-T3DgZgCq5hIUi6/Muw76jUxZHJc\""
+      "etag": "W/\"4f8db-NRdEIT62ao+nhU+C02VRjZev6Vs\""
     },
     "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?limit=100&offset=600": {
-      "etag": "W/\"4b95f-1TDhLkYoCqxv2aR4uWpXXdFzVAQ\""
+      "etag": "W/\"4b999-b2LZZwsehc4aaWSHnW9+dYXGrBc\""
     },
     "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?limit=100&offset=700": {
-      "etag": "W/\"4895c-cYzkjpZH9Ijf0+H7oVIlFxuHzLE\""
+      "etag": "W/\"48963-PRZIAvuHio6SMgExQ2bPguGCTkA\""
     },
     "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?limit=100&offset=800": {
-      "etag": "W/\"4d5a3-jS5YIiGmiaJyG1r9wP5zYR7zSLQ\""
+      "etag": "W/\"4d595-oODwnlMMaJGMocqK2aem39Zylvc\""
     },
     "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?limit=100&offset=900": {
-      "etag": "W/\"4c812-KV8kDgI4UfxC6qr6ZgJkjWJFojw\""
+      "etag": "W/\"4c1df-4Z9tCT21bNZ3zUgP2jtv0gBi1f0\""
     },
     "https://api.smartrecruiters.com/v1/companies/Visa/postings?limit=100&offset=0": {
       "etag": "W/\"c98-3cHlTyX6bzFvflbuTYgbJYv1poo\""
@@ -169,10 +169,10 @@
       "etag": "W/\"9f35a8c133a9d16accc22967df223bee\""
     },
     "https://boards-api.greenhouse.io/v1/boards/affirm/jobs?content=true": {
-      "etag": "W/\"84ac3a39157a387fbaf6655716e859df\""
+      "etag": "W/\"32aa42a7116f1c1dd40cc4eedf09a39d\""
     },
     "https://boards-api.greenhouse.io/v1/boards/airbnb/jobs?content=true": {
-      "etag": "W/\"f20db9af1aea85703d4ea6e2baf9e41a\""
+      "etag": "W/\"1aa2e4f6c99efc749e9269696fb86006\""
     },
     "https://boards-api.greenhouse.io/v1/boards/airtable/jobs?content=true": {
       "etag": "W/\"838fc8b7afc01c387c91aa54a6ce86c2\""
@@ -184,37 +184,37 @@
       "etag": "W/\"ad7d3b0b11f4d028040076361b19aa1d\""
     },
     "https://boards-api.greenhouse.io/v1/boards/asana/jobs?content=true": {
-      "etag": "W/\"47f5af3537d0c2e0597c5838fbe2ea5a\""
+      "etag": "W/\"8bdba0172a7c1563c56007d315c7f710\""
     },
     "https://boards-api.greenhouse.io/v1/boards/axonius/jobs?content=true": {
       "etag": "W/\"3edb8877dcca934eca0882b9146a70ae\""
     },
     "https://boards-api.greenhouse.io/v1/boards/brex/jobs?content=true": {
-      "etag": "W/\"ee43bf462b3efb19a9104284adbbcc8c\""
+      "etag": "W/\"f031d80e4ce1408d16c870872d8b1f8d\""
     },
     "https://boards-api.greenhouse.io/v1/boards/bugcrowd/jobs?content=true": {
       "etag": "W/\"6de44b6967d98d3d81b6c31b95e8b428\""
     },
     "https://boards-api.greenhouse.io/v1/boards/chainguard/jobs?content=true": {
-      "etag": "W/\"65a6cba918a649efe9492dba7765532f\""
+      "etag": "W/\"a380218649396c9d21bfea6f87db265c\""
     },
     "https://boards-api.greenhouse.io/v1/boards/chime/jobs?content=true": {
       "etag": "W/\"ea8f7052bdf2158a5bd0241f211e6842\""
     },
     "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true": {
-      "etag": "W/\"e176527827f30f62b2af13d1a4296f72\""
+      "etag": "W/\"4084cd406466b4d40e87fd91ed5ae723\""
     },
     "https://boards-api.greenhouse.io/v1/boards/cockroachlabs/jobs?content=true": {
       "etag": "W/\"8c9573b103e3eec6d62e4a6c15f4c788\""
     },
     "https://boards-api.greenhouse.io/v1/boards/coinbase/jobs?content=true": {
-      "etag": "W/\"bac788d7a4bba6cdc07339660d1d4c61\""
+      "etag": "W/\"381282a4556c627027e618d8036dbff3\""
     },
     "https://boards-api.greenhouse.io/v1/boards/cybereason/jobs?content=true": {
       "etag": "W/\"8de9028095321d8148984743c682cfe2\""
     },
     "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true": {
-      "etag": "W/\"dd9fadf39b54fdf8a397a89cc4206202\""
+      "etag": "W/\"e3c89ea83e29aabd01627f571cb02a09\""
     },
     "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true": {
       "etag": "W/\"89d682ac6efdcc782d62dc4d7f492134\""
@@ -226,22 +226,22 @@
       "etag": "W/\"6d8404bbd1ae93c596a564d364c26292\""
     },
     "https://boards-api.greenhouse.io/v1/boards/dropbox/jobs?content=true": {
-      "etag": "W/\"a49aea23e20056df561b31bbfa2c40ad\""
+      "etag": "W/\"11bb4e27368a2b654111ae19f3351810\""
     },
     "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true": {
-      "etag": "W/\"1082dcdaa3b9ce9a4bfa753d48d52588\""
+      "etag": "W/\"52a60b434afd25db4911efbf43802261\""
     },
     "https://boards-api.greenhouse.io/v1/boards/expel/jobs?content=true": {
       "etag": "W/\"8956e2fd8413ad9e70fc3b793574a94d\""
     },
     "https://boards-api.greenhouse.io/v1/boards/figma/jobs?content=true": {
-      "etag": "W/\"fb889676621d136b68606ef09a87d790\""
+      "etag": "W/\"1c13f2d0c90d2cbbdb0064f6777aa0e3\""
     },
     "https://boards-api.greenhouse.io/v1/boards/gitlab/jobs?content=true": {
-      "etag": "W/\"d817608813069d78547f0d680be59e8c\""
+      "etag": "W/\"596451dd9aaff66901a59a5a16413fe5\""
     },
     "https://boards-api.greenhouse.io/v1/boards/gusto/jobs?content=true": {
-      "etag": "W/\"0188dbc3b5368f01cbdde2ee7598cd0d\""
+      "etag": "W/\"71f5d572cdd90efd499352b9255e2a6d\""
     },
     "https://boards-api.greenhouse.io/v1/boards/huntress/jobs?content=true": {
       "etag": "W/\"01021a32bba4fc23b01c239b6cf9f607\""
@@ -250,25 +250,25 @@
       "etag": "W/\"5727fb9774d2292766a8f23b0d1df669\""
     },
     "https://boards-api.greenhouse.io/v1/boards/instacart/jobs?content=true": {
-      "etag": "W/\"beba195b1c31f2864f7831f1087e1722\""
+      "etag": "W/\"f39e90d0f5c83d3d8ded44cbc75fe7e6\""
     },
     "https://boards-api.greenhouse.io/v1/boards/lyft/jobs?content=true": {
-      "etag": "W/\"6b2ebdf4f3f8e7f9c7d7730c9cc27097\""
+      "etag": "W/\"05a93cec6b326ee364418d019036f39f\""
     },
     "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true": {
-      "etag": "W/\"66e48ef4b26d3d9a3e50a0265c660416\""
+      "etag": "W/\"f158f5263d12f1d421be57d269b11eda\""
     },
     "https://boards-api.greenhouse.io/v1/boards/netskope/jobs?content=true": {
-      "etag": "W/\"3295a37d173edfcf47a13644bef83b5c\""
+      "etag": "W/\"1766e469a52d3cd35abb94ad98081a6e\""
     },
     "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true": {
-      "etag": "W/\"c8b6be4d5b167162f05e4d5e2f14a824\""
+      "etag": "W/\"a9604f78660a1a8c8434e59e02f5b360\""
     },
     "https://boards-api.greenhouse.io/v1/boards/orcasecurity/jobs?content=true": {
       "etag": "W/\"809e91e20f1ef293eea338bce4e40347\""
     },
     "https://boards-api.greenhouse.io/v1/boards/pinterest/jobs?content=true": {
-      "etag": "W/\"1c16a0b1010014faea7685a70775e00d\""
+      "etag": "W/\"960142c5c2d011d34f1b5139be500f98\""
     },
     "https://boards-api.greenhouse.io/v1/boards/postman/jobs?content=true": {
       "etag": "W/\"da73223a2bb68bd0bb95167900777a7c\""
@@ -277,32 +277,32 @@
       "etag": "W/\"9f37dd1fb5397f990c1a11211be44bdb\""
     },
     "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true": {
-      "etag": "W/\"33b99376e0bc9bdb405ac0a1785f75e7\""
+      "etag": "W/\"3945d1a73e2569be0216ba4e26d9d02e\""
     },
     "https://boards-api.greenhouse.io/v1/boards/robinhood/jobs?content=true": {
-      "etag": "W/\"87a5420d74e3276813f3314972bdecd1\""
+      "etag": "W/\"9354d40a43989e0b0340dd0ed6338e7b\""
     },
     "https://boards-api.greenhouse.io/v1/boards/samsara/jobs?content=true": {
-      "etag": "W/\"47529fe941e654448dc83d9b548606a2\""
+      "etag": "W/\"2277fe702778e68d7f62c0796cbf35e5\""
     },
     "https://boards-api.greenhouse.io/v1/boards/scaleai/jobs?content=true": {
-      "etag": "W/\"d0b32cc42eb24021e4a4d9f2cd5663df\""
+      "etag": "W/\"14739dea340b3d3f7dfb28ba85af41d6\""
     },
     "https://boards-api.greenhouse.io/v1/boards/sofi/jobs?content=true": {
-      "etag": "W/\"7df2f5676f146e1ff2e107631acc23bb\""
+      "etag": "W/\"0ea97bb2e677ddc5bd5e141533a2345a\""
     },
     "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true": {
       "etag": "W/\"468dd3c325abe258734a6e34c2373f30\""
     },
     "https://boards-api.greenhouse.io/v1/boards/twilio/jobs?content=true": {
-      "etag": "W/\"61d58e8b2c3589ffea4621b4252204c7\""
+      "etag": "W/\"4b6783567ddf38e4f04c5586b1f11103\""
     }
   },
   "roles": {
     "04b4a1437ad1b46c": {
       "company": "pinterest",
       "first_seen": "2026-07-25T19:37:34+00:00",
-      "last_seen": "2026-07-29T21:17:06+00:00",
+      "last_seen": "2026-07-29T23:19:48+00:00",
       "posted_at": "2026-07-25",
       "posted_source": "first_seen",
       "title": "Sr. Machine Learning Engineer, Applied Science",
@@ -311,7 +311,7 @@
     "254e24b6b337abeb": {
       "company": "brex",
       "first_seen": "2026-07-25T19:25:24+00:00",
-      "last_seen": "2026-07-29T21:17:06+00:00",
+      "last_seen": "2026-07-29T23:19:48+00:00",
       "posted_at": "2026-07-25",
       "posted_source": "first_seen",
       "title": "Brex Rotational Program",
@@ -320,7 +320,7 @@
     "2db3467da1cb8ba9": {
       "company": "affirm",
       "first_seen": "2026-07-28T23:21:23+00:00",
-      "last_seen": "2026-07-29T21:17:06+00:00",
+      "last_seen": "2026-07-29T23:19:48+00:00",
       "posted_at": "2026-07-28",
       "posted_source": "first_seen",
       "title": "Analyst",
@@ -329,7 +329,7 @@
     "4b6635a56ba178f5": {
       "company": "Bosch",
       "first_seen": "2026-07-29T14:37:33+00:00",
-      "last_seen": "2026-07-29T21:17:06+00:00",
+      "last_seen": "2026-07-29T23:19:48+00:00",
       "posted_at": "2026-07-29",
       "posted_source": "source",
       "title": "Autonomous Driving \u2013 Internship in Machine Learning",
@@ -338,7 +338,7 @@
     "74a5ab20c9da8fc2": {
       "company": "pinterest",
       "first_seen": "2026-07-25T19:37:34+00:00",
-      "last_seen": "2026-07-29T21:17:06+00:00",
+      "last_seen": "2026-07-29T23:19:48+00:00",
       "posted_at": "2026-07-25",
       "posted_source": "first_seen",
       "title": "Staff Machine Learning Engineer, Computer Vision",
@@ -347,7 +347,7 @@
     "8a09f98a2959055f": {
       "company": "databricks",
       "first_seen": "2026-07-25T19:25:24+00:00",
-      "last_seen": "2026-07-29T21:17:06+00:00",
+      "last_seen": "2026-07-29T23:19:48+00:00",
       "posted_at": "2026-07-25",
       "posted_source": "first_seen",
       "title": "PhD GenAI Research Scientist Intern",
@@ -356,7 +356,7 @@
     "a0486cbdf443b1ed": {
       "company": "pinterest",
       "first_seen": "2026-07-25T19:37:34+00:00",
-      "last_seen": "2026-07-29T21:17:06+00:00",
+      "last_seen": "2026-07-29T23:19:48+00:00",
       "posted_at": "2026-07-25",
       "posted_source": "first_seen",
       "title": "Machine Learning Engineer II, Computer Vision Applied Science",
@@ -365,7 +365,7 @@
     "a7eb79ddfcd80884": {
       "company": "databricks",
       "first_seen": "2026-07-25T19:25:24+00:00",
-      "last_seen": "2026-07-29T21:17:06+00:00",
+      "last_seen": "2026-07-29T23:19:48+00:00",
       "posted_at": "2026-07-25",
       "posted_source": "first_seen",
       "title": "Staff Data Scientist - Trust and Safety",
@@ -374,7 +374,7 @@
     "cecc0ea2778ebcbc": {
       "company": "Bosch",
       "first_seen": "2026-07-29T10:54:16+00:00",
-      "last_seen": "2026-07-29T21:17:06+00:00",
+      "last_seen": "2026-07-29T23:19:48+00:00",
       "posted_at": "2026-07-29",
       "posted_source": "source",
       "title": "Internship Machine Learning for Predictive Reliability Analytics - Heat Pumps",
@@ -383,7 +383,7 @@
     "d1ae834b4dadf096": {
       "company": "figma",
       "first_seen": "2026-07-25T19:37:34+00:00",
-      "last_seen": "2026-07-29T21:17:06+00:00",
+      "last_seen": "2026-07-29T23:19:48+00:00",
       "posted_at": "2026-07-25",
       "posted_source": "first_seen",
       "title": "Data Scientist, Core Data -  PhD (2026)",
@@ -392,7 +392,7 @@
     "e4b946691c9e2957": {
       "company": "affirm",
       "first_seen": "2026-07-27T20:01:49+00:00",
-      "last_seen": "2026-07-29T21:17:06+00:00",
+      "last_seen": "2026-07-29T23:19:48+00:00",
       "posted_at": "2026-07-27",
       "posted_source": "first_seen",
       "title": "Product Security Engineer II",
