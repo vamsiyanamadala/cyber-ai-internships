@@ -1,6 +1,6 @@
 # Cybersecurity & AI Internships, Co-ops & Apprenticeships (US)
 
-A self-updating engine that tracks **10 open** early-career Cybersecurity and AI/ML roles in the United States and rebuilds this page automatically. **3 new** in the last 48h · **107 companies polled** · updated Jul 29, 2026 at 10:54 UTC.
+A self-updating engine that tracks **11 open** early-career Cybersecurity and AI/ML roles in the United States and rebuilds this page automatically. **4 new** in the last 48h · **107 companies polled** · updated Jul 29, 2026 at 14:37 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -13,7 +13,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 |---|---|---|---|---|---|
 | affirm ✓ | Product Security Engineer II 🆕 | Internship | Remote US · $165,000 - $225,000 | 2026-07-27 ~ | [Apply](https://job-boards.greenhouse.io/affirm/jobs/7796534003) |
 
-## AI/ML (9 open)
+## AI/ML (10 open)
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
@@ -25,6 +25,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | databricks ✓ | PhD GenAI Research Scientist Intern | Internship | San Francisco, California | 2026-07-25 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=7011263002) |
 | databricks ✓ | Staff Data Scientist - Trust and Safety | Internship | San Francisco, California | 2026-07-25 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=8178287002) |
 | brex ✓ | Brex Rotational Program | Internship | Salt Lake City, Utah, United States · $58,700 - 66,038 | 2026-07-25 ~ | [Apply](https://www.brex.com/careers/8516003002?gh_jid=8516003002) |
+| Bosch ✓ | Autonomous Driving – Internship in Machine Learning 🆕 | Internship | Sunnyvale, CA, us | 2026-07-29 | [Apply](https://api.smartrecruiters.com/v1/companies/BoschGroup/postings/744000140462550) |
 | Bosch ✓ | Internship Machine Learning for Predictive Reliability Analytics - Heat Pumps 🆕 | Internship | Wernau (Neckar), BW, de | 2026-07-29 | [Apply](https://api.smartrecruiters.com/v1/companies/BoschGroup/postings/744000140419439) |
 
 ## Recently closed — 4 in the last 14 days
@@ -38,7 +39,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 A small async Python engine reads public ATS feeds (ashby, greenhouse, lever, smartrecruiters) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 107 companies · 54 feeds fetched · 10 open roles · 289.5s.
+Engine (last run): 107 companies · 54 feeds fetched · 11 open roles · 279.1s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
