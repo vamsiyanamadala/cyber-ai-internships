@@ -1,6 +1,6 @@
 # Cybersecurity & AI Internships, Co-ops & Apprenticeships (US)
 
-A self-updating engine that tracks **11 open** early-career Cybersecurity and AI/ML roles in the United States and rebuilds this page automatically. **3 new** in the last 48h · **107 companies polled** · updated Jul 29, 2026 at 23:19 UTC.
+A self-updating engine that tracks **12 open** early-career Cybersecurity and AI/ML roles in the United States and rebuilds this page automatically. **4 new** in the last 48h · **107 companies polled** · updated Jul 30, 2026 at 03:35 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -13,10 +13,11 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 |---|---|---|---|---|---|
 | affirm ✓ | Product Security Engineer II | Internship | Remote US · $165,000 - $225,000 | 2026-07-27 ~ | [Apply](https://job-boards.greenhouse.io/affirm/jobs/7796534003) |
 
-## AI/ML (10 open)
+## AI/ML (11 open)
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
+| discord ✓ | Senior Software Engineer, Safety Backend 🆕 | Co-op | San Francisco Bay Area or Los Angeles Area · $196,000 to $220,500 | 2026-07-30 ~ | [Apply](https://job-boards.greenhouse.io/discord/jobs/8545675002) |
 | affirm ✓ | Analyst 🆕 | Internship | Remote US · $115,000 - $165,000 | 2026-07-28 ~ | [Apply](https://job-boards.greenhouse.io/affirm/jobs/7808667003) |
 | pinterest ✓ | Machine Learning Engineer II, Computer Vision Applied Science | Internship | San Francisco, CA, US; Remote, US | 2026-07-25 ~ | [Apply](https://www.pinterestcareers.com/jobs/?gh_jid=7697137) |
 | pinterest ✓ | Sr. Machine Learning Engineer, Applied Science | Internship | San Francisco, CA, US; Remote, US | 2026-07-25 ~ | [Apply](https://www.pinterestcareers.com/jobs/?gh_jid=6894747) |
@@ -39,7 +40,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 A small async Python engine reads public ATS feeds (ashby, greenhouse, lever, smartrecruiters) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 107 companies · 54 feeds fetched · 11 open roles · 273.8s.
+Engine (last run): 107 companies · 54 feeds fetched · 12 open roles · 271.9s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
