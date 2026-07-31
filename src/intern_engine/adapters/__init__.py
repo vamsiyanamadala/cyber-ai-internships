@@ -7,6 +7,7 @@ from .lever import LeverAdapter
 from .ashby import AshbyAdapter
 from .smartrecruiters import SmartRecruitersAdapter
 from .workday import WorkdayAdapter
+from .adzuna import AdzunaAdapter
 
 REGISTRY = {
     a.name: a
@@ -16,6 +17,7 @@ REGISTRY = {
         AshbyAdapter(),
         SmartRecruitersAdapter(),
         WorkdayAdapter(),
+        AdzunaAdapter(),
     )
 }
 

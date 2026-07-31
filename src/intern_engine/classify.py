@@ -141,11 +141,23 @@ def classify_domain(title: str, description: str = "") -> tuple[Optional[Categor
     return best_cat, best_score
 
 
+# Cap how much description text we scan. Domain and role-type signals appear
+# near the top of a posting; scanning full multi-KB HTML bodies for every one of
+# thousands of postings is the dominant cost, so we bound it.
+_MAX_BODY_CHARS = 4000
+
+
 def classify(title: str, description: str = "") -> tuple[Optional[Category], Optional[RoleType]]:
     """Full classification. Returns (category, role_type); either may be None.
 
-    A role is only usable downstream when *both* are non-None.
+    A role is only usable downstream when *both* are non-None. Role type is
+    checked first and, when absent, the more expensive domain scan is skipped —
+    the large majority of postings on a company board are full-time roles, so
+    this avoids the bulk of the work.
     """
-    rtype = detect_role_type(title, description)
-    cat, _ = classify_domain(title, description)
+    body = (description or "")[:_MAX_BODY_CHARS]
+    rtype = detect_role_type(title, body)
+    if rtype is None:
+        return None, None
+    cat, _ = classify_domain(title, body)
     return cat, rtype

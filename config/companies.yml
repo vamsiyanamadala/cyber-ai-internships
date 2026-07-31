@@ -151,6 +151,25 @@ companies:
     - name: "Bosch"
       token: "BoschGroup"
 
+  # ADZUNA AGGREGATOR (query-based, not per-company). Each line is a SEARCH
+  # PHRASE, not a token. Results span thousands of employers and still pass
+  # through the same cyber/AI + USCIS-sponsor filter. Requires a free API key
+  # in the environment (ADZUNA_APP_ID / ADZUNA_APP_KEY) — see SETUP notes; if
+  # the key is absent this whole block is skipped and the run continues.
+  adzuna:
+    - "cybersecurity intern"
+    - "security engineer intern"
+    - "information security intern"
+    - "soc analyst intern"
+    - "application security intern"
+    - "cybersecurity co-op"
+    - "cybersecurity apprentice"
+    - "machine learning intern"
+    - "artificial intelligence intern"
+    - "ml engineer intern"
+    - "data science intern"
+    - "ai research intern"
+
   # Workday (experimental): POST https://<host>/wday/cxs/<tenant>/<site>/jobs
   # Posted dates are relative and unreliable; the engine falls back to
   # first-seen. Tenants/sites aren't guessable — fill host/site from the real
