@@ -110,7 +110,7 @@
       "etag": "W/\"job-board:4014df486c80eede8b184085f346cdcf3c0b3a261396c81a5bed6eddd9789002\""
     },
     "https://api.ashbyhq.com/posting-api/job-board/cohere?includeCompensation=true": {
-      "etag": "W/\"job-board:76dad0d4ee745c5d756f956b2becb3ca78b1c34319ee0e218e00221820ab6682\""
+      "etag": "W/\"job-board:e9203023c62d4e101548097c57032f77fb7dfe8d7250f088148ab63445776e11\""
     },
     "https://api.ashbyhq.com/posting-api/job-board/elevenlabs?includeCompensation=true": {
       "etag": "W/\"job-board:0e6fd6bcb3897d99f6e239fe43b6cd78c74447ddf382fa46cd6887bd617d67a0\""
@@ -146,7 +146,7 @@
       "etag": "W/\"job-board:5a24e75606e06dfebd243060448b76292ef0311fb93eb887a04789c0d84f5468\""
     },
     "https://api.ashbyhq.com/posting-api/job-board/sierra?includeCompensation=true": {
-      "etag": "W/\"job-board:f355ec581df81cc63378a6931afc5ad42ed007cf96264625141784ff6cd3f430\""
+      "etag": "W/\"job-board:40c4b67a8b037606a95c45257eecd0d8cad99561b8ea6b90ebf6076d20aa9b79\""
     },
     "https://api.ashbyhq.com/posting-api/job-board/vanta?includeCompensation=true": {
       "etag": "W/\"job-board:eda1c044e7aeb2223b95232358a22a75a7c16140be83c12a2554625553001818\""
@@ -284,7 +284,7 @@
       "etag": "W/\"a313fd8e96fba152081066f638e0a578\""
     },
     "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true": {
-      "etag": "W/\"48c2e8e2541eb813aea9735215bf24fc\""
+      "etag": "W/\"059d6383dbb1fdeff5b7aa7ee1970bb2\""
     },
     "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true": {
       "etag": "W/\"831c3181221423406faa94241981eb2c\""
@@ -353,7 +353,7 @@
       "etag": "W/\"ed8b5cf4e936b9fc311767ee302c3446\""
     },
     "https://boards-api.greenhouse.io/v1/boards/samsara/jobs?content=true": {
-      "etag": "W/\"cb4a520e3e25527ae7448ca8b2aaf853\""
+      "etag": "W/\"0b95e165c6d2c42f02c6c503a05dadfa\""
     },
     "https://boards-api.greenhouse.io/v1/boards/scaleai/jobs?content=true": {
       "etag": "W/\"432982a4abd1cd6ef912913b818f0f16\""
@@ -372,7 +372,7 @@
     "04b4a1437ad1b46c": {
       "company": "pinterest",
       "first_seen": "2026-07-25T19:37:34+00:00",
-      "last_seen": "2026-08-02T19:38:34+00:00",
+      "last_seen": "2026-08-02T21:13:48+00:00",
       "posted_at": "2026-07-25",
       "posted_source": "first_seen",
       "title": "Sr. Machine Learning Engineer, Applied Science",
@@ -381,7 +381,7 @@
     "4b6635a56ba178f5": {
       "company": "Bosch",
       "first_seen": "2026-07-25T19:25:24+00:00",
-      "last_seen": "2026-08-02T19:38:34+00:00",
+      "last_seen": "2026-08-02T21:13:48+00:00",
       "posted_at": "2026-07-24",
       "posted_source": "source",
       "title": "Autonomous Driving \u2013 Internship in Machine Learning",
@@ -390,7 +390,7 @@
     "748b0cd98fc24458": {
       "company": "discord",
       "first_seen": "2026-07-31T16:00:27+00:00",
-      "last_seen": "2026-08-02T19:38:34+00:00",
+      "last_seen": "2026-08-02T21:13:48+00:00",
       "posted_at": "2026-07-31",
       "posted_source": "first_seen",
       "title": "Senior Software Engineer, Safety Backend",
@@ -399,7 +399,7 @@
     "74a5ab20c9da8fc2": {
       "company": "pinterest",
       "first_seen": "2026-07-25T19:37:34+00:00",
-      "last_seen": "2026-08-02T19:38:34+00:00",
+      "last_seen": "2026-08-02T21:13:48+00:00",
       "posted_at": "2026-07-25",
       "posted_source": "first_seen",
       "title": "Staff Machine Learning Engineer, Computer Vision",
@@ -408,7 +408,7 @@
     "8a09f98a2959055f": {
       "company": "databricks",
       "first_seen": "2026-07-25T19:25:24+00:00",
-      "last_seen": "2026-08-02T19:38:34+00:00",
+      "last_seen": "2026-08-02T21:13:48+00:00",
       "posted_at": "2026-07-25",
       "posted_source": "first_seen",
       "title": "PhD GenAI Research Scientist Intern",
@@ -417,7 +417,7 @@
     "99ee6ed5a3a3b651": {
       "company": "postman",
       "first_seen": "2026-08-01T15:30:37+00:00",
-      "last_seen": "2026-08-02T19:38:34+00:00",
+      "last_seen": "2026-08-02T21:13:48+00:00",
       "posted_at": "2026-08-01",
       "posted_source": "first_seen",
       "title": "AI Engineer, Intern",
@@ -426,7 +426,7 @@
     "a0486cbdf443b1ed": {
       "company": "pinterest",
       "first_seen": "2026-07-25T19:37:34+00:00",
-      "last_seen": "2026-08-02T19:38:34+00:00",
+      "last_seen": "2026-08-02T21:13:48+00:00",
       "posted_at": "2026-07-25",
       "posted_source": "first_seen",
       "title": "Machine Learning Engineer II, Computer Vision Applied Science",
@@ -435,7 +435,7 @@
     "a7eb79ddfcd80884": {
       "company": "databricks",
       "first_seen": "2026-07-25T19:25:24+00:00",
-      "last_seen": "2026-08-02T19:38:34+00:00",
+      "last_seen": "2026-08-02T21:13:48+00:00",
       "posted_at": "2026-07-25",
       "posted_source": "first_seen",
       "title": "Staff Data Scientist - Trust and Safety",
@@ -444,7 +444,7 @@
     "cecc0ea2778ebcbc": {
       "company": "Bosch",
       "first_seen": "2026-07-31T16:00:27+00:00",
-      "last_seen": "2026-08-02T19:38:34+00:00",
+      "last_seen": "2026-08-02T21:13:48+00:00",
       "posted_at": "2026-07-29",
       "posted_source": "source",
       "title": "Internship Machine Learning for Predictive Reliability Analytics - Heat Pumps",
@@ -453,7 +453,7 @@
     "d1ae834b4dadf096": {
       "company": "figma",
       "first_seen": "2026-07-25T19:37:34+00:00",
-      "last_seen": "2026-08-02T19:38:34+00:00",
+      "last_seen": "2026-08-02T21:13:48+00:00",
       "posted_at": "2026-07-25",
       "posted_source": "first_seen",
       "title": "Data Scientist, Core Data -  PhD (2026)",
