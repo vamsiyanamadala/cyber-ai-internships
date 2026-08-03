@@ -1,13 +1,13 @@
 # Cybersecurity & AI Internships, Co-ops & Apprenticeships (US)
 
-A self-updating engine that tracks **11 open** early-career Cybersecurity and AI/ML roles in the United States and rebuilds this page automatically. **2 new** in the last 48h · **119 companies polled** · updated Aug 03, 2026 at 11:48 UTC.
+A self-updating engine that tracks **10 open** early-career Cybersecurity and AI/ML roles in the United States and rebuilds this page automatically. **2 new** in the last 48h · **119 companies polled** · updated Aug 03, 2026 at 15:20 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
 > Legend: **✓** = employer has an H-1B track record in USCIS data · **🆕** = seen in the last 48h · dates marked **~** are estimated from when the engine first saw the role (the source didn't publish one). Sponsorship signals are detected from posting text and USCIS history — strong hints, not guarantees. Always confirm on the source posting.
 
 
-## AI/ML (11 open)
+## AI/ML (10 open)
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
@@ -21,9 +21,8 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | databricks ✓ | PhD GenAI Research Scientist Intern | Internship | San Francisco, California | 2026-07-25 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=7011263002) |
 | databricks ✓ | Staff Data Scientist - Trust and Safety | Internship | San Francisco, California | 2026-07-25 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=8178287002) |
 | Bosch ✓ | Internship Machine Learning for Predictive Reliability Analytics - Heat Pumps | Internship | Wernau (Neckar), BW, de | 2026-07-29 | [Apply](https://api.smartrecruiters.com/v1/companies/BoschGroup/postings/744000140419439) |
-| Bosch ✓ | Autonomous Driving – Internship in Machine Learning | Internship | Sunnyvale, CA, us | 2026-07-24 | [Apply](https://api.smartrecruiters.com/v1/companies/BoschGroup/postings/744000140462550) |
 
-## Recently closed — 14 in the last 14 days
+## Recently closed — 15 in the last 14 days
 
 - brex — Brex Rotational Program
 - Bosch — Mandatory Internship AI and Robotics
@@ -39,12 +38,13 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 - Labelbox — Cyber Security Intern
 - Capital One — Current Master's - Data Science Internship - Summer 2027
 - Capital One — Current Master's - Data Science Internship - Summer 2027
+- Bosch — Autonomous Driving – Internship in Machine Learning
 
 ## How this stays current
 
 A small async Python engine reads public ATS feeds (ashby, greenhouse, lever, smartrecruiters) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 119 companies · 54 feeds fetched · 11 open roles · 142.5s.
+Engine (last run): 119 companies · 54 feeds fetched · 10 open roles · 151.4s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
