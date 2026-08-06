@@ -25,6 +25,7 @@ def _records(roles, new_uids):
             "company": r.company or "",
             "title": r.title or "",
             "type": r.role_type or "",
+            "employment": r.employment_type or "",
             "category": r.category or "",
             "location": r.location or "",
             "pay": r.pay or "",
@@ -196,7 +197,13 @@ _TEMPLATE = r"""<!DOCTYPE html>
   .skills span{font-family:"IBM Plex Mono",monospace; font-size:10.5px; color:var(--ink-soft); background:var(--surface-2); border:1px solid var(--line); padding:2px 6px; border-radius:5px}
 
   .badge{display:inline-flex; align-items:center; gap:6px; font-family:"IBM Plex Mono",monospace; font-size:11px; padding:3px 8px; border-radius:6px; white-space:nowrap}
-  .badge.type{background:var(--surface-2); border:1px solid var(--line); color:var(--ink-soft)}
+  .badge.type{background:var(--surface-2); border:1px solid var(--line); color:var(--ink-soft); font-weight:600}
+  /* each career stage gets its own colour so the label is unmistakable */
+  .badge.t-intern{background:#E8F1FD; border-color:#B9D5F5; color:#12457F}
+  .badge.t-coop{background:#EAF3EC; border-color:#BEDBC6; color:#1C5B33}
+  .badge.t-appr{background:#F3EDFB; border-color:#D6C7EE; color:#4A2A78}
+  .badge.t-grad{background:#FDF0E7; border-color:#F2CEB0; color:#8A4318}
+  .badge.emp{background:transparent; border:1px dashed var(--line-strong); color:var(--ink-faint); font-weight:500}
   .badge.new{background:var(--new-bg); color:var(--new); border:1px solid #E9C99B; letter-spacing:.06em; text-transform:uppercase; font-weight:600}
 
   /* the signature: a passport-style clearance stamp */
@@ -269,7 +276,7 @@ _TEMPLATE = r"""<!DOCTYPE html>
         <button data-type="Internship" aria-pressed="false">Intern</button>
         <button data-type="Co-op" aria-pressed="false">Co-op</button>
         <button data-type="Apprenticeship" aria-pressed="false">Apprentice</button>
-        <button data-type="New Grad" aria-pressed="false">New Grad</button>
+        <button data-type="New Grad" aria-pressed="false">New Grad / Full-time</button>
       </div>
     </div>
     <button class="toggle" id="sponsoronly" aria-pressed="false"><span class="dot"></span>verified sponsors only</button>
@@ -292,6 +299,14 @@ _TEMPLATE = r"""<!DOCTYPE html>
   <div class="wrap">
     <h2>How to read this board</h2>
     <p>Each role that clears shows a <strong>sponsorship stamp</strong> with the employer's approved H-1B petition count from the USCIS Employer Data Hub. That count is <em>past</em> activity — the best public proxy for "this employer sponsors," not a guarantee for any specific posting. A company with no stamp may still sponsor (new or small employers, or a name that didn't match); one with a stamp may decline for a given role. Dates marked <span class="mono">~</span> are estimated from when the engine first saw the posting, because the source didn't publish one. Always confirm on the employer's application page.</p>
+    <p><strong>Type labels.</strong> Two different things are shown: the
+    <em>career stage</em> (Internship, Co-op, Apprenticeship, or New&nbsp;Grad —
+    New&nbsp;Grad meaning an entry-level full-time role) and, where the source
+    states it, the <em>employment basis</em> (Full-time, Part-time, Contract) in
+    a dashed chip. An internship is normally full-time hours, so that chip is
+    only shown when it adds something. Where a source publishes the stage
+    directly it is used verbatim; otherwise it is inferred from the posting and
+    can occasionally be wrong — the posting itself is the final word.</p>
     <p class="files" id="files"></p>
   </div>
 </footer>
@@ -353,7 +368,19 @@ _TEMPLATE = r"""<!DOCTYPE html>
 
   function row(r){
     var newCls = r.isNew ? ' isnew' : '';
-    var badges = '<span class="badge type">'+esc(r.type||'—')+'</span>';
+    var TYPE_CLASS = {'Internship':'t-intern','Co-op':'t-coop',
+                      'Apprenticeship':'t-appr','New Grad':'t-grad'};
+    var TYPE_LABEL = {'Internship':'Internship','Co-op':'Co-op',
+                      'Apprenticeship':'Apprenticeship',
+                      'New Grad':'New Grad · Full-time'};
+    var cls = TYPE_CLASS[r.type] || '';
+    var label = TYPE_LABEL[r.type] || (r.type || 'Unspecified');
+    var badges = '<span class="badge type '+cls+'">'+esc(label)+'</span>';
+    // employment type only when the source actually stated it, and only when it
+    // adds information beyond the stage label
+    if(r.employment && !(r.type==='New Grad' && r.employment==='Full-time')){
+      badges += ' <span class="badge emp">'+esc(r.employment)+'</span>';
+    }
     if(r.isNew) badges += ' <span class="badge new">New</span>';
     var skills = (r.skills&&r.skills.length) ? '<div class="skills">'+r.skills.map(function(s){return '<span>'+esc(s)+'</span>';}).join('')+'</div>' : '';
     var loc = '<div class="loc">'+esc(r.location||'—')+'</div>'+(r.pay?'<div class="pay">'+esc(r.pay)+'</div>':'');

@@ -28,7 +28,8 @@ from __future__ import annotations
 from urllib.parse import quote_plus, urljoin
 
 from .base import Adapter, html_to_text, iso_any
-from ..models import Role
+from ..enrich import normalize_employment_type
+from ..models import Role, RoleType
 
 _BASE = "https://www.amazon.jobs/en/search.json"
 _SITE = "https://www.amazon.jobs"
@@ -112,6 +113,12 @@ class AmazonJobsAdapter(Adapter):
             if isinstance(job.get(k), str) and job.get(k).strip()
         ))
         posted = iso_any(_first(job, _DATE_KEYS))
+        # amazon.jobs declares these outright, so prefer them over inference
+        schedule = normalize_employment_type(
+            _first(job, ("job_schedule_type", "employment_type", "schedule_type")))
+        declared_type = None
+        if job.get("is_intern") is True:
+            declared_type = RoleType.INTERN.value
         return Role(
             company=str(job.get("company_name") or "Amazon").strip() or "Amazon",
             title=title,
@@ -122,6 +129,8 @@ class AmazonJobsAdapter(Adapter):
             remote="remote" in f"{title} {loc}".lower(),
             country_hint="US",
             description=desc,
+            role_type=declared_type,
+            employment_type=schedule,
             posted_at=posted,
             posted_source="source" if posted else "unknown",
         )

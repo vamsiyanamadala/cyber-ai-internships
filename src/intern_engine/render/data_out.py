@@ -10,7 +10,8 @@ from datetime import datetime, timezone
 from ..models import Role
 
 _CSV_FIELDS = [
-    "company", "title", "category", "role_type", "location", "remote",
+    "company", "title", "category", "role_type", "employment_type",
+    "location", "remote",
     "posted_at", "posted_source", "sponsor_history", "sponsor_petitions",
     "no_sponsorship", "citizenship_required", "skills", "pay", "url",
     "first_seen", "uid", "source",

@@ -18,7 +18,7 @@ from intern_engine.locations import is_us
 from intern_engine.enrich import extract_skills, extract_pay
 from intern_engine.render import (render_csv, render_json, render_readme,
                                   render_rss, render_dashboard)
-from intern_engine.config import Settings
+from intern_engine.config import Settings, CompanyRef
 
 SAMPLE = os.path.join(os.path.dirname(__file__), "..", "data",
                       "h1b_employers.sample.csv")
@@ -120,6 +120,117 @@ def test_dashboard_render():
     recs = json.loads(blob)
     assert len(recs) == 1 and recs[0]["petitions"] == 126
     assert "description" not in recs[0]
+
+
+def test_adzuna_parse_and_skip():
+    import asyncio
+    from intern_engine.adapters.adzuna import AdzunaAdapter
+    ad = AdzunaAdapter()
+    job = {
+        "title": "Machine Learning <strong>Intern</strong>",
+        "company": {"display_name": "Databricks"},
+        "location": {"display_name": "San Francisco, California"},
+        "description": "Work on ML infrastructure...",
+        "created": "2026-07-22T00:00:00Z",
+        "redirect_url": "https://www.adzuna.com/land/ad/999",
+        "salary_min": 100000, "salary_max": 100000, "salary_is_predicted": 1,
+    }
+    r = ad._to_role(job, "u")
+    assert r.title == "Machine Learning Intern"
+    assert r.company == "Databricks"
+    assert r.posted_at == "2026-07-22" and r.posted_source == "source"
+    assert r.country_hint == "US"
+    assert r.pay == ""                       # predicted salary is not shown
+    # no credentials in env -> empty, no exception
+    assert asyncio.run(ad.fetch(None, CompanyRef(name="q", ats="adzuna", token="ml intern"))) == []
+
+
+def test_newgrad_detection():
+    assert detect_role_type("New Grad Security Engineer", "SIEM full-time") == RoleType.NEWGRAD
+    assert detect_role_type("Machine Learning Engineer, University Graduate", "PyTorch") == RoleType.NEWGRAD
+    assert detect_role_type("Junior Threat Analyst", "SOC") == RoleType.NEWGRAD
+    assert detect_role_type("Senior Security Engineer", "mentor new grads, 8+ years") is None
+    assert detect_role_type("Staff ML Engineer", "entry level friendly") is None
+    assert detect_role_type("New Grad Security Intern", "") == RoleType.INTERN   # precedence
+    assert detect_role_type("Security Engineer", "join our team") is None
+    assert detect_role_type("Security Analyst", "an entry-level role for new graduates") == RoleType.NEWGRAD
+
+
+def test_adzuna_company_targeting():
+    from intern_engine.adapters.adzuna import AdzunaAdapter
+    ad = AdzunaAdapter()
+    assert ad._company_matches("Amazon.com Services LLC", "Amazon")
+    assert ad._company_matches("Blue Cross Blue Shield of RI", "Blue Cross Blue Shield of Rhode Island")
+    assert ad._company_matches("Acme Corp", "Amazon") is False
+    assert ad._company_matches("Anything Inc", "EY") is True     # target too short to filter
+
+
+def test_phenom_parse():
+    from intern_engine.adapters.phenom import PhenomAdapter
+    ad = PhenomAdapter()
+    co = CompanyRef(name="Forvis Mazars", ats="phenom", token="jobs.forvismazars.us")
+    payload = {"refineSearch": {"data": {"jobs": [{
+        "title": "Intern IT Risk and Compliance | Cyber | Fall 2026",
+        "cityStateCountry": "Charlotte, North Carolina, United States",
+        "descriptionTeaser": "Cybersecurity risk assessments and controls testing.",
+        "postedDate": "Aug 01, 2026",
+        "jobDetailUrl": "/jobs/11436/intern-it-risk",
+    }]}}}
+    jobs = ad._extract_jobs(payload)
+    assert len(jobs) == 1
+    r = ad._to_role(jobs[0], "jobs.forvismazars.us", "u", co)
+    assert r.company == "Forvis Mazars"
+    assert r.url == "https://jobs.forvismazars.us/jobs/11436/intern-it-risk"
+    assert r.posted_at == "2026-08-01"
+    cat, rt = classify(r.title, r.description)
+    assert cat == Category.CYBER and rt == RoleType.INTERN
+    assert ad._extract_jobs({"nope": 1}) == []
+    assert ad._to_role({"postedDate": "Aug 01, 2026"}, "h", "u", co) is None
+
+
+def test_amazonjobs_parse():
+    import asyncio
+    from intern_engine.adapters.amazonjobs import AmazonJobsAdapter
+    ad = AmazonJobsAdapter()
+
+    class _Res:
+        status = 200
+        json = {"jobs": [{
+            "title": "Security Engineer Intern",
+            "job_path": "/en/jobs/1/security-engineer-intern",
+            "normalized_location": "Seattle, Washington, USA",
+            "posted_date": "August 1, 2026",
+            "description": "AWS Security threat detection internship.",
+        }]}
+
+    class _Fetcher:
+        async def get(self, url, **kw):
+            return _Res()
+
+    roles = asyncio.run(ad.fetch(_Fetcher(), CompanyRef(name="Amazon", ats="amazonjobs",
+                                                        token="cybersecurity intern")))
+    assert len(roles) == 1
+    assert roles[0].company == "Amazon"
+    assert roles[0].url == "https://www.amazon.jobs/en/jobs/1/security-engineer-intern"
+    assert roles[0].posted_at == "2026-08-01"
+
+
+def test_employment_type_axis():
+    from intern_engine.enrich import detect_employment_type, normalize_employment_type
+    from intern_engine.pipeline import _reconcile_role_type, classify_and_enrich
+    assert normalize_employment_type("full_time") == "Full-time"
+    assert normalize_employment_type("permanent") == "Full-time"
+    assert normalize_employment_type("intern") == ""
+    assert detect_employment_type("X", "a full-time internship") == "Full-time"
+    assert detect_employment_type("X", "nothing stated") == ""
+    # source-declared stage beats generic new-grad inference
+    assert _reconcile_role_type(RoleType.INTERN.value, RoleType.NEWGRAD) == RoleType.INTERN.value
+    assert _reconcile_role_type(None, RoleType.COOP) == RoleType.COOP.value
+    r = Role(company="C", title="Security Engineer Intern", url="u", source="s",
+             description="full-time summer internship in the SOC")
+    classify_and_enrich(r, SponsorIndex(counts={}, min_petitions=1))
+    assert r.role_type == RoleType.INTERN.value
+    assert r.employment_type == "Full-time"
 
 
 def test_render_outputs():

@@ -56,7 +56,12 @@ class Role:
 
     # --- classification (filled by pipeline) ---
     category: Optional[str] = None      # Category.value
-    role_type: Optional[str] = None     # RoleType.value
+    role_type: Optional[str] = None     # RoleType.value — career stage
+    # Employment nature (hours/contract), which is a DIFFERENT axis from
+    # role_type: an internship is usually full-time hours, and a New Grad role is
+    # full-time permanent. Taken from the source when it publishes one, otherwise
+    # inferred from explicit wording in the posting; blank when unknown.
+    employment_type: str = ""           # "Full-time" | "Part-time" | "Contract" | ""
 
     # --- visa / sponsorship ---
     no_sponsorship: bool = False        # posting text says it won't sponsor

@@ -1,6 +1,6 @@
 # Cybersecurity & AI Internships, Co-ops & Apprenticeships (US)
 
-A self-updating engine that tracks **64 open** early-career Cybersecurity and AI/ML roles in the United States and rebuilds this page automatically. **55 new** in the last 48h · **140 companies polled** · updated Aug 06, 2026 at 19:26 UTC.
+A self-updating engine that tracks **64 open** early-career Cybersecurity and AI/ML roles in the United States and rebuilds this page automatically. **55 new** in the last 48h · **139 companies polled** · updated Aug 06, 2026 at 19:43 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -33,11 +33,11 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Bosch ✓ | Internship Data Science in Manufacturing 🆕 | Internship | Reutlingen, BW, de | 2026-08-05 | [Apply](https://api.smartrecruiters.com/v1/companies/BoschGroup/postings/744000141677619) |
 | Amazon.com Services LLC ✓ | Software Development Engineer II, AWS SageMaker AI 🆕 | Internship | Bellevue, Washington, USA | 2026-08-05 | [Apply](https://www.amazon.jobs/en/jobs/10492392/software-development-engineer-ii-aws-sagemaker-ai) |
 | Amazon.com Services LLC ✓ | Software Development Engineer, Amazon Search Autocomplete and Navigation AI 🆕 | Internship | Seattle, Washington, USA | 2026-08-05 | [Apply](https://www.amazon.jobs/en/jobs/10493280/software-development-engineer-amazon-search-autocomplete-and-navigation-ai) |
-| Intel ✓ | AI Software Engineer Graduate Intern 🆕 | Internship | Idaho Falls, Bonneville County | 2026-08-04 | [Apply](https://www.adzuna.com/land/ad/5828360937?se=RqySksyR8RGCBfheOeDrGw&utm_medium=api&utm_source=0e26e158&v=BF84157B8056394C869C889CC63EA1FBA4068AB7) |
-| Intel ✓ | AI Software Engineer Graduate Intern 🆕 | Internship | Hampton City, Virginia | 2026-08-04 | [Apply](https://www.adzuna.com/land/ad/5828360969?se=RqySksyR8RGCBfheOeDrGw&utm_medium=api&utm_source=0e26e158&v=DA7BA73CA0667BDAB354528794EB666242489C10) |
-| Intel ✓ | AI Software Engineer Graduate Intern 🆕 | Internship | Virginia Beach, Virginia Beach City | 2026-08-04 | [Apply](https://www.adzuna.com/land/ad/5828360966?se=RqySksyR8RGCBfheOeDrGw&utm_medium=api&utm_source=0e26e158&v=3E8545D9E4E08EDBE48F3EFC41C9F09C528FCFE4) |
-| Intel ✓ | AI Software Engineer Graduate Intern 🆕 | Internship | Montpelier, Washington County | 2026-08-04 | [Apply](https://www.adzuna.com/land/ad/5828360894?se=RqySksyR8RGCBfheOeDrGw&utm_medium=api&utm_source=0e26e158&v=68A189B6E8899FE0BCC678A8BB242FCB5A31FE28) |
-| Intel ✓ | AI Software Engineer Graduate Intern 🆕 | Internship | Iowa City, Johnson County | 2026-08-04 | [Apply](https://www.adzuna.com/land/ad/5828360888?se=RqySksyR8RGCBfheOeDrGw&utm_medium=api&utm_source=0e26e158&v=2EFBF6A4B96F6A56A00A79FD7FBD1A02B4527372) |
+| Intel ✓ | AI Software Engineer Graduate Intern 🆕 | Internship | Idaho Falls, Bonneville County | 2026-08-04 | [Apply](https://www.adzuna.com/land/ad/5828360937?se=QnI82c6R8RGs5OGOuqfOdQ&utm_medium=api&utm_source=0e26e158&v=BF84157B8056394C869C889CC63EA1FBA4068AB7) |
+| Intel ✓ | AI Software Engineer Graduate Intern 🆕 | Internship | Hampton City, Virginia | 2026-08-04 | [Apply](https://www.adzuna.com/land/ad/5828360969?se=QnI82c6R8RGs5OGOuqfOdQ&utm_medium=api&utm_source=0e26e158&v=DA7BA73CA0667BDAB354528794EB666242489C10) |
+| Intel ✓ | AI Software Engineer Graduate Intern 🆕 | Internship | Virginia Beach, Virginia Beach City | 2026-08-04 | [Apply](https://www.adzuna.com/land/ad/5828360966?se=QnI82c6R8RGs5OGOuqfOdQ&utm_medium=api&utm_source=0e26e158&v=3E8545D9E4E08EDBE48F3EFC41C9F09C528FCFE4) |
+| Intel ✓ | AI Software Engineer Graduate Intern 🆕 | Internship | Montpelier, Washington County | 2026-08-04 | [Apply](https://www.adzuna.com/land/ad/5828360894?se=QnI82c6R8RGs5OGOuqfOdQ&utm_medium=api&utm_source=0e26e158&v=68A189B6E8899FE0BCC678A8BB242FCB5A31FE28) |
+| Intel ✓ | AI Software Engineer Graduate Intern 🆕 | Internship | Iowa City, Johnson County | 2026-08-04 | [Apply](https://www.adzuna.com/land/ad/5828360888?se=QnI82c6R8RGs5OGOuqfOdQ&utm_medium=api&utm_source=0e26e158&v=2EFBF6A4B96F6A56A00A79FD7FBD1A02B4527372) |
 | Amazon.com Services LLC ✓ | Software Development Engineer, Sponsored Products and Brands 🆕 | Internship | New York, New York, USA | 2026-08-04 | [Apply](https://www.amazon.jobs/en/jobs/10491862/software-development-engineer-sponsored-products-and-brands) |
 | Annapurna Labs (U.S.) Inc. ✓ | Software Development Engineer I – AI/ML Network Infrastructure, Annapurna Labs 🆕 | Internship | Cupertino, California, USA | 2026-08-03 | [Apply](https://www.amazon.jobs/en/jobs/10490741/software-development-engineer-i-ai-ml-network-infrastructure-annapurna-labs) |
 | Amazon.com Services LLC ✓ | Software Development Engineer, Conversational Ads Experience 🆕 | Internship | New York, New York, USA | 2026-08-03 | [Apply](https://www.amazon.jobs/en/jobs/10490604/software-development-engineer-conversational-ads-experience) |
@@ -102,7 +102,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 A small async Python engine reads public ATS feeds (adzuna, amazonjobs, ashby, greenhouse, lever, smartrecruiters) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 140 companies · 77 feeds fetched · 64 open roles · 94.0s.
+Engine (last run): 139 companies · 77 feeds fetched · 64 open roles · 98.5s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._

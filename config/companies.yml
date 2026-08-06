@@ -198,9 +198,12 @@ companies:
   # address bar (e.g. https://jobs.forvismazars.us/jobs/... -> jobs.forvismazars.us).
   # Deployments vary and some are bot-protected, so treat each as best-effort:
   # a host that doesn't answer is skipped like any other failing source.
-  phenom:
-    - name: "Forvis Mazars"
-      token: "jobs.forvismazars.us"
+  # NOTE: verify a host BEFORE adding it -- run `python tools/probe.py <host>`
+  # and only add it if the output shows ">>> FOUND job list". Confirmed NOT on
+  # Phenom (do not re-add): jobs.forvismazars.us (Apollo GraphQL, auth-gated),
+  # careers.bloomberg.com (403 bot protection on every path). Use those
+  # companies' own job alerts instead.
+  phenom: []
 
   # AMAZON.JOBS (Amazon runs no third-party board). Each entry is a SEARCH TERM.
   # MUST BE A SINGLE WORD -- verified against the live endpoint, multi-word

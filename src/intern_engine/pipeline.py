@@ -11,7 +11,7 @@ from . import enrich, visa, locations
 from .adapters import get_adapter
 from .config import Settings, CompanyRef
 from .dedup import dedupe
-from .models import Role
+from .models import Role, RoleType
 from .sponsors import SponsorIndex
 from .store import StateStore
 from .render import (render_readme, render_csv, render_json, render_rss,
@@ -24,10 +24,33 @@ def _write(path: str, content: str) -> None:
         fh.write(content)
 
 
+def _reconcile_role_type(hint: str | None, inferred) -> str | None:
+    """Combine a source-declared role type with the inferred one.
+
+    Some sources state the career stage outright (amazon.jobs publishes
+    ``is_intern``), which beats inference. When both exist, an explicit
+    internship / co-op / apprenticeship signal wins over a generic New Grad
+    guess, since the specific formats are what the person is filtering for.
+    """
+    inferred_val = inferred.value if inferred is not None else None
+    if not hint:
+        return inferred_val
+    if inferred_val is None:
+        return hint
+    if inferred_val == RoleType.NEWGRAD.value and hint != RoleType.NEWGRAD.value:
+        return hint                      # source says intern/co-op -> trust it
+    return inferred_val
+
+
 def classify_and_enrich(role: Role, sponsors: SponsorIndex) -> Role:
     cat, rtype = cls.classify(role.title, role.description)
     role.category = cat.value if cat else None
-    role.role_type = rtype.value if rtype else None
+    # adapters may pre-set role_type when the source declares it
+    role.role_type = _reconcile_role_type(role.role_type, rtype)
+    # employment type: trust the source's own value, else explicit wording
+    if not role.employment_type:
+        role.employment_type = enrich.detect_employment_type(
+            role.title, role.description)
     no_sponsor, citizen = visa.detect(role.description)
     role.no_sponsorship = no_sponsor
     role.citizenship_required = citizen

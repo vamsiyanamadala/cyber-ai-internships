@@ -29,6 +29,7 @@ from __future__ import annotations
 from urllib.parse import quote_plus, urljoin
 
 from .base import Adapter, html_to_text, iso_any
+from ..enrich import normalize_employment_type
 from ..models import Role
 
 # Bounded keyword sweep per host. Broad enough to catch early-career postings in
@@ -159,6 +160,8 @@ class PhenomAdapter(Adapter):
             location=loc,
             remote="remote" in f"{title} {loc}".lower(),
             description=desc,
+            employment_type=normalize_employment_type(
+                _first(job, ("type", "employmentType", "jobType", "scheduleType"))),
             posted_at=posted,
             posted_source="source" if posted else "unknown",
         )

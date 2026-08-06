@@ -22,6 +22,7 @@ import os
 from urllib.parse import quote_plus
 
 from .base import Adapter, html_to_text, iso_from_string
+from ..enrich import normalize_employment_type
 from ..models import Role
 
 _BASE = "https://api.adzuna.com/v1/api/jobs/us/search"
@@ -113,6 +114,10 @@ class AdzunaAdapter(Adapter):
             country_hint="US",                          # /us/ endpoint guarantees US
             description=desc,
             pay=pay,
+            # Adzuna publishes these directly: contract_time is hours
+            # (full_time/part_time), contract_type is permanent/contract.
+            employment_type=(normalize_employment_type(job.get("contract_time"))
+                             or normalize_employment_type(job.get("contract_type"))),
             posted_at=posted,
             posted_source="source" if posted else "unknown",
         )
