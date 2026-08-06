@@ -151,24 +151,45 @@ companies:
     - name: "Bosch"
       token: "BoschGroup"
 
-  # ADZUNA AGGREGATOR (query-based, not per-company). Each line is a SEARCH
-  # PHRASE, not a token. Results span thousands of employers and still pass
-  # through the same cyber/AI + USCIS-sponsor filter. Requires a free API key
-  # in the environment (ADZUNA_APP_ID / ADZUNA_APP_KEY) — see SETUP notes; if
-  # the key is absent this whole block is skipped and the run continues.
+  # ADZUNA AGGREGATOR (query-based, not per-company). Two kinds of entry:
+  #   "<phrase>"          -> keyword search (title/description/company)
+  #   "company:<Name>"    -> target a specific employer via Adzuna's company
+  #                          filter (best-effort: Adzuna's canonical company
+  #                          names are a controlled list not exposed by the API,
+  #                          so some names may match loosely or not at all).
+  # Every result still passes the same cyber/AI + role-type + USCIS-sponsor
+  # filter. Requires a free key in the environment (ADZUNA_APP_ID /
+  # ADZUNA_APP_KEY); if absent this whole block is skipped.
   adzuna:
+    # --- role-focused: internships AND new-grad, domain-scoped ---
     - "cybersecurity intern"
     - "security engineer intern"
     - "information security intern"
     - "soc analyst intern"
     - "application security intern"
-    - "cybersecurity co-op"
-    - "cybersecurity apprentice"
+    - "cybersecurity new grad"
+    - "security engineer new grad"
+    - "security analyst entry level"
     - "machine learning intern"
-    - "artificial intelligence intern"
-    - "ml engineer intern"
-    - "data science intern"
-    - "ai research intern"
+    - "ai engineer intern"
+    - "machine learning new grad"
+    - "ai engineer new grad"
+    - "data scientist new grad"
+    # --- watchlist companies (any matching cyber/AI role they post) ---
+    - "company:Amazon"
+    - "company:Infosys"
+    - "company:Pegasystems"
+    - "company:Barclays"
+    - "company:Bloomberg"
+    - "company:EY"
+    - "company:Forvis Mazars"
+    - "company:Walmart"
+    - "company:ZS Associates"
+    - "company:Blue Cross Blue Shield of Rhode Island"
+    - "company:Intercontinental Exchange"
+    - "company:London Stock Exchange Group"
+    - "company:Expedia Group"
+    - "company:CVS Health"
 
   # Workday (experimental): POST https://<host>/wday/cxs/<tenant>/<site>/jobs
   # Posted dates are relative and unreliable; the engine falls back to

@@ -24,6 +24,7 @@ class RoleType(str, Enum):
     INTERN = "Internship"
     COOP = "Co-op"
     APPRENTICE = "Apprenticeship"
+    NEWGRAD = "New Grad"
 
 
 _WS = re.compile(r"\s+")

@@ -2,7 +2,7 @@ name: update-internships
 
 on:
   schedule:
-    - cron: "17 */2 * * *"      # every 2 hours (UTC). Tune to taste.
+    - cron: "17 * * * *"          # hourly (UTC)
   workflow_dispatch: {}          # manual "Run workflow" button
   push:
     branches: [main]

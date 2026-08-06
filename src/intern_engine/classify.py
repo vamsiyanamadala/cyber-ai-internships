@@ -30,6 +30,30 @@ _ROLE_TYPE_NEGATIVE = re.compile(
     re.I,
 )
 
+# New-grad / entry-level full-time signals. Title signals are trusted directly;
+# body signals must be explicit. Senior signals veto (so a "Senior … mentors new
+# grads" posting is not mistaken for entry-level).
+_NEWGRAD_TITLE = re.compile(
+    r"\b(new[\s\-]?grad(uate)?s?|recent\s+grad(uate)?|(university|college)\s+grad"
+    r"(uate)?|grad(uate)?\s+(engineer|analyst|developer|scientist|program|scheme|"
+    r"associate|hire)|entry[\s\-]?level|early[\s\-]?career|campus\s+hire|junior)\b",
+    re.I,
+)
+_NEWGRAD_BODY = re.compile(
+    r"\b(new\s+grad(uate)?s?|recent\s+graduate|new\s+college\s+grad(uate)?s?|"
+    r"grad(uate)?\s+(program|scheme|rotational\s+program)|entry[\s\-]?level|"
+    r"0[\s\-]?(?:to|\-)[\s\-]?2\s+years?)\b",
+    re.I,
+)
+_SENIOR_NEG = re.compile(
+    r"\b(senior|sr\.?|staff|principal|lead|manager|director|head\s+of|"
+    r"vice\s+president|vp|architect|distinguished|expert)\b",
+    re.I,
+)
+_SENIOR_YEARS = re.compile(
+    r"\b(?:[3-9]|[12]\d)\+?\s*(?:years|yrs)\b|\b\d+\+\s*(?:years|yrs)\b", re.I
+)
+
 
 def detect_role_type(title: str, description: str = "") -> Optional[RoleType]:
     """Return the role type, favoring signal in the title over the body."""
@@ -49,6 +73,15 @@ def detect_role_type(title: str, description: str = "") -> Optional[RoleType]:
                     return rtype
                 if rtype is RoleType.INTERN:
                     return rtype
+
+    # No internship/co-op/apprenticeship -> consider new-grad / entry-level.
+    t, b = title or "", description or ""
+    if _SENIOR_NEG.search(t):
+        return None                                   # senior title vetoes
+    if _NEWGRAD_TITLE.search(t):
+        return RoleType.NEWGRAD
+    if _NEWGRAD_BODY.search(b) and not _SENIOR_NEG.search(b) and not _SENIOR_YEARS.search(b):
+        return RoleType.NEWGRAD
     return None
 
 

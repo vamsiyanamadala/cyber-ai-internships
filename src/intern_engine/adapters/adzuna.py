@@ -41,27 +41,51 @@ class AdzunaAdapter(Adapter):
         app_id, app_key = self._creds()
         if not app_id or not app_key:
             return []                                   # no key -> skip quietly
-        phrase = (company.token or "").strip()
-        if not phrase:
+        entry = (company.token or "").strip()
+        if not entry:
             return []
+        # "company:<Name>" targets a specific employer via Adzuna's company
+        # filter; anything else is a keyword search.
+        target = None
+        if entry.lower().startswith("company:"):
+            target = entry.split(":", 1)[1].strip()
+            if not target:
+                return []
+        auth = f"app_id={quote_plus(app_id)}&app_key={quote_plus(app_key)}"
+        common = (f"&results_per_page={_RESULTS_PER_PAGE}&sort_by=date"
+                  f"&max_days_old={_MAX_DAYS_OLD}&content-type=application/json")
         roles: list[Role] = []
         for page in range(1, _PAGES + 1):
-            url = (
-                f"{_BASE}/{page}?app_id={quote_plus(app_id)}"
-                f"&app_key={quote_plus(app_key)}&what={quote_plus(phrase)}"
-                f"&results_per_page={_RESULTS_PER_PAGE}&sort_by=date"
-                f"&max_days_old={_MAX_DAYS_OLD}&content-type=application/json"
-            )
+            if target:
+                url = f"{_BASE}/{page}?{auth}&company={quote_plus(target)}{common}"
+            else:
+                url = f"{_BASE}/{page}?{auth}&what={quote_plus(entry)}{common}"
             res = await fetcher.get(url)
             if res.status != 200 or not isinstance(res.json, dict):
                 break
             results = res.json.get("results") or []
             for job in results:
-                if isinstance(job, dict):
-                    roles.append(self._to_role(job, url))
+                if not isinstance(job, dict):
+                    continue
+                role = self._to_role(job, url)
+                # guard: keep only real matches when targeting a company, in case
+                # the server-side filter is loose
+                if target and not self._company_matches(role.company, target):
+                    continue
+                roles.append(role)
             if len(results) < _RESULTS_PER_PAGE:
                 break                                   # reached the last page
         return roles
+
+    @staticmethod
+    def _company_matches(display: str, target: str) -> bool:
+        norm = lambda s: "".join(c if c.isalnum() or c == " " else " " for c in s.lower())
+        d, t = norm(display), norm(target)
+        toks = [w for w in t.split() if len(w) >= 3]
+        if not toks:                                    # target too short to filter safely
+            return True
+        hits = sum(1 for w in toks if w in d)
+        return hits / len(toks) >= 0.6 or t.strip() in d or d.strip() in t
 
     def _to_role(self, job: dict, url: str) -> Role:
         title = html_to_text(job.get("title") or "")

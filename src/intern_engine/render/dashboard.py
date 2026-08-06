@@ -269,6 +269,7 @@ _TEMPLATE = r"""<!DOCTYPE html>
         <button data-type="Internship" aria-pressed="false">Intern</button>
         <button data-type="Co-op" aria-pressed="false">Co-op</button>
         <button data-type="Apprenticeship" aria-pressed="false">Apprentice</button>
+        <button data-type="New Grad" aria-pressed="false">New Grad</button>
       </div>
     </div>
     <button class="toggle" id="sponsoronly" aria-pressed="false"><span class="dot"></span>verified sponsors only</button>
