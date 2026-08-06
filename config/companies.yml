@@ -191,6 +191,29 @@ companies:
     - "company:Expedia Group"
     - "company:CVS Health"
 
+  # PHENOM CAREER SITES (configure by HOST, not a slug). Covers employers who
+  # run their own careers site on Phenom — the classic job-board APIs can't see
+  # these at all. One adapter serves every Phenom employer you add.
+  # To find a host: open the company's careers page and copy the domain from the
+  # address bar (e.g. https://jobs.forvismazars.us/jobs/... -> jobs.forvismazars.us).
+  # Deployments vary and some are bot-protected, so treat each as best-effort:
+  # a host that doesn't answer is skipped like any other failing source.
+  phenom:
+    - name: "Forvis Mazars"
+      token: "jobs.forvismazars.us"
+
+  # AMAZON.JOBS (Amazon runs no third-party board). Each entry is a SEARCH TERM.
+  # MUST BE A SINGLE WORD -- verified against the live endpoint, multi-word
+  # queries return ZERO results ("security intern" -> 0 hits). Broad single words
+  # are used on purpose; the engine's classifier + US filter do the precision
+  # work. Results are already restricted to the US server-side.
+  amazonjobs:
+    - "intern"
+    - "internship"
+    - "graduate"
+    - "security"
+    - "cybersecurity"
+
   # Workday (experimental): POST https://<host>/wday/cxs/<tenant>/<site>/jobs
   # Posted dates are relative and unreliable; the engine falls back to
   # first-seen. Tenants/sites aren't guessable — fill host/site from the real

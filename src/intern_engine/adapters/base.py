@@ -53,6 +53,30 @@ def iso_from_string(value: Any) -> str | None:
         return None
 
 
+def iso_from_loose_date(value: Any) -> str | None:
+    """Parse human-readable dates ('Aug 01, 2026', 'August 1, 2026', '1 Aug 2026').
+
+    Phenom-family career sites and amazon.jobs render dates for humans rather
+    than as ISO strings, so try those shapes after the strict parser fails.
+    """
+    if not value or not isinstance(value, str):
+        return None
+    text = value.strip().replace(",", " ")
+    text = _WS.sub(" ", text)
+    for fmt in ("%b %d %Y", "%B %d %Y", "%d %b %Y", "%d %B %Y",
+                "%m/%d/%Y", "%Y-%m-%d"):
+        try:
+            return datetime.strptime(text, fmt).strftime("%Y-%m-%d")
+        except ValueError:
+            continue
+    return None
+
+
+def iso_any(value: Any) -> str | None:
+    """Best-effort date: strict ISO first, then human-readable formats."""
+    return iso_from_string(value) or iso_from_loose_date(value)
+
+
 class Adapter:
     name = "base"
 

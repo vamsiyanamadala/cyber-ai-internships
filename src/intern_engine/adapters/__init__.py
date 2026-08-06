@@ -8,6 +8,8 @@ from .ashby import AshbyAdapter
 from .smartrecruiters import SmartRecruitersAdapter
 from .workday import WorkdayAdapter
 from .adzuna import AdzunaAdapter
+from .phenom import PhenomAdapter
+from .amazonjobs import AmazonJobsAdapter
 
 REGISTRY = {
     a.name: a
@@ -18,6 +20,8 @@ REGISTRY = {
         SmartRecruitersAdapter(),
         WorkdayAdapter(),
         AdzunaAdapter(),
+        PhenomAdapter(),
+        AmazonJobsAdapter(),
     )
 }
 
