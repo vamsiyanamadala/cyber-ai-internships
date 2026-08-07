@@ -1,6 +1,6 @@
 # Cybersecurity & AI Internships, Co-ops & Apprenticeships (US)
 
-A self-updating engine that tracks **56 open** early-career Cybersecurity and AI/ML roles in the United States and rebuilds this page automatically. **48 new** in the last 48h · **139 companies polled** · updated Aug 07, 2026 at 19:19 UTC.
+A self-updating engine that tracks **57 open** early-career Cybersecurity and AI/ML roles in the United States and rebuilds this page automatically. **49 new** in the last 48h · **139 companies polled** · updated Aug 07, 2026 at 20:05 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -15,7 +15,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Amazon.com Services LLC ✓ | Security Engineer, AmSec 🆕 | Internship | Austin, Texas, USA | 2026-07-31 | [Apply](https://www.amazon.jobs/en/jobs/10489351/security-engineer-amsec) |
 | Amazon.com Services LLC ✓ | Software Development Engineer - Cybersecurity, SBS Core Engineering 🆕 | Internship | New York, New York, USA | 2026-05-20 | [Apply](https://www.amazon.jobs/en/jobs/10425858/software-development-engineer-cybersecurity-sbs-core-engineering) |
 
-## AI/ML (53 open)
+## AI/ML (54 open)
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
@@ -28,6 +28,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | databricks ✓ | PhD GenAI Research Scientist Intern | Internship | San Francisco, California | 2026-07-25 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=7011263002) |
 | databricks ✓ | Staff Data Scientist - Trust and Safety | Internship | San Francisco, California | 2026-07-25 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=8178287002) |
 | Bosch ✓ | Junior Managers Program (Trainee) - Starte deine Leadership Journey im Bereich HR Tech, Digitalisierung und Generative AI 🆕 | New Grad | Gerlingen, BW, de | 2026-08-07 | [Apply](https://api.smartrecruiters.com/v1/companies/BoschGroup/postings/744000142167669) |
+| Amazon.com Services LLC ✓ | Software Development Engineer, Conversational AI Modeling and Learning 🆕 | Internship | Bellevue, Washington, USA | 2026-08-07 | [Apply](https://www.amazon.jobs/en/jobs/10496262/software-development-engineer-conversational-ai-modeling-and-learning) |
 | Amazon Development Center U.S., Inc. ✓ | Software Development Engineer, Kiro 🆕 | Internship | Portland, Oregon, USA | 2026-08-07 | [Apply](https://www.amazon.jobs/en/jobs/10496038/software-development-engineer-kiro) |
 | Amazon Development Center U.S., Inc. ✓ | Software Development Engineer, Kiro 🆕 | Internship | Seattle, Washington, USA | 2026-08-07 | [Apply](https://www.amazon.jobs/en/jobs/10496040/software-development-engineer-kiro) |
 | Amazon.com Services LLC ✓ | Software Development Engineer, Sponsored Products Autonomous Campaigns 🆕 | Internship | New York, New York, USA | 2026-08-06 | [Apply](https://www.amazon.jobs/en/jobs/10494769/software-development-engineer-sponsored-products-autonomous-campaigns) |
@@ -105,7 +106,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, smartrecruiters) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 139 companies · 59 feeds fetched · 56 open roles · 174.3s.
+Engine (last run): 139 companies · 59 feeds fetched · 57 open roles · 164.1s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
