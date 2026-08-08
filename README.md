@@ -1,6 +1,6 @@
 # Cybersecurity & AI Internships, Co-ops & Apprenticeships (US)
 
-A self-updating engine that tracks **55 open** early-career Cybersecurity and AI/ML roles in the United States and rebuilds this page automatically. **47 new** in the last 48h · **139 companies polled** · updated Aug 08, 2026 at 16:55 UTC.
+A self-updating engine that tracks **55 open** early-career Cybersecurity and AI/ML roles in the United States and rebuilds this page automatically. **44 new** in the last 48h · **139 companies polled** · updated Aug 08, 2026 at 17:50 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -19,7 +19,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
-| databricks ✓ | AI Engineer - FDE (Forward Deployed Engineer) 🆕 | Internship | United States | 2026-08-06 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=8546367002) |
+| databricks ✓ | AI Engineer - FDE (Forward Deployed Engineer) | Internship | United States | 2026-08-06 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=8546367002) |
 | discord ✓ | Senior Software Engineer, Safety Backend | Co-op | San Francisco Bay Area or Los Angeles Area · $196,000 to $220,500 | 2026-07-31 ~ | [Apply](https://job-boards.greenhouse.io/discord/jobs/8545675002) |
 | pinterest ✓ | Machine Learning Engineer II, Computer Vision Applied Science | Internship | San Francisco, CA, US; Remote, US | 2026-07-25 ~ | [Apply](https://www.pinterestcareers.com/jobs/?gh_jid=7697137) |
 | pinterest ✓ | Sr. Machine Learning Engineer, Applied Science | Internship | San Francisco, CA, US; Remote, US | 2026-07-25 ~ | [Apply](https://www.pinterestcareers.com/jobs/?gh_jid=6894747) |
@@ -32,7 +32,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Amazon Development Center U.S., Inc. ✓ | Software Development Engineer, Kiro 🆕 | Internship | Portland, Oregon, USA | 2026-08-07 | [Apply](https://www.amazon.jobs/en/jobs/10496038/software-development-engineer-kiro) |
 | Amazon Development Center U.S., Inc. ✓ | Software Development Engineer, Kiro 🆕 | Internship | Seattle, Washington, USA | 2026-08-07 | [Apply](https://www.amazon.jobs/en/jobs/10496040/software-development-engineer-kiro) |
 | Amazon.com Services LLC ✓ | Software Development Engineer, Sponsored Products Autonomous Campaigns 🆕 | Internship | New York, New York, USA | 2026-08-06 | [Apply](https://www.amazon.jobs/en/jobs/10494769/software-development-engineer-sponsored-products-autonomous-campaigns) |
-| Bosch ✓ | Internship Data Science in Manufacturing 🆕 | Internship | Reutlingen, BW, de | 2026-08-05 | [Apply](https://api.smartrecruiters.com/v1/companies/BoschGroup/postings/744000141677619) |
+| Bosch ✓ | Internship Data Science in Manufacturing | Internship | Reutlingen, BW, de | 2026-08-05 | [Apply](https://api.smartrecruiters.com/v1/companies/BoschGroup/postings/744000141677619) |
 | Amazon.com Services LLC ✓ | Software Development Engineer II, AWS SageMaker AI 🆕 | Internship | Bellevue, Washington, USA | 2026-08-05 | [Apply](https://www.amazon.jobs/en/jobs/10492392/software-development-engineer-ii-aws-sagemaker-ai) |
 | Amazon.com Services LLC ✓ | Software Development Engineer, Amazon Search Autocomplete and Navigation AI 🆕 | Internship | Seattle, Washington, USA | 2026-08-05 | [Apply](https://www.amazon.jobs/en/jobs/10493280/software-development-engineer-amazon-search-autocomplete-and-navigation-ai) |
 | Amazon.com Services LLC ✓ | Software Development Engineer, Sponsored Products and Brands 🆕 | Internship | New York, New York, USA | 2026-08-04 | [Apply](https://www.amazon.jobs/en/jobs/10491862/software-development-engineer-sponsored-products-and-brands) |
@@ -52,7 +52,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Amazon.com Services LLC ✓ | Software Development Engineer II - Amazon Robotics, Proteus AMR, Motion 🆕 | Internship | North Reading, Massachusetts, USA | 2026-07-28 | [Apply](https://www.amazon.jobs/en/jobs/10486012/software-development-engineer-ii-amazon-robotics-proteus-amr-motion) |
 | Amazon Development Center U.S., Inc. ✓ | SDE II, EC2 Instance Networking, EC2 Nitro 🆕 | Internship | Seattle, Washington, USA | 2026-07-28 | [Apply](https://www.amazon.jobs/en/jobs/10486805/sde-ii-ec2-instance-networking-ec2-nitro) |
 | Amazon.com Services LLC ✓ | Machine Learning Engineer, OIS-Core Engine 🆕 | Internship | Austin, Texas, USA | 2026-07-27 | [Apply](https://www.amazon.jobs/en/jobs/10485323/machine-learning-engineer-ois-core-engine) |
-| Bosch ✓ | Junior Managers Program (Trainee) - Start your Leadership Journey in HR Tech, Digitalization and GenAI 🆕 | New Grad | Gerlingen, BW, de | 2026-07-23 | [Apply](https://api.smartrecruiters.com/v1/companies/BoschGroup/postings/744000142166560) |
+| Bosch ✓ | Junior Managers Program (Trainee) - Start your Leadership Journey in HR Tech, Digitalization and GenAI | New Grad | Gerlingen, BW, de | 2026-07-23 | [Apply](https://api.smartrecruiters.com/v1/companies/BoschGroup/postings/744000142166560) |
 | Amazon.com Services LLC ✓ | Software Development Engineer, Fauna 🆕 | Internship | New York, New York, USA | 2026-07-23 | [Apply](https://www.amazon.jobs/en/jobs/10482841/software-development-engineer-fauna) |
 | Amazon.com Services LLC ✓ | Software Development Engineer 🆕 | Internship | Seattle, Washington, USA | 2026-07-22 | [Apply](https://www.amazon.jobs/en/jobs/10481902/software-development-engineer) |
 | Amazon.com Services LLC ✓ | SDE II, Perception and SLAM, Autonomous Mobility 🆕 | Internship | North Reading, Massachusetts, USA | 2026-07-22 | [Apply](https://www.amazon.jobs/en/jobs/10481449/sde-ii-perception-and-slam-autonomous-mobility) |
@@ -106,7 +106,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, smartrecruiters) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 139 companies · 59 feeds fetched · 55 open roles · 123.2s.
+Engine (last run): 139 companies · 59 feeds fetched · 55 open roles · 164.1s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
