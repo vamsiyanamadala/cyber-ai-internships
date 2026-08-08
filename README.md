@@ -1,6 +1,6 @@
 # Cybersecurity & AI Internships, Co-ops & Apprenticeships (US)
 
-A self-updating engine that tracks **56 open** early-career Cybersecurity and AI/ML roles in the United States and rebuilds this page automatically. **48 new** in the last 48h · **139 companies polled** · updated Aug 07, 2026 at 23:52 UTC.
+A self-updating engine that tracks **56 open** early-career Cybersecurity and AI/ML roles in the United States and rebuilds this page automatically. **48 new** in the last 48h · **139 companies polled** · updated Aug 08, 2026 at 02:25 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -106,7 +106,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, smartrecruiters) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 139 companies · 59 feeds fetched · 56 open roles · 167.6s.
+Engine (last run): 139 companies · 59 feeds fetched · 56 open roles · 166.8s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
