@@ -1,6 +1,6 @@
 # Cybersecurity & AI Internships, Co-ops & Apprenticeships (US)
 
-A self-updating engine that tracks **55 open** early-career Cybersecurity and AI/ML roles in the United States and rebuilds this page automatically. **4 new** in the last 48h · **139 companies polled** · updated Aug 08, 2026 at 23:49 UTC.
+A self-updating engine that tracks **56 open** early-career Cybersecurity and AI/ML roles in the United States and rebuilds this page automatically. **5 new** in the last 48h · **139 companies polled** · updated Aug 09, 2026 at 02:32 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -15,10 +15,11 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Amazon.com Services LLC ✓ | Security Engineer, AmSec | Internship | Austin, Texas, USA | 2026-07-31 | [Apply](https://www.amazon.jobs/en/jobs/10489351/security-engineer-amsec) |
 | Amazon.com Services LLC ✓ | Software Development Engineer - Cybersecurity, SBS Core Engineering | Internship | New York, New York, USA | 2026-05-20 | [Apply](https://www.amazon.jobs/en/jobs/10425858/software-development-engineer-cybersecurity-sbs-core-engineering) |
 
-## AI/ML (52 open)
+## AI/ML (53 open)
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
+| postman ✓ | AI Engineer, Internship - Summer 2026 - Applications Open Now 🆕 | Internship | Berkeley, California, United States; San Francisco, California, United States | 2026-08-09 ~ | [Apply](https://job-boards.greenhouse.io/postman/jobs/7823417003) |
 | databricks ✓ | AI Engineer - FDE (Forward Deployed Engineer) | Internship | United States | 2026-08-06 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=8546367002) |
 | discord ✓ | Senior Software Engineer, Safety Backend | Co-op | San Francisco Bay Area or Los Angeles Area · $196,000 to $220,500 | 2026-07-31 ~ | [Apply](https://job-boards.greenhouse.io/discord/jobs/8545675002) |
 | pinterest ✓ | Machine Learning Engineer II, Computer Vision Applied Science | Internship | San Francisco, CA, US; Remote, US | 2026-07-25 ~ | [Apply](https://www.pinterestcareers.com/jobs/?gh_jid=7697137) |
@@ -106,7 +107,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, smartrecruiters) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 139 companies · 59 feeds fetched · 55 open roles · 157.8s.
+Engine (last run): 139 companies · 59 feeds fetched · 56 open roles · 158.3s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
