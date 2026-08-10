@@ -1,6 +1,6 @@
 # Cybersecurity & AI Internships, Co-ops & Apprenticeships (US)
 
-A self-updating engine that tracks **54 open** early-career Cybersecurity and AI/ML roles in the United States and rebuilds this page automatically. **1 new** in the last 48h · **139 companies polled** · updated Aug 10, 2026 at 18:07 UTC.
+A self-updating engine that tracks **54 open** early-career Cybersecurity and AI/ML roles in the United States and rebuilds this page automatically. **2 new** in the last 48h · **139 companies polled** · updated Aug 10, 2026 at 19:21 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -28,6 +28,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | figma ✓ | Data Scientist, Core Data -  PhD (2026) | Internship | San Francisco, CA • New York, NY | 2026-07-25 ~ | [Apply](https://boards.greenhouse.io/figma/jobs/5976930004?gh_jid=5976930004) |
 | databricks ✓ | PhD GenAI Research Scientist Intern | Internship | San Francisco, California | 2026-07-25 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=7011263002) |
 | databricks ✓ | Staff Data Scientist - Trust and Safety | Internship | San Francisco, California | 2026-07-25 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=8178287002) |
+| Amazon.com Services LLC ✓ | Machine Learning Engineer, Sponsored Products 🆕 | Internship | New York, New York, USA | 2026-08-10 | [Apply](https://www.amazon.jobs/en/jobs/10497374/machine-learning-engineer-sponsored-products) |
 | Bosch ✓ | Junior Managers Program (Trainee) - Starte deine Leadership Journey im Bereich HR Tech, Digitalisierung und Generative AI | New Grad | Gerlingen, BW, de | 2026-08-07 | [Apply](https://api.smartrecruiters.com/v1/companies/BoschGroup/postings/744000142167669) |
 | Amazon.com Services LLC ✓ | Software Development Engineer, Conversational AI Modeling and Learning | Internship | Bellevue, Washington, USA | 2026-08-07 | [Apply](https://www.amazon.jobs/en/jobs/10496262/software-development-engineer-conversational-ai-modeling-and-learning) |
 | Amazon Development Center U.S., Inc. ✓ | Software Development Engineer, Kiro | Internship | Portland, Oregon, USA | 2026-08-07 | [Apply](https://www.amazon.jobs/en/jobs/10496038/software-development-engineer-kiro) |
@@ -35,7 +36,6 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Amazon.com Services LLC ✓ | Software Development Engineer, Sponsored Products Autonomous Campaigns | Internship | New York, New York, USA | 2026-08-06 | [Apply](https://www.amazon.jobs/en/jobs/10494769/software-development-engineer-sponsored-products-autonomous-campaigns) |
 | Bosch ✓ | Internship Data Science in Manufacturing | Internship | Reutlingen, BW, de | 2026-08-05 | [Apply](https://api.smartrecruiters.com/v1/companies/BoschGroup/postings/744000141677619) |
 | Amazon.com Services LLC ✓ | Software Development Engineer II, AWS SageMaker AI | Internship | Bellevue, Washington, USA | 2026-08-05 | [Apply](https://www.amazon.jobs/en/jobs/10492392/software-development-engineer-ii-aws-sagemaker-ai) |
-| Amazon.com Services LLC ✓ | Software Development Engineer, Amazon Search Autocomplete and Navigation AI | Internship | Seattle, Washington, USA | 2026-08-05 | [Apply](https://www.amazon.jobs/en/jobs/10493280/software-development-engineer-amazon-search-autocomplete-and-navigation-ai) |
 | Amazon.com Services LLC ✓ | Software Development Engineer, Sponsored Products and Brands | Internship | New York, New York, USA | 2026-08-04 | [Apply](https://www.amazon.jobs/en/jobs/10491862/software-development-engineer-sponsored-products-and-brands) |
 | Annapurna Labs (U.S.) Inc. ✓ | Software Development Engineer I – AI/ML Network Infrastructure, Annapurna Labs | Internship | Cupertino, California, USA | 2026-08-03 | [Apply](https://www.amazon.jobs/en/jobs/10490741/software-development-engineer-i-ai-ml-network-infrastructure-annapurna-labs) |
 | Amazon.com Services LLC ✓ | Software Development Engineer, Conversational Ads Experience | Internship | New York, New York, USA | 2026-08-03 | [Apply](https://www.amazon.jobs/en/jobs/10490604/software-development-engineer-conversational-ads-experience) |
@@ -71,7 +71,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Amazon.com Services LLC ✓ | 2026 Applied Science Internship - United States, PhD Student Science Recruiting, Frontier AI & Robotics | Internship | San Francisco, California, USA | 2025-11-17 | [Apply](https://www.amazon.jobs/en/jobs/3127861/2026-applied-science-internship-united-states-phd-student-science-recruiting-frontier-ai-robotics) |
 | Amazon.com Services LLC - A57 ✓ | Robotics - Applied Scientist II Intern / Co-op - 2026 (Robotics, Manipulation, Perception, Motion Planning, Autonomous Mobile Robots, Computer Vision, Machine Learning, Controls, and more) | Co-op | North Reading, Massachusetts, USA | 2025-10-08 | [Apply](https://www.amazon.jobs/en/jobs/3104589/robotics-applied-scientist-ii-intern-co-op-2026-robotics-manipulation-perception-motion-planning-autonomous-mobile-robots-computer-vision-machine-learning-controls-and-more) |
 
-## Recently closed — 29 in the last 14 days
+## Recently closed — 30 in the last 14 days
 
 - brex — Brex Rotational Program
 - Bosch — Mandatory Internship AI and Robotics
@@ -102,12 +102,13 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 - Amazon Development Center U.S., Inc. — Software Development Engineer, Quick
 - Amazon.com Services LLC — SDE II, Perception and SLAM, Autonomous Mobility
 - Amazon.com Services LLC — Software Development Engineer
+- Amazon.com Services LLC — Software Development Engineer, Amazon Search Autocomplete and Navigation AI
 
 ## How this stays current
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, smartrecruiters) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 139 companies · 59 feeds fetched · 54 open roles · 162.9s.
+Engine (last run): 139 companies · 59 feeds fetched · 54 open roles · 170.0s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
