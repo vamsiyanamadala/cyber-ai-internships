@@ -1,6 +1,6 @@
 # Cybersecurity & AI Internships, Co-ops & Apprenticeships (US)
 
-A self-updating engine that tracks **55 open** early-career Cybersecurity and AI/ML roles in the United States and rebuilds this page automatically. **1 new** in the last 48h · **139 companies polled** · updated Aug 10, 2026 at 17:13 UTC.
+A self-updating engine that tracks **54 open** early-career Cybersecurity and AI/ML roles in the United States and rebuilds this page automatically. **1 new** in the last 48h · **139 companies polled** · updated Aug 10, 2026 at 18:07 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -15,7 +15,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Amazon.com Services LLC ✓ | Security Engineer, AmSec | Internship | Austin, Texas, USA | 2026-07-31 | [Apply](https://www.amazon.jobs/en/jobs/10489351/security-engineer-amsec) |
 | Amazon.com Services LLC ✓ | Software Development Engineer - Cybersecurity, SBS Core Engineering | Internship | New York, New York, USA | 2026-05-20 | [Apply](https://www.amazon.jobs/en/jobs/10425858/software-development-engineer-cybersecurity-sbs-core-engineering) |
 
-## AI/ML (52 open)
+## AI/ML (51 open)
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
@@ -55,7 +55,6 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Amazon.com Services LLC ✓ | Machine Learning Engineer, OIS-Core Engine | Internship | Austin, Texas, USA | 2026-07-27 | [Apply](https://www.amazon.jobs/en/jobs/10485323/machine-learning-engineer-ois-core-engine) |
 | Bosch ✓ | Junior Managers Program (Trainee) - Start your Leadership Journey in HR Tech, Digitalization and GenAI | New Grad | Gerlingen, BW, de | 2026-07-23 | [Apply](https://api.smartrecruiters.com/v1/companies/BoschGroup/postings/744000142166560) |
 | Amazon.com Services LLC ✓ | Software Development Engineer, Fauna | Internship | New York, New York, USA | 2026-07-23 | [Apply](https://www.amazon.jobs/en/jobs/10482841/software-development-engineer-fauna) |
-| Amazon.com Services LLC ✓ | Software Development Engineer | Internship | Seattle, Washington, USA | 2026-07-22 | [Apply](https://www.amazon.jobs/en/jobs/10481902/software-development-engineer) |
 | Annapurna Labs (U.S.) Inc. ✓ | Power and Performance Validation Engineer, Annapurna Labs | Internship | Austin, Texas, USA | 2026-07-21 | [Apply](https://www.amazon.jobs/en/jobs/10479590/power-and-performance-validation-engineer-annapurna-labs) |
 | Amazon Development Center U.S., Inc. ✓ | Software Development Engineer, EC2 UltraServer Delivery Team | Internship | Seattle, Washington, USA | 2026-07-21 | [Apply](https://www.amazon.jobs/en/jobs/10480763/software-development-engineer-ec2-ultraserver-delivery-team) |
 | Amazon.com Services LLC ✓ | Senior Audio Applied Scientist, Edge Technology | Internship | Cambridge, Massachusetts, USA | 2026-06-03 | [Apply](https://www.amazon.jobs/en/jobs/10439209/senior-audio-applied-scientist-edge-technology) |
@@ -72,7 +71,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Amazon.com Services LLC ✓ | 2026 Applied Science Internship - United States, PhD Student Science Recruiting, Frontier AI & Robotics | Internship | San Francisco, California, USA | 2025-11-17 | [Apply](https://www.amazon.jobs/en/jobs/3127861/2026-applied-science-internship-united-states-phd-student-science-recruiting-frontier-ai-robotics) |
 | Amazon.com Services LLC - A57 ✓ | Robotics - Applied Scientist II Intern / Co-op - 2026 (Robotics, Manipulation, Perception, Motion Planning, Autonomous Mobile Robots, Computer Vision, Machine Learning, Controls, and more) | Co-op | North Reading, Massachusetts, USA | 2025-10-08 | [Apply](https://www.amazon.jobs/en/jobs/3104589/robotics-applied-scientist-ii-intern-co-op-2026-robotics-manipulation-perception-motion-planning-autonomous-mobile-robots-computer-vision-machine-learning-controls-and-more) |
 
-## Recently closed — 28 in the last 14 days
+## Recently closed — 29 in the last 14 days
 
 - brex — Brex Rotational Program
 - Bosch — Mandatory Internship AI and Robotics
@@ -102,12 +101,13 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 - Amazon Data Services, Inc. — Software Development Engineer, EC2 UltraServer Delivery Team
 - Amazon Development Center U.S., Inc. — Software Development Engineer, Quick
 - Amazon.com Services LLC — SDE II, Perception and SLAM, Autonomous Mobility
+- Amazon.com Services LLC — Software Development Engineer
 
 ## How this stays current
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, smartrecruiters) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 139 companies · 59 feeds fetched · 55 open roles · 158.0s.
+Engine (last run): 139 companies · 59 feeds fetched · 54 open roles · 162.9s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
