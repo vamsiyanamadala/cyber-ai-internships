@@ -1,6 +1,6 @@
 # Cybersecurity & AI Internships, Co-ops & Apprenticeships (US)
 
-A self-updating engine that tracks **54 open** early-career Cybersecurity and AI/ML roles in the United States and rebuilds this page automatically. **2 new** in the last 48h · **139 companies polled** · updated Aug 10, 2026 at 19:21 UTC.
+A self-updating engine that tracks **55 open** early-career Cybersecurity and AI/ML roles in the United States and rebuilds this page automatically. **3 new** in the last 48h · **139 companies polled** · updated Aug 10, 2026 at 21:06 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -15,7 +15,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Amazon.com Services LLC ✓ | Security Engineer, AmSec | Internship | Austin, Texas, USA | 2026-07-31 | [Apply](https://www.amazon.jobs/en/jobs/10489351/security-engineer-amsec) |
 | Amazon.com Services LLC ✓ | Software Development Engineer - Cybersecurity, SBS Core Engineering | Internship | New York, New York, USA | 2026-05-20 | [Apply](https://www.amazon.jobs/en/jobs/10425858/software-development-engineer-cybersecurity-sbs-core-engineering) |
 
-## AI/ML (51 open)
+## AI/ML (52 open)
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
@@ -28,6 +28,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | figma ✓ | Data Scientist, Core Data -  PhD (2026) | Internship | San Francisco, CA • New York, NY | 2026-07-25 ~ | [Apply](https://boards.greenhouse.io/figma/jobs/5976930004?gh_jid=5976930004) |
 | databricks ✓ | PhD GenAI Research Scientist Intern | Internship | San Francisco, California | 2026-07-25 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=7011263002) |
 | databricks ✓ | Staff Data Scientist - Trust and Safety | Internship | San Francisco, California | 2026-07-25 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=8178287002) |
+| Amazon.com Services LLC ✓ | Sr. Software Dev Engineer, Healthcare AI 🆕 | Internship | Seattle, Washington, USA | 2026-08-10 | [Apply](https://www.amazon.jobs/en/jobs/10497769/sr-software-dev-engineer-healthcare-ai) |
 | Amazon.com Services LLC ✓ | Machine Learning Engineer, Sponsored Products 🆕 | Internship | New York, New York, USA | 2026-08-10 | [Apply](https://www.amazon.jobs/en/jobs/10497374/machine-learning-engineer-sponsored-products) |
 | Bosch ✓ | Junior Managers Program (Trainee) - Starte deine Leadership Journey im Bereich HR Tech, Digitalisierung und Generative AI | New Grad | Gerlingen, BW, de | 2026-08-07 | [Apply](https://api.smartrecruiters.com/v1/companies/BoschGroup/postings/744000142167669) |
 | Amazon.com Services LLC ✓ | Software Development Engineer, Conversational AI Modeling and Learning | Internship | Bellevue, Washington, USA | 2026-08-07 | [Apply](https://www.amazon.jobs/en/jobs/10496262/software-development-engineer-conversational-ai-modeling-and-learning) |
@@ -108,7 +109,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, smartrecruiters) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 139 companies · 59 feeds fetched · 54 open roles · 170.0s.
+Engine (last run): 139 companies · 59 feeds fetched · 55 open roles · 157.8s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
