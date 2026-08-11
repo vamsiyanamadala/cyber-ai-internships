@@ -930,6 +930,69 @@
       "removed_at": "2026-08-11T16:02:36+00:00",
       "title": "Software Engineering Co-Op - Winter 2027",
       "url": "https://api.smartrecruiters.com/v1/companies/westerndigital/postings/744000138184309"
+    },
+    {
+      "company": "The Nuclear Company",
+      "posted_at": "2026-08-09",
+      "removed_at": "2026-08-11T16:19:38+00:00",
+      "title": "Spring 2027 AI/ML Engineering Intern",
+      "url": "https://www.adzuna.com/details/5834545363?utm_medium=api&utm_source=0e26e158"
+    },
+    {
+      "company": "The Church of Jesus Christ of Latter-day Saints",
+      "posted_at": "2026-08-01",
+      "removed_at": "2026-08-11T16:19:38+00:00",
+      "title": "Data Scientist - Paid Intern",
+      "url": "https://www.adzuna.com/details/5823494489?utm_medium=api&utm_source=0e26e158"
+    },
+    {
+      "company": "SpreeAI",
+      "posted_at": "2026-08-08",
+      "removed_at": "2026-08-11T16:19:38+00:00",
+      "title": "Machine Learning Engineer Intern (Computer Vision/Multimodal/Generative AI)",
+      "url": "https://www.adzuna.com/details/5833212627?utm_medium=api&utm_source=0e26e158"
+    },
+    {
+      "company": "The Nuclear Company",
+      "posted_at": "2026-08-09",
+      "removed_at": "2026-08-11T16:19:38+00:00",
+      "title": "Fall 2026 AI Software Engineering Intern",
+      "url": "https://www.adzuna.com/details/5834453372?utm_medium=api&utm_source=0e26e158"
+    },
+    {
+      "company": "The Nuclear Company",
+      "posted_at": "2026-08-09",
+      "removed_at": "2026-08-11T16:19:38+00:00",
+      "title": "Fall 2026 AI/ML Engineering Intern",
+      "url": "https://www.adzuna.com/details/5834599892?utm_medium=api&utm_source=0e26e158"
+    },
+    {
+      "company": "RocketRide",
+      "posted_at": "2026-08-08",
+      "removed_at": "2026-08-11T16:19:38+00:00",
+      "title": "AI Growth Engineer Intern",
+      "url": "https://www.adzuna.com/details/5833320942?utm_medium=api&utm_source=0e26e158"
+    },
+    {
+      "company": "SpreeAI",
+      "posted_at": "2026-08-09",
+      "removed_at": "2026-08-11T16:19:38+00:00",
+      "title": "Software Engineer Intern (AI Infrastructure / Training / Inference)",
+      "url": "https://www.adzuna.com/details/5834414277?utm_medium=api&utm_source=0e26e158"
+    },
+    {
+      "company": "Labelbox",
+      "posted_at": "2026-07-09",
+      "removed_at": "2026-08-11T16:19:38+00:00",
+      "title": "Cyber Security Intern",
+      "url": "https://www.adzuna.com/details/5793842807?utm_medium=api&utm_source=0e26e158"
+    },
+    {
+      "company": "The Nuclear Company",
+      "posted_at": "2026-08-09",
+      "removed_at": "2026-08-11T16:19:38+00:00",
+      "title": "Summer 2027 AI/ML Engineering Intern",
+      "url": "https://www.adzuna.com/details/5834325692?utm_medium=api&utm_source=0e26e158"
     }
   ],
   "http_cache": {
@@ -1057,7 +1120,7 @@
       "etag": "W/\"job-board:3f3cd97940a1b687042f620c57ef76e429e5cc82c25ae5d4014a190d9183a1d7\""
     },
     "https://api.ashbyhq.com/posting-api/job-board/elevenlabs?includeCompensation=true": {
-      "etag": "W/\"job-board:65e4031570853aa65d638643e03f97970daa90081ef7cb8e56e056e0f21d6e78\""
+      "etag": "W/\"job-board:52b13af7575e8ab22ae213b685145ff4e5f774095123027febcc1b81bdbba8d4\""
     },
     "https://api.ashbyhq.com/posting-api/job-board/elliptic?includeCompensation=true": {
       "etag": "W/\"job-board:d016f695a6ca9324bff71a0ee371c4cd6bdaff15c63449f4e9c8b89631c0f205\""
@@ -1132,7 +1195,7 @@
       "etag": "W/\"job-board:dbfc5d19308f2759b860f7a167081739e4d51790efa280f31fa39b319e255119\""
     },
     "https://api.ashbyhq.com/posting-api/job-board/iceye?includeCompensation=true": {
-      "etag": "W/\"job-board:d7ad1b9d32dd624b69c5b3e47389543333dd731f8e37b4ec2af95dbe23829e4c\""
+      "etag": "W/\"job-board:f263757645bb12d65ab8437b4241fc953beb2841cf639f8294ec52bd3ccf290f\""
     },
     "https://api.ashbyhq.com/posting-api/job-board/illumio?includeCompensation=true": {
       "etag": "W/\"job-board:b60e2425d2707c6e162f101bd41718ee294e94c6fd974eb425bdbc7cc4ea95e6\""
@@ -1249,7 +1312,7 @@
       "etag": "W/\"job-board:ed915376a54dfd93621063ccfc6bc114fd04eab1f2682728e46b1b730a088fcb\""
     },
     "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true": {
-      "etag": "W/\"job-board:76aafea9a14b336224a543ccce9d6199d4298ce90b71cacd2754ae9f84129e72\""
+      "etag": "W/\"job-board:219baa568183d3ed5a2b1357d4d4d30f06922655be45c381edaa7eb3250b585a\""
     },
     "https://api.ashbyhq.com/posting-api/job-board/openevidence?includeCompensation=true": {
       "etag": "W/\"job-board:5f5f9086459c66ac6d701ccb2d3592fa6e3268d119c2a8409891cc12238f7c6c\""
@@ -1585,7 +1648,7 @@
       "etag": "W/\"3427d-791Fx/SY+7/uEVhdbp4PhJ79wyM\""
     },
     "https://api.lever.co/v0/postings/shieldai?mode=json": {
-      "etag": "W/\"67d810-BASzrrOXg0z42QYO++M2mkxKYwk\""
+      "etag": "W/\"672c81-HLhqr0KlwexLLHK59Q1I8pmoejQ\""
     },
     "https://api.lever.co/v0/postings/sila?mode=json": {
       "etag": "W/\"2fa9ab-J7QSXTM7f1ddGcM+YlIAKMGQq7o\""
@@ -1963,7 +2026,7 @@
       "etag": "W/\"a8cdf71edc05dc22ce1c68d9ce817932\""
     },
     "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true": {
-      "etag": "W/\"7afcddb16110a397ea61a8acea6f234a\""
+      "etag": "W/\"109af0f3a0e790abc5d36019e9010302\""
     },
     "https://boards-api.greenhouse.io/v1/boards/endorlabs/jobs?content=true": {
       "etag": "W/\"589518e1ad5667a57fadd9d6fb2bf245\""
@@ -2020,7 +2083,7 @@
       "etag": "W/\"e8262310ea5eee3ff3b51f32db558dfa\""
     },
     "https://boards-api.greenhouse.io/v1/boards/gitlab/jobs?content=true": {
-      "etag": "W/\"ae11c64f4965a407bb14c1f911f4edf4\""
+      "etag": "W/\"83c38cd3c5392f33731e35a162797583\""
     },
     "https://boards-api.greenhouse.io/v1/boards/goatgroup/jobs?content=true": {
       "etag": "W/\"462d43a8a7134ea360fc978b4d4cd04a\""
@@ -2071,7 +2134,7 @@
       "etag": "W/\"cbc40daf5149c0fa0391dce560a95239\""
     },
     "https://boards-api.greenhouse.io/v1/boards/isomorphiclabs/jobs?content=true": {
-      "etag": "W/\"dfd52466496256f9962cb521c281be14\""
+      "etag": "W/\"b1f9262d96967530abe259c29b884f6b\""
     },
     "https://boards-api.greenhouse.io/v1/boards/iterable/jobs?content=true": {
       "etag": "W/\"5b39a0c07b1de2e0cef570b3bd843da3\""
@@ -2149,7 +2212,7 @@
       "etag": "W/\"367a55ef912e3b2584ee22b1a56664a7\""
     },
     "https://boards-api.greenhouse.io/v1/boards/nice/jobs?content=true": {
-      "etag": "W/\"cedffd5e480bf7fd3710d6cc743cedcc\""
+      "etag": "W/\"a3683f658da92dcd9c1660e10b8414ef\""
     },
     "https://boards-api.greenhouse.io/v1/boards/nimblerobotics/jobs?content=true": {
       "etag": "W/\"d1ca09ca7141925558f891e94202b6b3\""
@@ -2173,7 +2236,7 @@
       "etag": "W/\"4b2bc45b331701a280f673a5e8f8381d\""
     },
     "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true": {
-      "etag": "W/\"fe9580789177cb421391206d2446e9b9\""
+      "etag": "W/\"b6007a0287e47eb4e8a0461fbb9d911e\""
     },
     "https://boards-api.greenhouse.io/v1/boards/onetrust/jobs?content=true": {
       "etag": "W/\"fb94c6ece3203ef87a72b50398ec576a\""
@@ -2227,7 +2290,7 @@
       "etag": "W/\"f61c18346547e63d3cf50abaea6df24e\""
     },
     "https://boards-api.greenhouse.io/v1/boards/psiquantum/jobs?content=true": {
-      "etag": "W/\"ed878ba50bf7ef00bfae2cb2694e10c8\""
+      "etag": "W/\"0668f858525afccd523ed075b316c288\""
     },
     "https://boards-api.greenhouse.io/v1/boards/public/jobs?content=true": {
       "etag": "W/\"4d83e0ae7a994550577137937ce14e8c\""
@@ -2245,7 +2308,7 @@
       "etag": "W/\"ec145b836462a64c80cee4490b7ca246\""
     },
     "https://boards-api.greenhouse.io/v1/boards/redwoodmaterials/jobs?content=true": {
-      "etag": "W/\"44cbc3d634051574e07207f93af8b85a\""
+      "etag": "W/\"7c4affc92c6dbaeb67f762f49d3d1c3b\""
     },
     "https://boards-api.greenhouse.io/v1/boards/regie/jobs?content=true": {
       "etag": "W/\"c81eb113d8ee010978481bf07e2fe753\""
@@ -2284,7 +2347,7 @@
       "etag": "W/\"ae6fc06f7249d2b8cee9e42c36ca6d32\""
     },
     "https://boards-api.greenhouse.io/v1/boards/samsara/jobs?content=true": {
-      "etag": "W/\"392cb8c12db0417107e1962b90252e6b\""
+      "etag": "W/\"30a07e61b502f94b4cb075e769754278\""
     },
     "https://boards-api.greenhouse.io/v1/boards/scaleai/jobs?content=true": {
       "etag": "W/\"4ec44ac5bea77076499643e573d2ce36\""
@@ -2353,7 +2416,7 @@
       "etag": "W/\"bb85e181b95db09f6fc150950affb4fe\""
     },
     "https://boards-api.greenhouse.io/v1/boards/togetherai/jobs?content=true": {
-      "etag": "W/\"1a7d947c8d1af3d6d418dba3b9aad6a6\""
+      "etag": "W/\"421b2d716b5b422e9ee319d64c496dd8\""
     },
     "https://boards-api.greenhouse.io/v1/boards/treasuryprime/jobs?content=true": {
       "etag": "W/\"791abc997f9df960d5baa1f79b49c27e\""
@@ -2410,10 +2473,10 @@
       "etag": "W/\"1e078fa4f2df88dcba8be5df9ad8f0d7\""
     },
     "https://boards-api.greenhouse.io/v1/boards/zoominfo/jobs?content=true": {
-      "etag": "W/\"9917a260953d48ed0110be3ccbacf055\""
+      "etag": "W/\"0cef972f697a108438ddf660dfd12599\""
     },
     "https://boards-api.greenhouse.io/v1/boards/zscaler/jobs?content=true": {
-      "etag": "W/\"f361ab7ff3a3b730236df5be96837815\""
+      "etag": "W/\"868c3258eeb02a6f91c9da10c46b47b4\""
     },
     "https://www.amazon.jobs/en/search.json?base_query=cybersecurity&country=USA&sort=recent&result_limit=100&offset=0": {
       "etag": "W/\"de49acfad39b55e363cf065dba616003\""
@@ -2422,16 +2485,16 @@
       "etag": "W/\"44964101bc8582e73e5f0143ca4d5b66\""
     },
     "https://www.amazon.jobs/en/search.json?base_query=graduate&country=USA&sort=recent&result_limit=100&offset=0": {
-      "etag": "W/\"d12766259472c2b2e53e5e1832eaebf1\""
+      "etag": "W/\"06b67eab32cc6f07ad1eb5f81a4f3cd5\""
     },
     "https://www.amazon.jobs/en/search.json?base_query=intern&country=USA&sort=recent&result_limit=100&offset=0": {
       "etag": "W/\"4af723768fa9918e0b586abff1f85ace\""
     },
     "https://www.amazon.jobs/en/search.json?base_query=internship&country=USA&sort=recent&result_limit=100&offset=0": {
-      "etag": "W/\"21ae435f0c2b2da07f172454bd6ccf1d\""
+      "etag": "W/\"b0717653377070c8a36340485a68bb8e\""
     },
     "https://www.amazon.jobs/en/search.json?base_query=internship&country=USA&sort=recent&result_limit=100&offset=100": {
-      "etag": "W/\"22b596c7856793fecd280e4c286ca59e\""
+      "etag": "W/\"004473ab46f951ff4179edfa16ef026d\""
     },
     "https://www.amazon.jobs/en/search.json?base_query=internship&country=USA&sort=recent&result_limit=100&offset=200": {
       "etag": "W/\"5a23684e3eb274cc4432a28828546e9f\""
@@ -2443,13 +2506,13 @@
       "etag": "W/\"dddddb08808f20872664444017c4839a\""
     },
     "https://www.amazon.jobs/en/search.json?base_query=security&country=USA&sort=recent&result_limit=100&offset=0": {
-      "etag": "W/\"579420eda95d09066c2a19e86c7a6512\""
+      "etag": "W/\"9e748a793c40e473aa0301ff5f253073\""
     },
     "https://www.amazon.jobs/en/search.json?base_query=security&country=USA&sort=recent&result_limit=100&offset=100": {
-      "etag": "W/\"f48f8abb5834ceffa57c44643df737d2\""
+      "etag": "W/\"53d805c2e51c8f753f77072d79ee1727\""
     },
     "https://www.amazon.jobs/en/search.json?base_query=security&country=USA&sort=recent&result_limit=100&offset=200": {
-      "etag": "W/\"b2d5a3656a733a6c86a09795254a395c\""
+      "etag": "W/\"68e1780c4c05268bf71b3fb252672c15\""
     },
     "https://www.amazon.jobs/en/search.json?base_query=security+engineer+intern&country=USA&result_limit=100&offset=0&sort=recent": {
       "etag": "W/\"65df759963a7d2ba7cdaffed8c045dbb\""
@@ -2462,7 +2525,7 @@
     "06b191ef4dc18c3e": {
       "company": "TRM Labs",
       "first_seen": "2026-08-11T16:13:13+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
+      "last_seen": "2026-08-11T16:19:38+00:00",
       "posted_at": "2026-07-20",
       "posted_source": "source",
       "title": "Junior Legal Counsel - Commercial",
@@ -2471,25 +2534,16 @@
     "0f9c8430d6c53aad": {
       "company": "Postman",
       "first_seen": "2026-08-11T15:59:05+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
+      "last_seen": "2026-08-11T16:19:38+00:00",
       "posted_at": "2026-08-11",
       "posted_source": "first_seen",
       "title": "AI Engineer, Internship - Summer 2026 - Applications Open Now",
       "url": "https://job-boards.greenhouse.io/postman/jobs/7823417003"
     },
-    "109847701919e8f0": {
-      "company": "The Nuclear Company",
-      "first_seen": "2026-08-11T15:59:05+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
-      "posted_at": "2026-08-09",
-      "posted_source": "source",
-      "title": "Spring 2027 AI/ML Engineering Intern",
-      "url": "https://www.adzuna.com/details/5834545363?utm_medium=api&utm_source=0e26e158"
-    },
     "13480d34f489e6d8": {
       "company": "Canva",
       "first_seen": "2026-08-11T15:59:05+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
+      "last_seen": "2026-08-11T16:19:38+00:00",
       "posted_at": "2026-08-06",
       "posted_source": "source",
       "title": "PhD Research Scientist Intern",
@@ -2498,7 +2552,7 @@
     "17ec6b9b1f0f3456": {
       "company": "Ginkgo Bioworks",
       "first_seen": "2026-08-11T15:59:05+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
+      "last_seen": "2026-08-11T16:19:38+00:00",
       "posted_at": "2026-08-11",
       "posted_source": "first_seen",
       "title": "Software Intern, Autonomous Lab",
@@ -2507,7 +2561,7 @@
     "1fc646686de75bca": {
       "company": "Color Health",
       "first_seen": "2026-08-11T16:13:13+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
+      "last_seen": "2026-08-11T16:19:38+00:00",
       "posted_at": "2026-07-28",
       "posted_source": "source",
       "title": "Software Engineer, New Grad 2026",
@@ -2516,25 +2570,16 @@
     "26389e1f01104531": {
       "company": "Notion",
       "first_seen": "2026-08-11T16:13:13+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
+      "last_seen": "2026-08-11T16:19:38+00:00",
       "posted_at": "2026-07-06",
       "posted_source": "source",
       "title": "Software Engineer, Early Career (AI)",
       "url": "https://jobs.ashbyhq.com/notion/85947779-6b87-466a-98bc-30a640448c28/application"
     },
-    "2bf6af3b460f86fd": {
-      "company": "The Church of Jesus Christ of Latter-day Saints",
-      "first_seen": "2026-08-06T16:57:29+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
-      "posted_at": "2026-08-01",
-      "posted_source": "source",
-      "title": "Data Scientist - Paid Intern",
-      "url": "https://www.adzuna.com/details/5823494489?utm_medium=api&utm_source=0e26e158"
-    },
     "33b0b3ba77741beb": {
       "company": "Pika",
       "first_seen": "2026-08-11T15:59:05+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
+      "last_seen": "2026-08-11T16:19:38+00:00",
       "posted_at": "2026-07-10",
       "posted_source": "source",
       "title": "Research Intern (BS/MS/PhD)",
@@ -2543,25 +2588,16 @@
     "387a528c6e92239d": {
       "company": "Applied Intuition",
       "first_seen": "2026-08-11T15:59:05+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
+      "last_seen": "2026-08-11T16:19:38+00:00",
       "posted_at": "2026-02-13",
       "posted_source": "source",
       "title": "Research Intern - World-Action Foundation Model, Robotics",
       "url": "https://jobs.ashbyhq.com/applied/edc2528d-6e6c-4a67-b871-bfe7d9c890b4/application"
     },
-    "3c4aba55782fdd71": {
-      "company": "SpreeAI",
-      "first_seen": "2026-08-11T15:59:05+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
-      "posted_at": "2026-08-08",
-      "posted_source": "source",
-      "title": "Machine Learning Engineer Intern (Computer Vision/Multimodal/Generative AI)",
-      "url": "https://www.adzuna.com/details/5833212627?utm_medium=api&utm_source=0e26e158"
-    },
     "44cf94a87be51eb4": {
       "company": "Amazon.com Services LLC",
       "first_seen": "2026-08-06T19:26:54+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
+      "last_seen": "2026-08-11T16:19:38+00:00",
       "posted_at": "2025-11-17",
       "posted_source": "source",
       "title": "2026 Applied Science Internship - United States, PhD Student Science Recruiting, Frontier AI & Robotics",
@@ -2570,7 +2606,7 @@
     "5278e71cd6172e35": {
       "company": "Waymo",
       "first_seen": "2026-08-11T15:59:05+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
+      "last_seen": "2026-08-11T16:19:38+00:00",
       "posted_at": "2026-08-11",
       "posted_source": "first_seen",
       "title": "Machine Learning Engineer Perception LLM/VLM (PhD, New Grad)",
@@ -2579,7 +2615,7 @@
     "56a48509da5f49f3": {
       "company": "Amazon.com Services LLC",
       "first_seen": "2026-08-06T19:26:54+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
+      "last_seen": "2026-08-11T16:19:38+00:00",
       "posted_at": "2025-11-24",
       "posted_source": "source",
       "title": "2026 Applied Science Internship - United States, Undergrad Student Science Recruiting, Frontier AI & Robotics",
@@ -2588,7 +2624,7 @@
     "67808bdbdc5c1536": {
       "company": "Applied Intuition",
       "first_seen": "2026-08-11T15:59:05+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
+      "last_seen": "2026-08-11T16:19:38+00:00",
       "posted_at": "2026-02-13",
       "posted_source": "source",
       "title": "Research Intern - Robotic Hardware, Simulation and Data",
@@ -2597,7 +2633,7 @@
     "70028dfc2e0350a4": {
       "company": "Snowflake",
       "first_seen": "2026-08-11T16:13:13+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
+      "last_seen": "2026-08-11T16:19:38+00:00",
       "posted_at": "2026-06-16",
       "posted_source": "source",
       "title": "AI Research Scientist, New Grad \u2013 Agents & Reinforcement Learning",
@@ -2606,25 +2642,16 @@
     "72c1574a64133827": {
       "company": "SingleStore",
       "first_seen": "2026-08-11T15:59:05+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
+      "last_seen": "2026-08-11T16:19:38+00:00",
       "posted_at": "2026-08-11",
       "posted_source": "first_seen",
       "title": "Engineering Talent Community",
       "url": "https://job-boards.greenhouse.io/singlestore/jobs/7839324"
     },
-    "76e58f69425a6bed": {
-      "company": "The Nuclear Company",
-      "first_seen": "2026-08-11T15:59:05+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
-      "posted_at": "2026-08-09",
-      "posted_source": "source",
-      "title": "Fall 2026 AI Software Engineering Intern",
-      "url": "https://www.adzuna.com/details/5834453372?utm_medium=api&utm_source=0e26e158"
-    },
     "7731ce94532cff95": {
       "company": "Amazon.com Services LLC",
       "first_seen": "2026-08-11T15:59:05+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
+      "last_seen": "2026-08-11T16:19:38+00:00",
       "posted_at": "2026-04-21",
       "posted_source": "source",
       "title": "2026 Fall Research Science Internship - United States, PhD Student Science Recruiting",
@@ -2633,7 +2660,7 @@
     "796e6ea3e9d03976": {
       "company": "Haize Labs",
       "first_seen": "2026-08-11T15:59:05+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
+      "last_seen": "2026-08-11T16:19:38+00:00",
       "posted_at": "2026-08-11",
       "posted_source": "first_seen",
       "title": "Research Intern",
@@ -2642,7 +2669,7 @@
     "7e3f12746e482f4d": {
       "company": "Applied Intuition",
       "first_seen": "2026-08-11T15:59:05+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
+      "last_seen": "2026-08-11T16:19:38+00:00",
       "posted_at": "2026-02-13",
       "posted_source": "source",
       "title": "Research Intern - Reinforcement Learning, Robotics",
@@ -2651,25 +2678,16 @@
     "7ee6264b22cfee62": {
       "company": "Amazon.com Services LLC",
       "first_seen": "2026-08-11T15:59:05+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
+      "last_seen": "2026-08-11T16:19:38+00:00",
       "posted_at": "2026-04-16",
       "posted_source": "source",
       "title": "2026 Fall Applied Science Internship - Automated Reasoning - United States, PhD Student Science Recruiting",
       "url": "https://www.amazon.jobs/en/jobs/10394156/2026-fall-applied-science-internship-automated-reasoning-united-states-phd-student-science-recruiting"
     },
-    "7f590d780d3c8a83": {
-      "company": "The Nuclear Company",
-      "first_seen": "2026-08-11T15:59:05+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
-      "posted_at": "2026-08-09",
-      "posted_source": "source",
-      "title": "Fall 2026 AI/ML Engineering Intern",
-      "url": "https://www.adzuna.com/details/5834599892?utm_medium=api&utm_source=0e26e158"
-    },
     "84fc395f36b91072": {
       "company": "Amazon.com Services LLC",
       "first_seen": "2026-08-06T19:26:54+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
+      "last_seen": "2026-08-11T16:19:38+00:00",
       "posted_at": "2025-12-03",
       "posted_source": "source",
       "title": "Robotics - Software Development Engineer Intern/Co-op - 2026",
@@ -2678,7 +2696,7 @@
     "8718f6edb28a90ff": {
       "company": "Zscaler",
       "first_seen": "2026-08-11T15:59:05+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
+      "last_seen": "2026-08-11T16:19:38+00:00",
       "posted_at": "2026-08-11",
       "posted_source": "first_seen",
       "title": "Phishing Analyst-SkillBridge Intern",
@@ -2687,25 +2705,16 @@
     "8a09f98a2959055f": {
       "company": "Databricks",
       "first_seen": "2026-07-25T19:25:24+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
+      "last_seen": "2026-08-11T16:19:38+00:00",
       "posted_at": "2026-07-25",
       "posted_source": "first_seen",
       "title": "PhD GenAI Research Scientist Intern",
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7011263002"
     },
-    "8b3fc7966d2754ef": {
-      "company": "RocketRide",
-      "first_seen": "2026-08-11T15:59:05+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
-      "posted_at": "2026-08-08",
-      "posted_source": "source",
-      "title": "AI Growth Engineer Intern",
-      "url": "https://www.adzuna.com/details/5833320942?utm_medium=api&utm_source=0e26e158"
-    },
     "8b63463ecd6a7d78": {
       "company": "Amazon.com Services LLC",
       "first_seen": "2026-08-06T19:26:54+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
+      "last_seen": "2026-08-11T16:19:38+00:00",
       "posted_at": "2026-04-16",
       "posted_source": "source",
       "title": "2026 Fall Applied Science Internship - Natural Language Processing and Speech Technologies - United States, PhD Student Science Recruiting",
@@ -2714,7 +2723,7 @@
     "8e31bb6499801723": {
       "company": "Amazon.com Services LLC",
       "first_seen": "2026-08-06T19:26:54+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
+      "last_seen": "2026-08-11T16:19:38+00:00",
       "posted_at": "2026-04-16",
       "posted_source": "source",
       "title": "2026 Fall Applied Science Internship - Information & Knowledge Management (Machine Learning) - United States, PhD Student Science Recruiting",
@@ -2723,7 +2732,7 @@
     "91517a008cefef4f": {
       "company": "Faire",
       "first_seen": "2026-08-11T15:59:05+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
+      "last_seen": "2026-08-11T16:19:38+00:00",
       "posted_at": "2026-08-11",
       "posted_source": "first_seen",
       "title": "Data Science Intern",
@@ -2732,7 +2741,7 @@
     "94cec05e9a08dc1e": {
       "company": "Truveta",
       "first_seen": "2026-08-11T15:59:05+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
+      "last_seen": "2026-08-11T16:19:38+00:00",
       "posted_at": "2026-08-11",
       "posted_source": "first_seen",
       "title": "ML PhD Intern - LLMs & Generative AI",
@@ -2741,7 +2750,7 @@
     "9c273d01597b1048": {
       "company": "Amazon.com Services LLC",
       "first_seen": "2026-08-06T19:26:54+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
+      "last_seen": "2026-08-11T16:19:38+00:00",
       "posted_at": "2026-04-16",
       "posted_source": "source",
       "title": "2026 Fall Applied Science Internship - Reinforcement Learning & Optimization (Machine Learning) - United States, PhD Student Science Recruiting",
@@ -2750,7 +2759,7 @@
     "9e32ff14815c8908": {
       "company": "Zscaler",
       "first_seen": "2026-08-11T15:59:05+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
+      "last_seen": "2026-08-11T16:19:38+00:00",
       "posted_at": "2026-08-11",
       "posted_source": "first_seen",
       "title": "Insider Risk Analyst - SkillBridge Intern",
@@ -2759,25 +2768,16 @@
     "9fba6993749f51e5": {
       "company": "Amazon.com Services LLC",
       "first_seen": "2026-08-06T19:26:54+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
+      "last_seen": "2026-08-11T16:19:38+00:00",
       "posted_at": "2026-04-14",
       "posted_source": "source",
       "title": "2026 Fall Applied Science Internship - Recommender Systems/ Information Retrieval (Machine Learning) - United States, PhD Student Science Recruiting",
       "url": "https://www.amazon.jobs/en/jobs/10391774/2026-fall-applied-science-internship-recommender-systems-information-retrieval-machine-learning-united-states-phd-student-science-recruiting"
     },
-    "a89200cbcbf3aa14": {
-      "company": "SpreeAI",
-      "first_seen": "2026-08-11T15:59:05+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
-      "posted_at": "2026-08-09",
-      "posted_source": "source",
-      "title": "Software Engineer Intern (AI Infrastructure / Training / Inference)",
-      "url": "https://www.adzuna.com/details/5834414277?utm_medium=api&utm_source=0e26e158"
-    },
     "ac5c589e8542bbca": {
       "company": "Workato",
       "first_seen": "2026-08-11T15:59:05+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
+      "last_seen": "2026-08-11T16:19:38+00:00",
       "posted_at": "2026-08-11",
       "posted_source": "first_seen",
       "title": "Intern, AI Engineering",
@@ -2786,7 +2786,7 @@
     "baf84e90ffc9dc0c": {
       "company": "Zscaler",
       "first_seen": "2026-08-11T15:59:05+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
+      "last_seen": "2026-08-11T16:19:38+00:00",
       "posted_at": "2026-08-11",
       "posted_source": "first_seen",
       "title": "Detection Engineer- SkillBridge Intern",
@@ -2795,7 +2795,7 @@
     "bd803de70b4ca991": {
       "company": "Databricks",
       "first_seen": "2026-08-06T16:57:29+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
+      "last_seen": "2026-08-11T16:19:38+00:00",
       "posted_at": "2026-08-06",
       "posted_source": "first_seen",
       "title": "AI Engineer - FDE (Forward Deployed Engineer)",
@@ -2804,7 +2804,7 @@
     "be953f4817e96862": {
       "company": "Ginkgo Bioworks",
       "first_seen": "2026-08-11T15:59:05+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
+      "last_seen": "2026-08-11T16:19:38+00:00",
       "posted_at": "2026-08-11",
       "posted_source": "first_seen",
       "title": "Software Graduate Intern, Autonomous Lab",
@@ -2813,7 +2813,7 @@
     "bf6fc551ca978085": {
       "company": "Amazon.com Services LLC",
       "first_seen": "2026-08-06T19:26:54+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
+      "last_seen": "2026-08-11T16:19:38+00:00",
       "posted_at": "2026-04-17",
       "posted_source": "source",
       "title": "2026 Fall Applied Science Internship - Gen AI & Large Language Models - United States, PhD Student Science Recruiting",
@@ -2822,7 +2822,7 @@
     "bfab4c79657b5b4c": {
       "company": "Skydio",
       "first_seen": "2026-08-11T16:13:13+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
+      "last_seen": "2026-08-11T16:19:38+00:00",
       "posted_at": "2026-07-31",
       "posted_source": "source",
       "title": "Product Management Intern",
@@ -2831,7 +2831,7 @@
     "c1cf2ff18efcc5c0": {
       "company": "Modal Labs",
       "first_seen": "2026-08-11T16:13:13+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
+      "last_seen": "2026-08-11T16:19:38+00:00",
       "posted_at": "2026-07-28",
       "posted_source": "source",
       "title": "ML Research Intern",
@@ -2840,7 +2840,7 @@
     "d190b161f5617777": {
       "company": "Zscaler",
       "first_seen": "2026-08-11T15:59:05+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
+      "last_seen": "2026-08-11T16:19:38+00:00",
       "posted_at": "2026-08-11",
       "posted_source": "first_seen",
       "title": "Federal Security Operations - SkillBridge Intern",
@@ -2849,7 +2849,7 @@
     "d557ff3707070e90": {
       "company": "Deepgram",
       "first_seen": "2026-08-11T16:13:13+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
+      "last_seen": "2026-08-11T16:19:38+00:00",
       "posted_at": "2026-07-17",
       "posted_source": "source",
       "title": "Software Engineering- Internship (Fall 2026/Summer 2027)",
@@ -2858,25 +2858,16 @@
     "d5cbbafd23202552": {
       "company": "Applied Intuition",
       "first_seen": "2026-08-11T15:59:05+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
+      "last_seen": "2026-08-11T16:19:38+00:00",
       "posted_at": "2026-02-13",
       "posted_source": "source",
       "title": "Research Intern - 3D Vision and Generation, Self-Driving",
       "url": "https://jobs.ashbyhq.com/applied/91e0686e-272a-4780-b33d-d7860b94a7b4/application"
     },
-    "d6adc63f5b447b68": {
-      "company": "Labelbox",
-      "first_seen": "2026-07-31T16:00:27+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
-      "posted_at": "2026-07-09",
-      "posted_source": "source",
-      "title": "Cyber Security Intern",
-      "url": "https://www.adzuna.com/details/5793842807?utm_medium=api&utm_source=0e26e158"
-    },
     "dbd451cf4cdf2b96": {
       "company": "Notion",
       "first_seen": "2026-08-11T16:13:13+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
+      "last_seen": "2026-08-11T16:19:38+00:00",
       "posted_at": "2026-07-15",
       "posted_source": "source",
       "title": "Governance, Risk, and Compliance Intern (Fall 2026)",
@@ -2885,7 +2876,7 @@
     "e39cca979084b42f": {
       "company": "Nuro",
       "first_seen": "2026-08-11T15:59:05+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
+      "last_seen": "2026-08-11T16:19:38+00:00",
       "posted_at": "2026-08-11",
       "posted_source": "first_seen",
       "title": "Software Engineer, AI Platform - New Grad",
@@ -2894,7 +2885,7 @@
     "e9395379df183253": {
       "company": "Cerebras Systems",
       "first_seen": "2026-08-11T16:13:13+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
+      "last_seen": "2026-08-11T16:19:38+00:00",
       "posted_at": "2026-01-07",
       "posted_source": "source",
       "title": "CoDesign & NextGen - New College Grad",
@@ -2903,7 +2894,7 @@
     "ed20b924b7bc5307": {
       "company": "Nuro",
       "first_seen": "2026-08-11T15:59:05+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
+      "last_seen": "2026-08-11T16:19:38+00:00",
       "posted_at": "2026-08-11",
       "posted_source": "first_seen",
       "title": "Software Engineer, AI Platform - Intern",
@@ -2912,7 +2903,7 @@
     "ef4760baa628ec3a": {
       "company": "Zscaler",
       "first_seen": "2026-08-11T15:59:05+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
+      "last_seen": "2026-08-11T16:19:38+00:00",
       "posted_at": "2026-08-11",
       "posted_source": "first_seen",
       "title": "Site Reliability Engineer-SkillBridge Intern",
@@ -2921,7 +2912,7 @@
     "f501cb53695d6f5e": {
       "company": "Applied Intuition",
       "first_seen": "2026-08-11T15:59:05+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
+      "last_seen": "2026-08-11T16:19:38+00:00",
       "posted_at": "2024-09-21",
       "posted_source": "source",
       "title": "Research Intern - Reinforcement Learning, Self-Driving",
@@ -2930,7 +2921,7 @@
     "f7f8fc8dda939f95": {
       "company": "Abridge",
       "first_seen": "2026-08-11T15:59:05+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
+      "last_seen": "2026-08-11T16:19:38+00:00",
       "posted_at": "2026-08-07",
       "posted_source": "source",
       "title": "Software Engineer - Early Career",
@@ -2939,20 +2930,11 @@
     "fd349bdc5ed559cf": {
       "company": "Amazon.com Services LLC",
       "first_seen": "2026-08-06T19:26:54+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
+      "last_seen": "2026-08-11T16:19:38+00:00",
       "posted_at": "2026-04-14",
       "posted_source": "source",
       "title": "2026 Fall Applied Science Internship - Computer Vision - United States, PhD Student Science Recruiting",
       "url": "https://www.amazon.jobs/en/jobs/10391901/2026-fall-applied-science-internship-computer-vision-united-states-phd-student-science-recruiting"
-    },
-    "fe5beb48bba7e4a7": {
-      "company": "The Nuclear Company",
-      "first_seen": "2026-08-11T15:59:05+00:00",
-      "last_seen": "2026-08-11T16:13:13+00:00",
-      "posted_at": "2026-08-09",
-      "posted_source": "source",
-      "title": "Summer 2027 AI/ML Engineering Intern",
-      "url": "https://www.adzuna.com/details/5834325692?utm_medium=api&utm_source=0e26e158"
     }
   }
 }
