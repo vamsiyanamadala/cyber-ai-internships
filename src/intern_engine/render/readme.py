@@ -66,10 +66,12 @@ def render_readme(roles: list[Role], stats: dict, closed: list[dict],
                 r.posted_at or "", r.company)
 
     parts: list[str] = []
-    parts.append("# Cybersecurity & AI Internships, Co-ops & Apprenticeships (US)\n")
+    parts.append("# Cyber, AI & Software — Internships, Co-ops, "
+                 "Apprenticeships & New Grad (US)\n")
     parts.append(
         f"A self-updating engine that tracks **{stats['open']} open** early-career "
-        f"Cybersecurity and AI/ML roles in the United States and rebuilds this "
+        f"Cybersecurity, AI/ML and Software roles in the United States and "
+        f"rebuilds this "
         f"page automatically. **{stats['new']} new** in the last "
         f"{settings.new_window_hours}h · **{stats['companies']} companies polled** "
         f"· updated {now}.\n")

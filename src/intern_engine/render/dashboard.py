@@ -15,7 +15,7 @@ import html
 import json
 from datetime import datetime, timezone
 
-_CATEGORY_ORDER = {"Cybersecurity": 0, "AI/ML": 1}
+_CATEGORY_ORDER = {"Cybersecurity": 0, "AI/ML": 1, "Software": 2}
 
 
 def _records(roles, new_uids):
@@ -49,6 +49,7 @@ def render_dashboard(roles, stats, settings, new_uids=None) -> str:
 
     cyber = sum(1 for r in records if r["category"] == "Cybersecurity")
     ai = sum(1 for r in records if r["category"] == "AI/ML")
+    software = sum(1 for r in records if r["category"] == "Software")
     sponsors_indexed = stats.get("sponsors_indexed", 0)
 
     meta = {
@@ -56,6 +57,7 @@ def render_dashboard(roles, stats, settings, new_uids=None) -> str:
         "new": sum(1 for r in records if r["isNew"]),
         "cyber": cyber,
         "ai": ai,
+        "software": software,
         "sponsorsIndexed": sponsors_indexed,
         "companiesPolled": stats.get("companies", 0),
         "updated": now,
@@ -79,7 +81,7 @@ _TEMPLATE = r"""<!DOCTYPE html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Cyber &amp; AI Internships — Sponsorship Clearance Board</title>
+<title>Cyber, AI &amp; Software Early-Career Roles — Sponsorship Clearance Board</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Mono:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -253,8 +255,8 @@ _TEMPLATE = r"""<!DOCTYPE html>
 <header class="console">
   <div class="wrap">
     <p class="eyebrow" id="eyebrow">Live feed · auto-generated</p>
-    <h1>Cyber &amp; AI Internships<br><span class="thin">cleared for H-1B sponsorship</span></h1>
-    <p class="sub">Early-career cybersecurity and AI/ML roles across US employers — filtered to companies with an H-1B track record in USCIS data, with postings that refuse sponsorship removed.</p>
+    <h1>Cyber, AI &amp; Software<br><span class="thin">cleared for H-1B sponsorship</span></h1>
+    <p class="sub">Early-career cybersecurity, AI/ML and software roles across US employers — filtered to companies with an H-1B track record in USCIS data, with postings that refuse sponsorship removed.</p>
     <div class="readout" id="readout"></div>
   </div>
 </header>
@@ -270,6 +272,7 @@ _TEMPLATE = r"""<!DOCTYPE html>
         <button data-cat="all" aria-pressed="true">All</button>
         <button data-cat="Cybersecurity" aria-pressed="false">Cyber</button>
         <button data-cat="AI/ML" aria-pressed="false">AI/ML</button>
+        <button data-cat="Software" aria-pressed="false">Software</button>
       </div>
       <div class="seg" id="typeseg" role="group" aria-label="Filter by type">
         <button data-type="all" aria-pressed="true">All</button>
@@ -327,6 +330,7 @@ _TEMPLATE = r"""<!DOCTYPE html>
     {n:META.new, l:'new · 48h', cls:'hot'},
     {n:META.cyber, l:'cybersecurity'},
     {n:META.ai, l:'ai / ml'},
+    {n:META.software, l:'software'},
     {n:fmt(META.sponsorsIndexed), l:'sponsors indexed', cls:'ok'},
     {n:META.companiesPolled, l:'companies polled'}
   ];

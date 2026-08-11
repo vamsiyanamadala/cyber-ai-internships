@@ -18,6 +18,7 @@ from typing import Optional
 class Category(str, Enum):
     CYBER = "Cybersecurity"
     AI = "AI/ML"
+    SOFTWARE = "Software"
 
 
 class RoleType(str, Enum):

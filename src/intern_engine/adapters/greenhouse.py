@@ -27,7 +27,8 @@ class GreenhouseAdapter(Adapter):
             loc = ((job.get("location") or {}).get("name") or "").strip()
             desc = html_to_text(job.get("content") or "")
             # some boards stash a real location in metadata
-            meta = {m.get("name", "").lower(): m.get("value")
+            # same null-default trap as Ashby: use `or ""`, not a get() default
+            meta = {(m.get("name") or "").lower(): m.get("value")
                     for m in (job.get("metadata") or []) if isinstance(m, dict)}
             if not loc and meta.get("job posting location"):
                 loc = str(meta["job posting location"])

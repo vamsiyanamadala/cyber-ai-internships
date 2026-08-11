@@ -81,7 +81,30 @@ and commits the regenerated files back to the repo.
 
 Adjust the cadence by editing the `cron:` line (UTC). Hourly is `0 * * * *`.
 
-## 5. Grow coverage (the part that matters most)
+## 5. Grow coverage automatically (discovery)
+
+`tools/discover.py` turns company NAMES into VERIFIED board tokens, so coverage
+grows without filling the config with dead entries:
+
+```bash
+python tools/discover.py --limit 100      # try a batch, report only
+python tools/discover.py                  # probe all bundled candidates
+python tools/discover.py --write          # write verified boards to companies.yml
+```
+
+It probes every supported platform (greenhouse, lever, ashby, workable,
+smartrecruiters, recruitee) for each plausible slug and keeps only boards that
+returned **at least one live job**. Progress is cached in
+`data/discovery_cache.json`, so Ctrl+C is safe and re-runs resume. The
+hand-maintained aggregator blocks (adzuna / amazonjobs / phenom / workday) are
+preserved on write.
+
+Add names to `tools/candidates.txt` (one per line) to widen the search — unknown
+names simply find nothing, so a long list costs only discovery time, not run
+time. Expect a few thousand requests for a full pass; the engine's own runs stay
+fast because only verified boards are polled.
+
+## 6. Grow coverage by hand
 
 The engine only sees companies you list. To approach "every company that posts
 these roles," keep expanding `config/companies.yml`. Each entry is one line:

@@ -1,0 +1,224 @@
+# ===========================================================================
+# COMPANY LIST  —  one line per company, grouped by ATS platform.
+# ===========================================================================
+# Coverage = this list. The engine polls only the companies here, so a longer
+# list means broader reach. Tokens are BEST-EFFORT: a company's board slug isn't
+# reliably guessable from its name, and companies move between platforms. The
+# engine skips any token that 404s or sits on a different ATS, so a wrong entry
+# never breaks a run — it just yields nothing. Add generously; keep what works.
+#
+# VERIFY a token in 10 seconds by opening its board in a browser:
+#   greenhouse:      https://boards.greenhouse.io/<token>
+#   lever:           https://jobs.lever.co/<token>
+#   ashby:           https://jobs.ashbyhq.com/<token>
+#   smartrecruiters: https://careers.smartrecruiters.com/<token>
+# If it loads a job board, the token is right. If it 404s, the company is on a
+# different platform (try moving it to another block) or uses a custom portal
+# (many large enterprises — apply to those directly; this engine won't see them).
+#
+# Format per platform:
+#   <ats>:
+#     - simpleslug                      # name == token
+#     - name: "Nice Name"               # explicit name + token
+#       token: "board-slug"
+# ===========================================================================
+
+companies:
+
+  # GET https://boards-api.greenhouse.io/v1/boards/<token>/jobs?content=true
+  greenhouse:
+    # --- AI / ML ---
+    - anthropic
+    - databricks
+    - scaleai
+    - figma
+    - notion
+    - asana
+    - grammarly
+    - instabase
+    - hebbia
+    - abridge
+    # --- cybersecurity ---
+    - cloudflare
+    - snyk
+    - tenable
+    - rapid7
+    - crowdstrike
+    - sentinelone
+    - okta
+    - hashicorp
+    - datadog
+    - arcticwolf
+    - huntress
+    - sysdig
+    - abnormalsecurity
+    - netskope
+    - cybereason
+    - semgrep
+    - chainguard
+    - hackerone
+    - bugcrowd
+    - axonius
+    - expel
+    - dragos
+    - recordedfuture
+    - cyberark
+    - proofpoint
+    - varonis
+    - illumio
+    - claroty
+    - armis
+    - lacework
+    - orcasecurity
+    - aquasecurity
+    - wiz
+    - snowflake
+    # --- broader tech (strong H-1B sponsors, hire cyber + AI) ---
+    - airbnb
+    - coinbase
+    - robinhood
+    - dropbox
+    - gitlab
+    - samsara
+    - brex
+    - plaid
+    - benchling
+    - discord
+    - reddit
+    - doordash
+    - instacart
+    - affirm
+    - chime
+    - twilio
+    - mongodb
+    - confluent
+    - elastic
+    - cockroachlabs
+    - postman
+    - amplitude
+    - airtable
+    - rippling
+    - retool
+    - gusto
+    - sofi
+    - lyft
+    - pinterest
+
+  # GET https://api.lever.co/v0/postings/<token>?mode=json
+  lever:
+    - palantir
+    - netflix
+    - spotify
+
+  # GET https://api.ashbyhq.com/posting-api/job-board/<token>?includeCompensation=true
+  ashby:
+    # --- AI / ML labs & infra (Ashby is common here) ---
+    - openai
+    - cohere
+    - mistral
+    - huggingface
+    - perplexity
+    - together
+    - fireworks
+    - contextual
+    - modal
+    - baseten
+    - groq
+    - sambanova
+    - cerebras
+    - anyscale
+    - glean
+    - harvey
+    - writer
+    - sierra
+    - runwayml
+    - elevenlabs
+    - replit
+    - vercel
+    - linear
+    # --- security & fintech on Ashby ---
+    - ramp
+    - vanta
+    - mercury
+    - watershed
+    - material          # Material Security (verify)
+    - jupiterone
+
+  # GET https://api.smartrecruiters.com/v1/companies/<token>/postings
+  smartrecruiters:
+    - name: "Visa"
+      token: "Visa"
+    - name: "Bosch"
+      token: "BoschGroup"
+
+  # ADZUNA AGGREGATOR (query-based, not per-company). Two kinds of entry:
+  #   "<phrase>"          -> keyword search (title/description/company)
+  #   "company:<Name>"    -> target a specific employer via Adzuna's company
+  #                          filter (best-effort: Adzuna's canonical company
+  #                          names are a controlled list not exposed by the API,
+  #                          so some names may match loosely or not at all).
+  # Every result still passes the same cyber/AI + role-type + USCIS-sponsor
+  # filter. Requires a free key in the environment (ADZUNA_APP_ID /
+  # ADZUNA_APP_KEY); if absent this whole block is skipped.
+  adzuna:
+    # --- role-focused: internships AND new-grad, domain-scoped ---
+    - "cybersecurity intern"
+    - "security engineer intern"
+    - "information security intern"
+    - "soc analyst intern"
+    - "application security intern"
+    - "cybersecurity new grad"
+    - "security engineer new grad"
+    - "security analyst entry level"
+    - "machine learning intern"
+    - "ai engineer intern"
+    - "machine learning new grad"
+    - "ai engineer new grad"
+    - "data scientist new grad"
+    # --- watchlist companies (any matching cyber/AI role they post) ---
+    - "company:Amazon"
+    - "company:Infosys"
+    - "company:Pegasystems"
+    - "company:Barclays"
+    - "company:Bloomberg"
+    - "company:EY"
+    - "company:Forvis Mazars"
+    - "company:Walmart"
+    - "company:ZS Associates"
+    - "company:Blue Cross Blue Shield of Rhode Island"
+    - "company:Intercontinental Exchange"
+    - "company:London Stock Exchange Group"
+    - "company:Expedia Group"
+    - "company:CVS Health"
+
+  # PHENOM CAREER SITES (configure by HOST, not a slug). Covers employers who
+  # run their own careers site on Phenom — the classic job-board APIs can't see
+  # these at all. One adapter serves every Phenom employer you add.
+  # To find a host: open the company's careers page and copy the domain from the
+  # address bar (e.g. https://jobs.forvismazars.us/jobs/... -> jobs.forvismazars.us).
+  # Deployments vary and some are bot-protected, so treat each as best-effort:
+  # a host that doesn't answer is skipped like any other failing source.
+  # NOTE: verify a host BEFORE adding it -- run `python tools/probe.py <host>`
+  # and only add it if the output shows ">>> FOUND job list". Confirmed NOT on
+  # Phenom (do not re-add): jobs.forvismazars.us (Apollo GraphQL, auth-gated),
+  # careers.bloomberg.com (403 bot protection on every path). Use those
+  # companies' own job alerts instead.
+  phenom: []
+
+  # AMAZON.JOBS (Amazon runs no third-party board). Each entry is a SEARCH TERM.
+  # MUST BE A SINGLE WORD -- verified against the live endpoint, multi-word
+  # queries return ZERO results ("security intern" -> 0 hits). Broad single words
+  # are used on purpose; the engine's classifier + US filter do the precision
+  # work. Results are already restricted to the US server-side.
+  amazonjobs:
+    - "intern"
+    - "internship"
+    - "graduate"
+    - "security"
+    - "cybersecurity"
+
+  # Workday (experimental): POST https://<host>/wday/cxs/<tenant>/<site>/jobs
+  # Posted dates are relative and unreliable; the engine falls back to
+  # first-seen. Tenants/sites aren't guessable — fill host/site from the real
+  # careers URL if you add any. Left empty by default.
+  workday: []

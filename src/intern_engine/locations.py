@@ -43,6 +43,14 @@ def is_us(location: str, country_hint: str = "") -> bool:
         return False
     if _US_HINTS.search(low):
         return True
+
+    # A location written as "City, Region, cc" ends in a COUNTRY code, not a US
+    # state abbreviation. Without this, "Gerlingen, BW, de" matched "de" from the
+    # state list and Germany was accepted as Delaware.
+    parts = [p.strip() for p in str(location).split(",") if p.strip()]
+    if len(parts) >= 3 and len(parts[-1]) == 2 and parts[-1].isalpha():
+        return parts[-1].lower() == "us"
+
     words = set(_WORD.findall(low))
     if words & _STATES:
         return True

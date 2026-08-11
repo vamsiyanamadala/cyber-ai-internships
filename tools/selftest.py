@@ -86,6 +86,86 @@ def test_classify():
           == RoleType.NEWGRAD)
 
 
+def test_real_world_false_positives():
+    """Titles taken verbatim from the live board that were wrongly listed.
+
+    Every one of these is a senior or levelled full-time role that the engine had
+    published as an Internship or Co-op because the word appeared somewhere in the
+    description. They must all be rejected.
+    """
+    bad = [
+        ("Sr. Security Engineer, Ring Application Security",
+         "Amazon security. We offer summer internship programs."),
+        ("Senior Software Engineer, Safety Backend",
+         "Discord safety. Our co-op program is separate."),
+        ("Staff Machine Learning Engineer, Computer Vision",
+         "Pinterest CV. internship opportunities available."),
+        ("Staff Data Scientist - Trust and Safety",
+         "Databricks. this internship is not applicable."),
+        ("Software Development Engineer II, Personalization",
+         "SDE II role, 3+ years experience"),
+        ("Machine Learning Engineer II, Computer Vision Applied Science", "ML engineer II"),
+        ("Senior Audio Applied Scientist, Edge Technology", "audio science senior"),
+        ("Principal Security Architect", "our apprenticeship programme is separate"),
+        ("Lead Data Scientist", "we run an internship program"),
+        ("Security Engineer, AmSec", "5+ years of experience required"),
+    ]
+    for title, desc in bad:
+        check(f"reject senior: {title[:38]}", detect_role_type(title, desc) is None)
+
+    # ...while genuine early-career postings still pass, with the right type
+    good = [
+        ("2026 Applied Science Internship - Computer Vision - United States, "
+         "PhD Student Science Recruiting", "computer vision internship", RoleType.INTERN),
+        ("Robotics - Software Development Engineer Intern/Co-op - 2026",
+         "co-op program for students", RoleType.COOP),
+        ("Cybersecurity Apprenticeship", "apprenticeship program", RoleType.APPRENTICE),
+        ("New Grad Security Engineer", "entry-level", RoleType.NEWGRAD),
+        ("Software Engineer Intern - Summer 2027", "python backend", RoleType.INTERN),
+        ("Information Security Engineer Intern", "appsec internship", RoleType.INTERN),
+    ]
+    for title, desc, want in good:
+        check(f"keep early-career: {title[:34]}", detect_role_type(title, desc) == want)
+
+    # the domain filter must not swallow genuine ML internships posted under
+    # Amazon's "... Science Recruiting" org names
+    cat, _ = classify("2026 Fall Applied Science Internship - Gen AI & Large Language "
+                      "Models - United States, PhD Student Science Recruiting",
+                      "LLM research internship")
+    check("amazon applied-science internship kept as AI/ML", cat == Category.AI)
+    # but incidental domain words in a sales/marketing role stay out
+    for t, d in (("AI Sales Engineer Intern", "sell our AI platform, quota"),
+                 ("Marketing Intern - AI Products", "social media marketing"),
+                 ("Recruiting Coordinator Intern", "schedule interviews")):
+        c2, _ = classify(t, d)
+        check(f"reject non-technical: {t[:32]}", c2 is None)
+
+
+def test_software_category():
+    for title, desc in (("Software Engineer Intern", "python backend api"),
+                        ("Software Development Engineer Intern", "java distributed systems"),
+                        ("Backend Engineering Co-op", "golang kubernetes microservices"),
+                        ("New Grad Software Engineer", "entry-level, typescript react")):
+        cat, rt = classify(title, desc)
+        check(f"software kept: {title[:34]}", cat == Category.SOFTWARE and rt is not None)
+    # security and ML keep their more specific domain
+    cat, _ = classify("Security Software Engineer Intern", "appsec python SIEM")
+    check("security beats software", cat == Category.CYBER)
+    cat, _ = classify("Machine Learning Software Engineer Intern", "pytorch deep learning")
+    check("ml beats software", cat == Category.AI)
+
+
+def test_us_filter_country_codes():
+    # "City, Region, cc" ends in a country code; 'de' must not read as Delaware
+    for loc in ("Gerlingen, BW, de", "Reutlingen, BW, de", "Wernau (Neckar), BW, de",
+                "Toronto, ON, ca", "Bangalore, KA, in", "Munich, BY, de"):
+        check(f"non-US rejected: {loc}", is_us(loc) is False)
+    for loc in ("Austin, Texas, USA", "Seattle, Washington, USA", "San Francisco, CA, US",
+                "Austin, TX", "New York, NY, United States", "Remote - US",
+                "Chicago, Illinois"):
+        check(f"US kept: {loc}", is_us(loc) is True)
+
+
 def test_visa():
     ns, cz = detect("We are unable to provide visa sponsorship now or in the future.")
     check("no-sponsor detected", ns is True)
@@ -241,9 +321,20 @@ def test_adzuna():
     check("adzuna: US hint set", r.country_hint == "US")
     check("adzuna: apply url", r.url.endswith("/123"))
     check("adzuna: pay from non-predicted salary", r.pay == "$90,000-$95,000/yr")
-    # no credentials -> skip cleanly (empty result, no error)
-    got = _asyncio.run(ad.fetch(None, CompanyRef(name="q", ats="adzuna", token="cybersecurity intern")))
-    check("adzuna: no key -> empty", got == [])
+    # No credentials -> skip cleanly. The keys are cleared for the duration of
+    # this check so the result doesn't depend on whether the person running the
+    # tests happens to have ADZUNA_APP_ID/KEY exported.
+    import os as _os
+    _saved = {k: _os.environ.pop(k, None)
+              for k in ("ADZUNA_APP_ID", "ADZUNA_APP_KEY")}
+    try:
+        got = _asyncio.run(ad.fetch(
+            None, CompanyRef(name="q", ats="adzuna", token="cybersecurity intern")))
+        check("adzuna: no key -> empty", got == [])
+    finally:
+        for _k, _v in _saved.items():
+            if _v is not None:
+                _os.environ[_k] = _v
     # company-targeting guard (server filter can be loose)
     check("adzuna: company match (Amazon)", ad._company_matches("Amazon.com Services LLC", "Amazon"))
     check("adzuna: company match multiword abbrev", ad._company_matches("Blue Cross Blue Shield of RI", "Blue Cross Blue Shield of Rhode Island") is True)
@@ -420,11 +511,155 @@ def test_employment_type():
     check("emp: New Grad label spells out full-time", "New Grad · Full-time" in html)
 
 
+def test_workable_recruitee():
+    import asyncio as _asyncio
+    from intern_engine.adapters.workable import WorkableAdapter
+    from intern_engine.adapters.recruitee import RecruiteeAdapter
+    from intern_engine.config import CompanyRef
+
+    wk = WorkableAdapter()
+    check("workable: board url", wk.board_url("acme").endswith("/accounts/acme?details=true"))
+    payload = {"name": "Acme", "jobs": [{
+        "title": "Security Engineering Intern",
+        "shortlocation": "Boston, MA",
+        "location": {"city": "Boston", "region": "MA", "country": "United States"},
+        "url": "https://apply.workable.com/acme/j/ABC/",
+        "created_at": "2026-08-10T12:00:00Z",
+        "description": "Join our appsec team for a summer internship. Python, SIEM.",
+        "employment_type": "full_time",
+    }]}
+    check("workable: extracts jobs", len(wk.extract_jobs(payload)) == 1)
+
+    class _R:
+        status = 200
+        json = payload
+    class _F:
+        async def get(self, url, **kw):
+            return _R()
+    roles = _asyncio.run(wk.fetch(_F(), CompanyRef(name="Acme", ats="workable", token="acme")))
+    check("workable: one role", len(roles) == 1)
+    r = roles[0]
+    check("workable: company from config", r.company == "Acme")
+    check("workable: location", r.location == "Boston, MA")
+    check("workable: real date", r.posted_at == "2026-08-10" and r.posted_source == "source")
+    check("workable: employment type mapped", r.employment_type == "Full-time")
+    cat, rt = classify(r.title, r.description)
+    check("workable: classifies cyber internship",
+          cat == Category.CYBER and rt == RoleType.INTERN)
+    check("workable: empty token -> empty",
+          _asyncio.run(wk.fetch(_F(), CompanyRef(name="x", ats="workable", token=""))) == [])
+
+    rc = RecruiteeAdapter()
+    check("recruitee: board url", rc.board_url("acme") == "https://acme.recruitee.com/api/offers/")
+    off = {"offers": [{
+        "title": "Machine Learning Intern",
+        "city": "Austin", "state_code": "TX", "country_code": "US",
+        "careers_url": "https://acme.recruitee.com/o/ml-intern",
+        "created_at": "2026-08-09",
+        "description": "PyTorch deep learning internship",
+        "employment_type_code": "part_time",
+    }]}
+    check("recruitee: extracts offers", len(rc.extract_jobs(off)) == 1)
+    class _R2:
+        status = 200
+        json = off
+    class _F2:
+        async def get(self, url, **kw):
+            return _R2()
+    roles = _asyncio.run(rc.fetch(_F2(), CompanyRef(name="Acme", ats="recruitee", token="acme")))
+    check("recruitee: one role", len(roles) == 1)
+    r = roles[0]
+    check("recruitee: location joined", r.location == "Austin, TX, US")
+    check("recruitee: date parsed", r.posted_at == "2026-08-09")
+    check("recruitee: part-time mapped", r.employment_type == "Part-time")
+    check("recruitee: apply url", r.url.endswith("/o/ml-intern"))
+    cat, rt = classify(r.title, r.description)
+    check("recruitee: classifies AI internship",
+          cat == Category.AI and rt == RoleType.INTERN)
+    # unknown payload shapes degrade safely
+    check("workable: junk payload -> []", wk.extract_jobs({"nope": 1}) == [])
+    check("recruitee: junk payload -> []", rc.extract_jobs("nonsense") == [])
+
+
+def test_ashby_null_fields():
+    """Regression: Ashby sends explicit JSON nulls.
+
+    ``job.get("workplaceType", "")`` returns the default only when the key is
+    MISSING, so a null value produced None and .lower() raised AttributeError —
+    which silently zeroed 79 Ashby boards in a live run. Any adapter field that
+    might be null must use ``or ""``.
+    """
+    import asyncio as _asyncio
+    from intern_engine.adapters.ashby import AshbyAdapter
+    from intern_engine.config import CompanyRef
+    ad = AshbyAdapter()
+    payload = {"jobs": [
+        {"title": "ML Engineer Intern", "location": "San Francisco, CA",
+         "workplaceType": None, "employmentType": "Intern",
+         "descriptionPlain": "pytorch deep learning internship",
+         "publishedDate": "2026-08-10",
+         "applyUrl": "https://jobs.ashbyhq.com/x/1",
+         "address": {"postalAddress": {"addressCountry": "United States"}}},
+        {"title": "Staff Engineer", "location": None, "workplaceType": "Remote",
+         "employmentType": "FullTime", "descriptionPlain": "10+ years",
+         "publishedAt": None, "compensation": None, "address": None},
+        {"title": None, "location": None},                 # junk row -> skipped
+    ]}
+
+    class _R:
+        status = 200
+        json = payload
+
+    class _F:
+        async def get(self, url, **kw):
+            return _R()
+
+    roles = _asyncio.run(ad.fetch(_F(), CompanyRef(name="Acme", ats="ashby",
+                                                   token="acme")))
+    check("ashby: survives null fields", len(roles) == 2)
+    check("ashby: null workplaceType not remote", roles[0].remote is False)
+    check("ashby: string workplaceType respected", roles[1].remote is True)
+    check("ashby: declared Intern used", roles[0].role_type == RoleType.INTERN.value)
+    check("ashby: FullTime mapped", roles[1].employment_type == "Full-time")
+    check("ashby: 'Intern' is not an hours value", roles[0].employment_type == "")
+    check("ashby: real date kept", roles[0].posted_at == "2026-08-10")
+    cat, rt = classify(roles[0].title, roles[0].description)
+    check("ashby: classifies AI internship",
+          cat == Category.AI and rt == RoleType.INTERN)
+
+    # the same null trap in greenhouse metadata must not raise either
+    from intern_engine.adapters.greenhouse import GreenhouseAdapter
+    gh = GreenhouseAdapter()
+    gpayload = {"jobs": [{
+        "title": "Security Intern",
+        "absolute_url": "https://boards.greenhouse.io/x/jobs/1",
+        "updated_at": "2026-08-10T00:00:00Z",
+        "content": "summer internship, python, SIEM",
+        "location": {"name": "Austin, TX"},
+        "metadata": [{"name": None, "value": "x"},
+                     {"name": "Remote", "value": "Yes"}],
+    }]}
+
+    class _R2:
+        status = 200
+        json = gpayload
+
+    class _F2:
+        async def get(self, url, **kw):
+            return _R2()
+
+    groles = _asyncio.run(gh.fetch(_F2(), CompanyRef(name="Acme", ats="greenhouse",
+                                                     token="acme")))
+    check("greenhouse: survives null metadata name", len(groles) == 1)
+
+
 def main():
-    for fn in (test_classify, test_visa, test_sponsors, test_sponsors_realformat,
+    for fn in (test_classify, test_real_world_false_positives,
+               test_software_category, test_us_filter_country_codes, test_visa, test_sponsors, test_sponsors_realformat,
                test_dedup, test_locations, test_enrich, test_employment_type,
                test_render, test_dashboard, test_adzuna, test_phenom,
-               test_amazonjobs):
+               test_amazonjobs, test_workable_recruitee,
+               test_ashby_null_fields):
         fn()
     total = PASS + FAIL
     print(f"\n{PASS}/{total} checks passed.")

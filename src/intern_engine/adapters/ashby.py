@@ -9,7 +9,8 @@ trust an explicit publishedDate/publishedAt when present.
 from __future__ import annotations
 
 from .base import Adapter, html_to_text, iso_from_string
-from ..models import Role
+from ..enrich import normalize_employment_type
+from ..models import Role, RoleType
 
 
 class AshbyAdapter(Adapter):
@@ -42,6 +43,13 @@ class AshbyAdapter(Adapter):
                        or comp.get("scrapeableCompensationSalarySummary") or "")
             posted = (iso_from_string(job.get("publishedDate"))
                       or iso_from_string(job.get("publishedAt")))
+            # Ashby states the employment type outright (FullTime / Intern / ...),
+            # so use it rather than inferring, and treat "Intern" as a declared
+            # career stage.
+            emp_raw = (job.get("employmentType") or "")
+            declared_type = None
+            if isinstance(emp_raw, str) and "intern" in emp_raw.lower():
+                declared_type = RoleType.INTERN.value
             roles.append(Role(
                 company=company.name,
                 title=title,
@@ -49,11 +57,17 @@ class AshbyAdapter(Adapter):
                 source=self.name,
                 board_token=company.token,
                 location=loc,
+                # NOTE: dict.get(key, default) returns the default only when the
+                # key is MISSING. Ashby sends explicit nulls, so the default never
+                # applied and .lower() raised AttributeError — which silently cost
+                # every Ashby board with a null workplaceType.
                 remote=bool(job.get("isRemote"))
-                       or (job.get("workplaceType", "").lower() == "remote"),
+                       or ((job.get("workplaceType") or "").lower() == "remote"),
                 country_hint=country,
                 description=desc,
                 pay=pay.strip() if isinstance(pay, str) else "",
+                role_type=declared_type,
+                employment_type=normalize_employment_type(emp_raw),
                 posted_at=posted,
                 posted_source="source" if posted else "unknown",
             ))

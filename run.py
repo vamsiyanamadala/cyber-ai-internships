@@ -29,6 +29,8 @@ def main() -> int:
     settings = load_settings(os.path.join(args.config_dir, "settings.yml"))
 
     if args.self_test:
+        from intern_engine.pipeline import set_progress
+        set_progress(False)
         from tools.fixtures import FIXTURE_ROLES
         stats = run(settings, [], offline_roles=list(FIXTURE_ROLES))
         print("self-test stats:", {k: v for k, v in stats.items() if k != "new_uids"})

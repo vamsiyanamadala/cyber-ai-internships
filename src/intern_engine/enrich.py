@@ -31,8 +31,14 @@ _PAY_PATTERNS = [
 ]
 
 
+# Bound the text these scan. Skill and pay statements appear early in a posting,
+# and scanning unbounded multi-KB bodies with ~90 patterns each was the single
+# largest cost once coverage grew to hundreds of boards.
+_MAX_SCAN_CHARS = 6000
+
+
 def extract_skills(description: str, limit: int = 12) -> list[str]:
-    text = description or ""
+    text = (description or "")[:_MAX_SCAN_CHARS]
     found: list[str] = []
     for canonical, pat in _SKILL_PATTERNS:
         if pat.search(text) and canonical not in found:
@@ -43,7 +49,7 @@ def extract_skills(description: str, limit: int = 12) -> list[str]:
 
 
 def extract_pay(description: str) -> str:
-    text = description or ""
+    text = (description or "")[:_MAX_SCAN_CHARS]
     for pat in _PAY_PATTERNS:
         m = pat.search(text)
         if m:

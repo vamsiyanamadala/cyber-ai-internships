@@ -141,8 +141,17 @@ def test_adzuna_parse_and_skip():
     assert r.posted_at == "2026-07-22" and r.posted_source == "source"
     assert r.country_hint == "US"
     assert r.pay == ""                       # predicted salary is not shown
-    # no credentials in env -> empty, no exception
-    assert asyncio.run(ad.fetch(None, CompanyRef(name="q", ats="adzuna", token="ml intern"))) == []
+    # no credentials in env -> empty, no exception (clear them so the result
+    # doesn't depend on the developer's own environment)
+    import os
+    saved = {k: os.environ.pop(k, None) for k in ("ADZUNA_APP_ID", "ADZUNA_APP_KEY")}
+    try:
+        assert asyncio.run(ad.fetch(
+            None, CompanyRef(name="q", ats="adzuna", token="ml intern"))) == []
+    finally:
+        for k, v in saved.items():
+            if v is not None:
+                os.environ[k] = v
 
 
 def test_newgrad_detection():
