@@ -1,16 +1,17 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **47 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **36 new** in the last 48h · **506 companies polled** · updated Aug 13, 2026 at 02:51 UTC.
+A self-updating engine that tracks **48 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **37 new** in the last 48h · **506 companies polled** · updated Aug 13, 2026 at 05:09 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
 > Legend: **✓** = employer has an H-1B track record in USCIS data · **🆕** = seen in the last 48h · dates marked **~** are estimated from when the engine first saw the role (the source didn't publish one). Sponsorship signals are detected from posting text and USCIS history — strong hints, not guarantees. Always confirm on the source posting.
 
 
-## Cybersecurity (7 open)
+## Cybersecurity (8 open)
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
+| ChargePoint ✓ | Junior Endpoint Security Analyst 🆕 | New Grad | IN-HR-Gurugram-418-419 | 2026-08-13 ~ | [Apply](https://www.chargepoint.com/about/opportunities/job/?gh_jid=8575164002) |
 | Zscaler ✓ | Detection Engineer- SkillBridge Intern 🆕 | Internship | Remote - USA | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/zscaler/jobs/5114254007) |
 | Zscaler ✓ | Federal Security Operations - SkillBridge Intern 🆕 | Internship | Remote - USA | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/zscaler/jobs/5069684007) |
 | Zscaler ✓ | Insider Risk Analyst - SkillBridge Intern 🆕 | Internship | Remote - USA | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/zscaler/jobs/5100618007) |
@@ -111,7 +112,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 479 feeds fetched · 47 open roles · 118.2s.
+Engine (last run): 506 companies · 479 feeds fetched · 48 open roles · 104.7s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
