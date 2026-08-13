@@ -1,6 +1,6 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **47 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **2 new** in the last 48h · **506 companies polled** · updated Aug 13, 2026 at 16:15 UTC.
+A self-updating engine that tracks **47 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **1 new** in the last 48h · **506 companies polled** · updated Aug 13, 2026 at 17:17 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -27,7 +27,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Waymo ✓ | Machine Learning Engineer Perception LLM/VLM (PhD, New Grad) | New Grad | Mountain View, CA USA;  San Francisco, CA USA; | 2026-08-11 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=7488508) |
 | Truveta ✓ | ML PhD Intern - LLMs & Generative AI | Internship | Seattle, WA | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/truveta/jobs/5712997004) |
 | SingleStore ✓ | Engineering Talent Community | New Grad | United States & EMEA | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/singlestore/jobs/7839324) |
-| Scale AI ✓ | AI Builder Intern 🆕 | Internship | San Francisco, CA | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/scaleai/jobs/4703343005) |
+| Scale AI ✓ | AI Builder Intern | Internship | San Francisco, CA | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/scaleai/jobs/4703343005) |
 | Postman ✓ | AI Engineer, Internship - Summer 2026 - Applications Open Now | Internship | Berkeley, California, United States; San Francisco, California, United States | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/postman/jobs/7823417003) |
 | Nuro ✓ | Software Engineer, AI Platform - Intern | Internship | Mountain View, California (HQ) | 2026-08-11 ~ | [Apply](https://nuro.ai/careersitem?gh_jid=7351061) |
 | Nuro ✓ | Software Engineer, AI Platform - New Grad | New Grad | Mountain View, California (HQ) | 2026-08-11 ~ | [Apply](https://nuro.ai/careersitem?gh_jid=7351066) |
@@ -111,7 +111,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 479 feeds fetched · 47 open roles · 118.9s.
+Engine (last run): 506 companies · 479 feeds fetched · 47 open roles · 104.6s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
