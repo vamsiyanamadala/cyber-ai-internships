@@ -1,6 +1,6 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **48 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **37 new** in the last 48h · **506 companies polled** · updated Aug 13, 2026 at 08:46 UTC.
+A self-updating engine that tracks **48 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **37 new** in the last 48h · **506 companies polled** · updated Aug 13, 2026 at 10:31 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
