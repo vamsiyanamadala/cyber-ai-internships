@@ -1,6 +1,6 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **47 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **1 new** in the last 48h · **506 companies polled** · updated Aug 14, 2026 at 15:10 UTC.
+A self-updating engine that tracks **47 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **1 new** in the last 48h · **506 companies polled** · updated Aug 14, 2026 at 16:08 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -37,7 +37,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Faire ✓ | Data Science Intern | Internship | San Francisco, CA | 2026-08-11 ~ | [Apply](https://boards.greenhouse.io/faire/jobs/8376377002?gh_jid=8376377002) |
 | Databricks ✓ | AI Engineer - FDE (Forward Deployed Engineer) | New Grad | United States | 2026-08-06 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=8546367002) |
 | Databricks ✓ | PhD GenAI Research Scientist Intern | Internship | San Francisco, California | 2026-07-25 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=7011263002) |
-| Abridge ✓ | Software Engineer - Early Career | New Grad | SF Office · $167K – $184K | 2026-08-07 | [Apply](https://jobs.ashbyhq.com/abridge/7d6ae2be-cd53-466c-8151-2dae2e87aace/application) |
+| Abridge ✓ | Software Engineer, Early Career | New Grad | SF Office · $167K – $184K | 2026-08-07 | [Apply](https://jobs.ashbyhq.com/abridge/7d6ae2be-cd53-466c-8151-2dae2e87aace/application) |
 | Canva ✓ | PhD Research Scientist Intern | Internship | San Francisco, CA, us | 2026-08-06 | [Apply](https://api.smartrecruiters.com/v1/companies/canva/postings/6000000001291655) |
 | Skydio ✓ | Hardware Product Management Intern 🆕 | Internship | San Mateo, California, United States · $47/hr | 2026-07-31 | [Apply](https://jobs.ashbyhq.com/skydio/1ec2fe3c-3fb2-4485-870d-764a3e5f5baf/application) |
 | Modal Labs ✓ | ML Research Intern | Internship | New York · $15K per month | 2026-07-28 | [Apply](https://jobs.ashbyhq.com/modal/38888294-6bc7-4dab-b072-6d0f0c2ed79a/application) |
@@ -64,12 +64,8 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Amazon.com Services LLC ✓ | 2026 Applied Science Internship - United States, PhD Student Science Recruiting, Frontier AI & Robotics | Internship | San Francisco, California, USA | 2025-11-17 | [Apply](https://www.amazon.jobs/en/jobs/3127861/2026-applied-science-internship-united-states-phd-student-science-recruiting-frontier-ai-robotics) |
 | Applied Intuition ✓ | Research Intern - Reinforcement Learning, Self-Driving | Internship | Sunnyvale · $65 per hour | 2024-09-21 | [Apply](https://jobs.ashbyhq.com/applied/ce58d9fd-f22b-4336-80b5-ba1e8d764526/application) |
 
-## Recently closed — 144 in the last 14 days
+## Recently closed — 140 in the last 14 days
 
-- brex — Brex Rotational Program
-- Bosch — Mandatory Internship AI and Robotics
-- Bosch — Internship Software Development – AI Agents & LLMs
-- affirm — Analyst I
 - Sony — Research Intern on Generative and Protective AI for Content Creation
 - affirm — Analyst
 - Bosch — Autonomous Driving – Internship in Machine Learning
@@ -106,12 +102,16 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 - discord — Senior Software Engineer, Safety Backend
 - pinterest — Staff Machine Learning Engineer, Computer Vision
 - Annapurna Labs (U.S.) Inc. — Power and Performance Validation Engineer, Annapurna Labs
+- Intel — AI Software Engineer Graduate Intern
+- Amazon.com Services LLC — Software Development Engineer, Conversational Ads Experience
+- Amazon.com Services LLC — Security Engineer, AmSec
+- Amazon.com Services LLC — Software Development Engineer II - Amazon Robotics, Proteus AMR, Motion
 
 ## How this stays current
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 479 feeds fetched · 47 open roles · 118.7s.
+Engine (last run): 506 companies · 479 feeds fetched · 47 open roles · 105.0s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
