@@ -1,6 +1,6 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **54 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **4 new** in the last 48h · **506 companies polled** · updated Aug 19, 2026 at 19:42 UTC.
+A self-updating engine that tracks **53 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **3 new** in the last 48h · **506 companies polled** · updated Aug 19, 2026 at 20:48 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -20,12 +20,11 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | TRM Labs ✓ | Junior Legal Counsel - Commercial | New Grad | United States | 2026-07-20 | [Apply](https://jobs.ashbyhq.com/trm-labs/2326a05d-aad8-4aec-8d10-2a0496ab70cb/application) |
 | Notion ✓ | Governance, Risk, and Compliance Intern (Fall 2026) | Internship | San Francisco, California · $50 - $54 | 2026-07-15 | [Apply](https://jobs.ashbyhq.com/notion/6ccbc30c-2de0-4395-af14-3641cd15961b/application) |
 
-## AI/ML (46 open)
+## AI/ML (45 open)
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
 | Sezzle ✓ | Fraud Operations Intern 🆕 | Internship | Colombia, Remote | 2026-08-19 ~ | [Apply](https://job-boards.greenhouse.io/sezzle/jobs/7116700003) |
-| Snorkel AI ✓ | AI Researcher —  Intern 🆕 | Internship | New York City, NY (Hybrid) | 2026-08-18 ~ | [Apply](https://job-boards.greenhouse.io/snorkelai/jobs/6146378004) |
 | Sezzle ✓ | Product Data Intern 🆕 | Internship | Colombia, Remote | 2026-08-18 ~ | [Apply](https://job-boards.greenhouse.io/sezzle/jobs/6685976003) |
 | Workato ✓ | Intern, AI Engineering | Internship | San Francisco, California | 2026-08-11 ~ | [Apply](https://www.workato.com/careers?gh_jid=8492935002#open-roles) |
 | Waymo ✓ | Machine Learning Engineer Perception LLM/VLM (PhD, New Grad) | New Grad | Mountain View, CA USA;  San Francisco, CA USA; | 2026-08-11 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=7488508) |
@@ -71,7 +70,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Amazon.com Services LLC ✓ | 2026 Applied Science Internship - United States, PhD Student Science Recruiting, Frontier AI & Robotics | Internship | San Francisco, California, USA | 2025-11-17 | [Apply](https://www.amazon.jobs/en/jobs/3127861/2026-applied-science-internship-united-states-phd-student-science-recruiting-frontier-ai-robotics) |
 | Applied Intuition ✓ | Research Intern - Reinforcement Learning, Self-Driving | Internship | Sunnyvale · $65 per hour | 2024-09-21 | [Apply](https://jobs.ashbyhq.com/applied/ce58d9fd-f22b-4336-80b5-ba1e8d764526/application) |
 
-## Recently closed — 140 in the last 14 days
+## Recently closed — 141 in the last 14 days
 
 - Sony — Research Intern on Generative and Protective AI for Content Creation
 - affirm — Analyst
@@ -118,7 +117,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 475 feeds fetched · 54 open roles · 105.9s.
+Engine (last run): 506 companies · 475 feeds fetched · 53 open roles · 105.8s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
