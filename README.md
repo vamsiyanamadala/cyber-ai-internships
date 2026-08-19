@@ -1,16 +1,17 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **52 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **2 new** in the last 48h · **506 companies polled** · updated Aug 19, 2026 at 14:55 UTC.
+A self-updating engine that tracks **54 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **4 new** in the last 48h · **506 companies polled** · updated Aug 19, 2026 at 15:49 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
 > Legend: **✓** = employer has an H-1B track record in USCIS data · **🆕** = seen in the last 48h · dates marked **~** are estimated from when the engine first saw the role (the source didn't publish one). Sponsorship signals are detected from posting text and USCIS history — strong hints, not guarantees. Always confirm on the source posting.
 
 
-## Cybersecurity (7 open)
+## Cybersecurity (8 open)
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
+| Sezzle ✓ | Security Infrastructure Engineer Intern 🆕 | Internship | Colombia, Remote | 2026-08-19 ~ | [Apply](https://job-boards.greenhouse.io/sezzle/jobs/7694916003) |
 | Zscaler ✓ | Detection Engineer- SkillBridge Intern | Internship | Remote - USA | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/zscaler/jobs/5114254007) |
 | Zscaler ✓ | Federal Security Operations - SkillBridge Intern | Internship | Remote - USA | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/zscaler/jobs/5069684007) |
 | Zscaler ✓ | Insider Risk Analyst - SkillBridge Intern | Internship | Remote - USA | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/zscaler/jobs/5100618007) |
@@ -19,10 +20,11 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | TRM Labs ✓ | Junior Legal Counsel - Commercial | New Grad | United States | 2026-07-20 | [Apply](https://jobs.ashbyhq.com/trm-labs/2326a05d-aad8-4aec-8d10-2a0496ab70cb/application) |
 | Notion ✓ | Governance, Risk, and Compliance Intern (Fall 2026) | Internship | San Francisco, California · $50 - $54 | 2026-07-15 | [Apply](https://jobs.ashbyhq.com/notion/6ccbc30c-2de0-4395-af14-3641cd15961b/application) |
 
-## AI/ML (45 open)
+## AI/ML (46 open)
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
+| Sezzle ✓ | Fraud Operations Intern 🆕 | Internship | Colombia, Remote | 2026-08-19 ~ | [Apply](https://job-boards.greenhouse.io/sezzle/jobs/7116700003) |
 | Snorkel AI ✓ | AI Researcher —  Intern 🆕 | Internship | New York City, NY (Hybrid) | 2026-08-18 ~ | [Apply](https://job-boards.greenhouse.io/snorkelai/jobs/6146378004) |
 | Sezzle ✓ | Product Data Intern 🆕 | Internship | Colombia, Remote | 2026-08-18 ~ | [Apply](https://job-boards.greenhouse.io/sezzle/jobs/6685976003) |
 | Workato ✓ | Intern, AI Engineering | Internship | San Francisco, California | 2026-08-11 ~ | [Apply](https://www.workato.com/careers?gh_jid=8492935002#open-roles) |
@@ -116,7 +118,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 475 feeds fetched · 52 open roles · 104.9s.
+Engine (last run): 506 companies · 475 feeds fetched · 54 open roles · 106.2s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
