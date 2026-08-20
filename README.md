@@ -1,6 +1,6 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **54 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **4 new** in the last 48h · **506 companies polled** · updated Aug 20, 2026 at 16:53 UTC.
+A self-updating engine that tracks **54 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **4 new** in the last 48h · **506 companies polled** · updated Aug 20, 2026 at 17:49 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -71,18 +71,8 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Amazon.com Services LLC ✓ | 2026 Applied Science Internship - United States, PhD Student Science Recruiting, Frontier AI & Robotics | Internship | San Francisco, California, USA | 2025-11-17 | [Apply](https://www.amazon.jobs/en/jobs/3127861/2026-applied-science-internship-united-states-phd-student-science-recruiting-frontier-ai-robotics) |
 | Applied Intuition ✓ | Research Intern - Reinforcement Learning, Self-Driving | Internship | Sunnyvale · $65 per hour | 2024-09-21 | [Apply](https://jobs.ashbyhq.com/applied/ce58d9fd-f22b-4336-80b5-ba1e8d764526/application) |
 
-## Recently closed — 141 in the last 14 days
+## Recently closed — 131 in the last 14 days
 
-- Sony — Research Intern on Generative and Protective AI for Content Creation
-- affirm — Analyst
-- Bosch — Autonomous Driving – Internship in Machine Learning
-- Sony — Research Intern on Generative and Protective AI for Content Creation
-- Capital One — Current PhD - Data Science Internship - Summer 2027
-- Capital One — Current PhD - Data Science Internship - Summer 2027
-- Sony — Research Intern on Generative and Protective AI for Content Creation
-- Sony — Research Intern on Generative and Protective AI for Content Creation
-- Capital One — Current Master's - Data Science Internship - Summer 2027
-- Capital One — Current Master's - Data Science Internship - Summer 2027
 - Amazon.com Services LLC — Software Development Engineer, Sponsored Products Autonomous Campaigns
 - Amazon.com Services LLC — SDE II, Perception and SLAM, Autonomous Mobility
 - pinterest — Sr. Machine Learning Engineer, Applied Science
@@ -113,12 +103,22 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 - Amazon.com Services LLC — Software Development Engineer, Conversational Ads Experience
 - Amazon.com Services LLC — Security Engineer, AmSec
 - Amazon.com Services LLC — Software Development Engineer II - Amazon Robotics, Proteus AMR, Motion
+- Intel — AI Software Engineer Graduate Intern
+- Amazon Data Services, Inc. — Software Development Engineer, EC2 UltraServer Delivery Team
+- postman — AI Engineer, Intern
+- pinterest — Machine Learning Engineer II, Computer Vision Applied Science
+- Amazon.com Services LLC — Software Development Engineer, Amazon Brand Store
+- databricks — Staff Data Scientist - Trust and Safety
+- Bosch — Internship Data Science in Manufacturing
+- Amazon.com Services LLC — Sr. Software Dev Engineer, AWS Transform
+- Amazon.com Services LLC — Software Development Engineer II, AWS SageMaker AI
+- Amazon Development Center U.S., Inc. — Software Development Engineer, EC2 UltraServer Delivery Team
 
 ## How this stays current
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 475 feeds fetched · 54 open roles · 119.6s.
+Engine (last run): 506 companies · 475 feeds fetched · 54 open roles · 123.3s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
