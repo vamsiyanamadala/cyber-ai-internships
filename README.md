@@ -1,6 +1,6 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **54 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **4 new** in the last 48h · **506 companies polled** · updated Aug 20, 2026 at 20:49 UTC.
+A self-updating engine that tracks **54 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **3 new** in the last 48h · **506 companies polled** · updated Aug 20, 2026 at 21:46 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -25,7 +25,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
 | Sezzle ✓ | Fraud Operations Intern 🆕 | Internship | Colombia, Remote | 2026-08-19 ~ | [Apply](https://job-boards.greenhouse.io/sezzle/jobs/7116700003) |
-| Sezzle ✓ | Product Data Intern 🆕 | Internship | Colombia, Remote | 2026-08-18 ~ | [Apply](https://job-boards.greenhouse.io/sezzle/jobs/6685976003) |
+| Sezzle ✓ | Product Data Intern | Internship | Colombia, Remote | 2026-08-18 ~ | [Apply](https://job-boards.greenhouse.io/sezzle/jobs/6685976003) |
 | Workato ✓ | Intern, AI Engineering | Internship | San Francisco, California | 2026-08-11 ~ | [Apply](https://www.workato.com/careers?gh_jid=8492935002#open-roles) |
 | Waymo ✓ | Machine Learning Engineer Perception LLM/VLM (PhD, New Grad) | New Grad | Mountain View, CA USA;  San Francisco, CA USA; | 2026-08-11 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=7488508) |
 | Truveta ✓ | ML PhD Intern - LLMs & Generative AI | Internship | Seattle, WA | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/truveta/jobs/5712997004) |
@@ -118,7 +118,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 475 feeds fetched · 54 open roles · 107.1s.
+Engine (last run): 506 companies · 475 feeds fetched · 54 open roles · 101.9s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
