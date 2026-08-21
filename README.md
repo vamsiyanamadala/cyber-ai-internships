@@ -1,6 +1,6 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **53 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **3 new** in the last 48h · **506 companies polled** · updated Aug 21, 2026 at 14:56 UTC.
+A self-updating engine that tracks **53 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **1 new** in the last 48h · **506 companies polled** · updated Aug 21, 2026 at 15:51 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -11,7 +11,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
-| Sezzle ✓ | Security Infrastructure Engineer Intern 🆕 | Internship | Colombia, Remote | 2026-08-19 ~ | [Apply](https://job-boards.greenhouse.io/sezzle/jobs/7694916003) |
+| Sezzle ✓ | Security Infrastructure Engineer Intern | Internship | Colombia, Remote | 2026-08-19 ~ | [Apply](https://job-boards.greenhouse.io/sezzle/jobs/7694916003) |
 | Zscaler ✓ | Detection Engineer- SkillBridge Intern | Internship | Remote - USA | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/zscaler/jobs/5114254007) |
 | Zscaler ✓ | Federal Security Operations - SkillBridge Intern | Internship | Remote - USA | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/zscaler/jobs/5069684007) |
 | Zscaler ✓ | Insider Risk Analyst - SkillBridge Intern | Internship | Remote - USA | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/zscaler/jobs/5100618007) |
@@ -24,7 +24,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
-| Sezzle ✓ | Fraud Operations Intern 🆕 | Internship | Colombia, Remote | 2026-08-19 ~ | [Apply](https://job-boards.greenhouse.io/sezzle/jobs/7116700003) |
+| Sezzle ✓ | Fraud Operations Intern | Internship | Colombia, Remote | 2026-08-19 ~ | [Apply](https://job-boards.greenhouse.io/sezzle/jobs/7116700003) |
 | Sezzle ✓ | Product Data Intern | Internship | Colombia, Remote | 2026-08-18 ~ | [Apply](https://job-boards.greenhouse.io/sezzle/jobs/6685976003) |
 | Workato ✓ | Intern, AI Engineering | Internship | San Francisco, California | 2026-08-11 ~ | [Apply](https://www.workato.com/careers?gh_jid=8492935002#open-roles) |
 | Waymo ✓ | Machine Learning Engineer Perception LLM/VLM (PhD, New Grad) | New Grad | Mountain View, CA USA;  San Francisco, CA USA; | 2026-08-11 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=7488508) |
@@ -117,7 +117,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 474 feeds fetched · 53 open roles · 106.7s.
+Engine (last run): 506 companies · 473 feeds fetched · 53 open roles · 102.1s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
