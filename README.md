@@ -1,6 +1,6 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **52 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **1 new** in the last 48h · **506 companies polled** · updated Aug 21, 2026 at 22:45 UTC.
+A self-updating engine that tracks **52 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **0 new** in the last 48h · **506 companies polled** · updated Aug 21, 2026 at 23:42 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -39,7 +39,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Faire ✓ | Data Science Intern | Internship | San Francisco, CA | 2026-08-11 ~ | [Apply](https://boards.greenhouse.io/faire/jobs/8376377002?gh_jid=8376377002) |
 | Databricks ✓ | AI Engineer - FDE (Forward Deployed Engineer) | New Grad | United States | 2026-08-06 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=8546367002) |
 | Databricks ✓ | PhD GenAI Research Scientist Intern | Internship | San Francisco, California | 2026-07-25 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=7011263002) |
-| Notion ✓ | Data Science Intern (Winter 2027) 🆕 | Internship | San Francisco, California · $55/hr | 2026-08-19 | [Apply](https://jobs.ashbyhq.com/notion/a67d6f2b-7c13-41d0-b36b-b2f662c9873e/application) |
+| Notion ✓ | Data Science Intern (Winter 2027) | Internship | San Francisco, California · $55/hr | 2026-08-19 | [Apply](https://jobs.ashbyhq.com/notion/a67d6f2b-7c13-41d0-b36b-b2f662c9873e/application) |
 | Applied Intuition ✓ | Research Engineer - New Grad (2027) | New Grad | Sunnyvale · $140K – $200K • Offers Equity | 2026-08-14 | [Apply](https://jobs.ashbyhq.com/applied/45fc41cd-8280-4010-ba1f-def6114b3e39/application) |
 | Abridge ✓ | Software Engineer, Intern | Internship | SF Office · $40 per hour | 2026-08-14 | [Apply](https://jobs.ashbyhq.com/abridge/3f07a457-dc14-4238-bf4e-5c33b5c1f883/application) |
 | WeRide ✓ | New Grads 2027 - Software Engineer - Perception/Computer Vision | New Grad | San Jose, CA | 2026-08-10 | [Apply](https://jobs.lever.co/weride/5cde0d09-ba2d-408d-947e-4a42028cd4f7) |
@@ -116,7 +116,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 473 feeds fetched · 52 open roles · 106.2s.
+Engine (last run): 506 companies · 473 feeds fetched · 52 open roles · 102.3s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
