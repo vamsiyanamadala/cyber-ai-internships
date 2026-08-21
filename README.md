@@ -1,6 +1,6 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **54 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **3 new** in the last 48h · **506 companies polled** · updated Aug 21, 2026 at 04:56 UTC.
+A self-updating engine that tracks **53 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **3 new** in the last 48h · **506 companies polled** · updated Aug 21, 2026 at 05:51 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -20,7 +20,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | TRM Labs ✓ | Junior Legal Counsel - Commercial | New Grad | United States | 2026-07-20 | [Apply](https://jobs.ashbyhq.com/trm-labs/2326a05d-aad8-4aec-8d10-2a0496ab70cb/application) |
 | Notion ✓ | Governance, Risk, and Compliance Intern (Fall 2026) | Internship | San Francisco, California · $50 - $54 | 2026-07-15 | [Apply](https://jobs.ashbyhq.com/notion/6ccbc30c-2de0-4395-af14-3641cd15961b/application) |
 
-## AI/ML (46 open)
+## AI/ML (45 open)
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
@@ -44,7 +44,6 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Applied Intuition ✓ | Research Engineer - New Grad (2027) | New Grad | Sunnyvale · $140K – $200K • Offers Equity | 2026-08-14 | [Apply](https://jobs.ashbyhq.com/applied/45fc41cd-8280-4010-ba1f-def6114b3e39/application) |
 | Abridge ✓ | Software Engineer, Intern | Internship | SF Office · $40 per hour | 2026-08-14 | [Apply](https://jobs.ashbyhq.com/abridge/3f07a457-dc14-4238-bf4e-5c33b5c1f883/application) |
 | WeRide ✓ | New Grads 2027 - Software Engineer - Perception/Computer Vision | New Grad | San Jose, CA | 2026-08-10 | [Apply](https://jobs.lever.co/weride/5cde0d09-ba2d-408d-947e-4a42028cd4f7) |
-| Abridge ✓ | Software Engineer, Early Career | New Grad | SF Office · $167K – $184K | 2026-08-07 | [Apply](https://jobs.ashbyhq.com/abridge/7d6ae2be-cd53-466c-8151-2dae2e87aace/application) |
 | Canva ✓ | PhD Research Scientist Intern | Internship | San Francisco, CA, us | 2026-08-06 | [Apply](https://api.smartrecruiters.com/v1/companies/canva/postings/6000000001291655) |
 | Skydio ✓ | Hardware Product Management Intern | Internship | San Mateo, California, United States · $47/hr | 2026-07-31 | [Apply](https://jobs.ashbyhq.com/skydio/1ec2fe3c-3fb2-4485-870d-764a3e5f5baf/application) |
 | Modal Labs ✓ | ML Research Intern | Internship | New York · $15K per month | 2026-07-28 | [Apply](https://jobs.ashbyhq.com/modal/38888294-6bc7-4dab-b072-6d0f0c2ed79a/application) |
@@ -71,7 +70,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Amazon.com Services LLC ✓ | 2026 Applied Science Internship - United States, PhD Student Science Recruiting, Frontier AI & Robotics | Internship | San Francisco, California, USA | 2025-11-17 | [Apply](https://www.amazon.jobs/en/jobs/3127861/2026-applied-science-internship-united-states-phd-student-science-recruiting-frontier-ai-robotics) |
 | Applied Intuition ✓ | Research Intern - Reinforcement Learning, Self-Driving | Internship | Sunnyvale · $65 per hour | 2024-09-21 | [Apply](https://jobs.ashbyhq.com/applied/ce58d9fd-f22b-4336-80b5-ba1e8d764526/application) |
 
-## Recently closed — 131 in the last 14 days
+## Recently closed — 132 in the last 14 days
 
 - Amazon.com Services LLC — Software Development Engineer, Sponsored Products Autonomous Campaigns
 - Amazon.com Services LLC — SDE II, Perception and SLAM, Autonomous Mobility
@@ -118,7 +117,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 475 feeds fetched · 54 open roles · 103.0s.
+Engine (last run): 506 companies · 475 feeds fetched · 53 open roles · 101.7s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
