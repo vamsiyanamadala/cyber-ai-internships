@@ -1,6 +1,6 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **52 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **0 new** in the last 48h · **506 companies polled** · updated Aug 24, 2026 at 17:49 UTC.
+A self-updating engine that tracks **56 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **4 new** in the last 48h · **506 companies polled** · updated Aug 24, 2026 at 19:03 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -19,10 +19,14 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Zscaler ✓ | Site Reliability Engineer-SkillBridge Intern | Internship | Remote - USA | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/zscaler/jobs/5045817007) |
 | TRM Labs ✓ | Junior Legal Counsel - Commercial | New Grad | United States | 2026-07-20 | [Apply](https://jobs.ashbyhq.com/trm-labs/2326a05d-aad8-4aec-8d10-2a0496ab70cb/application) |
 
-## AI/ML (45 open)
+## AI/ML (49 open)
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
+| Kodiak Robotics ✓ | Winter 2027 Intern, Artificial Intelligence/Machine Learning 🆕 | Internship | Mountain View, CA | 2026-08-24 ~ | [Apply](https://job-boards.greenhouse.io/kodiak/jobs/4377407009) |
+| Kodiak Robotics ✓ | Winter 2027 Intern, Controls 🆕 | Internship | Mountain View, CA | 2026-08-24 ~ | [Apply](https://job-boards.greenhouse.io/kodiak/jobs/4378402009) |
+| Kodiak Robotics ✓ | Winter 2027 Intern, Mission Planning 🆕 | Internship | Mountain View, CA | 2026-08-24 ~ | [Apply](https://job-boards.greenhouse.io/kodiak/jobs/4378548009) |
+| Kodiak Robotics ✓ | Winter 2027 Intern, Motion Planning 🆕 | Internship | Mountain View, CA | 2026-08-24 ~ | [Apply](https://job-boards.greenhouse.io/kodiak/jobs/4377721009) |
 | Sezzle ✓ | Fraud Operations Intern | Internship | Colombia, Remote | 2026-08-19 ~ | [Apply](https://job-boards.greenhouse.io/sezzle/jobs/7116700003) |
 | Sezzle ✓ | Product Data Intern | Internship | Colombia, Remote | 2026-08-18 ~ | [Apply](https://job-boards.greenhouse.io/sezzle/jobs/6685976003) |
 | Workato ✓ | Intern, AI Engineering | Internship | San Francisco, California | 2026-08-11 ~ | [Apply](https://www.workato.com/careers?gh_jid=8492935002#open-roles) |
@@ -116,7 +120,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 471 feeds fetched · 52 open roles · 102.0s.
+Engine (last run): 506 companies · 471 feeds fetched · 56 open roles · 105.8s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
