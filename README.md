@@ -1,6 +1,6 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **58 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **7 new** in the last 48h · **506 companies polled** · updated Aug 25, 2026 at 22:48 UTC.
+A self-updating engine that tracks **57 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **7 new** in the last 48h · **506 companies polled** · updated Aug 25, 2026 at 23:41 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -19,7 +19,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Zscaler ✓ | Site Reliability Engineer-SkillBridge Intern | Internship | Remote - USA | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/zscaler/jobs/5045817007) |
 | TRM Labs ✓ | Junior Legal Counsel - Commercial | New Grad | United States | 2026-07-20 | [Apply](https://jobs.ashbyhq.com/trm-labs/2326a05d-aad8-4aec-8d10-2a0496ab70cb/application) |
 
-## AI/ML (51 open)
+## AI/ML (50 open)
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
@@ -53,7 +53,6 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Color Health ✓ | Software Engineer, New Grad 2026 | New Grad | South San Francisco, California · $125,000-$140,000 | 2026-07-28 | [Apply](https://jobs.ashbyhq.com/color-health/41fa6f16-b2f2-46c6-bdb4-9aae3b9b5b96/application) |
 | Cerebras Systems ✓ | AI Inference Core - Junior SDET, Release Integration Testing 🆕 | New Grad | Sunnyvale, CA | 2026-07-27 | [Apply](https://jobs.ashbyhq.com/cerebras/08ffd14b-cb60-4916-9946-735e49594308/application) |
 | Cerebras Systems ✓ | Kernel Engineer - New Grad 🆕 | New Grad | Sunnyvale, CA | 2026-07-23 | [Apply](https://jobs.ashbyhq.com/cerebras/9c7da4b8-446b-4bf2-8d07-23241590bf2e/application) |
-| Deepgram ✓ | Software Engineering- Internship (Fall 2026/Summer 2027) | Internship | USA \| Remote · $55 – $65 per hour | 2026-07-17 | [Apply](https://jobs.ashbyhq.com/deepgram/dc8693b5-72ce-4ca3-ab15-9c8434d35da1/application) |
 | Pika ✓ | Research Intern (BS/MS/PhD) | Internship | Palo Alto HQ | 2026-07-10 | [Apply](https://jobs.ashbyhq.com/pika/e135acb1-2a0b-47b4-81b2-3cb0f787657a/application) |
 | Notion ✓ | Software Engineer, Early Career (AI) | New Grad | San Francisco, California · $130,000-$150,000 | 2026-07-06 | [Apply](https://jobs.ashbyhq.com/notion/85947779-6b87-466a-98bc-30a640448c28/application) |
 | Snowflake ✓ | AI Research Scientist, New Grad – Agents & Reinforcement Learning | New Grad | US-WA-Bellevue · $176K – $230K | 2026-06-16 | [Apply](https://jobs.ashbyhq.com/snowflake/1bad12df-f443-426f-9d09-e96fc780d698/application) |
@@ -75,7 +74,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Amazon.com Services LLC ✓ | 2026 Applied Science Internship - United States, PhD Student Science Recruiting, Frontier AI & Robotics | Internship | San Francisco, California, USA | 2025-11-17 | [Apply](https://www.amazon.jobs/en/jobs/3127861/2026-applied-science-internship-united-states-phd-student-science-recruiting-frontier-ai-robotics) |
 | Applied Intuition ✓ | Research Intern - Reinforcement Learning, Self-Driving | Internship | Sunnyvale · $65 per hour | 2024-09-21 | [Apply](https://jobs.ashbyhq.com/applied/ce58d9fd-f22b-4336-80b5-ba1e8d764526/application) |
 
-## Recently closed — 6 in the last 14 days
+## Recently closed — 7 in the last 14 days
 
 - Skydio — Product Management Intern
 - ChargePoint — Junior Endpoint Security Analyst
@@ -83,12 +82,13 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 - Abridge — Software Engineer, Early Career
 - Notion — Governance, Risk, and Compliance Intern (Fall 2026)
 - Cerebras Systems — CoDesign & NextGen - New College Grad
+- Deepgram — Software Engineering- Internship (Fall 2026/Summer 2027)
 
 ## How this stays current
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 472 feeds fetched · 58 open roles · 106.7s.
+Engine (last run): 506 companies · 472 feeds fetched · 57 open roles · 114.2s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
