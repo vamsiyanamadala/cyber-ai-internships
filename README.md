@@ -1,6 +1,6 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **58 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **7 new** in the last 48h · **506 companies polled** · updated Aug 25, 2026 at 15:08 UTC.
+A self-updating engine that tracks **58 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **7 new** in the last 48h · **506 companies polled** · updated Aug 25, 2026 at 16:03 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -75,54 +75,29 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Amazon.com Services LLC ✓ | 2026 Applied Science Internship - United States, PhD Student Science Recruiting, Frontier AI & Robotics | Internship | San Francisco, California, USA | 2025-11-17 | [Apply](https://www.amazon.jobs/en/jobs/3127861/2026-applied-science-internship-united-states-phd-student-science-recruiting-frontier-ai-robotics) |
 | Applied Intuition ✓ | Research Intern - Reinforcement Learning, Self-Driving | Internship | Sunnyvale · $65 per hour | 2024-09-21 | [Apply](https://jobs.ashbyhq.com/applied/ce58d9fd-f22b-4336-80b5-ba1e8d764526/application) |
 
-## Recently closed — 134 in the last 14 days
+## Recently closed — 15 in the last 14 days
 
-- Amazon.com Services LLC — Software Development Engineer, Sponsored Products Autonomous Campaigns
-- Amazon.com Services LLC — SDE II, Perception and SLAM, Autonomous Mobility
-- pinterest — Sr. Machine Learning Engineer, Applied Science
-- Amazon.com Services LLC — Software Development Engineer, Amazon Customer Service AI powered Content Solutions
-- Annapurna Labs (U.S.) Inc. — Software Development Engineer I – AI/ML Network Infrastructure, Annapurna Labs
-- Amazon.com Services LLC — Senior Software Engineer Agentic AI, Amazon's Talent Solution’s Core Science and Engineering
-- Amazon.com Services LLC — Software Development Engineer, Fauna
-- Intel — AI Software Engineer Graduate Intern
-- Bosch — Junior Managers Program (Trainee) - Starte deine Leaderrship Journey im Bereich HR Tech, Digitalisierung und Generative AI
-- Amazon.com Services LLC — Senior Audio Applied Scientist, Edge Technology
-- Amazon Development Center U.S., Inc. — SDE II, EC2 Instance Networking, EC2 Nitro
-- Annapurna Labs (U.S.) Inc. — Software Development Engineer, Neuron Foundation Tools
-- Bosch — Junior Managers Program (Trainee) - Start your Leadership Journey in HR tech, digitalization and GenAI
-- Amazon.com Services LLC — Senior Software Development Engineer, AWS Mantle
-- Amazon.com Services LLC - A57 — Amazon Industrial Robotics - Applied Scientist II Intern / Co-op - 2026, Amazon Industrial Robotics
-- Amazon.com Services LLC — Sr. Security Engineer, Ring Application Security
-- Amazon.com Services LLC — Software Development Engineer II, Personalization
-- Amazon.com Services LLC — Software Development Engineer, Amazon Search Autocomplete and Navigation AI
-- Amazon Web Services, Inc. — Sr. ML Engineer, CAIT
-- Amazon.com Services LLC — Software Development Engineer, Conversational Ads Experience
-- Amazon.com Services LLC — Software Development Engineer
-- Amazon.com Services LLC — Software Development Engineer - Cybersecurity, SBS Core Engineering
-- Amazon Development Center U.S., Inc. — Software Development Engineer, Quick
-- discord — Senior Software Engineer, Safety Backend
-- pinterest — Staff Machine Learning Engineer, Computer Vision
-- Annapurna Labs (U.S.) Inc. — Power and Performance Validation Engineer, Annapurna Labs
-- Intel — AI Software Engineer Graduate Intern
-- Amazon.com Services LLC — Software Development Engineer, Conversational Ads Experience
-- Amazon.com Services LLC — Security Engineer, AmSec
-- Amazon.com Services LLC — Software Development Engineer II - Amazon Robotics, Proteus AMR, Motion
-- Intel — AI Software Engineer Graduate Intern
-- Amazon Data Services, Inc. — Software Development Engineer, EC2 UltraServer Delivery Team
-- postman — AI Engineer, Intern
-- pinterest — Machine Learning Engineer II, Computer Vision Applied Science
-- Amazon.com Services LLC — Software Development Engineer, Amazon Brand Store
-- databricks — Staff Data Scientist - Trust and Safety
-- Bosch — Internship Data Science in Manufacturing
-- Amazon.com Services LLC — Sr. Software Dev Engineer, AWS Transform
-- Amazon.com Services LLC — Software Development Engineer II, AWS SageMaker AI
-- Amazon Development Center U.S., Inc. — Software Development Engineer, EC2 UltraServer Delivery Team
+- The Nuclear Company — Spring 2027 AI/ML Engineering Intern
+- The Church of Jesus Christ of Latter-day Saints — Data Scientist - Paid Intern
+- SpreeAI — Machine Learning Engineer Intern (Computer Vision/Multimodal/Generative AI)
+- The Nuclear Company — Fall 2026 AI Software Engineering Intern
+- The Nuclear Company — Fall 2026 AI/ML Engineering Intern
+- RocketRide — AI Growth Engineer Intern
+- SpreeAI — Software Engineer Intern (AI Infrastructure / Training / Inference)
+- Labelbox — Cyber Security Intern
+- The Nuclear Company — Summer 2027 AI/ML Engineering Intern
+- Skydio — Product Management Intern
+- ChargePoint — Junior Endpoint Security Analyst
+- Snorkel AI — AI Researcher —  Intern
+- Abridge — Software Engineer, Early Career
+- Notion — Governance, Risk, and Compliance Intern (Fall 2026)
+- Cerebras Systems — CoDesign & NextGen - New College Grad
 
 ## How this stays current
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 471 feeds fetched · 58 open roles · 106.9s.
+Engine (last run): 506 companies · 471 feeds fetched · 58 open roles · 106.6s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
