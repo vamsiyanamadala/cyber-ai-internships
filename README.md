@@ -1,6 +1,6 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **56 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **4 new** in the last 48h · **506 companies polled** · updated Aug 25, 2026 at 08:01 UTC.
+A self-updating engine that tracks **58 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **6 new** in the last 48h · **506 companies polled** · updated Aug 25, 2026 at 09:03 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -19,7 +19,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Zscaler ✓ | Site Reliability Engineer-SkillBridge Intern | Internship | Remote - USA | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/zscaler/jobs/5045817007) |
 | TRM Labs ✓ | Junior Legal Counsel - Commercial | New Grad | United States | 2026-07-20 | [Apply](https://jobs.ashbyhq.com/trm-labs/2326a05d-aad8-4aec-8d10-2a0496ab70cb/application) |
 
-## AI/ML (49 open)
+## AI/ML (51 open)
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
@@ -51,6 +51,8 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Skydio ✓ | Hardware Product Management Intern | Internship | San Mateo, California, United States · $47/hr | 2026-07-31 | [Apply](https://jobs.ashbyhq.com/skydio/1ec2fe3c-3fb2-4485-870d-764a3e5f5baf/application) |
 | Modal Labs ✓ | ML Research Intern | Internship | New York · $15K per month | 2026-07-28 | [Apply](https://jobs.ashbyhq.com/modal/38888294-6bc7-4dab-b072-6d0f0c2ed79a/application) |
 | Color Health ✓ | Software Engineer, New Grad 2026 | New Grad | South San Francisco, California · $125,000-$140,000 | 2026-07-28 | [Apply](https://jobs.ashbyhq.com/color-health/41fa6f16-b2f2-46c6-bdb4-9aae3b9b5b96/application) |
+| Cerebras Systems ✓ | AI Inference Core - Junior SDET, Release Integration Testing 🆕 | New Grad | Sunnyvale, CA | 2026-07-27 | [Apply](https://jobs.ashbyhq.com/cerebras/08ffd14b-cb60-4916-9946-735e49594308/application) |
+| Cerebras Systems ✓ | Kernel Engineer - New Grad 🆕 | New Grad | Sunnyvale, CA | 2026-07-23 | [Apply](https://jobs.ashbyhq.com/cerebras/9c7da4b8-446b-4bf2-8d07-23241590bf2e/application) |
 | Deepgram ✓ | Software Engineering- Internship (Fall 2026/Summer 2027) | Internship | USA \| Remote · $55 – $65 per hour | 2026-07-17 | [Apply](https://jobs.ashbyhq.com/deepgram/dc8693b5-72ce-4ca3-ab15-9c8434d35da1/application) |
 | Pika ✓ | Research Intern (BS/MS/PhD) | Internship | Palo Alto HQ | 2026-07-10 | [Apply](https://jobs.ashbyhq.com/pika/e135acb1-2a0b-47b4-81b2-3cb0f787657a/application) |
 | Notion ✓ | Software Engineer, Early Career (AI) | New Grad | San Francisco, California · $130,000-$150,000 | 2026-07-06 | [Apply](https://jobs.ashbyhq.com/notion/85947779-6b87-466a-98bc-30a640448c28/application) |
@@ -120,7 +122,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 471 feeds fetched · 56 open roles · 99.2s.
+Engine (last run): 506 companies · 471 feeds fetched · 58 open roles · 106.5s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
