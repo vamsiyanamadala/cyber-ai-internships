@@ -1,6 +1,6 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **55 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **1 new** in the last 48h · **506 companies polled** · updated Aug 30, 2026 at 17:32 UTC.
+A self-updating engine that tracks **55 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **0 new** in the last 48h · **506 companies polled** · updated Aug 30, 2026 at 21:10 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -23,7 +23,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
-| Sezzle ✓ | A.I. Engineering Intern 🆕 | Internship | Chile, Remote | 2026-08-28 ~ | [Apply](https://job-boards.greenhouse.io/sezzle/jobs/7979992003) |
+| Sezzle ✓ | A.I. Engineering Intern | Internship | Chile, Remote | 2026-08-28 ~ | [Apply](https://job-boards.greenhouse.io/sezzle/jobs/7979992003) |
 | Kodiak Robotics ✓ | Winter 2027 Intern, Artificial Intelligence/Machine Learning | Internship | Mountain View, CA | 2026-08-24 ~ | [Apply](https://job-boards.greenhouse.io/kodiak/jobs/4377407009) |
 | Kodiak Robotics ✓ | Winter 2027 Intern, Mission Planning | Internship | Mountain View, CA | 2026-08-24 ~ | [Apply](https://job-boards.greenhouse.io/kodiak/jobs/4378548009) |
 | Kodiak Robotics ✓ | Winter 2027 Intern, Motion Planning | Internship | Mountain View, CA | 2026-08-24 ~ | [Apply](https://job-boards.greenhouse.io/kodiak/jobs/4377721009) |
@@ -91,7 +91,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 470 feeds fetched · 55 open roles · 97.7s.
+Engine (last run): 506 companies · 470 feeds fetched · 55 open roles · 106.2s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
