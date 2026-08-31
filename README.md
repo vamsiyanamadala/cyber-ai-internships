@@ -1,6 +1,6 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **56 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **1 new** in the last 48h · **506 companies polled** · updated Aug 31, 2026 at 20:09 UTC.
+A self-updating engine that tracks **59 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **4 new** in the last 48h · **506 companies polled** · updated Aug 31, 2026 at 23:54 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -19,7 +19,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Zscaler ✓ | Site Reliability Engineer-SkillBridge Intern | Internship | Remote - USA | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/zscaler/jobs/5045817007) |
 | Palantir ✓ | Information Security Engineer, Internship | Internship | New York, NY | 2022-08-03 | [Apply](https://jobs.lever.co/palantir/ef725594-42dd-4f0d-ba8e-df8179dbc6cb) |
 
-## AI/ML (49 open)
+## AI/ML (52 open)
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
@@ -42,6 +42,9 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Ginkgo Bioworks ✓ | Software Intern, Autonomous Lab | Internship | Emeryville, California · $37,700-$53,500 | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/ginkgobioworks/jobs/5033167007) |
 | Databricks ✓ | AI Engineer - FDE (Forward Deployed Engineer) | New Grad | United States | 2026-08-06 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=8546367002) |
 | Databricks ✓ | PhD GenAI Research Scientist Intern | Internship | San Francisco, California | 2026-07-25 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=7011263002) |
+| Sierra Space ✓ | Intern, Agent Development (Summer 2027) 🆕 | Internship | San Francisco, CA | 2026-08-31 | [Apply](https://jobs.ashbyhq.com/sierra/34b31b67-268c-4270-b48f-72e59064c96e/application) |
+| Sierra AI ✓ | Intern, Agent Development (Summer 2027) 🆕 | Internship | San Francisco, CA | 2026-08-31 | [Apply](https://jobs.ashbyhq.com/sierra/34b31b67-268c-4270-b48f-72e59064c96e/application) |
+| Sierra ✓ | Intern, Agent Development (Summer 2027) 🆕 | Internship | San Francisco, CA | 2026-08-31 | [Apply](https://jobs.ashbyhq.com/sierra/34b31b67-268c-4270-b48f-72e59064c96e/application) |
 | Annapurna Labs (U.S.) Inc. - D63 ✓ | Software Development Engineer Intern, Annapurna Labs - 2027 | Internship | Cupertino, California, USA | 2026-08-27 | [Apply](https://www.amazon.jobs/en/jobs/10517567/software-development-engineer-intern-annapurna-labs-2027) |
 | Amazon.com Services LLC ✓ | Robotics - Software Development Engineer Fall Intern/Co-op - 2026 | Co-op | Westboro, Wisconsin, USA | 2026-08-27 | [Apply](https://www.amazon.jobs/en/jobs/10517149/robotics-software-development-engineer-fall-intern-co-op-2026) |
 | Abridge ✓ | Software Engineer, Early Career | New Grad | SF Office · $167K – $184K | 2026-08-26 | [Apply](https://jobs.ashbyhq.com/abridge/7d6ae2be-cd53-466c-8151-2dae2e87aace/application) |
@@ -92,7 +95,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 470 feeds fetched · 56 open roles · 107.2s.
+Engine (last run): 506 companies · 470 feeds fetched · 59 open roles · 106.6s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
