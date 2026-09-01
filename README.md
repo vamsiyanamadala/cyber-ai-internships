@@ -1,6 +1,6 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **62 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **7 new** in the last 48h · **506 companies polled** · updated Sep 01, 2026 at 10:11 UTC.
+A self-updating engine that tracks **68 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **14 new** in the last 48h · **506 companies polled** · updated Sep 01, 2026 at 14:57 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -19,10 +19,17 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Zscaler ✓ | Site Reliability Engineer-SkillBridge Intern | Internship | Remote - USA | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/zscaler/jobs/5045817007) |
 | Palantir ✓ | Information Security Engineer, Internship | Internship | New York, NY | 2022-08-03 | [Apply](https://jobs.lever.co/palantir/ef725594-42dd-4f0d-ba8e-df8179dbc6cb) |
 
-## AI/ML (55 open)
+## AI/ML (61 open)
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
+| Databricks ✓ | AI Engineer - FDE (Forward Deployed Engineer) 🆕 | New Grad | Chicago, Illinois | 2026-09-01 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=8760332002) |
+| Databricks ✓ | AI Engineer - FDE (Forward Deployed Engineer) 🆕 | New Grad | McLean, Virginia; Reston, Virginia; Richmond, Virginia; Washington, D.C. | 2026-09-01 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=8760318002) |
+| Databricks ✓ | AI Engineer - FDE (Forward Deployed Engineer) 🆕 | New Grad | Denver, Colorado | 2026-09-01 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=8760299002) |
+| Databricks ✓ | AI Engineer - FDE (Forward Deployed Engineer) 🆕 | New Grad | Boston, Massachusetts | 2026-09-01 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=8760298002) |
+| Databricks ✓ | AI Engineer - FDE (Forward Deployed Engineer) 🆕 | New Grad | Austin, Texas; Dallas, Texas; Houston, Texas; Plano, Texas | 2026-09-01 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=8760283002) |
+| Databricks ✓ | AI Engineer - FDE (Forward Deployed Engineer) 🆕 | New Grad | Bellevue, Washington; Seattle, Washington | 2026-09-01 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=8760282002) |
+| Databricks ✓ | AI Engineer - FDE (Forward Deployed Engineer) 🆕 | New Grad | Berkeley, California; Los Angeles, California; Mountain View, California; Sacramento, California; San Diego, California; San Francisco, California | 2026-09-01 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=8760281002) |
 | Waymo ✓ | 2027 Summer Intern, MS/PhD, Data Science - Commercialization Testing 🆕 | Internship | San Francisco, California, United States | 2026-08-31 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8167323) |
 | Sezzle ✓ | A.I. Engineering Intern | Internship | Chile, Remote | 2026-08-28 ~ | [Apply](https://job-boards.greenhouse.io/sezzle/jobs/7979992003) |
 | Kodiak Robotics ✓ | Winter 2027 Intern, Artificial Intelligence/Machine Learning | Internship | Mountain View, CA | 2026-08-24 ~ | [Apply](https://job-boards.greenhouse.io/kodiak/jobs/4377407009) |
@@ -40,7 +47,6 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Haize Labs ✓ | Research Intern | Internship | New York, NY · $125,000 – $200,000 | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/haizelabs/jobs/4070377008) |
 | Ginkgo Bioworks ✓ | Software Graduate Intern, Autonomous Lab | Internship | Emeryville, California · $45,100-$63,600 | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/ginkgobioworks/jobs/5033171007) |
 | Ginkgo Bioworks ✓ | Software Intern, Autonomous Lab | Internship | Emeryville, California · $37,700-$53,500 | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/ginkgobioworks/jobs/5033167007) |
-| Databricks ✓ | AI Engineer - FDE (Forward Deployed Engineer) | New Grad | United States | 2026-08-06 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=8546367002) |
 | Databricks ✓ | PhD GenAI Research Scientist Intern | Internship | San Francisco, California | 2026-07-25 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=7011263002) |
 | Sierra Space ✓ | Intern, Agent Development (Winter 2027) 🆕 | Internship | San Francisco, CA | 2026-09-01 | [Apply](https://jobs.ashbyhq.com/sierra/02e1c456-8489-4a74-9fe7-af8845b040e4/application) |
 | Sierra AI ✓ | Intern, Agent Development (Winter 2027) 🆕 | Internship | San Francisco, CA | 2026-09-01 | [Apply](https://jobs.ashbyhq.com/sierra/02e1c456-8489-4a74-9fe7-af8845b040e4/application) |
@@ -79,7 +85,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Amazon.com Services LLC ✓ | 2026 Applied Science Internship - United States, PhD Student Science Recruiting, Frontier AI & Robotics | Internship | San Francisco, California, USA | 2025-11-17 | [Apply](https://www.amazon.jobs/en/jobs/3127861/2026-applied-science-internship-united-states-phd-student-science-recruiting-frontier-ai-robotics) |
 | Applied Intuition ✓ | Research Intern - Reinforcement Learning, Self-Driving | Internship | Sunnyvale · $65 per hour | 2024-09-21 | [Apply](https://jobs.ashbyhq.com/applied/ce58d9fd-f22b-4336-80b5-ba1e8d764526/application) |
 
-## Recently closed — 12 in the last 14 days
+## Recently closed — 13 in the last 14 days
 
 - Snorkel AI — AI Researcher —  Intern
 - Abridge — Software Engineer, Early Career
@@ -93,12 +99,13 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 - Cerebras Systems — AI Inference Core - Junior SDET, Release Integration Testing
 - Amazon.com Services LLC — Robotics - Software Development Engineer Intern/Co-op - 2026
 - TRM Labs — Junior Legal Counsel - Commercial
+- Databricks — AI Engineer - FDE (Forward Deployed Engineer)
 
 ## How this stays current
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 469 feeds fetched · 62 open roles · 107.0s.
+Engine (last run): 506 companies · 468 feeds fetched · 68 open roles · 107.4s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
