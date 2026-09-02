@@ -1,16 +1,17 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **68 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **14 new** in the last 48h · **506 companies polled** · updated Sep 02, 2026 at 04:46 UTC.
+A self-updating engine that tracks **69 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **15 new** in the last 48h · **506 companies polled** · updated Sep 02, 2026 at 09:41 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
 > Legend: **✓** = employer has an H-1B track record in USCIS data · **🆕** = seen in the last 48h · dates marked **~** are estimated from when the engine first saw the role (the source didn't publish one). Sponsorship signals are detected from posting text and USCIS history — strong hints, not guarantees. Always confirm on the source posting.
 
 
-## Cybersecurity (7 open)
+## Cybersecurity (8 open)
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
+| ChargePoint ✓ | Junior Endpoint Security Analyst 🆕 | New Grad | IN-HR-Gurugram-418-419 | 2026-09-02 ~ | [Apply](https://www.chargepoint.com/about/opportunities/job/?gh_jid=8575164002) |
 | Sezzle ✓ | Security Infrastructure Engineer Intern | Internship | Colombia, Remote | 2026-08-19 ~ | [Apply](https://job-boards.greenhouse.io/sezzle/jobs/7694916003) |
 | Zscaler ✓ | Detection Engineer- SkillBridge Intern | Internship | Remote - USA | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/zscaler/jobs/5114254007) |
 | Zscaler ✓ | Federal Security Operations - SkillBridge Intern | Internship | Remote - USA | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/zscaler/jobs/5069684007) |
@@ -24,8 +25,8 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
 | Databricks ✓ | AI Engineer - FDE (Forward Deployed Engineer) 🆕 | New Grad | Austin, Texas; Dallas, Texas; Houston, Texas; Plano, Texas | 2026-09-01 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=8760283002) |
-| Databricks ✓ | AI Engineer - FDE (Forward Deployed Engineer) 🆕 | New Grad | Bellevue, Washington; Seattle, Washington | 2026-09-01 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=8760282002) |
 | Databricks ✓ | AI Engineer - FDE (Forward Deployed Engineer) 🆕 | New Grad | Berkeley, California; Los Angeles, California; Mountain View, California; Sacramento, California; San Diego, California; San Francisco, California | 2026-09-01 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=8760281002) |
+| Databricks ✓ | AI Engineer - FDE (Forward Deployed Engineer) 🆕 | New Grad | Bellevue, Washington; Seattle, Washington | 2026-09-01 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=8760282002) |
 | Databricks ✓ | AI Engineer - FDE (Forward Deployed Engineer) 🆕 | New Grad | Chicago, Illinois | 2026-09-01 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=8760332002) |
 | Databricks ✓ | AI Engineer - FDE (Forward Deployed Engineer) 🆕 | New Grad | McLean, Virginia; Reston, Virginia; Richmond, Virginia; Washington, D.C. | 2026-09-01 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=8760318002) |
 | Databricks ✓ | AI Engineer - FDE (Forward Deployed Engineer) 🆕 | New Grad | Denver, Colorado | 2026-09-01 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=8760299002) |
@@ -105,7 +106,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 468 feeds fetched · 68 open roles · 106.6s.
+Engine (last run): 506 companies · 468 feeds fetched · 69 open roles · 107.8s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
