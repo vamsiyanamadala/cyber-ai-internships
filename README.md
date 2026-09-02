@@ -1,13 +1,13 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **62 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **9 new** in the last 48h · **506 companies polled** · updated Sep 02, 2026 at 18:46 UTC.
+A self-updating engine that tracks **63 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **9 new** in the last 48h · **506 companies polled** · updated Sep 02, 2026 at 21:52 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
 > Legend: **✓** = employer has an H-1B track record in USCIS data · **🆕** = seen in the last 48h · dates marked **~** are estimated from when the engine first saw the role (the source didn't publish one). Sponsorship signals are detected from posting text and USCIS history — strong hints, not guarantees. Always confirm on the source posting.
 
 
-## Cybersecurity (8 open)
+## Cybersecurity (9 open)
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
@@ -18,6 +18,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Zscaler ✓ | Insider Risk Analyst - SkillBridge Intern | Internship | Remote - USA | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/zscaler/jobs/5100618007) |
 | Zscaler ✓ | Phishing Analyst-SkillBridge Intern | Internship | Remote - USA | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/zscaler/jobs/5065302007) |
 | Zscaler ✓ | Site Reliability Engineer-SkillBridge Intern | Internship | Remote - USA | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/zscaler/jobs/5045817007) |
+| Applied Intuition ✓ | Cybersecurity Software Engineer - New Grad (December 2027) 🆕 | New Grad | Sunnyvale · $130K – $158K • Offers Equity | 2026-09-02 | [Apply](https://jobs.ashbyhq.com/applied/a561fff8-aa38-4a5d-8b29-66c191f7328e/application) |
 | Palantir ✓ | Information Security Engineer, Internship | Internship | New York, NY | 2022-08-03 | [Apply](https://jobs.lever.co/palantir/ef725594-42dd-4f0d-ba8e-df8179dbc6cb) |
 
 ## AI/ML (54 open)
@@ -25,7 +26,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
 | Databricks ✓ | AI Engineer - FDE (Forward Deployed Engineer) 🆕 | New Grad | United States | 2026-09-02 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=8546367002) |
-| Waymo ✓ | 2027 Summer Intern, MS/PhD, Data Science - Commercialization Testing 🆕 | Internship | San Francisco, California, United States | 2026-08-31 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8167323) |
+| Waymo ✓ | 2027 Summer Intern, MS/PhD, Data Science - Commercialization Testing | Internship | San Francisco, California, United States | 2026-08-31 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8167323) |
 | Sezzle ✓ | A.I. Engineering Intern | Internship | Chile, Remote | 2026-08-28 ~ | [Apply](https://job-boards.greenhouse.io/sezzle/jobs/7979992003) |
 | Kodiak Robotics ✓ | Winter 2027 Intern, Artificial Intelligence/Machine Learning | Internship | Mountain View, CA | 2026-08-24 ~ | [Apply](https://job-boards.greenhouse.io/kodiak/jobs/4377407009) |
 | Kodiak Robotics ✓ | Winter 2027 Intern, Mission Planning | Internship | Mountain View, CA | 2026-08-24 ~ | [Apply](https://job-boards.greenhouse.io/kodiak/jobs/4378548009) |
@@ -79,9 +80,8 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Amazon.com Services LLC ✓ | 2026 Applied Science Internship - United States, PhD Student Science Recruiting, Frontier AI & Robotics | Internship | San Francisco, California, USA | 2025-11-17 | [Apply](https://www.amazon.jobs/en/jobs/3127861/2026-applied-science-internship-united-states-phd-student-science-recruiting-frontier-ai-robotics) |
 | Applied Intuition ✓ | Research Intern - Reinforcement Learning, Self-Driving | Internship | Sunnyvale · $65 per hour | 2024-09-21 | [Apply](https://jobs.ashbyhq.com/applied/ce58d9fd-f22b-4336-80b5-ba1e8d764526/application) |
 
-## Recently closed — 21 in the last 14 days
+## Recently closed — 20 in the last 14 days
 
-- Snorkel AI — AI Researcher —  Intern
 - Abridge — Software Engineer, Early Career
 - Notion — Governance, Risk, and Compliance Intern (Fall 2026)
 - Cerebras Systems — CoDesign & NextGen - New College Grad
@@ -107,7 +107,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 468 feeds fetched · 62 open roles · 111.9s.
+Engine (last run): 506 companies · 468 feeds fetched · 63 open roles · 100.0s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
