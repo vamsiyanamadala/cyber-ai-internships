@@ -1,17 +1,16 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **64 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **7 new** in the last 48h · **506 companies polled** · updated Sep 03, 2026 at 00:20 UTC.
+A self-updating engine that tracks **63 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **3 new** in the last 48h · **506 companies polled** · updated Sep 03, 2026 at 05:52 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
 > Legend: **✓** = employer has an H-1B track record in USCIS data · **🆕** = seen in the last 48h · dates marked **~** are estimated from when the engine first saw the role (the source didn't publish one). Sponsorship signals are detected from posting text and USCIS history — strong hints, not guarantees. Always confirm on the source posting.
 
 
-## Cybersecurity (9 open)
+## Cybersecurity (8 open)
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
-| ChargePoint ✓ | Junior Endpoint Security Analyst 🆕 | New Grad | IN-HR-Gurugram-418-419 | 2026-09-02 ~ | [Apply](https://www.chargepoint.com/about/opportunities/job/?gh_jid=8575164002) |
 | Sezzle ✓ | Security Infrastructure Engineer Intern | Internship | Colombia, Remote | 2026-08-19 ~ | [Apply](https://job-boards.greenhouse.io/sezzle/jobs/7694916003) |
 | Zscaler ✓ | Detection Engineer- SkillBridge Intern | Internship | Remote - USA | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/zscaler/jobs/5114254007) |
 | Zscaler ✓ | Federal Security Operations - SkillBridge Intern | Internship | Remote - USA | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/zscaler/jobs/5069684007) |
@@ -44,9 +43,9 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Ginkgo Bioworks ✓ | Software Graduate Intern, Autonomous Lab | Internship | Emeryville, California · $45,100-$63,600 | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/ginkgobioworks/jobs/5033171007) |
 | Ginkgo Bioworks ✓ | Software Intern, Autonomous Lab | Internship | Emeryville, California · $37,700-$53,500 | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/ginkgobioworks/jobs/5033167007) |
 | Databricks ✓ | PhD GenAI Research Scientist Intern | Internship | San Francisco, California | 2026-07-25 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=7011263002) |
-| Sierra Space ✓ | Intern, Agent Development (Winter 2027) 🆕 | Internship | San Francisco, CA | 2026-09-01 | [Apply](https://jobs.ashbyhq.com/sierra/02e1c456-8489-4a74-9fe7-af8845b040e4/application) |
-| Sierra AI ✓ | Intern, Agent Development (Winter 2027) 🆕 | Internship | San Francisco, CA | 2026-09-01 | [Apply](https://jobs.ashbyhq.com/sierra/02e1c456-8489-4a74-9fe7-af8845b040e4/application) |
-| Sierra ✓ | Intern, Agent Development (Winter 2027) 🆕 | Internship | San Francisco, CA | 2026-09-01 | [Apply](https://jobs.ashbyhq.com/sierra/02e1c456-8489-4a74-9fe7-af8845b040e4/application) |
+| Sierra Space ✓ | Intern, Agent Development (Winter 2027) | Internship | San Francisco, CA | 2026-09-01 | [Apply](https://jobs.ashbyhq.com/sierra/02e1c456-8489-4a74-9fe7-af8845b040e4/application) |
+| Sierra AI ✓ | Intern, Agent Development (Winter 2027) | Internship | San Francisco, CA | 2026-09-01 | [Apply](https://jobs.ashbyhq.com/sierra/02e1c456-8489-4a74-9fe7-af8845b040e4/application) |
+| Sierra ✓ | Intern, Agent Development (Winter 2027) | Internship | San Francisco, CA | 2026-09-01 | [Apply](https://jobs.ashbyhq.com/sierra/02e1c456-8489-4a74-9fe7-af8845b040e4/application) |
 | Sierra Space ✓ | Intern, Agent Development (Summer 2027) | Internship | San Francisco, CA | 2026-08-31 | [Apply](https://jobs.ashbyhq.com/sierra/34b31b67-268c-4270-b48f-72e59064c96e/application) |
 | Sierra AI ✓ | Intern, Agent Development (Summer 2027) | Internship | San Francisco, CA | 2026-08-31 | [Apply](https://jobs.ashbyhq.com/sierra/34b31b67-268c-4270-b48f-72e59064c96e/application) |
 | Sierra ✓ | Intern, Agent Development (Summer 2027) | Internship | San Francisco, CA | 2026-08-31 | [Apply](https://jobs.ashbyhq.com/sierra/34b31b67-268c-4270-b48f-72e59064c96e/application) |
@@ -81,7 +80,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Amazon.com Services LLC ✓ | 2026 Applied Science Internship - United States, PhD Student Science Recruiting, Frontier AI & Robotics | Internship | San Francisco, California, USA | 2025-11-17 | [Apply](https://www.amazon.jobs/en/jobs/3127861/2026-applied-science-internship-united-states-phd-student-science-recruiting-frontier-ai-robotics) |
 | Applied Intuition ✓ | Research Intern - Reinforcement Learning, Self-Driving | Internship | Sunnyvale · $65 per hour | 2024-09-21 | [Apply](https://jobs.ashbyhq.com/applied/ce58d9fd-f22b-4336-80b5-ba1e8d764526/application) |
 
-## Recently closed — 20 in the last 14 days
+## Recently closed — 21 in the last 14 days
 
 - Abridge — Software Engineer, Early Career
 - Notion — Governance, Risk, and Compliance Intern (Fall 2026)
@@ -103,12 +102,13 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 - Databricks — AI Engineer - FDE (Forward Deployed Engineer)
 - Databricks — AI Engineer - FDE (Forward Deployed Engineer)
 - Abridge — Software Engineer, Early Career
+- ChargePoint — Junior Endpoint Security Analyst
 
 ## How this stays current
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 468 feeds fetched · 64 open roles · 122.5s.
+Engine (last run): 506 companies · 468 feeds fetched · 63 open roles · 107.1s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
