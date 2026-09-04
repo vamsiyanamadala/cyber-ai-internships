@@ -1,6 +1,6 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **66 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **7 new** in the last 48h · **506 companies polled** · updated Sep 04, 2026 at 19:39 UTC.
+A self-updating engine that tracks **65 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **5 new** in the last 48h · **506 companies polled** · updated Sep 04, 2026 at 22:23 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -17,10 +17,10 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Zscaler ✓ | Insider Risk Analyst - SkillBridge Intern | Internship | Remote - USA | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/zscaler/jobs/5100618007) |
 | Zscaler ✓ | Phishing Analyst-SkillBridge Intern | Internship | Remote - USA | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/zscaler/jobs/5065302007) |
 | Zscaler ✓ | Site Reliability Engineer-SkillBridge Intern | Internship | Remote - USA | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/zscaler/jobs/5045817007) |
-| Applied Intuition ✓ | Cybersecurity Software Engineer - New Grad (December 2027) 🆕 | New Grad | Sunnyvale · $130K – $158K • Offers Equity | 2026-09-02 | [Apply](https://jobs.ashbyhq.com/applied/a561fff8-aa38-4a5d-8b29-66c191f7328e/application) |
+| Applied Intuition ✓ | Cybersecurity Software Engineer - New Grad (December 2027) | New Grad | Sunnyvale · $130K – $158K • Offers Equity | 2026-09-02 | [Apply](https://jobs.ashbyhq.com/applied/a561fff8-aa38-4a5d-8b29-66c191f7328e/application) |
 | Palantir ✓ | Information Security Engineer, Internship | Internship | New York, NY | 2022-08-03 | [Apply](https://jobs.lever.co/palantir/ef725594-42dd-4f0d-ba8e-df8179dbc6cb) |
 
-## AI/ML (58 open)
+## AI/ML (57 open)
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
@@ -59,7 +59,6 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Applied Intuition ✓ | Research Engineer - New Grad (2027) | New Grad | Sunnyvale · $140K – $200K • Offers Equity | 2026-08-14 | [Apply](https://jobs.ashbyhq.com/applied/45fc41cd-8280-4010-ba1f-def6114b3e39/application) |
 | WeRide ✓ | New Grads 2027 - Software Engineer - Perception/Computer Vision | New Grad | San Jose, CA | 2026-08-10 | [Apply](https://jobs.lever.co/weride/5cde0d09-ba2d-408d-947e-4a42028cd4f7) |
 | Canva ✓ | PhD Research Scientist Intern | Internship | San Francisco, CA, us | 2026-08-06 | [Apply](https://api.smartrecruiters.com/v1/companies/canva/postings/6000000001291655) |
-| Skydio ✓ | Hardware Product Management Intern - Fall 2026/Winter 2027 🆕 | Internship | San Mateo, California, United States · $47/hr | 2026-07-31 | [Apply](https://jobs.ashbyhq.com/skydio/1ec2fe3c-3fb2-4485-870d-764a3e5f5baf/application) |
 | Modal Labs ✓ | ML Research Intern | Internship | New York · $15K per month | 2026-07-28 | [Apply](https://jobs.ashbyhq.com/modal/38888294-6bc7-4dab-b072-6d0f0c2ed79a/application) |
 | Color Health ✓ | Software Engineer, New Grad 2026 | New Grad | South San Francisco, California · $125,000-$140,000 | 2026-07-28 | [Apply](https://jobs.ashbyhq.com/color-health/41fa6f16-b2f2-46c6-bdb4-9aae3b9b5b96/application) |
 | Cerebras Systems ✓ | Kernel Engineer - New Grad | New Grad | Sunnyvale, CA | 2026-07-23 | [Apply](https://jobs.ashbyhq.com/cerebras/9c7da4b8-446b-4bf2-8d07-23241590bf2e/application) |
@@ -85,7 +84,6 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 ## Recently closed — 22 in the last 14 days
 
-- Notion — Governance, Risk, and Compliance Intern (Fall 2026)
 - Cerebras Systems — CoDesign & NextGen - New College Grad
 - Deepgram — Software Engineering- Internship (Fall 2026/Summer 2027)
 - Kodiak Robotics — Winter 2027 Intern, Controls
@@ -107,12 +105,13 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 - ChargePoint — Junior Endpoint Security Analyst
 - Snowflake — AI Research Scientist, New Grad – Agents & Reinforcement Learning
 - Skydio — Hardware Product Management Intern
+- Skydio — Hardware Product Management Intern - Fall 2026/Winter 2027
 
 ## How this stays current
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 468 feeds fetched · 66 open roles · 113.9s.
+Engine (last run): 506 companies · 468 feeds fetched · 65 open roles · 107.2s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
