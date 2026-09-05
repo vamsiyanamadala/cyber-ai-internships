@@ -1,6 +1,6 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **65 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **5 new** in the last 48h · **506 companies polled** · updated Sep 04, 2026 at 22:23 UTC.
+A self-updating engine that tracks **66 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **5 new** in the last 48h · **506 companies polled** · updated Sep 05, 2026 at 01:00 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -20,7 +20,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Applied Intuition ✓ | Cybersecurity Software Engineer - New Grad (December 2027) | New Grad | Sunnyvale · $130K – $158K • Offers Equity | 2026-09-02 | [Apply](https://jobs.ashbyhq.com/applied/a561fff8-aa38-4a5d-8b29-66c191f7328e/application) |
 | Palantir ✓ | Information Security Engineer, Internship | Internship | New York, NY | 2022-08-03 | [Apply](https://jobs.lever.co/palantir/ef725594-42dd-4f0d-ba8e-df8179dbc6cb) |
 
-## AI/ML (57 open)
+## AI/ML (58 open)
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
@@ -45,6 +45,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Ginkgo Bioworks ✓ | Software Graduate Intern, Autonomous Lab | Internship | Emeryville, California · $45,100-$63,600 | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/ginkgobioworks/jobs/5033171007) |
 | Ginkgo Bioworks ✓ | Software Intern, Autonomous Lab | Internship | Emeryville, California · $37,700-$53,500 | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/ginkgobioworks/jobs/5033167007) |
 | Databricks ✓ | PhD GenAI Research Scientist Intern | Internship | San Francisco, California | 2026-07-25 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=7011263002) |
+| Replit ✓ | Cohort 0 🆕 | Internship | Foster City, CA | 2026-09-05 | [Apply](https://jobs.ashbyhq.com/replit/2c147ccb-2557-40f8-aab9-64422cef220c/application) |
 | Snowflake ✓ | AI Research Scientist, New Grad – Agents & Reinforcement Learning 🆕 | New Grad | US-WA-Bellevue · $176K – $230K | 2026-09-03 | [Apply](https://jobs.ashbyhq.com/snowflake/1bad12df-f443-426f-9d09-e96fc780d698/application) |
 | Skydio ✓ | Autonomy Engineer Intern, Computer Vision / Deep Learning, Summer 2027 🆕 | Internship | San Mateo, California, United States · $47/hr | 2026-09-03 | [Apply](https://jobs.ashbyhq.com/skydio/ae4a6f7d-a240-4fa2-8c8e-04cc906e4ef9/application) |
 | Sierra Space ✓ | Intern, Agent Development (Winter 2027) | Internship | San Francisco, CA | 2026-09-01 | [Apply](https://jobs.ashbyhq.com/sierra/02e1c456-8489-4a74-9fe7-af8845b040e4/application) |
@@ -76,7 +77,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Applied Intuition ✓ | Research Intern - Robotic Hardware, Simulation and Data | Internship | Sunnyvale · $65 per hour | 2026-02-13 | [Apply](https://jobs.ashbyhq.com/applied/5bb0567a-8d07-4cc4-be7c-c06b31361883/application) |
 | Applied Intuition ✓ | Research Intern - Reinforcement Learning, Robotics | Internship | Sunnyvale · $65 per hour | 2026-02-13 | [Apply](https://jobs.ashbyhq.com/applied/bb953f29-0059-4a40-aa9e-3a8c88733902/application) |
 | Applied Intuition ✓ | Research Intern - World-Action Foundation Model, Robotics | Internship | Sunnyvale · $65 per hour | 2026-02-13 | [Apply](https://jobs.ashbyhq.com/applied/edc2528d-6e6c-4a67-b871-bfe7d9c890b4/application) |
-| Hex ✓ | AI Research Engineer 🆕 | New Grad | New York · $214,000 - $285,000 | 2026-02-11 | [Apply](https://jobs.ashbyhq.com/hex/4159564c-f4a6-4034-93a6-928c579d96ce/application) |
+| Hex ✓ | AI Research Engineer | New Grad | New York · $214,000 - $285,000 | 2026-02-11 | [Apply](https://jobs.ashbyhq.com/hex/4159564c-f4a6-4034-93a6-928c579d96ce/application) |
 | Cerebras Systems ✓ | CoDesign & NextGen - New College Grad | New Grad | Sunnyvale, CA · $145,000-$155,000 | 2026-01-07 | [Apply](https://jobs.ashbyhq.com/cerebras/987d7f64-c957-4c8f-b89d-2f9d64738507/application) |
 | Amazon.com Services LLC ✓ | 2026 Applied Science Internship - United States, Undergrad Student Science Recruiting, Frontier AI & Robotics | Internship | San Francisco, California, USA · $62.21/hr | 2025-11-24 | [Apply](https://www.amazon.jobs/en/jobs/3131316/2026-applied-science-internship-united-states-undergrad-student-science-recruiting-frontier-ai-robotics) |
 | Amazon.com Services LLC ✓ | 2026 Applied Science Internship - United States, PhD Student Science Recruiting, Frontier AI & Robotics | Internship | San Francisco, California, USA | 2025-11-17 | [Apply](https://www.amazon.jobs/en/jobs/3127861/2026-applied-science-internship-united-states-phd-student-science-recruiting-frontier-ai-robotics) |
@@ -111,7 +112,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 468 feeds fetched · 65 open roles · 107.2s.
+Engine (last run): 506 companies · 468 feeds fetched · 66 open roles · 100.2s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
