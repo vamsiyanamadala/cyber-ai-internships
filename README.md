@@ -1,6 +1,6 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **67 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **4 new** in the last 48h · **506 companies polled** · updated Sep 06, 2026 at 14:13 UTC.
+A self-updating engine that tracks **67 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **2 new** in the last 48h · **506 companies polled** · updated Sep 06, 2026 at 17:07 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -25,8 +25,8 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
-| Scale AI ✓ | Software Engineering Intern (Summer 2027) 🆕 | Internship | San Francisco, CA | 2026-09-04 ~ | [Apply](https://job-boards.greenhouse.io/scaleai/jobs/4730845005) |
-| Scale AI ✓ | Software Engineer - New Grad 🆕 | New Grad | San Francisco, CA | 2026-09-04 ~ | [Apply](https://job-boards.greenhouse.io/scaleai/jobs/4730836005) |
+| Scale AI ✓ | Software Engineering Intern (Summer 2027) | Internship | San Francisco, CA | 2026-09-04 ~ | [Apply](https://job-boards.greenhouse.io/scaleai/jobs/4730845005) |
+| Scale AI ✓ | Software Engineer - New Grad | New Grad | San Francisco, CA | 2026-09-04 ~ | [Apply](https://job-boards.greenhouse.io/scaleai/jobs/4730836005) |
 | Databricks ✓ | AI Engineer - FDE (Forward Deployed Engineer) | New Grad | United States | 2026-09-02 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=8546367002) |
 | Waymo ✓ | 2027 Summer Intern, MS/PhD, Data Science - Commercialization Testing | Internship | San Francisco, California, United States | 2026-08-31 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8167323) |
 | Sezzle ✓ | A.I. Engineering Intern | Internship | Chile, Remote | 2026-08-28 ~ | [Apply](https://job-boards.greenhouse.io/sezzle/jobs/7979992003) |
@@ -113,7 +113,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 468 feeds fetched · 67 open roles · 101.9s.
+Engine (last run): 506 companies · 468 feeds fetched · 67 open roles · 107.1s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
