@@ -1,6 +1,6 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **68 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **1 new** in the last 48h · **506 companies polled** · updated Sep 08, 2026 at 09:45 UTC.
+A self-updating engine that tracks **67 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **1 new** in the last 48h · **506 companies polled** · updated Sep 08, 2026 at 14:35 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -22,7 +22,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Applied Intuition ✓ | Cybersecurity Software Engineer - New Grad (December 2027) | New Grad | Sunnyvale · $130K – $158K • Offers Equity | 2026-09-02 | [Apply](https://jobs.ashbyhq.com/applied/a561fff8-aa38-4a5d-8b29-66c191f7328e/application) |
 | Palantir ✓ | Information Security Engineer, Internship | Internship | New York, NY | 2022-08-03 | [Apply](https://jobs.lever.co/palantir/ef725594-42dd-4f0d-ba8e-df8179dbc6cb) |
 
-## AI/ML (58 open)
+## AI/ML (57 open)
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
@@ -43,7 +43,6 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Postman ✓ | AI Engineer, Internship - Summer 2026 - Applications Open Now | Internship | Berkeley, California, United States; San Francisco, California, United States | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/postman/jobs/7823417003) |
 | Nuro ✓ | Software Engineer, AI Platform - Intern | Internship | Mountain View, California (HQ) | 2026-08-11 ~ | [Apply](https://nuro.ai/careersitem?gh_jid=7351061) |
 | Nuro ✓ | Software Engineer, AI Platform - New Grad | New Grad | Mountain View, California (HQ) | 2026-08-11 ~ | [Apply](https://nuro.ai/careersitem?gh_jid=7351066) |
-| Haize Labs ✓ | Research Intern | Internship | New York, NY · $125,000 – $200,000 | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/haizelabs/jobs/4070377008) |
 | Ginkgo Bioworks ✓ | Software Graduate Intern, Autonomous Lab | Internship | Emeryville, California · $45,100-$63,600 | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/ginkgobioworks/jobs/5033171007) |
 | Ginkgo Bioworks ✓ | Software Intern, Autonomous Lab | Internship | Emeryville, California · $37,700-$53,500 | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/ginkgobioworks/jobs/5033167007) |
 | Databricks ✓ | PhD GenAI Research Scientist Intern | Internship | San Francisco, California | 2026-07-25 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=7011263002) |
@@ -87,7 +86,6 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 ## Recently closed — 22 in the last 14 days
 
-- Cerebras Systems — CoDesign & NextGen - New College Grad
 - Deepgram — Software Engineering- Internship (Fall 2026/Summer 2027)
 - Kodiak Robotics — Winter 2027 Intern, Controls
 - Faire — Data Science Intern
@@ -109,12 +107,13 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 - Snowflake — AI Research Scientist, New Grad – Agents & Reinforcement Learning
 - Skydio — Hardware Product Management Intern
 - Skydio — Hardware Product Management Intern - Fall 2026/Winter 2027
+- Haize Labs — Research Intern
 
 ## How this stays current
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 468 feeds fetched · 68 open roles · 120.7s.
+Engine (last run): 506 companies · 467 feeds fetched · 67 open roles · 107.4s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
