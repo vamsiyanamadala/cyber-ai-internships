@@ -1,13 +1,13 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **69 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **3 new** in the last 48h · **506 companies polled** · updated Sep 08, 2026 at 18:44 UTC.
+A self-updating engine that tracks **70 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **4 new** in the last 48h · **506 companies polled** · updated Sep 08, 2026 at 21:54 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
 > Legend: **✓** = employer has an H-1B track record in USCIS data · **🆕** = seen in the last 48h · dates marked **~** are estimated from when the engine first saw the role (the source didn't publish one). Sponsorship signals are detected from posting text and USCIS history — strong hints, not guarantees. Always confirm on the source posting.
 
 
-## Cybersecurity (11 open)
+## Cybersecurity (12 open)
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
@@ -21,6 +21,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Zscaler ✓ | Site Reliability Engineer-SkillBridge Intern | Internship | Remote - USA | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/zscaler/jobs/5045817007) |
 | Semgrep ✓ | Software Engineer Intern, Cloud Platform 🆕 | Internship | San Francisco Office | 2026-09-08 | [Apply](https://jobs.ashbyhq.com/semgrep/8e64dc7f-e925-4361-86d5-b01ee518c987/application) |
 | Applied Intuition ✓ | Cybersecurity Software Engineer - New Grad (December 2027) | New Grad | Sunnyvale · $130K – $158K • Offers Equity | 2026-09-02 | [Apply](https://jobs.ashbyhq.com/applied/a561fff8-aa38-4a5d-8b29-66c191f7328e/application) |
+| Prophet Security ✓ | Software Engineer, Backend Intern 🆕 | Internship | Palo Alto (In office) | 2026-08-25 | [Apply](https://jobs.ashbyhq.com/prophet-security/6319cd03-3d5f-47b9-815b-0f8b0d184612/application) |
 | Palantir ✓ | Information Security Engineer, Internship | Internship | New York, NY | 2022-08-03 | [Apply](https://jobs.lever.co/palantir/ef725594-42dd-4f0d-ba8e-df8179dbc6cb) |
 
 ## AI/ML (58 open)
@@ -80,7 +81,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Applied Intuition ✓ | Research Intern - Robotic Hardware, Simulation and Data | Internship | Sunnyvale · $65 per hour | 2026-02-13 | [Apply](https://jobs.ashbyhq.com/applied/5bb0567a-8d07-4cc4-be7c-c06b31361883/application) |
 | Applied Intuition ✓ | Research Intern - Reinforcement Learning, Robotics | Internship | Sunnyvale · $65 per hour | 2026-02-13 | [Apply](https://jobs.ashbyhq.com/applied/bb953f29-0059-4a40-aa9e-3a8c88733902/application) |
 | Applied Intuition ✓ | Research Intern - World-Action Foundation Model, Robotics | Internship | Sunnyvale · $65 per hour | 2026-02-13 | [Apply](https://jobs.ashbyhq.com/applied/edc2528d-6e6c-4a67-b871-bfe7d9c890b4/application) |
-| Hex ✓ | AI Research Engineer | New Grad | New York · $214,000 - $285,000 | 2026-02-11 | [Apply](https://jobs.ashbyhq.com/hex/4159564c-f4a6-4034-93a6-928c579d96ce/application) |
+| Hex ✓ | AI Research Engineer | New Grad | New York · $214K – $285K • Offers Equity | 2026-02-11 | [Apply](https://jobs.ashbyhq.com/hex/4159564c-f4a6-4034-93a6-928c579d96ce/application) |
 | Cerebras Systems ✓ | CoDesign & NextGen - New College Grad | New Grad | Sunnyvale, CA · $145,000-$155,000 | 2026-01-07 | [Apply](https://jobs.ashbyhq.com/cerebras/987d7f64-c957-4c8f-b89d-2f9d64738507/application) |
 | Amazon.com Services LLC ✓ | 2026 Applied Science Internship - United States, Undergrad Student Science Recruiting, Frontier AI & Robotics | Internship | San Francisco, California, USA · $62.21/hr | 2025-11-24 | [Apply](https://www.amazon.jobs/en/jobs/3131316/2026-applied-science-internship-united-states-undergrad-student-science-recruiting-frontier-ai-robotics) |
 | Amazon.com Services LLC ✓ | 2026 Applied Science Internship - United States, PhD Student Science Recruiting, Frontier AI & Robotics | Internship | San Francisco, California, USA | 2025-11-17 | [Apply](https://www.amazon.jobs/en/jobs/3127861/2026-applied-science-internship-united-states-phd-student-science-recruiting-frontier-ai-robotics) |
@@ -115,7 +116,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 467 feeds fetched · 69 open roles · 107.9s.
+Engine (last run): 506 companies · 467 feeds fetched · 70 open roles · 104.2s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
