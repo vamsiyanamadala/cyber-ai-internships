@@ -1,16 +1,17 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **70 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **4 new** in the last 48h · **506 companies polled** · updated Sep 08, 2026 at 21:54 UTC.
+A self-updating engine that tracks **78 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **13 new** in the last 48h · **506 companies polled** · updated Sep 09, 2026 at 00:18 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
 > Legend: **✓** = employer has an H-1B track record in USCIS data · **🆕** = seen in the last 48h · dates marked **~** are estimated from when the engine first saw the role (the source didn't publish one). Sponsorship signals are detected from posting text and USCIS history — strong hints, not guarantees. Always confirm on the source posting.
 
 
-## Cybersecurity (12 open)
+## Cybersecurity (13 open)
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
+| Coinbase ✓ | Software Engineer Intern 🆕 | Internship | Hybrid - San Francisco, CA | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8168315?gh_jid=8168315) |
 | ChargePoint ✓ | Junior Endpoint Security Analyst 🆕 | New Grad | IN-HR-Gurugram-418-419 | 2026-09-07 ~ | [Apply](https://www.chargepoint.com/about/opportunities/job/?gh_jid=8575164002) |
 | Harbinger Motors ✓ | Intern, Cybersecurity | Internship | Garden Grove, CA · $25-35 | 2026-09-06 ~ | [Apply](https://job-boards.greenhouse.io/harbingermotors/jobs/5231842007) |
 | Sezzle ✓ | Security Infrastructure Engineer Intern | Internship | Colombia, Remote | 2026-08-19 ~ | [Apply](https://job-boards.greenhouse.io/sezzle/jobs/7694916003) |
@@ -24,10 +25,18 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Prophet Security ✓ | Software Engineer, Backend Intern 🆕 | Internship | Palo Alto (In office) | 2026-08-25 | [Apply](https://jobs.ashbyhq.com/prophet-security/6319cd03-3d5f-47b9-815b-0f8b0d184612/application) |
 | Palantir ✓ | Information Security Engineer, Internship | Internship | New York, NY | 2022-08-03 | [Apply](https://jobs.lever.co/palantir/ef725594-42dd-4f0d-ba8e-df8179dbc6cb) |
 
-## AI/ML (58 open)
+## AI/ML (65 open)
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
+| Coinbase ✓ | Analytics Engineer Intern 🆕 | Internship | Hybrid - San Francisco, CA | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8175471?gh_jid=8175471) |
+| Coinbase ✓ | Data Engineer Intern 🆕 | Internship | Hybrid - San Francisco, CA | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8175459?gh_jid=8175459) |
+| Coinbase ✓ | Data Science Intern 🆕 | Internship | Hybrid - San Francisco, CA | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8175462?gh_jid=8175462) |
+| Coinbase ✓ | Employee and Workplace Experience Intern 🆕 | Internship | Hybrid - New York, NY | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8175429?gh_jid=8175429) |
+| Coinbase ✓ | FP&A Intern 🆕 | Internship | Hybrid - New York, NY | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8175438?gh_jid=8175438) |
+| Coinbase ✓ | Machine Learning Engineer Intern 🆕 | Internship | Hybrid - San Francisco, CA | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8175441?gh_jid=8175441) |
+| Coinbase ✓ | Payment Risk Intern 🆕 | Internship | Hybrid - New York, NY | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8175447?gh_jid=8175447) |
+| Coinbase ✓ | People Analytics Intern 🆕 | Internship | Hybrid - New York, NY | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8175517?gh_jid=8175517) |
 | Scale AI ✓ | Software Engineering Intern (Summer 2027) | Internship | San Francisco, CA | 2026-09-04 ~ | [Apply](https://job-boards.greenhouse.io/scaleai/jobs/4730845005) |
 | Scale AI ✓ | Software Engineer - New Grad | New Grad | San Francisco, CA | 2026-09-04 ~ | [Apply](https://job-boards.greenhouse.io/scaleai/jobs/4730836005) |
 | Databricks ✓ | AI Engineer - FDE (Forward Deployed Engineer) | New Grad | United States | 2026-09-02 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=8546367002) |
@@ -63,7 +72,6 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Notion ✓ | Data Science Intern (Winter 2027) | Internship | San Francisco, California · $55/hr | 2026-08-19 | [Apply](https://jobs.ashbyhq.com/notion/a67d6f2b-7c13-41d0-b36b-b2f662c9873e/application) |
 | Applied Intuition ✓ | Research Engineer - New Grad (2027) | New Grad | Sunnyvale · $140K – $200K • Offers Equity | 2026-08-14 | [Apply](https://jobs.ashbyhq.com/applied/45fc41cd-8280-4010-ba1f-def6114b3e39/application) |
 | WeRide ✓ | New Grads 2027 - Software Engineer - Perception/Computer Vision | New Grad | San Jose, CA | 2026-08-10 | [Apply](https://jobs.lever.co/weride/5cde0d09-ba2d-408d-947e-4a42028cd4f7) |
-| Canva ✓ | PhD Research Scientist Intern | Internship | San Francisco, CA, us | 2026-08-06 | [Apply](https://api.smartrecruiters.com/v1/companies/canva/postings/6000000001291655) |
 | Modal Labs ✓ | ML Research Intern | Internship | New York · $15K per month | 2026-07-28 | [Apply](https://jobs.ashbyhq.com/modal/38888294-6bc7-4dab-b072-6d0f0c2ed79a/application) |
 | Color Health ✓ | Software Engineer, New Grad 2026 | New Grad | South San Francisco, California · $125,000-$140,000 | 2026-07-28 | [Apply](https://jobs.ashbyhq.com/color-health/41fa6f16-b2f2-46c6-bdb4-9aae3b9b5b96/application) |
 | Cerebras Systems ✓ | Kernel Engineer - New Grad | New Grad | Sunnyvale, CA | 2026-07-23 | [Apply](https://jobs.ashbyhq.com/cerebras/9c7da4b8-446b-4bf2-8d07-23241590bf2e/application) |
@@ -89,7 +97,6 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 ## Recently closed — 22 in the last 14 days
 
-- Deepgram — Software Engineering- Internship (Fall 2026/Summer 2027)
 - Kodiak Robotics — Winter 2027 Intern, Controls
 - Faire — Data Science Intern
 - Scale AI — AI Builder Intern
@@ -111,12 +118,13 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 - Skydio — Hardware Product Management Intern
 - Skydio — Hardware Product Management Intern - Fall 2026/Winter 2027
 - Haize Labs — Research Intern
+- Canva — PhD Research Scientist Intern
 
 ## How this stays current
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 467 feeds fetched · 70 open roles · 104.2s.
+Engine (last run): 506 companies · 467 feeds fetched · 78 open roles · 102.4s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
