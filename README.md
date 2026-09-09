@@ -1,6 +1,6 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **77 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **12 new** in the last 48h · **506 companies polled** · updated Sep 09, 2026 at 18:40 UTC.
+A self-updating engine that tracks **77 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **18 new** in the last 48h · **506 companies polled** · updated Sep 09, 2026 at 21:45 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -60,12 +60,12 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Replit ✓ | Cohort 0 | Internship | Foster City, CA | 2026-09-05 | [Apply](https://jobs.ashbyhq.com/replit/2c147ccb-2557-40f8-aab9-64422cef220c/application) |
 | Snowflake ✓ | AI Research Scientist, New Grad – Agents & Reinforcement Learning | New Grad | US-WA-Bellevue · $176K – $230K | 2026-09-03 | [Apply](https://jobs.ashbyhq.com/snowflake/1bad12df-f443-426f-9d09-e96fc780d698/application) |
 | Skydio ✓ | Autonomy Engineer Intern, Computer Vision / Deep Learning, Summer 2027 | Internship | San Mateo, California, United States · $47/hr | 2026-09-03 | [Apply](https://jobs.ashbyhq.com/skydio/ae4a6f7d-a240-4fa2-8c8e-04cc906e4ef9/application) |
-| Sierra Space ✓ | Intern, Agent Development (Winter 2027) | Internship | San Francisco, CA | 2026-09-01 | [Apply](https://jobs.ashbyhq.com/sierra/02e1c456-8489-4a74-9fe7-af8845b040e4/application) |
-| Sierra AI ✓ | Intern, Agent Development (Winter 2027) | Internship | San Francisco, CA | 2026-09-01 | [Apply](https://jobs.ashbyhq.com/sierra/02e1c456-8489-4a74-9fe7-af8845b040e4/application) |
-| Sierra ✓ | Intern, Agent Development (Winter 2027) | Internship | San Francisco, CA | 2026-09-01 | [Apply](https://jobs.ashbyhq.com/sierra/02e1c456-8489-4a74-9fe7-af8845b040e4/application) |
-| Sierra Space ✓ | Intern, Agent Development (Summer 2027) | Internship | San Francisco, CA | 2026-08-31 | [Apply](https://jobs.ashbyhq.com/sierra/34b31b67-268c-4270-b48f-72e59064c96e/application) |
-| Sierra AI ✓ | Intern, Agent Development (Summer 2027) | Internship | San Francisco, CA | 2026-08-31 | [Apply](https://jobs.ashbyhq.com/sierra/34b31b67-268c-4270-b48f-72e59064c96e/application) |
-| Sierra ✓ | Intern, Agent Development (Summer 2027) | Internship | San Francisco, CA | 2026-08-31 | [Apply](https://jobs.ashbyhq.com/sierra/34b31b67-268c-4270-b48f-72e59064c96e/application) |
+| Sierra Space ✓ | Software Engineer Intern, Agent (Winter 2027) 🆕 | Internship | San Francisco, CA | 2026-09-01 | [Apply](https://jobs.ashbyhq.com/sierra/02e1c456-8489-4a74-9fe7-af8845b040e4/application) |
+| Sierra AI ✓ | Software Engineer Intern, Agent (Winter 2027) 🆕 | Internship | San Francisco, CA | 2026-09-01 | [Apply](https://jobs.ashbyhq.com/sierra/02e1c456-8489-4a74-9fe7-af8845b040e4/application) |
+| Sierra ✓ | Software Engineer Intern, Agent (Winter 2027) 🆕 | Internship | San Francisco, CA | 2026-09-01 | [Apply](https://jobs.ashbyhq.com/sierra/02e1c456-8489-4a74-9fe7-af8845b040e4/application) |
+| Sierra Space ✓ | Software Engineer Intern, Agent (Summer 2027) 🆕 | Internship | San Francisco, CA | 2026-08-31 | [Apply](https://jobs.ashbyhq.com/sierra/34b31b67-268c-4270-b48f-72e59064c96e/application) |
+| Sierra AI ✓ | Software Engineer Intern, Agent (Summer 2027) 🆕 | Internship | San Francisco, CA | 2026-08-31 | [Apply](https://jobs.ashbyhq.com/sierra/34b31b67-268c-4270-b48f-72e59064c96e/application) |
+| Sierra ✓ | Software Engineer Intern, Agent (Summer 2027) 🆕 | Internship | San Francisco, CA | 2026-08-31 | [Apply](https://jobs.ashbyhq.com/sierra/34b31b67-268c-4270-b48f-72e59064c96e/application) |
 | Annapurna Labs (U.S.) Inc. - D63 ✓ | Software Development Engineer Intern, Annapurna Labs - 2027 | Internship | Cupertino, California, USA | 2026-08-27 | [Apply](https://www.amazon.jobs/en/jobs/10517567/software-development-engineer-intern-annapurna-labs-2027) |
 | Amazon.com Services LLC ✓ | Robotics - Software Development Engineer Fall Intern/Co-op - 2026 | Co-op | Westboro, Wisconsin, USA | 2026-08-27 | [Apply](https://www.amazon.jobs/en/jobs/10517149/robotics-software-development-engineer-fall-intern-co-op-2026) |
 | Notion ✓ | Data Science Intern (Winter 2027) | Internship | San Francisco, California · $55/hr | 2026-08-19 | [Apply](https://jobs.ashbyhq.com/notion/a67d6f2b-7c13-41d0-b36b-b2f662c9873e/application) |
@@ -94,7 +94,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Amazon.com Services LLC ✓ | 2026 Applied Science Internship - United States, PhD Student Science Recruiting, Frontier AI & Robotics | Internship | San Francisco, California, USA | 2025-11-17 | [Apply](https://www.amazon.jobs/en/jobs/3127861/2026-applied-science-internship-united-states-phd-student-science-recruiting-frontier-ai-robotics) |
 | Applied Intuition ✓ | Research Intern - Reinforcement Learning, Self-Driving | Internship | Sunnyvale · $65 per hour | 2024-09-21 | [Apply](https://jobs.ashbyhq.com/applied/ce58d9fd-f22b-4336-80b5-ba1e8d764526/application) |
 
-## Recently closed — 21 in the last 14 days
+## Recently closed — 27 in the last 14 days
 
 - Scale AI — AI Builder Intern
 - Abridge — Software Engineer, Intern
@@ -117,12 +117,18 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 - Haize Labs — Research Intern
 - Canva — PhD Research Scientist Intern
 - ChargePoint — Junior Endpoint Security Analyst
+- Sierra Space — Intern, Agent Development (Winter 2027)
+- Sierra AI — Intern, Agent Development (Winter 2027)
+- Sierra Space — Intern, Agent Development (Summer 2027)
+- Sierra AI — Intern, Agent Development (Summer 2027)
+- Sierra — Intern, Agent Development (Summer 2027)
+- Sierra — Intern, Agent Development (Winter 2027)
 
 ## How this stays current
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 467 feeds fetched · 77 open roles · 105.4s.
+Engine (last run): 506 companies · 467 feeds fetched · 77 open roles · 121.0s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
