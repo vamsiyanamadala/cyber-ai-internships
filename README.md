@@ -1,6 +1,6 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **77 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **18 new** in the last 48h · **506 companies polled** · updated Sep 10, 2026 at 14:30 UTC.
+A self-updating engine that tracks **77 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **18 new** in the last 48h · **506 companies polled** · updated Sep 10, 2026 at 18:31 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -28,11 +28,11 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
+| Coinbase ✓ | Strategic Finance Intern 🆕 | Internship | Hybrid - New York, NY | 2026-09-10 ~ | [Apply](https://www.coinbase.com/careers/positions/8175438?gh_jid=8175438) |
 | Coinbase ✓ | Analytics Engineer Intern 🆕 | Internship | Hybrid - San Francisco, CA | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8175471?gh_jid=8175471) |
 | Coinbase ✓ | Data Engineer Intern 🆕 | Internship | Hybrid - San Francisco, CA | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8175459?gh_jid=8175459) |
 | Coinbase ✓ | Data Science Intern 🆕 | Internship | Hybrid - San Francisco, CA | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8175462?gh_jid=8175462) |
 | Coinbase ✓ | Employee and Workplace Experience Intern 🆕 | Internship | Hybrid - New York, NY | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8175429?gh_jid=8175429) |
-| Coinbase ✓ | FP&A Intern 🆕 | Internship | Hybrid - New York, NY | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8175438?gh_jid=8175438) |
 | Coinbase ✓ | Machine Learning Engineer Intern 🆕 | Internship | Hybrid - San Francisco, CA | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8175441?gh_jid=8175441) |
 | Coinbase ✓ | Payment Risk Intern 🆕 | Internship | Hybrid - New York, NY | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8175447?gh_jid=8175447) |
 | Coinbase ✓ | People Analytics Intern 🆕 | Internship | Hybrid - New York, NY | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8175517?gh_jid=8175517) |
@@ -94,7 +94,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Amazon.com Services LLC ✓ | 2026 Applied Science Internship - United States, PhD Student Science Recruiting, Frontier AI & Robotics | Internship | San Francisco, California, USA | 2025-11-17 | [Apply](https://www.amazon.jobs/en/jobs/3127861/2026-applied-science-internship-united-states-phd-student-science-recruiting-frontier-ai-robotics) |
 | Applied Intuition ✓ | Research Intern - Reinforcement Learning, Self-Driving | Internship | Sunnyvale · $65 per hour | 2024-09-21 | [Apply](https://jobs.ashbyhq.com/applied/ce58d9fd-f22b-4336-80b5-ba1e8d764526/application) |
 
-## Recently closed — 26 in the last 14 days
+## Recently closed — 27 in the last 14 days
 
 - Abridge — Software Engineer, Intern
 - Cerebras Systems — AI Inference Core - Junior SDET, Release Integration Testing
@@ -122,12 +122,13 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 - Sierra AI — Intern, Agent Development (Summer 2027)
 - Sierra — Intern, Agent Development (Summer 2027)
 - Sierra — Intern, Agent Development (Winter 2027)
+- Coinbase — FP&A Intern
 
 ## How this stays current
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 468 feeds fetched · 77 open roles · 109.3s.
+Engine (last run): 506 companies · 468 feeds fetched · 77 open roles · 104.3s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
