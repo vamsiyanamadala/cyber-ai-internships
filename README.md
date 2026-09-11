@@ -1,6 +1,6 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **79 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **17 new** in the last 48h · **506 companies polled** · updated Sep 11, 2026 at 00:14 UTC.
+A self-updating engine that tracks **79 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **9 new** in the last 48h · **506 companies polled** · updated Sep 11, 2026 at 04:46 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -11,7 +11,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
-| Coinbase ✓ | Software Engineer Intern 🆕 | Internship | Hybrid - San Francisco, CA | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8168315?gh_jid=8168315) |
+| Coinbase ✓ | Software Engineer Intern | Internship | Hybrid - San Francisco, CA | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8168315?gh_jid=8168315) |
 | Harbinger Motors ✓ | Intern, Cybersecurity | Internship | Garden Grove, CA · $25-35 | 2026-09-06 ~ | [Apply](https://job-boards.greenhouse.io/harbingermotors/jobs/5231842007) |
 | Sezzle ✓ | Security Infrastructure Engineer Intern | Internship | Colombia, Remote | 2026-08-19 ~ | [Apply](https://job-boards.greenhouse.io/sezzle/jobs/7694916003) |
 | Zscaler ✓ | Detection Engineer- SkillBridge Intern | Internship | Remote - USA | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/zscaler/jobs/5114254007) |
@@ -31,13 +31,13 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Waymo ✓ | 2027 Summer Intern, PhD, Machine Learning, Computer Vision 🆕 | Internship | Mountain View, California | 2026-09-11 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8193295) |
 | Waymo ✓ | 2027 Summer Intern, PhD, Vehicle Intent and Prediction 🆕 | Internship | Mountain View, California | 2026-09-10 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8189848) |
 | Coinbase ✓ | Strategic Finance Intern 🆕 | Internship | Hybrid - New York, NY | 2026-09-10 ~ | [Apply](https://www.coinbase.com/careers/positions/8175438?gh_jid=8175438) |
-| Coinbase ✓ | Analytics Engineer Intern 🆕 | Internship | Hybrid - San Francisco, CA | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8175471?gh_jid=8175471) |
-| Coinbase ✓ | Data Engineer Intern 🆕 | Internship | Hybrid - San Francisco, CA | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8175459?gh_jid=8175459) |
-| Coinbase ✓ | Data Science Intern 🆕 | Internship | Hybrid - San Francisco, CA | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8175462?gh_jid=8175462) |
-| Coinbase ✓ | Employee and Workplace Experience Intern 🆕 | Internship | Hybrid - New York, NY | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8175429?gh_jid=8175429) |
-| Coinbase ✓ | Machine Learning Engineer Intern 🆕 | Internship | Hybrid - San Francisco, CA | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8175441?gh_jid=8175441) |
-| Coinbase ✓ | Payment Risk Intern 🆕 | Internship | Hybrid - New York, NY | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8175447?gh_jid=8175447) |
-| Coinbase ✓ | People Analytics Intern 🆕 | Internship | Hybrid - New York, NY | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8175517?gh_jid=8175517) |
+| Coinbase ✓ | Analytics Engineer Intern | Internship | Hybrid - San Francisco, CA | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8175471?gh_jid=8175471) |
+| Coinbase ✓ | Data Engineer Intern | Internship | Hybrid - San Francisco, CA | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8175459?gh_jid=8175459) |
+| Coinbase ✓ | Data Science Intern | Internship | Hybrid - San Francisco, CA | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8175462?gh_jid=8175462) |
+| Coinbase ✓ | Employee and Workplace Experience Intern | Internship | Hybrid - New York, NY | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8175429?gh_jid=8175429) |
+| Coinbase ✓ | Machine Learning Engineer Intern | Internship | Hybrid - San Francisco, CA | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8175441?gh_jid=8175441) |
+| Coinbase ✓ | Payment Risk Intern | Internship | Hybrid - New York, NY | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8175447?gh_jid=8175447) |
+| Coinbase ✓ | People Analytics Intern | Internship | Hybrid - New York, NY | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8175517?gh_jid=8175517) |
 | Scale AI ✓ | Software Engineering Intern (Summer 2027) | Internship | San Francisco, CA | 2026-09-04 ~ | [Apply](https://job-boards.greenhouse.io/scaleai/jobs/4730845005) |
 | Scale AI ✓ | Software Engineer - New Grad | New Grad | San Francisco, CA | 2026-09-04 ~ | [Apply](https://job-boards.greenhouse.io/scaleai/jobs/4730836005) |
 | Databricks ✓ | AI Engineer - FDE (Forward Deployed Engineer) | New Grad | United States | 2026-09-02 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=8546367002) |
@@ -127,7 +127,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 468 feeds fetched · 79 open roles · 117.4s.
+Engine (last run): 506 companies · 468 feeds fetched · 79 open roles · 119.1s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
