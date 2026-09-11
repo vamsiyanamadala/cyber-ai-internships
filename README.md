@@ -1,6 +1,6 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **79 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **9 new** in the last 48h · **506 companies polled** · updated Sep 11, 2026 at 14:29 UTC.
+A self-updating engine that tracks **82 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **12 new** in the last 48h · **506 companies polled** · updated Sep 11, 2026 at 18:37 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -24,11 +24,13 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Prophet Security ✓ | Software Engineer, Backend Intern | Internship | Palo Alto (In office) | 2026-08-25 | [Apply](https://jobs.ashbyhq.com/prophet-security/6319cd03-3d5f-47b9-815b-0f8b0d184612/application) |
 | Palantir ✓ | Information Security Engineer, Internship | Internship | New York, NY | 2022-08-03 | [Apply](https://jobs.lever.co/palantir/ef725594-42dd-4f0d-ba8e-df8179dbc6cb) |
 
-## AI/ML (67 open)
+## AI/ML (70 open)
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
 | Waymo ✓ | 2027 Summer Intern, PhD, Machine Learning, Computer Vision 🆕 | Internship | Mountain View, California | 2026-09-11 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8193295) |
+| Lyft ✓ | Data Science Intern, Algorithms (Summer 2027) 🆕 | Internship | New York, NY · $58-$62/hour | 2026-09-11 ~ | [Apply](https://app.careerpuck.com/job-board/lyft/job/8796124002?gh_jid=8796124002) |
+| Lyft ✓ | Data Science Intern, Algorithms (Summer 2027) 🆕 | Internship | San Francisco, CA · $58-$62/hour | 2026-09-11 ~ | [Apply](https://app.careerpuck.com/job-board/lyft/job/8767723002?gh_jid=8767723002) |
 | Waymo ✓ | 2027 Summer Intern, PhD, Vehicle Intent and Prediction 🆕 | Internship | Mountain View, California | 2026-09-10 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8189848) |
 | Coinbase ✓ | Strategic Finance Intern 🆕 | Internship | Hybrid - New York, NY | 2026-09-10 ~ | [Apply](https://www.coinbase.com/careers/positions/8175438?gh_jid=8175438) |
 | Coinbase ✓ | Analytics Engineer Intern | Internship | Hybrid - San Francisco, CA | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8175471?gh_jid=8175471) |
@@ -58,6 +60,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Ginkgo Bioworks ✓ | Software Graduate Intern, Autonomous Lab | Internship | Emeryville, California · $45,100-$63,600 | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/ginkgobioworks/jobs/5033171007) |
 | Ginkgo Bioworks ✓ | Software Intern, Autonomous Lab | Internship | Emeryville, California · $37,700-$53,500 | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/ginkgobioworks/jobs/5033167007) |
 | Databricks ✓ | PhD GenAI Research Scientist Intern | Internship | San Francisco, California | 2026-07-25 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=7011263002) |
+| Abridge ✓ | Software Engineer, Intern 🆕 | Internship | SF Office · $40 per hour | 2026-09-11 | [Apply](https://jobs.ashbyhq.com/abridge/3f07a457-dc14-4238-bf4e-5c33b5c1f883/application) |
 | Amazon.com Services LLC ✓ | System Dev Engineer I Co-op (Robotics), Autonomous AI Security | Co-op | Austin, Texas, USA | 2026-09-08 | [Apply](https://www.amazon.jobs/en/jobs/3117694/system-dev-engineer-i-co-op-robotics-autonomous-ai-security) |
 | Replit ✓ | Cohort 0 | Internship | Foster City, CA | 2026-09-05 | [Apply](https://jobs.ashbyhq.com/replit/2c147ccb-2557-40f8-aab9-64422cef220c/application) |
 | Snowflake ✓ | AI Research Scientist, New Grad – Agents & Reinforcement Learning | New Grad | US-WA-Bellevue · $176K – $230K | 2026-09-03 | [Apply](https://jobs.ashbyhq.com/snowflake/1bad12df-f443-426f-9d09-e96fc780d698/application) |
@@ -127,7 +130,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 468 feeds fetched · 79 open roles · 109.5s.
+Engine (last run): 506 companies · 468 feeds fetched · 82 open roles · 109.7s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
