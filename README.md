@@ -1,6 +1,6 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **82 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **5 new** in the last 48h · **506 companies polled** · updated Sep 12, 2026 at 19:26 UTC.
+A self-updating engine that tracks **82 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **4 new** in the last 48h · **506 companies polled** · updated Sep 12, 2026 at 22:21 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -31,7 +31,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Waymo ✓ | 2027 Summer Intern, PhD, Machine Learning, Computer Vision 🆕 | Internship | Mountain View, California | 2026-09-11 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8193295) |
 | Lyft ✓ | Data Science Intern, Algorithms (Summer 2027) 🆕 | Internship | San Francisco, CA · $58-$62/hour | 2026-09-11 ~ | [Apply](https://app.careerpuck.com/job-board/lyft/job/8767723002?gh_jid=8767723002) |
 | Lyft ✓ | Data Science Intern, Algorithms (Summer 2027) 🆕 | Internship | New York, NY · $58-$62/hour | 2026-09-11 ~ | [Apply](https://app.careerpuck.com/job-board/lyft/job/8796124002?gh_jid=8796124002) |
-| Waymo ✓ | 2027 Summer Intern, PhD, Vehicle Intent and Prediction 🆕 | Internship | Mountain View, California | 2026-09-10 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8189848) |
+| Waymo ✓ | 2027 Summer Intern, PhD, Vehicle Intent and Prediction | Internship | Mountain View, California | 2026-09-10 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8189848) |
 | Coinbase ✓ | Strategic Finance Intern | Internship | Hybrid - New York, NY | 2026-09-10 ~ | [Apply](https://www.coinbase.com/careers/positions/8175438?gh_jid=8175438) |
 | Coinbase ✓ | Analytics Engineer Intern | Internship | Hybrid - San Francisco, CA | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8175471?gh_jid=8175471) |
 | Coinbase ✓ | Data Engineer Intern | Internship | Hybrid - San Francisco, CA | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8175459?gh_jid=8175459) |
@@ -129,7 +129,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 468 feeds fetched · 82 open roles · 110.3s.
+Engine (last run): 506 companies · 468 feeds fetched · 82 open roles · 104.7s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
