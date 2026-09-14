@@ -1,6 +1,6 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **83 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **1 new** in the last 48h · **506 companies polled** · updated Sep 14, 2026 at 06:22 UTC.
+A self-updating engine that tracks **85 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **3 new** in the last 48h · **506 companies polled** · updated Sep 14, 2026 at 14:07 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -25,10 +25,12 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Prophet Security ✓ | Software Engineer, Backend Intern | Internship | Palo Alto (In office) | 2026-08-25 | [Apply](https://jobs.ashbyhq.com/prophet-security/6319cd03-3d5f-47b9-815b-0f8b0d184612/application) |
 | Palantir ✓ | Information Security Engineer, Internship | Internship | New York, NY | 2022-08-03 | [Apply](https://jobs.lever.co/palantir/ef725594-42dd-4f0d-ba8e-df8179dbc6cb) |
 
-## AI/ML (70 open)
+## AI/ML (72 open)
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
+| Robinhood ✓ | Brokerage Risk Analyst Intern (Summer 2027) 🆕 | Internship | Chicago, IL · $24.65 - $29 per hour | 2026-09-14 ~ | [Apply](https://boards.greenhouse.io/robinhood/jobs/8198223?t=gh_src=&gh_jid=8198223) |
+| Robinhood ✓ | PeopleX Insights & Analytics Intern (Summer 2027) 🆕 | Internship | Menlo Park, CA · $24.65 - $29 per hour | 2026-09-14 ~ | [Apply](https://boards.greenhouse.io/robinhood/jobs/8198255?t=gh_src=&gh_jid=8198255) |
 | Waymo ✓ | 2027 Summer Intern, PhD, Machine Learning, Computer Vision | Internship | Mountain View, California | 2026-09-11 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8193295) |
 | Lyft ✓ | Data Science Intern, Algorithms (Summer 2027) | Internship | San Francisco, CA · $58-$62/hour | 2026-09-11 ~ | [Apply](https://app.careerpuck.com/job-board/lyft/job/8767723002?gh_jid=8767723002) |
 | Lyft ✓ | Data Science Intern, Algorithms (Summer 2027) | Internship | New York, NY · $58-$62/hour | 2026-09-11 ~ | [Apply](https://app.careerpuck.com/job-board/lyft/job/8796124002?gh_jid=8796124002) |
@@ -130,7 +132,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 468 feeds fetched · 83 open roles · 124.4s.
+Engine (last run): 506 companies · 468 feeds fetched · 85 open roles · 109.9s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
