@@ -1,17 +1,16 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **84 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **6 new** in the last 48h · **506 companies polled** · updated Sep 15, 2026 at 13:37 UTC.
+A self-updating engine that tracks **85 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **7 new** in the last 48h · **506 companies polled** · updated Sep 15, 2026 at 18:15 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
 > Legend: **✓** = employer has an H-1B track record in USCIS data · **🆕** = seen in the last 48h · dates marked **~** are estimated from when the engine first saw the role (the source didn't publish one). Sponsorship signals are detected from posting text and USCIS history — strong hints, not guarantees. Always confirm on the source posting.
 
 
-## Cybersecurity (13 open)
+## Cybersecurity (12 open)
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
-| ChargePoint ✓ | Junior Endpoint Security Analyst 🆕 | New Grad | IN-HR-Gurugram-418-419 | 2026-09-14 ~ | [Apply](https://www.chargepoint.com/about/opportunities/job/?gh_jid=8575164002) |
 | Coinbase ✓ | Software Engineer Intern | Internship | Hybrid - San Francisco, CA | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8168315?gh_jid=8168315) |
 | Harbinger Motors ✓ | Intern, Cybersecurity | Internship | Garden Grove, CA · $25-35 | 2026-09-06 ~ | [Apply](https://job-boards.greenhouse.io/harbingermotors/jobs/5231842007) |
 | Sezzle ✓ | Security Infrastructure Engineer Intern | Internship | Colombia, Remote | 2026-08-19 ~ | [Apply](https://job-boards.greenhouse.io/sezzle/jobs/7694916003) |
@@ -25,10 +24,11 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Prophet Security ✓ | Software Engineer, Backend Intern | Internship | Palo Alto (In office) | 2026-08-25 | [Apply](https://jobs.ashbyhq.com/prophet-security/6319cd03-3d5f-47b9-815b-0f8b0d184612/application) |
 | Palantir ✓ | Information Security Engineer, Internship | Internship | New York, NY | 2022-08-03 | [Apply](https://jobs.lever.co/palantir/ef725594-42dd-4f0d-ba8e-df8179dbc6cb) |
 
-## AI/ML (71 open)
+## AI/ML (73 open)
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
+| Datadog ✓ | Research Science Intern (PhD) 🆕 | Internship | New York, New York, USA; Pittsburgh, Pennsylvania, USA | 2026-09-15 ~ | [Apply](https://careers.datadoghq.com/detail/8203657/?gh_jid=8203657) |
 | Waymo ✓ | 2027 Summer Intern, PhD, Safety Research, Human Behavior Analytics 🆕 | Internship | Mountain View, CA, USA | 2026-09-14 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8197899) |
 | Robinhood ✓ | Brokerage Risk Analyst Intern (Summer 2027) 🆕 | Internship | Chicago, IL · $24.65 - $29 per hour | 2026-09-14 ~ | [Apply](https://boards.greenhouse.io/robinhood/jobs/8198223?t=gh_src=&gh_jid=8198223) |
 | Robinhood ✓ | PeopleX Insights & Analytics Intern (Summer 2027) 🆕 | Internship | Menlo Park, CA · $24.65 - $29 per hour | 2026-09-14 ~ | [Apply](https://boards.greenhouse.io/robinhood/jobs/8198255?t=gh_src=&gh_jid=8198255) |
@@ -64,6 +64,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Ginkgo Bioworks ✓ | Software Graduate Intern, Autonomous Lab | Internship | Emeryville, California · $45,100-$63,600 | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/ginkgobioworks/jobs/5033171007) |
 | Ginkgo Bioworks ✓ | Software Intern, Autonomous Lab | Internship | Emeryville, California · $37,700-$53,500 | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/ginkgobioworks/jobs/5033167007) |
 | Databricks ✓ | PhD GenAI Research Scientist Intern | Internship | San Francisco, California | 2026-07-25 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=7011263002) |
+| Abridge ✓ | Junior Software Engineer 🆕 | New Grad | SF Office · $167K – $184K | 2026-09-15 | [Apply](https://jobs.ashbyhq.com/abridge/7d6ae2be-cd53-466c-8151-2dae2e87aace/application) |
 | Western Digital ✓ | Spring 2027 Co-Op - AI Systems Strategy 🆕 | Co-op | Rochester, MN, us | 2026-09-14 | [Apply](https://api.smartrecruiters.com/v1/companies/westerndigital/postings/744000149367234) |
 | Abridge ✓ | Software Engineer, Intern | Internship | SF Office · $40 per hour | 2026-09-11 | [Apply](https://jobs.ashbyhq.com/abridge/3f07a457-dc14-4238-bf4e-5c33b5c1f883/application) |
 | Amazon.com Services LLC ✓ | System Dev Engineer I Co-op (Robotics), Autonomous AI Security | Co-op | Austin, Texas, USA | 2026-09-08 | [Apply](https://www.amazon.jobs/en/jobs/3117694/system-dev-engineer-i-co-op-robotics-autonomous-ai-security) |
@@ -110,7 +111,6 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 - Databricks — AI Engineer - FDE (Forward Deployed Engineer)
 - Databricks — AI Engineer - FDE (Forward Deployed Engineer)
 - Databricks — AI Engineer - FDE (Forward Deployed Engineer)
-- Databricks — AI Engineer - FDE (Forward Deployed Engineer)
 - Abridge — Software Engineer, Early Career
 - ChargePoint — Junior Endpoint Security Analyst
 - Snowflake — AI Research Scientist, New Grad – Agents & Reinforcement Learning
@@ -130,12 +130,13 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 - Sierra Space — Software Engineer Intern, Agent (Winter 2027)
 - Sierra AI — Software Engineer Intern, Agent (Winter 2027)
 - Semgrep — Software Engineer Intern, Cloud Platform
+- ChargePoint — Junior Endpoint Security Analyst
 
 ## How this stays current
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 469 feeds fetched · 84 open roles · 100.8s.
+Engine (last run): 506 companies · 469 feeds fetched · 85 open roles · 113.5s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
