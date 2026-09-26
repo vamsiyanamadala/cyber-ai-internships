@@ -1,6 +1,6 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **97 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **10 new** in the last 48h · **506 companies polled** · updated Sep 25, 2026 at 22:25 UTC.
+A self-updating engine that tracks **98 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **11 new** in the last 48h · **506 companies polled** · updated Sep 26, 2026 at 01:37 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -22,10 +22,11 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Prophet Security ✓ | Software Engineer, Backend Intern | Internship | Palo Alto (In office) | 2026-08-25 | [Apply](https://jobs.ashbyhq.com/prophet-security/6319cd03-3d5f-47b9-815b-0f8b0d184612/application) |
 | Palantir ✓ | Information Security Engineer, Internship | Internship | New York, NY | 2022-08-03 | [Apply](https://jobs.lever.co/palantir/ef725594-42dd-4f0d-ba8e-df8179dbc6cb) |
 
-## AI/ML (87 open)
+## AI/ML (88 open)
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
+| Waymo ✓ | 2027 Summer Intern, MS/PhD, Perception, Machine Learning 🆕 | Internship | Mountain View, CA, USA | 2026-09-26 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8227411) |
 | Waymo ✓ | 2027 Summer Intern, MS/PhD, Product Data Science 🆕 | Internship | San Francisco, California, United States | 2026-09-25 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8199365) |
 | Waymo ✓ | 2027 Summer Intern, MS/PhD, Software Engineering, Sys Intel & ML 🆕 | Internship | Mountain View, CA, USA | 2026-09-25 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8234161) |
 | Waymo ✓ | 2027 Summer Intern, MS/PhD, Software Engineer, Sys Intel & Machine Learning 🆕 | Internship | Mountain View, CA, USA | 2026-09-25 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8233746) |
@@ -154,7 +155,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 467 feeds fetched · 97 open roles · 128.8s.
+Engine (last run): 506 companies · 467 feeds fetched · 98 open roles · 106.9s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
