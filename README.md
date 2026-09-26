@@ -1,6 +1,6 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **98 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **10 new** in the last 48h · **506 companies polled** · updated Sep 26, 2026 at 17:13 UTC.
+A self-updating engine that tracks **98 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **7 new** in the last 48h · **506 companies polled** · updated Sep 26, 2026 at 19:55 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -30,7 +30,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Waymo ✓ | 2027 Summer Intern, MS/PhD, Product Data Science 🆕 | Internship | San Francisco, California, United States | 2026-09-25 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8199365) |
 | Waymo ✓ | 2027 Summer Intern, MS/PhD, Software Engineering, Sys Intel & ML 🆕 | Internship | Mountain View, CA, USA | 2026-09-25 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8234161) |
 | Waymo ✓ | 2027 Summer Intern, MS/PhD, Software Engineer, Sys Intel & Machine Learning 🆕 | Internship | Mountain View, CA, USA | 2026-09-25 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8233746) |
-| Waymo ✓ | 2027 Summer Intern, PhD, Software Engineer, Simulation 🆕 | Internship | Mountain View, CA, USA | 2026-09-24 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8227640) |
+| Waymo ✓ | 2027 Summer Intern, PhD, Software Engineer, Simulation | Internship | Mountain View, CA, USA | 2026-09-24 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8227640) |
 | Waymo ✓ | 2027 Summer Intern, MS/PhD, Machine Learning Engineer - Simulator Realism Evaluation | Internship | San Francisco, California, United States | 2026-09-23 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8214350) |
 | Waymo ✓ | 2027 Summer Intern, MS/PhD, Road Understanding, ML Engineer | Internship | Mountain View, California | 2026-09-23 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8224746) |
 | Scale AI ✓ | Software Engineer, Public Sector - New Grad | New Grad | San Francisco, CA | 2026-09-23 ~ | [Apply](https://job-boards.greenhouse.io/scaleai/jobs/4736426005) |
@@ -79,8 +79,8 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Ginkgo Bioworks ✓ | Software Intern, Autonomous Lab | Internship | Emeryville, California · $37,700-$53,500 | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/ginkgobioworks/jobs/5033167007) |
 | Databricks ✓ | PhD GenAI Research Scientist Intern | Internship | San Francisco, California | 2026-07-25 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=7011263002) |
 | Snowflake ✓ | Software Engineer Intern (AI / ML) - Spring 2027 🆕 | Internship | US-CA-Menlo Park · $42 – $60 per hour | 2026-09-25 | [Apply](https://jobs.ashbyhq.com/snowflake/4be290ae-dd9d-488c-9d90-56fcd69101ca/application) |
-| Spotify ✓ | CoLM 2026 — Intern 🆕 | Internship | New York, NY | 2026-09-24 | [Apply](https://jobs.lever.co/spotify/ba2760c3-6461-45bf-b67b-0508d10c8659) |
-| Spotify ✓ | RecSys 2026 — Intern 🆕 | Internship | New York, NY | 2026-09-24 | [Apply](https://jobs.lever.co/spotify/e7f6e680-bf86-4da6-8711-afe44b84fa41) |
+| Spotify ✓ | CoLM 2026 — Intern | Internship | New York, NY | 2026-09-24 | [Apply](https://jobs.lever.co/spotify/ba2760c3-6461-45bf-b67b-0508d10c8659) |
+| Spotify ✓ | RecSys 2026 — Intern | Internship | New York, NY | 2026-09-24 | [Apply](https://jobs.lever.co/spotify/e7f6e680-bf86-4da6-8711-afe44b84fa41) |
 | Annapurna Labs (U.S.) Inc. - D63 ✓ | Software Development Engineer I, Annapurna Labs, Early Career - 2027 | New Grad | Cupertino, California, USA | 2026-09-24 | [Apply](https://www.amazon.jobs/en/jobs/10558915/software-development-engineer-i-annapurna-labs-early-career-2027) |
 | Amazon.com Services LLC ✓ | 2027 Data Science Internship - United States, PhD or Masters Student | Internship | Seattle, Washington, USA | 2026-09-22 | [Apply](https://www.amazon.jobs/en/jobs/10556927/2027-data-science-internship-united-states-phd-or-masters-student) |
 | Amazon Development Center U.S., Inc. - B02 ✓ | 2027 Quantum Applied Science Internship, Quantum Technologies team | Internship | Pasadena, California, USA | 2026-09-22 | [Apply](https://www.amazon.jobs/en/jobs/10556930/2027-quantum-applied-science-internship-quantum-technologies-team) |
@@ -155,7 +155,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 467 feeds fetched · 98 open roles · 113.0s.
+Engine (last run): 506 companies · 467 feeds fetched · 98 open roles · 106.3s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
