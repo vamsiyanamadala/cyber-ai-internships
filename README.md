@@ -1,6 +1,6 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **107 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **17 new** in the last 48h · **506 companies polled** · updated Sep 30, 2026 at 19:24 UTC.
+A self-updating engine that tracks **107 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **17 new** in the last 48h · **506 companies polled** · updated Sep 30, 2026 at 23:54 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -30,7 +30,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Robinhood ✓ | Data Science Intern (Summer 2027) 🆕 | Internship | Menlo Park, CA · $24.65 - $29 per hour | 2026-09-30 ~ | [Apply](https://boards.greenhouse.io/robinhood/jobs/8241738?t=gh_src=&gh_jid=8241738) |
 | Waymo ✓ | 2027 Summer Intern, PhD, Machine Learning Research, Planning/Prediction 🆕 | Internship | Mountain View, CA, USA | 2026-09-29 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8237997) |
 | Waymo ✓ | 2027 Summer Intern, PhD, Planner Machine Learning 🆕 | Internship | San Francisco, California | 2026-09-29 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8234876) |
-| Lyft ✓ | Applied Scientist Intern (Summer 2027) 🆕 | Internship | San Francisco, CA · $64-$68/hour | 2026-09-28 ~ | [Apply](https://app.careerpuck.com/job-board/lyft/job/8843341002?gh_jid=8843341002) |
+| Lyft ✓ | Applied Scientist Intern (Summer 2027) | Internship | San Francisco, CA · $64-$68/hour | 2026-09-28 ~ | [Apply](https://app.careerpuck.com/job-board/lyft/job/8843341002?gh_jid=8843341002) |
 | Waymo ✓ | 2027 Summer Intern, MS/PhD, Perception, Machine Learning | Internship | Mountain View, CA, USA | 2026-09-26 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8227411) |
 | Waymo ✓ | 2027 Summer Intern, MS/PhD, Product Data Science | Internship | San Francisco, California, United States | 2026-09-25 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8199365) |
 | Waymo ✓ | 2027 Summer Intern, MS/PhD, Software Engineer, Sys Intel & Machine Learning | Internship | Mountain View, CA, USA | 2026-09-25 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8233746) |
@@ -57,9 +57,9 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Waymo ✓ | 2027 Summer Intern, PhD, Machine Learning, Computer Vision | Internship | Mountain View, California | 2026-09-11 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8193295) |
 | Waymo ✓ | 2027 Summer Intern, PhD, Vehicle Intent and Prediction | Internship | Mountain View, California | 2026-09-10 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8189848) |
 | Coinbase ✓ | Strategic Finance Intern | Internship | Hybrid - New York, NY | 2026-09-10 ~ | [Apply](https://www.coinbase.com/careers/positions/8175438?gh_jid=8175438) |
-| Coinbase ✓ | Analytics Engineer Intern | Internship | Hybrid - San Francisco, CA | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8175471?gh_jid=8175471) |
+| Coinbase ✓ | Analytics Engineer Intern | Internship | Hybrid - New York, NY | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8175471?gh_jid=8175471) |
 | Coinbase ✓ | Data Engineer Intern | Internship | Hybrid - San Francisco, CA | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8175459?gh_jid=8175459) |
-| Coinbase ✓ | Data Science Intern | Internship | Hybrid - San Francisco, CA | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8175462?gh_jid=8175462) |
+| Coinbase ✓ | Data Science Intern | Internship | Hybrid - New York, NY | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8175462?gh_jid=8175462) |
 | Coinbase ✓ | Employee and Workplace Experience Intern | Internship | Hybrid - New York, NY | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8175429?gh_jid=8175429) |
 | Coinbase ✓ | Machine Learning Engineer Intern | Internship | Hybrid - San Francisco, CA | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8175441?gh_jid=8175441) |
 | Coinbase ✓ | Payment Risk Intern | Internship | Hybrid - New York, NY | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8175447?gh_jid=8175447) |
@@ -111,7 +111,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Applied Intuition ✓ | Research Engineer - New Grad (2027) | New Grad | Sunnyvale · $140K – $200K • Offers Equity | 2026-08-14 | [Apply](https://jobs.ashbyhq.com/applied/45fc41cd-8280-4010-ba1f-def6114b3e39/application) |
 | WeRide ✓ | New Grads 2027 - Software Engineer - Perception/Computer Vision | New Grad | San Jose, CA | 2026-08-10 | [Apply](https://jobs.lever.co/weride/5cde0d09-ba2d-408d-947e-4a42028cd4f7) |
 | Modal Labs ✓ | ML Research Intern | Internship | New York · $15K per month | 2026-07-28 | [Apply](https://jobs.ashbyhq.com/modal/38888294-6bc7-4dab-b072-6d0f0c2ed79a/application) |
-| Color Health ✓ | Software Engineer, New Grad 2026 | New Grad | South San Francisco, California · $125,000-$140,000 | 2026-07-28 | [Apply](https://jobs.ashbyhq.com/color-health/41fa6f16-b2f2-46c6-bdb4-9aae3b9b5b96/application) |
+| Color Health ✓ | Software Engineer 🆕 | New Grad | South San Francisco, California · $125,000-$140,000 | 2026-07-28 | [Apply](https://jobs.ashbyhq.com/color-health/41fa6f16-b2f2-46c6-bdb4-9aae3b9b5b96/application) |
 | Cerebras Systems ✓ | Kernel Engineer - New Grad | New Grad | Sunnyvale, CA | 2026-07-23 | [Apply](https://jobs.ashbyhq.com/cerebras/9c7da4b8-446b-4bf2-8d07-23241590bf2e/application) |
 | Pika ✓ | Research Intern (BS/MS/PhD) | Internship | Palo Alto HQ | 2026-07-10 | [Apply](https://jobs.ashbyhq.com/pika/e135acb1-2a0b-47b4-81b2-3cb0f787657a/application) |
 | Notion ✓ | Software Engineer, Early Career (AI) | New Grad | San Francisco, California · $130,000-$150,000 | 2026-07-06 | [Apply](https://jobs.ashbyhq.com/notion/85947779-6b87-466a-98bc-30a640448c28/application) |
@@ -124,11 +124,8 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Amazon.com Services LLC ✓ | 2026 Applied Science Internship - United States, PhD Student Science Recruiting, Frontier AI & Robotics | Internship | San Francisco, California, USA | 2025-11-17 | [Apply](https://www.amazon.jobs/en/jobs/3127861/2026-applied-science-internship-united-states-phd-student-science-recruiting-frontier-ai-robotics) |
 | Applied Intuition ✓ | Research Intern - Reinforcement Learning, Self-Driving | Internship | Sunnyvale · $65 per hour | 2024-09-21 | [Apply](https://jobs.ashbyhq.com/applied/ce58d9fd-f22b-4336-80b5-ba1e8d764526/application) |
 
-## Recently closed — 37 in the last 14 days
+## Recently closed — 35 in the last 14 days
 
-- Postman — AI Engineer, Internship - Summer 2026 - Applications Open Now
-- Observe.AI — Software Engineer I - AI Agents
-- Applied Intuition — Cybersecurity Software Engineer - New Grad (December 2027)
 - Hex — AI Research Engineer
 - Amazon.com Services LLC — 2026 Fall Applied Science Internship - Information & Knowledge Management (Machine Learning) - United States, PhD Student Science Recruiting
 - Abridge — Software Engineer, Intern
@@ -163,12 +160,13 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 - Waymo — 2027 Summer Intern, MS/PhD, Data Science - Commercialization Testing
 - Snowflake — Software Engineer Intern (Core, Infrastructure & Security) — Spring 2027
 - Waymo — 2027 Summer Intern, MS/PhD, Road Understanding, ML Engineer
+- Color Health — Software Engineer, New Grad 2026
 
 ## How this stays current
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 465 feeds fetched · 107 open roles · 117.0s.
+Engine (last run): 506 companies · 465 feeds fetched · 107 open roles · 116.3s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
