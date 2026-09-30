@@ -1,6 +1,6 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **105 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **14 new** in the last 48h · **506 companies polled** · updated Sep 30, 2026 at 13:48 UTC.
+A self-updating engine that tracks **107 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **17 new** in the last 48h · **506 companies polled** · updated Sep 30, 2026 at 19:24 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -21,10 +21,12 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Prophet Security ✓ | Software Engineer, Backend Intern | Internship | Palo Alto (In office) | 2026-08-25 | [Apply](https://jobs.ashbyhq.com/prophet-security/6319cd03-3d5f-47b9-815b-0f8b0d184612/application) |
 | Palantir ✓ | Information Security Engineer, Internship | Internship | New York, NY | 2022-08-03 | [Apply](https://jobs.lever.co/palantir/ef725594-42dd-4f0d-ba8e-df8179dbc6cb) |
 
-## AI/ML (96 open)
+## AI/ML (98 open)
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
+| Waymo ✓ | 2027 Summer Intern, MS/PhD, Software Engineer, Onboard Developer Platform 🆕 | Internship | Mountain View, CA, USA | 2026-09-30 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8240198) |
+| Waymo ✓ | 2027 Summer Intern, PhD, Road Understanding, ML Engineer 🆕 | Internship | Mountain View, California | 2026-09-30 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8224746) |
 | Robinhood ✓ | Data Science Intern (Summer 2027) 🆕 | Internship | Menlo Park, CA · $24.65 - $29 per hour | 2026-09-30 ~ | [Apply](https://boards.greenhouse.io/robinhood/jobs/8241738?t=gh_src=&gh_jid=8241738) |
 | Waymo ✓ | 2027 Summer Intern, PhD, Machine Learning Research, Planning/Prediction 🆕 | Internship | Mountain View, CA, USA | 2026-09-29 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8237997) |
 | Waymo ✓ | 2027 Summer Intern, PhD, Planner Machine Learning 🆕 | Internship | San Francisco, California | 2026-09-29 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8234876) |
@@ -34,7 +36,6 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Waymo ✓ | 2027 Summer Intern, MS/PhD, Software Engineer, Sys Intel & Machine Learning | Internship | Mountain View, CA, USA | 2026-09-25 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8233746) |
 | Waymo ✓ | 2027 Summer Intern, PhD, Software Engineer, Simulation | Internship | Mountain View, CA, USA | 2026-09-24 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8227640) |
 | Waymo ✓ | 2027 Summer Intern, MS/PhD, Machine Learning Engineer - Simulator Realism Evaluation | Internship | San Francisco, California, United States | 2026-09-23 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8214350) |
-| Waymo ✓ | 2027 Summer Intern, MS/PhD, Road Understanding, ML Engineer | Internship | Mountain View, California | 2026-09-23 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8224746) |
 | Scale AI ✓ | Software Engineer, Public Sector - New Grad | New Grad | San Francisco, CA | 2026-09-23 ~ | [Apply](https://job-boards.greenhouse.io/scaleai/jobs/4736426005) |
 | Apptronik ✓ | IROS 2026 - Robotics & AI Talent | New Grad | Austin, Texas & Sunnyvale, California | 2026-09-23 ~ | [Apply](https://boards.greenhouse.io/apptronik/jobs/6206626004?gh_jid=6206626004) |
 | Waymo ✓ | 2027 Summer Intern, MS/PhD, Machine Learning Engineer | Internship | San Francisco, CA, USA | 2026-09-22 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8223735) |
@@ -96,6 +97,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Amazon Development Center U.S., Inc. - B02 ✓ | 2027 Quantum Applied Science Internship, Quantum Technologies team | Internship | Pasadena, California, USA | 2026-09-22 | [Apply](https://www.amazon.jobs/en/jobs/10556930/2027-quantum-applied-science-internship-quantum-technologies-team) |
 | Skydio ✓ | Hardware Product Management Intern - Fall 2026/Winter 2027 | Internship | San Mateo, California, United States · $47/hr | 2026-09-17 | [Apply](https://jobs.ashbyhq.com/skydio/1ec2fe3c-3fb2-4485-870d-764a3e5f5baf/application) |
 | Amazon.com Services LLC ✓ | 2027 Applied Science Internship - Automated Reasoning - United States, PhD Student Science Recruiting, Automated Reasoning | Internship | Seattle, Washington, USA | 2026-09-17 | [Apply](https://www.amazon.jobs/en/jobs/10552930/2027-applied-science-internship-automated-reasoning-united-states-phd-student-science-recruiting-automated-reasoning) |
+| Ramp ✓ | Applied Scientist Intern 🆕 | Internship | New York, NY (HQ) · $12.5K per month | 2026-09-15 | [Apply](https://jobs.ashbyhq.com/ramp/b39ceb08-a0a7-4f8b-a760-2fb88e209956/application) |
 | Western Digital ✓ | Spring 2027 Co-Op - AI Systems Strategy | Co-op | Rochester, MN, us | 2026-09-14 | [Apply](https://api.smartrecruiters.com/v1/companies/westerndigital/postings/744000149367234) |
 | Replit ✓ | Cohort 0 | Internship | Foster City, CA | 2026-09-05 | [Apply](https://jobs.ashbyhq.com/replit/2c147ccb-2557-40f8-aab9-64422cef220c/application) |
 | Snowflake ✓ | AI Research Scientist, New Grad – Agents & Reinforcement Learning | New Grad | US-WA-Bellevue · $176K – $230K | 2026-09-03 | [Apply](https://jobs.ashbyhq.com/snowflake/1bad12df-f443-426f-9d09-e96fc780d698/application) |
@@ -122,7 +124,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Amazon.com Services LLC ✓ | 2026 Applied Science Internship - United States, PhD Student Science Recruiting, Frontier AI & Robotics | Internship | San Francisco, California, USA | 2025-11-17 | [Apply](https://www.amazon.jobs/en/jobs/3127861/2026-applied-science-internship-united-states-phd-student-science-recruiting-frontier-ai-robotics) |
 | Applied Intuition ✓ | Research Intern - Reinforcement Learning, Self-Driving | Internship | Sunnyvale · $65 per hour | 2024-09-21 | [Apply](https://jobs.ashbyhq.com/applied/ce58d9fd-f22b-4336-80b5-ba1e8d764526/application) |
 
-## Recently closed — 36 in the last 14 days
+## Recently closed — 37 in the last 14 days
 
 - Postman — AI Engineer, Internship - Summer 2026 - Applications Open Now
 - Observe.AI — Software Engineer I - AI Agents
@@ -160,12 +162,13 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 - Snowflake — Software Engineer Intern (AI / ML) - Spring 2027
 - Waymo — 2027 Summer Intern, MS/PhD, Data Science - Commercialization Testing
 - Snowflake — Software Engineer Intern (Core, Infrastructure & Security) — Spring 2027
+- Waymo — 2027 Summer Intern, MS/PhD, Road Understanding, ML Engineer
 
 ## How this stays current
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 464 feeds fetched · 105 open roles · 113.1s.
+Engine (last run): 506 companies · 465 feeds fetched · 107 open roles · 117.0s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
