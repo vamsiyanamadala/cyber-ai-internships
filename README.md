@@ -1,6 +1,6 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **95 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **4 new** in the last 48h · **506 companies polled** · updated Sep 30, 2026 at 00:30 UTC.
+A self-updating engine that tracks **105 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **14 new** in the last 48h · **506 companies polled** · updated Sep 30, 2026 at 06:47 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -21,7 +21,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Prophet Security ✓ | Software Engineer, Backend Intern | Internship | Palo Alto (In office) | 2026-08-25 | [Apply](https://jobs.ashbyhq.com/prophet-security/6319cd03-3d5f-47b9-815b-0f8b0d184612/application) |
 | Palantir ✓ | Information Security Engineer, Internship | Internship | New York, NY | 2022-08-03 | [Apply](https://jobs.lever.co/palantir/ef725594-42dd-4f0d-ba8e-df8179dbc6cb) |
 
-## AI/ML (86 open)
+## AI/ML (96 open)
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
@@ -79,6 +79,16 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Ginkgo Bioworks ✓ | Software Graduate Intern, Autonomous Lab | Internship | Emeryville, California · $45,100-$63,600 | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/ginkgobioworks/jobs/5033171007) |
 | Ginkgo Bioworks ✓ | Software Intern, Autonomous Lab | Internship | Emeryville, California · $37,700-$53,500 | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/ginkgobioworks/jobs/5033167007) |
 | Databricks ✓ | PhD GenAI Research Scientist Intern | Internship | San Francisco, California | 2026-07-25 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=7011263002) |
+| Amazon.com Services LLC ✓ | 2027 Research Science Internship - United States, PhD Student Science Recruiting 🆕 | Internship | Seattle, Washington, USA | 2026-09-30 | [Apply](https://www.amazon.jobs/en/jobs/10564602/2027-research-science-internship-united-states-phd-student-science-recruiting) |
+| Amazon.com Services LLC ✓ | 2027 Applied Science Internship - Computer Vision - United States, PhD Student Science Recruiting 🆕 | Internship | Seattle, Washington, USA | 2026-09-30 | [Apply](https://www.amazon.jobs/en/jobs/10564601/2027-applied-science-internship-computer-vision-united-states-phd-student-science-recruiting) |
+| Amazon.com Services LLC ✓ | 2027 Applied Science Internship - United States, PhD Student Science Recruiting Frontier AI & Robotics, Frontier AI & Robotics 🆕 | Internship | San Francisco, California, USA | 2026-09-30 | [Apply](https://www.amazon.jobs/en/jobs/10564600/2027-applied-science-internship-united-states-phd-student-science-recruiting-frontier-ai-robotics-frontier-ai-robotics) |
+| Amazon.com Services LLC ✓ | 2027 Applied Science Internship - United States, Undergrad Student Science Recruiting, Frontier AI & Robotics 🆕 | Internship | San Francisco, California, USA | 2026-09-30 | [Apply](https://www.amazon.jobs/en/jobs/10564599/2027-applied-science-internship-united-states-undergrad-student-science-recruiting-frontier-ai-robotics) |
+| Amazon.com Services LLC ✓ | 2027 Applied Science Internship - Recommender Systems/ Information Retrieval (Machine Learning) - United States, PhD Student Science Recruiting 🆕 | Internship | Seattle, Washington, USA | 2026-09-30 | [Apply](https://www.amazon.jobs/en/jobs/10564598/2027-applied-science-internship-recommender-systems-information-retrieval-machine-learning-united-states-phd-student-science-recruiting) |
+| Amazon.com Services LLC ✓ | 2027 Applied Science Internship - Gen AI & Large Language Models - United States, PhD Student Science Recruiting 🆕 | Internship | Seattle, Washington, USA | 2026-09-30 | [Apply](https://www.amazon.jobs/en/jobs/10564589/2027-applied-science-internship-gen-ai-large-language-models-united-states-phd-student-science-recruiting) |
+| Amazon.com Services LLC ✓ | 2027 Applied Science Internship - United States - Master's Student Science Recruiting 🆕 | Internship | Seattle, Washington, USA | 2026-09-30 | [Apply](https://www.amazon.jobs/en/jobs/10564586/2027-applied-science-internship-united-states-master-s-student-science-recruiting) |
+| Amazon.com Services LLC ✓ | 2027 Summer Applied Science Internship - Information & Knowledge Management (Machine Learning)- United States, PhD Student Science Recruiting 🆕 | Internship | Seattle, Washington, USA | 2026-09-30 | [Apply](https://www.amazon.jobs/en/jobs/10564585/2027-summer-applied-science-internship-information-knowledge-management-machine-learning-united-states-phd-student-science-recruiting) |
+| Amazon.com Services LLC ✓ | 2027 Applied Science Internship - Reinforcement Learning & Optimization (Machine Learning) - United States, PhD Student Science Recruiting 🆕 | Internship | Seattle, Washington, USA | 2026-09-30 | [Apply](https://www.amazon.jobs/en/jobs/10564597/2027-applied-science-internship-reinforcement-learning-optimization-machine-learning-united-states-phd-student-science-recruiting) |
+| Amazon.com Services LLC ✓ | 2027 Applied Science Internship - Natural Language Processing and Speech Technologies - United States, PhD Student Science Recruiting 🆕 | Internship | Seattle, Washington, USA | 2026-09-30 | [Apply](https://www.amazon.jobs/en/jobs/10564593/2027-applied-science-internship-natural-language-processing-and-speech-technologies-united-states-phd-student-science-recruiting) |
 | Spotify ✓ | CoLM 2026 — Intern | Internship | New York, NY | 2026-09-24 | [Apply](https://jobs.lever.co/spotify/ba2760c3-6461-45bf-b67b-0508d10c8659) |
 | Spotify ✓ | RecSys 2026 — Intern | Internship | New York, NY | 2026-09-24 | [Apply](https://jobs.lever.co/spotify/e7f6e680-bf86-4da6-8711-afe44b84fa41) |
 | Annapurna Labs (U.S.) Inc. - D63 ✓ | Software Development Engineer I, Annapurna Labs, Early Career - 2027 | New Grad | Cupertino, California, USA | 2026-09-24 | [Apply](https://www.amazon.jobs/en/jobs/10558915/software-development-engineer-i-annapurna-labs-early-career-2027) |
@@ -155,7 +165,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 465 feeds fetched · 95 open roles · 102.4s.
+Engine (last run): 506 companies · 465 feeds fetched · 105 open roles · 109.4s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
