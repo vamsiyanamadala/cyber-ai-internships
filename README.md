@@ -1,6 +1,6 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **116 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **26 new** in the last 48h · **506 companies polled** · updated Oct 01, 2026 at 19:35 UTC.
+A self-updating engine that tracks **118 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **27 new** in the last 48h · **506 companies polled** · updated Oct 01, 2026 at 23:56 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -21,10 +21,11 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Prophet Security ✓ | Software Engineer, Backend Intern | Internship | Palo Alto (In office) | 2026-08-25 | [Apply](https://jobs.ashbyhq.com/prophet-security/6319cd03-3d5f-47b9-815b-0f8b0d184612/application) |
 | Palantir ✓ | Information Security Engineer, Internship | Internship | New York, NY | 2022-08-03 | [Apply](https://jobs.lever.co/palantir/ef725594-42dd-4f0d-ba8e-df8179dbc6cb) |
 
-## AI/ML (107 open)
+## AI/ML (109 open)
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
+| Waymo ✓ | 2027 Summer Intern, MS/PhD, AI-driven ML Performance Engineering Intern 🆕 | Internship | Mountain View, CA, USA | 2026-10-01 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8248060) |
 | Waymo ✓ | 2027 Summer Intern, MS/PhD, Machine Learning, Driver Refinement Foundations 🆕 | Internship | Mountain View, CA, USA | 2026-10-01 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8243556) |
 | Pinterest ✓ | Master's Data Science Internship 2027 (USA) 🆕 | Internship | San Francisco, CA, US; Palo Alto, CA, US; Seattle, WA, US; New York, NY, US | 2026-10-01 ~ | [Apply](https://www.pinterestcareers.com/jobs/?gh_jid=8138097) |
 | Pinterest ✓ | Master's Machine Learning Internship 2027 (USA) 🆕 | Internship | San Francisco, CA, US; Palo Alto, CA, US; Seattle, WA, US; New York, NY, US | 2026-10-01 ~ | [Apply](https://www.pinterestcareers.com/jobs/?gh_jid=8138090) |
@@ -38,7 +39,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Waymo ✓ | 2027 Summer Intern, PhD, Road Understanding, ML Engineer 🆕 | Internship | Mountain View, California | 2026-09-30 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8224746) |
 | Robinhood ✓ | Data Science Intern (Summer 2027) 🆕 | Internship | Menlo Park, CA · $24.65 - $29 per hour | 2026-09-30 ~ | [Apply](https://boards.greenhouse.io/robinhood/jobs/8241738?t=gh_src=&gh_jid=8241738) |
 | Waymo ✓ | 2027 Summer Intern, PhD, Machine Learning Research, Planning/Prediction | Internship | Mountain View, CA, USA | 2026-09-29 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8237997) |
-| Waymo ✓ | 2027 Summer Intern, PhD, Planner Machine Learning 🆕 | Internship | San Francisco, California | 2026-09-29 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8234876) |
+| Waymo ✓ | 2027 Summer Intern, PhD, Planner Machine Learning | Internship | San Francisco, California | 2026-09-29 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8234876) |
 | Lyft ✓ | Applied Scientist Intern (Summer 2027) | Internship | San Francisco, CA · $64-$68/hour | 2026-09-28 ~ | [Apply](https://app.careerpuck.com/job-board/lyft/job/8843341002?gh_jid=8843341002) |
 | Waymo ✓ | 2027 Summer Intern, MS/PhD, Perception, Machine Learning | Internship | Mountain View, CA, USA | 2026-09-26 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8227411) |
 | Waymo ✓ | 2027 Summer Intern, MS/PhD, Product Data Science | Internship | San Francisco, California, United States | 2026-09-25 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8199365) |
@@ -89,6 +90,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Ginkgo Bioworks ✓ | Software Graduate Intern, Autonomous Lab | Internship | Emeryville, California · $45,100-$63,600 | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/ginkgobioworks/jobs/5033171007) |
 | Ginkgo Bioworks ✓ | Software Intern, Autonomous Lab | Internship | Emeryville, California · $37,700-$53,500 | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/ginkgobioworks/jobs/5033167007) |
 | Databricks ✓ | PhD GenAI Research Scientist Intern | Internship | San Francisco, California | 2026-07-25 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=7011263002) |
+| Amazon.com Services LLC ✓ | Software Development Engineer, ROBOTICS, Early Career - 2027 🆕 | New Grad | North Reading, Massachusetts, USA | 2026-10-01 | [Apply](https://www.amazon.jobs/en/jobs/10567489/software-development-engineer-robotics-early-career-2027) |
 | Amazon.com Services LLC ✓ | 2027 Research Science Internship - United States, PhD Student Science Recruiting 🆕 | Internship | Seattle, Washington, USA | 2026-09-30 | [Apply](https://www.amazon.jobs/en/jobs/10564602/2027-research-science-internship-united-states-phd-student-science-recruiting) |
 | Amazon.com Services LLC ✓ | 2027 Applied Science Internship - Computer Vision - United States, PhD Student Science Recruiting 🆕 | Internship | Seattle, Washington, USA | 2026-09-30 | [Apply](https://www.amazon.jobs/en/jobs/10564601/2027-applied-science-internship-computer-vision-united-states-phd-student-science-recruiting) |
 | Amazon.com Services LLC ✓ | 2027 Applied Science Internship - United States, PhD Student Science Recruiting Frontier AI & Robotics, Frontier AI & Robotics 🆕 | Internship | San Francisco, California, USA | 2026-09-30 | [Apply](https://www.amazon.jobs/en/jobs/10564600/2027-applied-science-internship-united-states-phd-student-science-recruiting-frontier-ai-robotics-frontier-ai-robotics) |
@@ -133,11 +135,8 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Amazon.com Services LLC ✓ | 2026 Applied Science Internship - United States, PhD Student Science Recruiting, Frontier AI & Robotics | Internship | San Francisco, California, USA | 2025-11-17 | [Apply](https://www.amazon.jobs/en/jobs/3127861/2026-applied-science-internship-united-states-phd-student-science-recruiting-frontier-ai-robotics) |
 | Applied Intuition ✓ | Research Intern - Reinforcement Learning, Self-Driving | Internship | Sunnyvale · $65 per hour | 2024-09-21 | [Apply](https://jobs.ashbyhq.com/applied/ce58d9fd-f22b-4336-80b5-ba1e8d764526/application) |
 
-## Recently closed — 35 in the last 14 days
+## Recently closed — 32 in the last 14 days
 
-- Abridge — Software Engineer, Intern
-- Lyft — Data Science Intern, Algorithms (Summer 2027)
-- Lyft — Data Science Intern, Algorithms (Summer 2027)
 - Zscaler — Phishing Analyst-SkillBridge Intern
 - Zscaler — Insider Risk Analyst - SkillBridge Intern
 - Zscaler — Detection Engineer- SkillBridge Intern
@@ -175,7 +174,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 463 feeds fetched · 116 open roles · 114.4s.
+Engine (last run): 506 companies · 462 feeds fetched · 118 open roles · 113.8s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
