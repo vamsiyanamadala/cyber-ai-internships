@@ -1,6 +1,6 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **121 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **4 new** in the last 48h · **506 companies polled** · updated Oct 04, 2026 at 17:38 UTC.
+A self-updating engine that tracks **121 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **3 new** in the last 48h · **506 companies polled** · updated Oct 04, 2026 at 21:30 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -11,7 +11,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
-| Kodiak Robotics ✓ | Winter 2027 Intern, Security 🆕 | Internship | Mountain View, CA | 2026-10-02 ~ | [Apply](https://job-boards.greenhouse.io/kodiak/jobs/4430607009) |
+| Kodiak Robotics ✓ | Winter 2027 Intern, Security | Internship | Mountain View, CA | 2026-10-02 ~ | [Apply](https://job-boards.greenhouse.io/kodiak/jobs/4430607009) |
 | Waymo ✓ | 2027 Summer Intern, MS/PhD, Systems Engineer, Autonomous Vehicle Networks & Diagnostics | Internship | Mountain View, CA, USA | 2026-09-25 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8231711) |
 | Robinhood ✓ | Security Risk Management Intern (Summer 2027) | Internship | Menlo Park, CA · $24.65 - $29 per hour | 2026-09-16 ~ | [Apply](https://boards.greenhouse.io/robinhood/jobs/8207970?t=gh_src=&gh_jid=8207970) |
 | Coinbase ✓ | Software Engineer Intern | Internship | Hybrid - San Francisco, CA | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8168315?gh_jid=8168315) |
@@ -172,7 +172,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 460 feeds fetched · 121 open roles · 111.2s.
+Engine (last run): 506 companies · 460 feeds fetched · 121 open roles · 115.4s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
