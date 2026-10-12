@@ -1,13 +1,13 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **131 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **4 new** in the last 48h · **506 companies polled** · updated Oct 11, 2026 at 20:21 UTC.
+A self-updating engine that tracks **130 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **3 new** in the last 48h · **506 companies polled** · updated Oct 12, 2026 at 00:36 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
 > Legend: **✓** = employer has an H-1B track record in USCIS data · **🆕** = seen in the last 48h · dates marked **~** are estimated from when the engine first saw the role (the source didn't publish one). Sponsorship signals are detected from posting text and USCIS history — strong hints, not guarantees. Always confirm on the source posting.
 
 
-## Cybersecurity (11 open)
+## Cybersecurity (10 open)
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
@@ -16,7 +16,6 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Waymo ✓ | 2027 Summer Intern, MS/PhD, Systems Engineer, Autonomous Vehicle Networks & Diagnostics | Internship | Mountain View, CA, USA | 2026-09-25 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8231711) |
 | Robinhood ✓ | Security Risk Management Intern (Summer 2027) | Internship | Menlo Park, CA · $24.65 - $29 per hour | 2026-09-16 ~ | [Apply](https://boards.greenhouse.io/robinhood/jobs/8207970?t=gh_src=&gh_jid=8207970) |
 | Coinbase ✓ | Software Engineer Intern | Internship | Hybrid - San Francisco, CA | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8168315?gh_jid=8168315) |
-| Harbinger Motors ✓ | Intern, Cybersecurity | Internship | Garden Grove, CA · $25-35 | 2026-09-06 ~ | [Apply](https://job-boards.greenhouse.io/harbingermotors/jobs/5231842007) |
 | Sezzle ✓ | Security Infrastructure Engineer Intern | Internship | Colombia, Remote | 2026-08-19 ~ | [Apply](https://job-boards.greenhouse.io/sezzle/jobs/7694916003) |
 | Semgrep ✓ | Software Engineer Intern | Internship | San Francisco Office | 2026-09-14 | [Apply](https://jobs.ashbyhq.com/semgrep/8e64dc7f-e925-4361-86d5-b01ee518c987/application) |
 | Applied Intuition ✓ | Cybersecurity Software Engineer - New Grad (2027) | New Grad | Sunnyvale · $130K – $158K • Offers Equity | 2026-09-02 | [Apply](https://jobs.ashbyhq.com/applied/a561fff8-aa38-4a5d-8b29-66c191f7328e/application) |
@@ -30,7 +29,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Waymo ✓ | 2027 Summer Intern, PhD, Research, AV Planning 🆕 | Internship | Mountain View, CA, USA | 2026-10-10 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8258070) |
 | Waymo ✓ | 2027 Summer Intern, PhD, Research, Post Training 🆕 | Internship | Mountain View, CA, USA: San Francisco, CA, USA | 2026-10-10 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8257006) |
 | Waymo ✓ | 2027 Summer Intern, PhD, Research, World Modeling Evaluation 🆕 | Internship | Mountain View, CA, USA | 2026-10-10 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8265173) |
-| Faire ✓ | Applied AI/ML Scientist, Intern 🆕 | Internship | San Francisco, CA | 2026-10-09 ~ | [Apply](https://boards.greenhouse.io/faire/jobs/8870975002?gh_jid=8870975002) |
+| Faire ✓ | Applied AI/ML Scientist, Intern | Internship | San Francisco, CA | 2026-10-09 ~ | [Apply](https://boards.greenhouse.io/faire/jobs/8870975002?gh_jid=8870975002) |
 | Wing ✓ | Data Scientist Intern, Summer 2027 | Internship | Palo Alto, California | 2026-10-08 ~ | [Apply](https://wing.com/careers/8872482002?gh_jid=8872482002) |
 | Waymo ✓ | 2027 Summer Intern, PhD, Machine Learning, Planning/Prediction | Internship | Mountain View, CA, USA | 2026-10-08 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8262154) |
 | Roblox ✓ | [2027] Applied Scientist - PhD Intern | Internship | San Mateo, CA, United States | 2026-10-08 ~ | [Apply](https://careers.roblox.com/jobs/8242621?gh_jid=8242621) |
@@ -148,7 +147,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Amazon.com Services LLC ✓ | 2026 Applied Science Internship - United States, PhD Student Science Recruiting, Frontier AI & Robotics | Internship | San Francisco, California, USA | 2025-11-17 | [Apply](https://www.amazon.jobs/en/jobs/3127861/2026-applied-science-internship-united-states-phd-student-science-recruiting-frontier-ai-robotics) |
 | Applied Intuition ✓ | Research Intern - Reinforcement Learning, Self-Driving | Internship | Sunnyvale · $65 per hour | 2024-09-21 | [Apply](https://jobs.ashbyhq.com/applied/ce58d9fd-f22b-4336-80b5-ba1e8d764526/application) |
 
-## Recently closed — 27 in the last 14 days
+## Recently closed — 28 in the last 14 days
 
 - Abridge — Software Engineering Intern, Fall
 - Abridge — Software Engineering Intern, Spring
@@ -177,12 +176,13 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 - Workato — Intern, AI Engineering
 - Color Health — Software Engineer
 - Waymo — 2026 Summer Intern, PhD, Research, World Modeling Evaluation
+- Harbinger Motors — Intern, Cybersecurity
 
 ## How this stays current
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 461 feeds fetched · 131 open roles · 115.4s.
+Engine (last run): 506 companies · 461 feeds fetched · 130 open roles · 116.2s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
