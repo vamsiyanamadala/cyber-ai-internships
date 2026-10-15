@@ -1,6 +1,6 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **129 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **7 new** in the last 48h · **506 companies polled** · updated Oct 14, 2026 at 23:57 UTC.
+A self-updating engine that tracks **129 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **5 new** in the last 48h · **506 companies polled** · updated Oct 15, 2026 at 04:45 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -26,7 +26,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 |---|---|---|---|---|---|
 | Wing ✓ | Machine Learning Engineering Intern, Summer 2027 🆕 | Internship | Palo Alto, California | 2026-10-14 ~ | [Apply](https://wing.com/careers/8872479002?gh_jid=8872479002) |
 | Waymo ✓ | 2027 Summer Intern, MS/PhD, Machine Learning, Planning/Prediction 🆕 | Internship | Mountain View, CA, USA | 2026-10-13 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8279620) |
-| Waymo ✓ | 2027 Summer Intern, MS/PhD, Perception, Model Lifecycle 🆕 | Internship | Mountain View, CA, USA | 2026-10-13 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8248411) |
+| Waymo ✓ | 2027 Summer Intern, MS/PhD, Perception, Model Lifecycle | Internship | Mountain View, CA, USA | 2026-10-13 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8248411) |
 | Waymo ✓ | 2027 Summer Intern, PhD, Research, AV Planning | Internship | Mountain View, CA, USA | 2026-10-10 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8258070) |
 | Waymo ✓ | 2027 Summer Intern, PhD, Research, Post Training | Internship | Mountain View, CA, USA: San Francisco, CA, USA | 2026-10-10 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8257006) |
 | Waymo ✓ | 2027 Summer Intern, PhD, Research, World Modeling Evaluation | Internship | Mountain View, CA, USA | 2026-10-10 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8265173) |
@@ -106,7 +106,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Skydio ✓ | Manufacturing Software Engineer Intern - Winter 2027 🆕 | Internship | San Mateo, California, United States · $47/hr | 2026-10-14 | [Apply](https://jobs.ashbyhq.com/skydio/ffc665c1-2aa6-4c2f-b04b-93a6fb7b5feb/application) |
 | ServiceNow ✓ | AI Engineering - Assoc Software Engineer Internships - Summer 2027 (Bachelors) 🆕 | Internship | Santa Clara, CALIFORNIA, us | 2026-10-13 | [Apply](https://api.smartrecruiters.com/v1/companies/servicenow/postings/744000155345889) |
 | ServiceNow ✓ | AI Engineering - Software Engineer Internships - Summer 2027 (Masters) 🆕 | Internship | Santa Clara, CALIFORNIA, us | 2026-10-13 | [Apply](https://api.smartrecruiters.com/v1/companies/servicenow/postings/744000155345689) |
-| Hex ✓ | AI Engineer Intern 🆕 | Internship | San Francisco · $11K per month | 2026-10-12 | [Apply](https://jobs.ashbyhq.com/hex/f2562cd7-abf2-434b-85ff-0a5016fbf0d6/application) |
+| Hex ✓ | AI Engineer Intern | Internship | San Francisco · $11K per month | 2026-10-12 | [Apply](https://jobs.ashbyhq.com/hex/f2562cd7-abf2-434b-85ff-0a5016fbf0d6/application) |
 | Amazon.com Services LLC ✓ | Software Development Engineer, ROBOTICS, Early Career - 2027 | New Grad | North Reading, Massachusetts, USA | 2026-10-01 | [Apply](https://www.amazon.jobs/en/jobs/10567489/software-development-engineer-robotics-early-career-2027) |
 | Amazon.com Services LLC ✓ | 2027 Research Science Internship - United States, PhD Student Science Recruiting | Internship | Seattle, Washington, USA | 2026-09-30 | [Apply](https://www.amazon.jobs/en/jobs/10564602/2027-research-science-internship-united-states-phd-student-science-recruiting) |
 | Amazon.com Services LLC ✓ | 2027 Applied Science Internship - Computer Vision - United States, PhD Student Science Recruiting | Internship | Seattle, Washington, USA | 2026-09-30 | [Apply](https://www.amazon.jobs/en/jobs/10564601/2027-applied-science-internship-computer-vision-united-states-phd-student-science-recruiting) |
@@ -180,7 +180,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 457 feeds fetched · 129 open roles · 115.3s.
+Engine (last run): 506 companies · 457 feeds fetched · 129 open roles · 116.1s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
