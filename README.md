@@ -1,6 +1,6 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **130 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **6 new** in the last 48h · **506 companies polled** · updated Oct 15, 2026 at 19:12 UTC.
+A self-updating engine that tracks **130 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **3 new** in the last 48h · **506 companies polled** · updated Oct 15, 2026 at 22:23 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -26,7 +26,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 |---|---|---|---|---|---|
 | Waymo ✓ | 2027 Summer Intern, MS/PhD, Semantics 🆕 | Internship | Mountain View, California, USA | 2026-10-15 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8244128) |
 | Wing ✓ | Machine Learning Engineering Intern, Summer 2027 🆕 | Internship | Palo Alto, California | 2026-10-14 ~ | [Apply](https://wing.com/careers/8872479002?gh_jid=8872479002) |
-| Waymo ✓ | 2027 Summer Intern, MS/PhD, Machine Learning, Planning/Prediction 🆕 | Internship | Mountain View, CA, USA | 2026-10-13 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8279620) |
+| Waymo ✓ | 2027 Summer Intern, MS/PhD, Machine Learning, Planning/Prediction | Internship | Mountain View, CA, USA | 2026-10-13 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8279620) |
 | Waymo ✓ | 2027 Summer Intern, MS/PhD, Perception, Model Lifecycle | Internship | Mountain View, CA, USA | 2026-10-13 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8248411) |
 | Waymo ✓ | 2027 Summer Intern, PhD, Research, AV Planning | Internship | Mountain View, CA, USA | 2026-10-10 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8258070) |
 | Waymo ✓ | 2027 Summer Intern, PhD, Research, Post Training | Internship | Mountain View, CA, USA: San Francisco, CA, USA | 2026-10-10 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8257006) |
@@ -105,8 +105,8 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Ginkgo Bioworks ✓ | Software Intern, Autonomous Lab | Internship | Emeryville, California · $37,700-$53,500 | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/ginkgobioworks/jobs/5033167007) |
 | Databricks ✓ | PhD GenAI Research Scientist Intern | Internship | San Francisco, California | 2026-07-25 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=7011263002) |
 | Skydio ✓ | Manufacturing Software Engineer Intern - Winter 2027 🆕 | Internship | San Mateo, California, United States · $47/hr | 2026-10-14 | [Apply](https://jobs.ashbyhq.com/skydio/ffc665c1-2aa6-4c2f-b04b-93a6fb7b5feb/application) |
-| ServiceNow ✓ | AI Engineering - Assoc Software Engineer Internships - Summer 2027 (Bachelors) 🆕 | Internship | Santa Clara, CALIFORNIA, us | 2026-10-13 | [Apply](https://api.smartrecruiters.com/v1/companies/servicenow/postings/744000155345889) |
-| ServiceNow ✓ | AI Engineering - Software Engineer Internships - Summer 2027 (Masters) 🆕 | Internship | Santa Clara, CALIFORNIA, us | 2026-10-13 | [Apply](https://api.smartrecruiters.com/v1/companies/servicenow/postings/744000155345689) |
+| ServiceNow ✓ | AI Engineering - Assoc Software Engineer Internships - Summer 2027 (Bachelors) | Internship | Santa Clara, CALIFORNIA, us | 2026-10-13 | [Apply](https://api.smartrecruiters.com/v1/companies/servicenow/postings/744000155345889) |
+| ServiceNow ✓ | AI Engineering - Software Engineer Internships - Summer 2027 (Masters) | Internship | Santa Clara, CALIFORNIA, us | 2026-10-13 | [Apply](https://api.smartrecruiters.com/v1/companies/servicenow/postings/744000155345689) |
 | Hex ✓ | AI Engineer Intern | Internship | San Francisco · $11K per month | 2026-10-12 | [Apply](https://jobs.ashbyhq.com/hex/f2562cd7-abf2-434b-85ff-0a5016fbf0d6/application) |
 | Amazon.com Services LLC ✓ | Software Development Engineer, ROBOTICS, Early Career - 2027 | New Grad | North Reading, Massachusetts, USA | 2026-10-01 | [Apply](https://www.amazon.jobs/en/jobs/10567489/software-development-engineer-robotics-early-career-2027) |
 | Amazon.com Services LLC ✓ | 2027 Research Science Internship - United States, PhD Student Science Recruiting | Internship | Seattle, Washington, USA | 2026-09-30 | [Apply](https://www.amazon.jobs/en/jobs/10564602/2027-research-science-internship-united-states-phd-student-science-recruiting) |
@@ -147,10 +147,8 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Amazon.com Services LLC ✓ | 2026 Applied Science Internship - United States, PhD Student Science Recruiting, Frontier AI & Robotics | Internship | San Francisco, California, USA | 2025-11-17 | [Apply](https://www.amazon.jobs/en/jobs/3127861/2026-applied-science-internship-united-states-phd-student-science-recruiting-frontier-ai-robotics) |
 | Applied Intuition ✓ | Research Intern - Reinforcement Learning, Self-Driving | Internship | Sunnyvale · $65 per hour | 2024-09-21 | [Apply](https://jobs.ashbyhq.com/applied/ce58d9fd-f22b-4336-80b5-ba1e8d764526/application) |
 
-## Recently closed — 27 in the last 14 days
+## Recently closed — 25 in the last 14 days
 
-- Applied Intuition — Cybersecurity Software Engineer - New Grad (December 2026)
-- Color Health — Software Engineer
 - Spotify — CoLM 2026 — Intern
 - Pinterest — PhD University Grad Data Scientist 2027 (USA)
 - Apptronik — IROS 2026 - Robotics & AI Talent
@@ -181,7 +179,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 457 feeds fetched · 130 open roles · 115.9s.
+Engine (last run): 506 companies · 457 feeds fetched · 130 open roles · 112.1s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
