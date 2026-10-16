@@ -1,6 +1,6 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **130 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **2 new** in the last 48h · **506 companies polled** · updated Oct 16, 2026 at 12:29 UTC.
+A self-updating engine that tracks **130 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **1 new** in the last 48h · **506 companies polled** · updated Oct 16, 2026 at 17:28 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -104,7 +104,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Ginkgo Bioworks ✓ | Software Graduate Intern, Autonomous Lab | Internship | Emeryville, California · $45,100-$63,600 | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/ginkgobioworks/jobs/5033171007) |
 | Ginkgo Bioworks ✓ | Software Intern, Autonomous Lab | Internship | Emeryville, California · $37,700-$53,500 | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/ginkgobioworks/jobs/5033167007) |
 | Databricks ✓ | PhD GenAI Research Scientist Intern | Internship | San Francisco, California | 2026-07-25 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=7011263002) |
-| Skydio ✓ | Manufacturing Software Engineer Intern - Winter 2027 🆕 | Internship | San Mateo, California, United States · $47/hr | 2026-10-14 | [Apply](https://jobs.ashbyhq.com/skydio/ffc665c1-2aa6-4c2f-b04b-93a6fb7b5feb/application) |
+| Skydio ✓ | Manufacturing Software Engineer Intern - Winter 2027 | Internship | San Mateo, California, United States · $47/hr | 2026-10-14 | [Apply](https://jobs.ashbyhq.com/skydio/ffc665c1-2aa6-4c2f-b04b-93a6fb7b5feb/application) |
 | ServiceNow ✓ | AI Engineering - Assoc Software Engineer Internships - Summer 2027 (Bachelors) | Internship | Santa Clara, CALIFORNIA, us | 2026-10-13 | [Apply](https://api.smartrecruiters.com/v1/companies/servicenow/postings/744000155345889) |
 | ServiceNow ✓ | AI Engineering - Software Engineer Internships - Summer 2027 (Masters) | Internship | Santa Clara, CALIFORNIA, us | 2026-10-13 | [Apply](https://api.smartrecruiters.com/v1/companies/servicenow/postings/744000155345689) |
 | Hex ✓ | AI Engineer Intern | Internship | San Francisco · $11K per month | 2026-10-12 | [Apply](https://jobs.ashbyhq.com/hex/f2562cd7-abf2-434b-85ff-0a5016fbf0d6/application) |
@@ -179,7 +179,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 457 feeds fetched · 130 open roles · 105.7s.
+Engine (last run): 506 companies · 457 feeds fetched · 130 open roles · 115.4s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
