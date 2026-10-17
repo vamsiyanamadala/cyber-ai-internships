@@ -1,6 +1,6 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **131 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **2 new** in the last 48h · **506 companies polled** · updated Oct 17, 2026 at 17:14 UTC.
+A self-updating engine that tracks **131 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **1 new** in the last 48h · **506 companies polled** · updated Oct 17, 2026 at 19:28 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -25,7 +25,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
 | Apptronik ✓ | CoRL 2026 - Robotics & AI Talent 🆕 | New Grad | Austin, Texas & Sunnyvale, California | 2026-10-16 ~ | [Apply](https://boards.greenhouse.io/apptronik/jobs/6226572004?gh_jid=6226572004) |
-| Waymo ✓ | 2027 Summer Intern, MS/PhD, Semantics 🆕 | Internship | Mountain View, California, USA | 2026-10-15 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8244128) |
+| Waymo ✓ | 2027 Summer Intern, MS/PhD, Semantics | Internship | Mountain View, California, USA | 2026-10-15 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8244128) |
 | Wing ✓ | Machine Learning Engineering Intern, Summer 2027 | Internship | Palo Alto, California | 2026-10-14 ~ | [Apply](https://wing.com/careers/8872479002?gh_jid=8872479002) |
 | Waymo ✓ | 2027 Summer Intern, MS/PhD, Machine Learning, Planning/Prediction | Internship | Mountain View, CA, USA | 2026-10-13 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8279620) |
 | Waymo ✓ | 2027 Summer Intern, MS/PhD, Perception, Model Lifecycle | Internship | Mountain View, CA, USA | 2026-10-13 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8248411) |
