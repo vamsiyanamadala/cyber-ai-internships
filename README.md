@@ -1,6 +1,6 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **138 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **9 new** in the last 48h · **506 companies polled** · updated Oct 22, 2026 at 23:26 UTC.
+A self-updating engine that tracks **138 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **6 new** in the last 48h · **506 companies polled** · updated Oct 23, 2026 at 04:55 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -15,8 +15,8 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Waymo ✓ | 2027 Summer Intern, MS/PhD, Systems Engineer, Autonomous Vehicle Networks & Diagnostics | Internship | Mountain View, CA, USA | 2026-09-25 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8231711) |
 | Coinbase ✓ | Software Engineer Intern | Internship | Hybrid - San Francisco, CA | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8168315?gh_jid=8168315) |
 | Sezzle ✓ | Security Infrastructure Engineer Intern | Internship | Colombia, Remote | 2026-08-19 ~ | [Apply](https://job-boards.greenhouse.io/sezzle/jobs/7694916003) |
-| Illumio ✓ | Security Research, Intern 🆕 | Internship | Sunnyvale, California - HQ · $37 per hour | 2026-10-20 | [Apply](https://jobs.ashbyhq.com/illumio/09d4895b-6de4-4d22-bbc3-aa45f2b24260/application) |
-| Illumio ✓ | Engineering Intern, Product Security 🆕 | Internship | Sunnyvale, California - HQ · $37 per hour | 2026-10-20 | [Apply](https://jobs.ashbyhq.com/illumio/8708e622-900e-458a-96b3-ae339329a56d/application) |
+| Illumio ✓ | Security Research, Intern | Internship | Sunnyvale, California - HQ · $37 per hour | 2026-10-20 | [Apply](https://jobs.ashbyhq.com/illumio/09d4895b-6de4-4d22-bbc3-aa45f2b24260/application) |
+| Illumio ✓ | Engineering Intern, Product Security | Internship | Sunnyvale, California - HQ · $37 per hour | 2026-10-20 | [Apply](https://jobs.ashbyhq.com/illumio/8708e622-900e-458a-96b3-ae339329a56d/application) |
 | Semgrep ✓ | Software Engineer Intern | Internship | San Francisco Office | 2026-09-14 | [Apply](https://jobs.ashbyhq.com/semgrep/8e64dc7f-e925-4361-86d5-b01ee518c987/application) |
 | Applied Intuition ✓ | Cybersecurity Software Engineer - New Grad (2027) | New Grad | Sunnyvale · $130K – $158K • Offers Equity | 2026-09-02 | [Apply](https://jobs.ashbyhq.com/applied/a561fff8-aa38-4a5d-8b29-66c191f7328e/application) |
 | Prophet Security ✓ | Software Engineer, Backend Intern | Internship | Palo Alto (In office) | 2026-08-25 | [Apply](https://jobs.ashbyhq.com/prophet-security/6319cd03-3d5f-47b9-815b-0f8b0d184612/application) |
@@ -30,7 +30,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Waymo ✓ | 2027 Summer Intern, PhD, Research, Multimodal Foundation Models 🆕 | Internship | Mountain View, CA, USA | 2026-10-22 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8306867) |
 | Waymo ✓ | 2027 Summer Intern, PhD, Research, RSI for Autonomous Driving 🆕 | Internship | Mountain View, CA, USA | 2026-10-22 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8306779) |
 | Databricks ✓ | Data Science Intern (2027 Start) 🆕 | Internship | Mountain View, California; San Francisco, California | 2026-10-22 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=6866538002) |
-| SambaNova Systems ✓ | AI Performance Engineer - New Grad 🆕 | New Grad | Austin, Texas, United States; San Jose, California, United States | 2026-10-20 ~ | [Apply](https://sambanova.ai/sambanova-available-positions/?gh_jid=6224936004) |
+| SambaNova Systems ✓ | AI Performance Engineer - New Grad | New Grad | Austin, Texas, United States; San Jose, California, United States | 2026-10-20 ~ | [Apply](https://sambanova.ai/sambanova-available-positions/?gh_jid=6224936004) |
 | Wing ✓ | Guidance, Navigation, and Controls Engineering Intern, Summer 2027 | Internship | Palo Alto, California | 2026-10-19 ~ | [Apply](https://wing.com/careers/8872475002?gh_jid=8872475002) |
 | Waymo ✓ | 2027 Summer Intern, PhD, Machine Learning - Simulation & Closed-Loop Training | Internship | Mountain View, California, United States | 2026-10-19 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8283558) |
 | Waymo ✓ | 2027 Summer Intern, PhD, Research, Behavior Post-training | Internship | Mountain View, CA, USA; San Francisco, CA, USA | 2026-10-19 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8289816) |
@@ -184,7 +184,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 456 feeds fetched · 138 open roles · 105.6s.
+Engine (last run): 506 companies · 456 feeds fetched · 138 open roles · 113.0s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
