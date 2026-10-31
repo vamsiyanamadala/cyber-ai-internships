@@ -328,6 +328,13 @@
       "removed_at": "2026-10-30T14:14:20+00:00",
       "title": "2027 Summer Intern, MS/PhD, AI-driven ML Performance Engineering Intern",
       "url": "https://careers.withwaymo.com/jobs?gh_jid=8248060"
+    },
+    {
+      "company": "Affirm",
+      "posted_at": "2026-10-02",
+      "removed_at": "2026-10-31T12:38:23+00:00",
+      "title": "Software Engineer (Machine Learning) Intern (Summer 2027)",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/8008645003"
     }
   ],
   "http_cache": {
@@ -455,7 +462,7 @@
       "etag": "W/\"job-board:31de69ec9a9b5fda35865f2d99269a8d88b39c3c5ebd036b029bbcb9c60bbcdc\""
     },
     "https://api.ashbyhq.com/posting-api/job-board/elevenlabs?includeCompensation=true": {
-      "etag": "W/\"job-board:7257d9496fbd950c820f9c87c308d6504162ef37ca95f25d9039e0dcb35659dd\""
+      "etag": "W/\"job-board:e940e8d7238bae25dccd4c95383d07af65dc437cac5f008dd70b89782fd45047\""
     },
     "https://api.ashbyhq.com/posting-api/job-board/elliptic?includeCompensation=true": {
       "etag": "W/\"job-board:3d1b50dda6394f8482ad7317e0fc513a3b2f4f6e78045611228a711fd90d8818\""
@@ -527,7 +534,7 @@
       "etag": "W/\"job-board:ef6639b56eb6245df0738276158b781521c8956f272d0c68960e80da5bcfd716\""
     },
     "https://api.ashbyhq.com/posting-api/job-board/horizon3ai?includeCompensation=true": {
-      "etag": "W/\"job-board:9f9097a91f8860fcc124ae11f360a50fd6ad16c60db97d197adbc1950a874335\""
+      "etag": "W/\"job-board:96fb8c9bfbdf4a49c72efa185de098a9e31d892da8208c676b71d652c0edeae7\""
     },
     "https://api.ashbyhq.com/posting-api/job-board/iceye?includeCompensation=true": {
       "etag": "W/\"job-board:05b1aa4b25494e44d096ea5cbebd1cdb82a6befc8414c7e77e27ee59fb6e44fa\""
@@ -797,7 +804,7 @@
       "etag": "W/\"job-board:7ae7c0dc6f4df690c3af7d96c236d49bb3eb78e94dec14400eb88fc77083241b\""
     },
     "https://api.ashbyhq.com/posting-api/job-board/supabase?includeCompensation=true": {
-      "etag": "W/\"job-board:873b8405e5c0eef57b919f508b14ba198d99947996d080c6723c7535ee62a512\""
+      "etag": "W/\"job-board:52e198f85a05692025f2bab697948010d6554ea01df5a330a98db589082b290c\""
     },
     "https://api.ashbyhq.com/posting-api/job-board/surge-ai?includeCompensation=true": {
       "etag": "W/\"job-board:769e9ec5456ca5b0f283145418cd7113bdfdf8259b331c7e84da42a497aae910\""
@@ -1178,7 +1185,7 @@
       "etag": "W/\"684e10aff9bc7feee20fe57924c17e02\""
     },
     "https://boards-api.greenhouse.io/v1/boards/affirm/jobs?content=true": {
-      "etag": "W/\"7095f3102d84922f95b216f27215fcaf\""
+      "etag": "W/\"03c04dc98dc016cbc24a1c1c360cd48d\""
     },
     "https://boards-api.greenhouse.io/v1/boards/agilityrobotics/jobs?content=true": {
       "etag": "W/\"071444ef4636d1241ea95a7b1df58158\""
@@ -1250,7 +1257,7 @@
       "etag": "W/\"86438994ffc140133e760f15d5ae354d\""
     },
     "https://boards-api.greenhouse.io/v1/boards/braze/jobs?content=true": {
-      "etag": "W/\"30dbfb5b5daf4111003d111592cc2b7c\""
+      "etag": "W/\"3cc00c5d6442bfb725ca9d450e0a97d1\""
     },
     "https://boards-api.greenhouse.io/v1/boards/brex/jobs?content=true": {
       "etag": "W/\"4adc7c41d0ac9b78e15d7dc39b19d4d8\""
@@ -1304,7 +1311,7 @@
       "etag": "W/\"b502d7658802df1b837b561902f53d06\""
     },
     "https://boards-api.greenhouse.io/v1/boards/coinbase/jobs?content=true": {
-      "etag": "W/\"80e00c7dfa33fa395a1d638cb83dbbc1\""
+      "etag": "W/\"b0ed08c1bfe8a3723bccf0f88d4b7b54\""
     },
     "https://boards-api.greenhouse.io/v1/boards/comet/jobs?content=true": {
       "etag": "W/\"ebc21c2f09a80aa87904e2cc1cba77cc\""
@@ -1334,7 +1341,7 @@
       "etag": "W/\"43e225acd19509b485877cecab52a79c\""
     },
     "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true": {
-      "etag": "W/\"5e2c64ecdcb5bef7d714207d25ed522f\""
+      "etag": "W/\"f2c0e004cea72487ecfd5152c09e3f33\""
     },
     "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true": {
       "etag": "W/\"0d7e78038760e57fed973d73209cc139\""
@@ -1430,7 +1437,7 @@
       "etag": "W/\"cb3ae6318fa8c3f5073ab5e9283ef043\""
     },
     "https://boards-api.greenhouse.io/v1/boards/gitlab/jobs?content=true": {
-      "etag": "W/\"cf946ac45222618306fb45c365d61a4e\""
+      "etag": "W/\"60d347d0c48d2a0be4afc9a507328409\""
     },
     "https://boards-api.greenhouse.io/v1/boards/goatgroup/jobs?content=true": {
       "etag": "W/\"d4d745d5ddeea79f7b30ff88d5e7ecd6\""
@@ -1475,7 +1482,7 @@
       "etag": "W/\"82efa37cd285738482509ca654d9f50f\""
     },
     "https://boards-api.greenhouse.io/v1/boards/intercom/jobs?content=true": {
-      "etag": "W/\"f4321b2153c9ca168e9d4a3be291a6ac\""
+      "etag": "W/\"da4334c74c27ea936908cc97e3425065\""
     },
     "https://boards-api.greenhouse.io/v1/boards/ionq/jobs?content=true": {
       "etag": "W/\"5934c3e32ada35a958cc064efca72e6b\""
@@ -1496,7 +1503,7 @@
       "etag": "W/\"a437b17c5a5c0aa79ce2e79dd3d95fb2\""
     },
     "https://boards-api.greenhouse.io/v1/boards/klaviyo/jobs?content=true": {
-      "etag": "W/\"5643cdb8bf425ecad2c5ca51b7407dea\""
+      "etag": "W/\"79ac81247d2b186636f068069582ac40\""
     },
     "https://boards-api.greenhouse.io/v1/boards/knock/jobs?content=true": {
       "etag": "W/\"184b17fb231965fac178ebb93b74890b\""
@@ -1559,7 +1566,7 @@
       "etag": "W/\"b1f8e3794b346958ca24d4d81d5de74d\""
     },
     "https://boards-api.greenhouse.io/v1/boards/nice/jobs?content=true": {
-      "etag": "W/\"fb287af924c15addcef286efc54ba192\""
+      "etag": "W/\"668f181ab92542d1ba7678a75162c9f7\""
     },
     "https://boards-api.greenhouse.io/v1/boards/nimblerobotics/jobs?content=true": {
       "etag": "W/\"0e2439e1b83192cf16e34abce75701db\""
@@ -1652,10 +1659,10 @@
       "etag": "W/\"6a4c73ebe1c7a8c3c37cb4ea0b785676\""
     },
     "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true": {
-      "etag": "W/\"b3ff6f8dd9e754ac71e1eb3a580b0ca2\""
+      "etag": "W/\"3b0bb7aeaca1fb12936efc63ca803e78\""
     },
     "https://boards-api.greenhouse.io/v1/boards/redwoodmaterials/jobs?content=true": {
-      "etag": "W/\"4518955c31934a9a09859734e3fadb89\""
+      "etag": "W/\"85abf3288d44949bd7373d57a83bc80f\""
     },
     "https://boards-api.greenhouse.io/v1/boards/regie/jobs?content=true": {
       "etag": "W/\"c81eb113d8ee010978481bf07e2fe753\""
@@ -1667,10 +1674,10 @@
       "etag": "W/\"95a4650e5cab3418faf6e02fe42f7991\""
     },
     "https://boards-api.greenhouse.io/v1/boards/robinhood/jobs?content=true": {
-      "etag": "W/\"129ddb16fb6c3aef29019cc9ec499db6\""
+      "etag": "W/\"0accf86f18202b73cc3286e2ede25af6\""
     },
     "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true": {
-      "etag": "W/\"c40f35deb66605ff7701a8e959c2e24e\""
+      "etag": "W/\"c7c4bd34880c71cf3202c265b9d914e7\""
     },
     "https://boards-api.greenhouse.io/v1/boards/rocketlab/jobs?content=true": {
       "etag": "W/\"239ccc1e342bbb27e679ccb62cdc9fa2\""
@@ -1694,7 +1701,7 @@
       "etag": "W/\"8bdab0de5a59a6248eb033ae5b2f002f\""
     },
     "https://boards-api.greenhouse.io/v1/boards/samsara/jobs?content=true": {
-      "etag": "W/\"64cd758d0700ae3e3c47f5c16ed41621\""
+      "etag": "W/\"a790fbd9e3e8c7e9718741f2db97914f\""
     },
     "https://boards-api.greenhouse.io/v1/boards/scaleai/jobs?content=true": {
       "etag": "W/\"e1f22b59d4f5167e998098b0fc21af5e\""
@@ -1772,7 +1779,7 @@
       "etag": "W/\"2e4d9c3fdee30d90ea9be5a4c64d49c0\""
     },
     "https://boards-api.greenhouse.io/v1/boards/twilio/jobs?content=true": {
-      "etag": "W/\"254df3deaed29485d85a12c7eb165cbc\""
+      "etag": "W/\"c6de639fcac52542b93c775a66bddcfa\""
     },
     "https://boards-api.greenhouse.io/v1/boards/twitch/jobs?content=true": {
       "etag": "W/\"02dd624b4d1cc9424dc4639b26f89577\""
@@ -1784,7 +1791,7 @@
       "etag": "W/\"7ed88050d0ba5ce53567d280da37ba26\""
     },
     "https://boards-api.greenhouse.io/v1/boards/vast/jobs?content=true": {
-      "etag": "W/\"008943a25c54c068cecb11644cf124ba\""
+      "etag": "W/\"c7001fc639c032f7d7526ce8e618bd2d\""
     },
     "https://boards-api.greenhouse.io/v1/boards/vercel/jobs?content=true": {
       "etag": "W/\"800188bbf9a217aaaa8ef311ab518a03\""
@@ -1826,25 +1833,25 @@
       "etag": "W/\"c982ebc0246944e4b9a54b3a74d99917\""
     },
     "https://www.amazon.jobs/en/search.json?base_query=cybersecurity&country=USA&sort=recent&result_limit=100&offset=0": {
-      "etag": "W/\"0fa5f57392ee1841d84c0d8e7a3d2734\""
+      "etag": "W/\"8a4d5188b9ec7fc045c68a0fb591d510\""
     },
     "https://www.amazon.jobs/en/search.json?base_query=cybersecurity+intern&country=USA&result_limit=100&offset=0&sort=recent": {
       "etag": "W/\"44964101bc8582e73e5f0143ca4d5b66\""
     },
     "https://www.amazon.jobs/en/search.json?base_query=graduate&country=USA&sort=recent&result_limit=100&offset=0": {
-      "etag": "W/\"b0d77d641c6b9cfff7127245e607d204\""
+      "etag": "W/\"0d958529ae15173c56c486d072cce583\""
     },
     "https://www.amazon.jobs/en/search.json?base_query=intern&country=USA&sort=recent&result_limit=100&offset=0": {
-      "etag": "W/\"e89ebd46f1295c594a9d9db9f8ab9ff2\""
+      "etag": "W/\"9c1bf03173749f29f3b84150efce9e6d\""
     },
     "https://www.amazon.jobs/en/search.json?base_query=internship&country=USA&sort=recent&result_limit=100&offset=0": {
-      "etag": "W/\"748a8bfa06cd7852485f62afc3accdcc\""
+      "etag": "W/\"3a0a8725a402c07c3ec985f77bac6aad\""
     },
     "https://www.amazon.jobs/en/search.json?base_query=internship&country=USA&sort=recent&result_limit=100&offset=100": {
-      "etag": "W/\"96d8646e79a6ed53bb80724851f45080\""
+      "etag": "W/\"2d9589c03774a89d2fc130d350f0b262\""
     },
     "https://www.amazon.jobs/en/search.json?base_query=internship&country=USA&sort=recent&result_limit=100&offset=200": {
-      "etag": "W/\"0223bdf27a9ebdb749a897a04a2c5d18\""
+      "etag": "W/\"683b9cfd1ecfc04d7c5a1eb90f168bd9\""
     },
     "https://www.amazon.jobs/en/search.json?base_query=machine+learning+intern&country=USA&result_limit=100&offset=0&sort=recent": {
       "etag": "W/\"d96fec5595f3baff723e669373d047e0\""
@@ -1853,13 +1860,13 @@
       "etag": "W/\"dddddb08808f20872664444017c4839a\""
     },
     "https://www.amazon.jobs/en/search.json?base_query=security&country=USA&sort=recent&result_limit=100&offset=0": {
-      "etag": "W/\"2d606d2e2f1597af129a6894b9d5071e\""
+      "etag": "W/\"bc9d676007da82e9c5a12df59ff97794\""
     },
     "https://www.amazon.jobs/en/search.json?base_query=security&country=USA&sort=recent&result_limit=100&offset=100": {
-      "etag": "W/\"3ec4f25bf299856aac0bbcaa79675236\""
+      "etag": "W/\"a654a9cab06c655f45f5eff2bc638dbb\""
     },
     "https://www.amazon.jobs/en/search.json?base_query=security&country=USA&sort=recent&result_limit=100&offset=200": {
-      "etag": "W/\"bc3d3a43b2b80579885c0fb116bc6823\""
+      "etag": "W/\"d218db4ee955bddfaffbffd0d40053bc\""
     },
     "https://www.amazon.jobs/en/search.json?base_query=security+engineer+intern&country=USA&result_limit=100&offset=0&sort=recent": {
       "etag": "W/\"65df759963a7d2ba7cdaffed8c045dbb\""
@@ -1872,7 +1879,7 @@
     "0154ce5ce3181b14": {
       "company": "Prophet Security",
       "first_seen": "2026-09-08T21:54:19+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-08-25",
       "posted_source": "source",
       "title": "Software Engineer, Backend Intern",
@@ -1881,7 +1888,7 @@
     "01c6e1a7cbe306da": {
       "company": "Waymo",
       "first_seen": "2026-09-22T22:13:27+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-22",
       "posted_source": "first_seen",
       "title": "2027 Summer Intern, MS/PhD, Machine Learning Engineer",
@@ -1890,7 +1897,7 @@
     "050300d4196a41dd": {
       "company": "Sigma Computing",
       "first_seen": "2026-10-07T01:36:06+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-07",
       "posted_source": "first_seen",
       "title": "AI/ML PhD Intern (Summer 2027)",
@@ -1899,7 +1906,7 @@
     "06c71f26e6c44606": {
       "company": "Skydio",
       "first_seen": "2026-10-14T17:15:26+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-14",
       "posted_source": "source",
       "title": "Manufacturing Software Engineer Intern - Winter 2027",
@@ -1908,7 +1915,7 @@
     "0b646a71dc0b615f": {
       "company": "Waymo",
       "first_seen": "2026-10-05T22:41:23+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-05",
       "posted_source": "first_seen",
       "title": "2027 Summer Intern, MS/PhD, Software Engineer, Eval Data Infra",
@@ -1917,7 +1924,7 @@
     "0bc83e4f341999a8": {
       "company": "Sezzle",
       "first_seen": "2026-08-19T15:49:10+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-08-19",
       "posted_source": "first_seen",
       "title": "Fraud Operations Intern",
@@ -1926,7 +1933,7 @@
     "0d7f31f9597680a1": {
       "company": "Amazon.com Services LLC",
       "first_seen": "2026-10-20T00:24:29+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-19",
       "posted_source": "source",
       "title": "Software Development Engineer, Early Career - 2027 (US)",
@@ -1935,7 +1942,7 @@
     "0e36d3e60b868fad": {
       "company": "Amazon.com Services LLC",
       "first_seen": "2026-09-30T06:47:09+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-30",
       "posted_source": "source",
       "title": "2027 Applied Science Internship - Gen AI & Large Language Models - United States, PhD Student Science Recruiting",
@@ -1944,7 +1951,7 @@
     "0f2a064a7f2ba0e4": {
       "company": "Applied Intuition",
       "first_seen": "2026-10-01T19:35:03+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-02",
       "posted_source": "source",
       "title": "Cybersecurity Software Engineer - New Grad (2027)",
@@ -1953,7 +1960,7 @@
     "0fadc4a31d664d1f": {
       "company": "Coinbase",
       "first_seen": "2026-09-09T00:18:34+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-09",
       "posted_source": "first_seen",
       "title": "People Analytics Intern",
@@ -1962,7 +1969,7 @@
     "10a931ade8c156c3": {
       "company": "Sierra",
       "first_seen": "2026-10-31T05:47:51+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-31",
       "posted_source": "source",
       "title": "Research Intern",
@@ -1971,7 +1978,7 @@
     "1162901971711ea2": {
       "company": "Waymo",
       "first_seen": "2026-10-10T00:55:56+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-10",
       "posted_source": "first_seen",
       "title": "2027 Summer Intern, PhD, Research, World Modeling Evaluation",
@@ -1980,7 +1987,7 @@
     "13c057959feb6c96": {
       "company": "Skydio",
       "first_seen": "2026-10-26T20:32:08+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-26",
       "posted_source": "source",
       "title": "Autonomy Engineer Intern, Simulation & Robotics, 2027 (HQ)",
@@ -1989,7 +1996,7 @@
     "156ed95c80d90eb7": {
       "company": "Sierra AI",
       "first_seen": "2026-09-09T21:45:08+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-08-31",
       "posted_source": "source",
       "title": "Software Engineer Intern, Agent (Summer 2027)",
@@ -1998,7 +2005,7 @@
     "17521336f5f6129e": {
       "company": "Applied Intuition",
       "first_seen": "2026-08-14T22:43:56+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-08-14",
       "posted_source": "source",
       "title": "Research Engineer - New Grad (2027)",
@@ -2007,7 +2014,7 @@
     "178a9787d19933ea": {
       "company": "Sezzle",
       "first_seen": "2026-08-19T15:49:10+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-08-19",
       "posted_source": "first_seen",
       "title": "Security Infrastructure Engineer Intern",
@@ -2016,7 +2023,7 @@
     "17ec6b9b1f0f3456": {
       "company": "Ginkgo Bioworks",
       "first_seen": "2026-08-11T15:59:05+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-08-11",
       "posted_source": "first_seen",
       "title": "Software Intern, Autonomous Lab",
@@ -2025,7 +2032,7 @@
     "185048b799dac2a3": {
       "company": "Waymo",
       "first_seen": "2026-09-18T19:40:28+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-18",
       "posted_source": "first_seen",
       "title": "2027 Summer Intern, PhD, Learning-Based Behavior for Special Vehicles",
@@ -2034,7 +2041,7 @@
     "19547681aec34213": {
       "company": "Waymo",
       "first_seen": "2026-10-22T23:26:12+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-22",
       "posted_source": "first_seen",
       "title": "2027 Summer Intern, PhD, Research, Multimodal Foundation Models",
@@ -2043,7 +2050,7 @@
     "1a6e9f8a6d24c757": {
       "company": "Waymo",
       "first_seen": "2026-09-21T23:20:32+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-21",
       "posted_source": "first_seen",
       "title": "2027 Summer Intern, MS/PhD, Software Engineer, Simulation Evaluation ML Model",
@@ -2052,7 +2059,7 @@
     "1b6b6185b296abf2": {
       "company": "Lyft",
       "first_seen": "2026-09-17T21:31:43+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-17",
       "posted_source": "first_seen",
       "title": "Data Science Intern, Algorithms (Summer 2027 - SF/NYC)",
@@ -2061,7 +2068,7 @@
     "1b8a3c43a8d4ec74": {
       "company": "Amazon.com Services LLC",
       "first_seen": "2026-09-30T06:47:09+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-30",
       "posted_source": "source",
       "title": "2027 Summer Applied Science Internship - Information & Knowledge Management (Machine Learning)- United States, PhD Student Science Recruiting",
@@ -2070,7 +2077,7 @@
     "1c0cc6824b157eac": {
       "company": "Amazon.com Services LLC",
       "first_seen": "2026-09-30T06:47:09+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-30",
       "posted_source": "source",
       "title": "2027 Applied Science Internship - Computer Vision - United States, PhD Student Science Recruiting",
@@ -2079,7 +2086,7 @@
     "1dc20de795577d21": {
       "company": "Coinbase",
       "first_seen": "2026-09-09T00:18:34+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-09",
       "posted_source": "first_seen",
       "title": "Machine Learning Engineer Intern",
@@ -2088,7 +2095,7 @@
     "1f5ed999ad302d1e": {
       "company": "Waymo",
       "first_seen": "2026-10-30T23:51:57+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-30",
       "posted_source": "first_seen",
       "title": "2027 Summer Intern, PhD, Research Scientist Intern",
@@ -2097,7 +2104,7 @@
     "1fbd6961e8ac4898": {
       "company": "Faire",
       "first_seen": "2026-10-23T19:18:03+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-23",
       "posted_source": "first_seen",
       "title": "Applied AI/ML Scientist, Intern - Winter 2027",
@@ -2106,7 +2113,7 @@
     "1fc646686de75bca": {
       "company": "Color Health",
       "first_seen": "2026-10-08T16:33:06+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-07-28",
       "posted_source": "source",
       "title": "Software Engineer, New Grad 2026",
@@ -2115,7 +2122,7 @@
     "1fd55e1a6fd2a85a": {
       "company": "Amazon.com Services LLC",
       "first_seen": "2026-10-30T23:51:57+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-30",
       "posted_source": "source",
       "title": "Software Development Engineer (Database) Early Career- 2027 (US)",
@@ -2124,7 +2131,7 @@
     "1feb90f7eb001748": {
       "company": "Coinbase",
       "first_seen": "2026-09-09T00:18:34+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-09",
       "posted_source": "first_seen",
       "title": "Payment Risk Intern",
@@ -2133,7 +2140,7 @@
     "1fec1cc5475d478a": {
       "company": "Coinbase",
       "first_seen": "2026-09-09T00:18:34+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-09",
       "posted_source": "first_seen",
       "title": "Data Science Intern",
@@ -2142,7 +2149,7 @@
     "22217bfa13f4a084": {
       "company": "Waymo",
       "first_seen": "2026-10-24T01:38:53+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-24",
       "posted_source": "first_seen",
       "title": "2027 Summer Intern, MS/PhD, Machine Learning, Driver Refinement Foundations",
@@ -2151,7 +2158,7 @@
     "25ce70ed35417778": {
       "company": "Skydio",
       "first_seen": "2026-10-26T01:14:50+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-25",
       "posted_source": "source",
       "title": "PhD Autonomy Engineer Intern, 2027",
@@ -2160,7 +2167,7 @@
     "26389e1f01104531": {
       "company": "Notion",
       "first_seen": "2026-08-11T16:13:13+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-07-06",
       "posted_source": "source",
       "title": "Software Engineer, Early Career (AI)",
@@ -2169,7 +2176,7 @@
     "26aaa53e1ad20d2d": {
       "company": "Amazon.com Services LLC",
       "first_seen": "2026-10-22T20:10:44+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-30",
       "posted_source": "source",
       "title": "2027 Frontier AI & Robotics Internship (Undergraduate) - United States, Frontier AI & Robotics, Frontier AI & Robotics",
@@ -2178,7 +2185,7 @@
     "2b3a09ade2acf7dd": {
       "company": "Sierra Space",
       "first_seen": "2026-09-09T21:45:08+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-08-31",
       "posted_source": "source",
       "title": "Software Engineer Intern, Agent (Summer 2027)",
@@ -2187,7 +2194,7 @@
     "2c64110ec3cc7127": {
       "company": "Waymo",
       "first_seen": "2026-09-26T01:37:43+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-26",
       "posted_source": "first_seen",
       "title": "2027 Summer Intern, MS/PhD, Perception, Machine Learning",
@@ -2196,7 +2203,7 @@
     "2d2a2f1b8e3e5d0f": {
       "company": "Databricks",
       "first_seen": "2026-10-27T22:59:49+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-27",
       "posted_source": "first_seen",
       "title": "Software Engineer - New Grad, Distributed Data Systems (2027 Start)",
@@ -2205,7 +2212,7 @@
     "3073efbc2658fdda": {
       "company": "Waymo",
       "first_seen": "2026-10-19T21:07:10+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-19",
       "posted_source": "first_seen",
       "title": "2027 Summer Intern, PhD, Research, Behavior Post-training",
@@ -2214,7 +2221,7 @@
     "3137a91294fd9f03": {
       "company": "Waymo",
       "first_seen": "2026-10-13T21:18:57+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-13",
       "posted_source": "first_seen",
       "title": "2027 Summer Intern, MS/PhD, Machine Learning, Planning/Prediction",
@@ -2223,7 +2230,7 @@
     "3380732d46e2319d": {
       "company": "Skydio",
       "first_seen": "2026-10-26T20:32:08+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-26",
       "posted_source": "source",
       "title": "Autonomy Engineer Intern, Autonomy Infrastructure, Systems and Tools, 2027 (HQ)",
@@ -2232,7 +2239,7 @@
     "33b0b3ba77741beb": {
       "company": "Pika",
       "first_seen": "2026-08-11T15:59:05+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-07-10",
       "posted_source": "source",
       "title": "Research Intern (BS/MS/PhD)",
@@ -2241,7 +2248,7 @@
     "34767da1516a38af": {
       "company": "ServiceNow",
       "first_seen": "2026-10-13T21:18:57+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-13",
       "posted_source": "source",
       "title": "AI Engineering - Software Engineer Internships - Summer 2027 (Masters)",
@@ -2250,7 +2257,7 @@
     "36020b1489fb9a7c": {
       "company": "Waymo",
       "first_seen": "2026-10-05T22:41:23+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-05",
       "posted_source": "first_seen",
       "title": "2027 Summer Intern, PhD, Perception/Road Understanding, ML Engineer",
@@ -2259,7 +2266,7 @@
     "387a528c6e92239d": {
       "company": "Applied Intuition",
       "first_seen": "2026-08-11T15:59:05+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-02-13",
       "posted_source": "source",
       "title": "Research Intern - World-Action Foundation Model, Robotics",
@@ -2268,7 +2275,7 @@
     "38acd6d5d0613687": {
       "company": "Amazon.com Services LLC",
       "first_seen": "2026-10-30T19:27:32+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-30",
       "posted_source": "source",
       "title": "Software Development Engineer Intern, Machine Learning/Automated Reasoning- Summer 2027",
@@ -2277,7 +2284,7 @@
     "3a4764c9b540fd4e": {
       "company": "SambaNova Systems",
       "first_seen": "2026-10-27T22:59:49+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-27",
       "posted_source": "first_seen",
       "title": "Compiler Engineer - New Grad",
@@ -2286,7 +2293,7 @@
     "40156cd3cc4c0a55": {
       "company": "Coinbase",
       "first_seen": "2026-09-09T00:18:34+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-09",
       "posted_source": "first_seen",
       "title": "Data Engineer Intern",
@@ -2295,7 +2302,7 @@
     "40e02c166d6af8da": {
       "company": "Pinterest",
       "first_seen": "2026-10-01T19:35:03+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-01",
       "posted_source": "first_seen",
       "title": "Master's University Grad Data Scientist (USA)",
@@ -2304,7 +2311,7 @@
     "4348b4a76765e30a": {
       "company": "Scale AI",
       "first_seen": "2026-09-04T16:25:17+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-04",
       "posted_source": "first_seen",
       "title": "Software Engineering Intern (Summer 2027)",
@@ -2313,7 +2320,7 @@
     "44cf94a87be51eb4": {
       "company": "Amazon.com Services LLC",
       "first_seen": "2026-08-06T19:26:54+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2025-11-17",
       "posted_source": "source",
       "title": "2026 Applied Science Internship - United States, PhD Student Science Recruiting, Frontier AI & Robotics",
@@ -2322,7 +2329,7 @@
     "450a6db6f2cdf699": {
       "company": "Skydio",
       "first_seen": "2026-10-26T01:14:50+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-25",
       "posted_source": "source",
       "title": "Autonomy Engineer Intern, 2027",
@@ -2331,7 +2338,7 @@
     "4557d75c7890cc28": {
       "company": "Waymo",
       "first_seen": "2026-09-17T21:31:43+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-17",
       "posted_source": "first_seen",
       "title": "2027 Summer Intern, BS/MS, Scenes",
@@ -2340,7 +2347,7 @@
     "46c4ec894df2dd5f": {
       "company": "Waymo",
       "first_seen": "2026-10-05T22:41:23+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-05",
       "posted_source": "first_seen",
       "title": "2027 Summer Intern, MS/PhD, ML Systems & Behavior Discovery",
@@ -2349,7 +2356,7 @@
     "46cbc14af6a76bfe": {
       "company": "WeRide",
       "first_seen": "2026-08-14T18:10:05+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-08-10",
       "posted_source": "source",
       "title": "New Grads 2027 - Software Engineer - Perception/Computer Vision",
@@ -2358,7 +2365,7 @@
     "46deda6e9cb9ed71": {
       "company": "ServiceNow",
       "first_seen": "2026-10-13T21:18:57+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-13",
       "posted_source": "source",
       "title": "AI Engineering - Assoc Software Engineer Internships - Summer 2027 (Bachelors)",
@@ -2367,7 +2374,7 @@
     "4d4cfd651ed7374b": {
       "company": "Amazon.com Services LLC",
       "first_seen": "2026-09-30T06:47:09+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-30",
       "posted_source": "source",
       "title": "2027 Applied Science Internship - Recommender Systems/ Information Retrieval (Machine Learning) - United States, PhD Student Science Recruiting",
@@ -2376,7 +2383,7 @@
     "50a502a1d02cc3de": {
       "company": "Waymo",
       "first_seen": "2026-09-24T19:14:05+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-24",
       "posted_source": "first_seen",
       "title": "2027 Summer Intern, PhD, Software Engineer, Simulation",
@@ -2385,7 +2392,7 @@
     "5107acd6679838f8": {
       "company": "Databricks",
       "first_seen": "2026-09-21T23:20:32+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-21",
       "posted_source": "first_seen",
       "title": "AI Engineer \u2013 Forward Deployed Engineering (AI FDE)",
@@ -2394,7 +2401,7 @@
     "5278e71cd6172e35": {
       "company": "Waymo",
       "first_seen": "2026-08-11T15:59:05+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-08-11",
       "posted_source": "first_seen",
       "title": "Machine Learning Engineer, Perception, LLM/VLM (PhD, New Grad)",
@@ -2403,7 +2410,7 @@
     "52790bd188c4a2e4": {
       "company": "Databricks",
       "first_seen": "2026-10-22T20:10:44+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-22",
       "posted_source": "first_seen",
       "title": "Data Science Intern (2027 Start)",
@@ -2412,7 +2419,7 @@
     "56d25c31c7500b7a": {
       "company": "Kodiak Robotics",
       "first_seen": "2026-10-02T18:28:12+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-02",
       "posted_source": "first_seen",
       "title": "Winter 2027 Intern, Security",
@@ -2421,7 +2428,7 @@
     "57debc980a234702": {
       "company": "Sierra Space",
       "first_seen": "2026-10-31T05:47:51+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-31",
       "posted_source": "source",
       "title": "Research Intern",
@@ -2430,7 +2437,7 @@
     "580a3ea7e9e8b5e2": {
       "company": "Coinbase",
       "first_seen": "2026-09-09T00:18:34+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-09",
       "posted_source": "first_seen",
       "title": "Employee and Workplace Experience Intern",
@@ -2439,7 +2446,7 @@
     "58a279af92486ea7": {
       "company": "Pinterest",
       "first_seen": "2026-10-01T19:35:03+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-01",
       "posted_source": "first_seen",
       "title": "Master's University Grad Machine Learning Engineer 2027 (USA)",
@@ -2448,7 +2455,7 @@
     "5df786372f105393": {
       "company": "Cerebras Systems",
       "first_seen": "2026-08-25T09:54:02+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-01-07",
       "posted_source": "source",
       "title": "CoDesign & NextGen - New College Grad",
@@ -2457,7 +2464,7 @@
     "5e049b7c5422f88f": {
       "company": "Wing",
       "first_seen": "2026-10-14T00:24:37+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-14",
       "posted_source": "first_seen",
       "title": "Machine Learning Engineering Intern, Summer 2027",
@@ -2466,7 +2473,7 @@
     "5fbf76da9003607c": {
       "company": "Waymo",
       "first_seen": "2026-09-25T01:34:14+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-25",
       "posted_source": "first_seen",
       "title": "2027 Summer Intern, MS/PhD, Product Data Science",
@@ -2475,7 +2482,7 @@
     "60f09fe1b378d38b": {
       "company": "Lyft",
       "first_seen": "2026-10-06T21:41:13+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-06",
       "posted_source": "first_seen",
       "title": "Applied Scientist Intern, PhD (Summer 2027)",
@@ -2484,7 +2491,7 @@
     "673837f0d151f928": {
       "company": "Sezzle",
       "first_seen": "2026-08-28T18:46:26+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-08-28",
       "posted_source": "first_seen",
       "title": "A.I. Engineering Intern",
@@ -2493,7 +2500,7 @@
     "67808bdbdc5c1536": {
       "company": "Applied Intuition",
       "first_seen": "2026-08-11T15:59:05+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-02-13",
       "posted_source": "source",
       "title": "Research Intern - Robotic Hardware, Simulation and Data",
@@ -2502,7 +2509,7 @@
     "67b295e7a5c7ae8b": {
       "company": "Coinbase",
       "first_seen": "2026-09-22T05:01:34+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-22",
       "posted_source": "first_seen",
       "title": "Internal Audit Analytics Intern",
@@ -2511,7 +2518,7 @@
     "6910b2c5000422a3": {
       "company": "Datadog",
       "first_seen": "2026-09-15T18:15:24+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-15",
       "posted_source": "first_seen",
       "title": "Research Science Intern (PhD)",
@@ -2520,7 +2527,7 @@
     "6a99ad02211d7578": {
       "company": "Waymo",
       "first_seen": "2026-09-29T20:51:12+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-29",
       "posted_source": "first_seen",
       "title": "2027 Summer Intern, PhD, Planner Machine Learning",
@@ -2529,7 +2536,7 @@
     "6ccb45e0f5543ed0": {
       "company": "Waymo",
       "first_seen": "2026-10-19T21:07:10+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-19",
       "posted_source": "first_seen",
       "title": "2027 Summer Intern, PhD, Research, Perception Foundation Models",
@@ -2538,7 +2545,7 @@
     "6cdab029a2afb169": {
       "company": "Skydio",
       "first_seen": "2026-10-26T01:14:50+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-25",
       "posted_source": "source",
       "title": "PhD Autonomy Engineer Intern - Deep Learning / Computer Vision, 2027",
@@ -2547,7 +2554,7 @@
     "6d959852fd8221a5": {
       "company": "Pinterest",
       "first_seen": "2026-10-01T19:35:03+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-01",
       "posted_source": "first_seen",
       "title": "Master's Machine Learning Internship 2027 (USA)",
@@ -2556,7 +2563,7 @@
     "6e20c6fab7d06977": {
       "company": "Ramp",
       "first_seen": "2026-09-30T19:24:48+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-15",
       "posted_source": "source",
       "title": "Applied Scientist Intern",
@@ -2565,7 +2572,7 @@
     "70028dfc2e0350a4": {
       "company": "Snowflake",
       "first_seen": "2026-09-03T22:37:59+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-03",
       "posted_source": "source",
       "title": "AI Research Scientist, New Grad \u2013 Agents & Reinforcement Learning",
@@ -2574,7 +2581,7 @@
     "72c1574a64133827": {
       "company": "SingleStore",
       "first_seen": "2026-08-11T15:59:05+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-08-11",
       "posted_source": "first_seen",
       "title": "Engineering Talent Community",
@@ -2583,7 +2590,7 @@
     "75688ffd4294fd74": {
       "company": "Waymo",
       "first_seen": "2026-10-19T21:07:10+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-19",
       "posted_source": "first_seen",
       "title": "2027 Summer Intern, PhD, Research, VLM Harnesses for AV Planning",
@@ -2592,7 +2599,7 @@
     "7843a8feca759279": {
       "company": "Roblox",
       "first_seen": "2026-10-08T16:33:06+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-08",
       "posted_source": "first_seen",
       "title": "[2027] Data Scientist - PhD Intern",
@@ -2601,7 +2608,7 @@
     "796e6ea3e9d03976": {
       "company": "Haize Labs",
       "first_seen": "2026-09-16T20:11:27+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-16",
       "posted_source": "first_seen",
       "title": "Research Intern",
@@ -2610,7 +2617,7 @@
     "7e3f12746e482f4d": {
       "company": "Applied Intuition",
       "first_seen": "2026-08-11T15:59:05+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-02-13",
       "posted_source": "source",
       "title": "Research Intern - Reinforcement Learning, Robotics",
@@ -2619,7 +2626,7 @@
     "7ee6264b22cfee62": {
       "company": "Amazon.com Services LLC",
       "first_seen": "2026-08-11T15:59:05+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-04-16",
       "posted_source": "source",
       "title": "2026 Fall Applied Science Internship - Automated Reasoning - United States, PhD Student Science Recruiting",
@@ -2628,7 +2635,7 @@
     "849c2a7643e502a2": {
       "company": "Amazon.com Services LLC",
       "first_seen": "2026-09-30T06:47:09+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-30",
       "posted_source": "source",
       "title": "2027 Applied Science Internship - United States - Master's Student Science Recruiting",
@@ -2637,7 +2644,7 @@
     "8606d6dd04ff042c": {
       "company": "Amazon.com Services LLC",
       "first_seen": "2026-09-30T06:47:09+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-30",
       "posted_source": "source",
       "title": "2027 Applied Science Internship - Reinforcement Learning & Optimization (Machine Learning) - United States, PhD Student Science Recruiting",
@@ -2646,7 +2653,7 @@
     "86444eba75b5f0c3": {
       "company": "Sierra",
       "first_seen": "2026-09-09T21:45:08+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-08-31",
       "posted_source": "source",
       "title": "Software Engineer Intern, Agent (Summer 2027)",
@@ -2655,7 +2662,7 @@
     "87befeb4a92f44a1": {
       "company": "Waymo",
       "first_seen": "2026-09-30T19:24:48+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-30",
       "posted_source": "first_seen",
       "title": "2027 Summer Intern, MS/PhD, Software Engineer, Onboard Developer Platform",
@@ -2664,7 +2671,7 @@
     "8866172c948f847d": {
       "company": "Wing",
       "first_seen": "2026-10-19T21:07:10+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-19",
       "posted_source": "first_seen",
       "title": "Guidance, Navigation, and Controls Engineering Intern, Summer 2027",
@@ -2673,7 +2680,7 @@
     "8962ae4f45ede155": {
       "company": "SambaNova Systems",
       "first_seen": "2026-10-27T22:59:49+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-27",
       "posted_source": "first_seen",
       "title": "ML Infrastructure Engineer - New Grad",
@@ -2682,7 +2689,7 @@
     "89dd82db2c4f214d": {
       "company": "Amazon.com Services LLC",
       "first_seen": "2026-09-18T00:23:22+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-17",
       "posted_source": "source",
       "title": "2027 Applied Science Internship - Automated Reasoning - United States, PhD Student Science Recruiting, Automated Reasoning",
@@ -2691,7 +2698,7 @@
     "8a09f98a2959055f": {
       "company": "Databricks",
       "first_seen": "2026-07-25T19:25:24+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-07-25",
       "posted_source": "first_seen",
       "title": "PhD GenAI Research Scientist Intern",
@@ -2700,7 +2707,7 @@
     "8af812f20d4bfcfd": {
       "company": "Pinterest",
       "first_seen": "2026-10-01T19:35:03+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-01",
       "posted_source": "first_seen",
       "title": "PhD Machine Learning Internship 2027 (USA)",
@@ -2709,7 +2716,7 @@
     "8d419121c96ddfc9": {
       "company": "Waymo",
       "first_seen": "2026-10-15T19:12:27+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-15",
       "posted_source": "first_seen",
       "title": "2027 Summer Intern, MS/PhD, Semantics",
@@ -2718,7 +2725,7 @@
     "8de6d5907da9d805": {
       "company": "Waymo",
       "first_seen": "2026-10-30T07:11:55+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-30",
       "posted_source": "first_seen",
       "title": "2027 Summer Intern, MS/PhD, Weather Perception",
@@ -2727,7 +2734,7 @@
     "950291fef7507eec": {
       "company": "Replit",
       "first_seen": "2026-09-05T01:00:30+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-05",
       "posted_source": "source",
       "title": "Cohort 0",
@@ -2736,7 +2743,7 @@
     "98959bb1e6f470ed": {
       "company": "Waymo",
       "first_seen": "2026-10-10T00:55:56+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-10",
       "posted_source": "first_seen",
       "title": "2027 Summer Intern, PhD, Research, Post Training",
@@ -2745,7 +2752,7 @@
     "99c7617da513b44c": {
       "company": "Waymo",
       "first_seen": "2026-09-23T00:38:10+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-23",
       "posted_source": "first_seen",
       "title": "2027 Summer Intern, MS/PhD, Machine Learning Engineer - Simulator Realism Evaluation",
@@ -2754,7 +2761,7 @@
     "9a2d9285fed14ce5": {
       "company": "Coinbase",
       "first_seen": "2026-09-09T00:18:34+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-09",
       "posted_source": "first_seen",
       "title": "Software Engineer Intern",
@@ -2763,7 +2770,7 @@
     "9f71fca3e6d2aeea": {
       "company": "SambaNova Systems",
       "first_seen": "2026-10-20T23:56:41+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-20",
       "posted_source": "first_seen",
       "title": "AI Performance Engineer - New Grad",
@@ -2772,7 +2779,7 @@
     "a01dfbcdf3bf1963": {
       "company": "Roblox",
       "first_seen": "2026-10-08T16:33:06+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-08",
       "posted_source": "first_seen",
       "title": "[2027] Applied Scientist - PhD Intern",
@@ -2781,7 +2788,7 @@
     "a2b76793390dc82d": {
       "company": "Waymo",
       "first_seen": "2026-09-25T22:25:08+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-25",
       "posted_source": "first_seen",
       "title": "2027 Summer Intern, MS/PhD, Software Engineer, Sys Intel & Machine Learning",
@@ -2790,7 +2797,7 @@
     "a61755eb200d675c": {
       "company": "Pinterest",
       "first_seen": "2026-10-01T19:35:03+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-01",
       "posted_source": "first_seen",
       "title": "Master's Data Science Internship 2027 (USA)",
@@ -2799,7 +2806,7 @@
     "a75476b05118297d": {
       "company": "Waymo",
       "first_seen": "2026-10-02T23:01:06+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-02",
       "posted_source": "first_seen",
       "title": "2027 Summer Intern, PhD, Research, World Action Model",
@@ -2808,7 +2815,7 @@
     "a88dba3ab1f7df30": {
       "company": "Waymo",
       "first_seen": "2026-10-13T00:45:01+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-13",
       "posted_source": "first_seen",
       "title": "2027 Summer Intern, MS/PhD, Perception, Model Lifecycle",
@@ -2817,7 +2824,7 @@
     "a9c7e2637ced9c8a": {
       "company": "Lyft",
       "first_seen": "2026-09-17T21:31:43+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-17",
       "posted_source": "first_seen",
       "title": "Data Science Intern, Algorithms (Summer 2027 - SF/NYC)",
@@ -2826,25 +2833,16 @@
     "aaf2688ce438c4d9": {
       "company": "Waymo",
       "first_seen": "2026-10-08T22:07:43+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-08",
       "posted_source": "first_seen",
       "title": "2027 Summer Intern, PhD, Machine Learning, Planning/Prediction",
       "url": "https://careers.withwaymo.com/jobs?gh_jid=8262154"
     },
-    "af04494640fa1159": {
-      "company": "Affirm",
-      "first_seen": "2026-10-02T23:01:06+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
-      "posted_at": "2026-10-02",
-      "posted_source": "first_seen",
-      "title": "Software Engineer (Machine Learning) Intern (Summer 2027)",
-      "url": "https://job-boards.greenhouse.io/affirm/jobs/8008645003"
-    },
     "b10a9791df7d9baf": {
       "company": "Scale AI",
       "first_seen": "2026-09-23T20:26:35+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-23",
       "posted_source": "first_seen",
       "title": "Software Engineer, Public Sector - New Grad",
@@ -2853,7 +2851,7 @@
     "b11a17d9e47ade84": {
       "company": "Coinbase",
       "first_seen": "2026-09-09T00:18:34+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-09",
       "posted_source": "first_seen",
       "title": "Analytics Engineer Intern",
@@ -2862,7 +2860,7 @@
     "b400761e6e535654": {
       "company": "Waymo",
       "first_seen": "2026-10-01T19:35:03+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-01",
       "posted_source": "first_seen",
       "title": "2027 Summer Intern, MS/PhD, Machine Learning, Driver Refinement Foundations",
@@ -2871,7 +2869,7 @@
     "b78840d8492cb277": {
       "company": "Annapurna Labs (U.S.) Inc. - D63",
       "first_seen": "2026-08-28T05:27:25+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-08-27",
       "posted_source": "source",
       "title": "Software Development Engineer Intern, Annapurna Labs - 2027",
@@ -2880,7 +2878,7 @@
     "b85a9fc213638c68": {
       "company": "Amazon Web Services, Inc.",
       "first_seen": "2026-10-22T20:10:44+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-21",
       "posted_source": "source",
       "title": "Associate Delivery Consultant Intern, AWS Professional Services",
@@ -2889,7 +2887,7 @@
     "be3dd187ef720f9e": {
       "company": "Waymo",
       "first_seen": "2026-10-07T08:44:12+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-07",
       "posted_source": "first_seen",
       "title": "2027 Summer Intern, MS/PhD,  Research, Perception Foundation Models",
@@ -2898,7 +2896,7 @@
     "be4c0c85b058a2d2": {
       "company": "Waymo",
       "first_seen": "2026-10-30T14:14:20+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-30",
       "posted_source": "first_seen",
       "title": "2027 Summer Intern, BS/MS/PhD, AI-driven ML Performance Engineering Intern",
@@ -2907,7 +2905,7 @@
     "be953f4817e96862": {
       "company": "Ginkgo Bioworks",
       "first_seen": "2026-08-11T15:59:05+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-08-11",
       "posted_source": "first_seen",
       "title": "Software Graduate Intern, Autonomous Lab",
@@ -2916,7 +2914,7 @@
     "bf17eb3c72aadf1a": {
       "company": "Skydio",
       "first_seen": "2026-10-26T01:14:50+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-03",
       "posted_source": "source",
       "title": "Autonomy Engineer Intern, Computer Vision / Deep Learning, 2027",
@@ -2925,7 +2923,7 @@
     "c1cf2ff18efcc5c0": {
       "company": "Modal Labs",
       "first_seen": "2026-08-11T16:13:13+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-07-28",
       "posted_source": "source",
       "title": "ML Research Intern",
@@ -2934,7 +2932,7 @@
     "c220f23bbe9c3ac3": {
       "company": "Waymo",
       "first_seen": "2026-09-25T22:25:08+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-25",
       "posted_source": "first_seen",
       "title": "2027 Summer Intern, MS/PhD, Systems Engineer, Autonomous Vehicle Networks & Diagnostics",
@@ -2943,7 +2941,7 @@
     "c34f2e472559f969": {
       "company": "Pinterest",
       "first_seen": "2026-10-01T19:35:03+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-01",
       "posted_source": "first_seen",
       "title": "PhD University Grad Machine Learning Engineer (USA)",
@@ -2952,7 +2950,7 @@
     "c755858867ad7dc4": {
       "company": "Cerebras Systems",
       "first_seen": "2026-08-25T09:03:02+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-07-23",
       "posted_source": "source",
       "title": "Kernel Engineer - New Grad",
@@ -2961,7 +2959,7 @@
     "c779166d340eea72": {
       "company": "Amazon.com Services LLC",
       "first_seen": "2026-09-30T06:47:09+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-30",
       "posted_source": "source",
       "title": "2027 Research Science Internship - United States, PhD Student Science Recruiting",
@@ -2970,7 +2968,7 @@
     "c89dc6c81b643045": {
       "company": "Snowflake",
       "first_seen": "2026-10-30T19:27:32+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-30",
       "posted_source": "source",
       "title": "Product Management Intern (Summer 2027)",
@@ -2979,7 +2977,7 @@
     "c8bd7acd521b8b4e": {
       "company": "Palantir",
       "first_seen": "2026-08-27T20:34:42+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2022-08-03",
       "posted_source": "source",
       "title": "Information Security Engineer, Internship",
@@ -2988,7 +2986,7 @@
     "d06317d08774fb64": {
       "company": "Waymo",
       "first_seen": "2026-10-19T21:07:10+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-19",
       "posted_source": "first_seen",
       "title": "2027 Summer Intern, PhD, Research Scientist, Visual Reasoning",
@@ -2997,7 +2995,7 @@
     "d067a318128bc865": {
       "company": "Waymo",
       "first_seen": "2026-10-22T23:26:12+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-22",
       "posted_source": "first_seen",
       "title": "2027 Summer Intern, PhD, AI Foundations - Recipes",
@@ -3006,7 +3004,7 @@
     "d20f77c23b28ee11": {
       "company": "Waymo",
       "first_seen": "2026-09-29T02:01:14+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-29",
       "posted_source": "first_seen",
       "title": "2027 Summer Intern, PhD, Machine Learning Research, Planning/Prediction",
@@ -3015,7 +3013,7 @@
     "d41c0f8d706f8e37": {
       "company": "Waymo",
       "first_seen": "2026-09-14T19:25:23+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-14",
       "posted_source": "first_seen",
       "title": "2027 Summer Intern, PhD, Safety Research, Human Behavior Analytics",
@@ -3024,7 +3022,7 @@
     "d5cbbafd23202552": {
       "company": "Applied Intuition",
       "first_seen": "2026-08-11T15:59:05+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-02-13",
       "posted_source": "source",
       "title": "Research Intern - 3D Vision and Generation, Self-Driving",
@@ -3033,7 +3031,7 @@
     "d66f2636e849e7ac": {
       "company": "Waymo",
       "first_seen": "2026-09-22T22:13:27+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-22",
       "posted_source": "first_seen",
       "title": "2027 Summer Intern, PhD, Data Science",
@@ -3042,7 +3040,7 @@
     "d88d1e8ff46c9f4f": {
       "company": "Amazon.com Services LLC",
       "first_seen": "2026-10-29T01:50:48+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-28",
       "posted_source": "source",
       "title": "2027 Applied Science Internship - Robotics - United States",
@@ -3051,7 +3049,7 @@
     "dc56ca39cd8b6321": {
       "company": "Apptronik",
       "first_seen": "2026-10-16T23:39:18+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-16",
       "posted_source": "first_seen",
       "title": "CoRL 2026 - Robotics & AI Talent",
@@ -3060,7 +3058,7 @@
     "dd25bb5317fb1dff": {
       "company": "Waymo",
       "first_seen": "2026-09-21T23:20:32+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-21",
       "posted_source": "first_seen",
       "title": "2027 Summer Intern, MS/PhD, Software/ML Engineer, Simulation",
@@ -3069,7 +3067,7 @@
     "df10dd10487bd94f": {
       "company": "Waymo",
       "first_seen": "2026-10-23T22:21:48+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-23",
       "posted_source": "first_seen",
       "title": "2027 Summer Intern, MS/PhD, Software Engineer, ML Frameworks and Efficiency",
@@ -3078,7 +3076,7 @@
     "e19faeeea39f784f": {
       "company": "Semgrep",
       "first_seen": "2026-09-14T23:10:55+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-14",
       "posted_source": "source",
       "title": "Software Engineer Intern",
@@ -3087,7 +3085,7 @@
     "e39cca979084b42f": {
       "company": "Nuro",
       "first_seen": "2026-08-11T15:59:05+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-08-11",
       "posted_source": "first_seen",
       "title": "Software Engineer, AI Platform - New Grad",
@@ -3096,7 +3094,7 @@
     "e564644079f9e8a2": {
       "company": "Hex",
       "first_seen": "2026-10-13T00:45:01+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-12",
       "posted_source": "source",
       "title": "AI Engineer Intern",
@@ -3105,7 +3103,7 @@
     "e74626bd0a2c3826": {
       "company": "Hex",
       "first_seen": "2026-10-02T05:43:11+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-02-11",
       "posted_source": "source",
       "title": "AI Research Engineer",
@@ -3114,7 +3112,7 @@
     "e9a1351bac5990f6": {
       "company": "Waymo",
       "first_seen": "2026-09-11T00:14:15+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-11",
       "posted_source": "first_seen",
       "title": "2027 Summer Intern, PhD, Machine Learning, Computer Vision",
@@ -3123,7 +3121,7 @@
     "ebbb37d74f2a44ff": {
       "company": "Waymo",
       "first_seen": "2026-10-22T23:26:12+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-22",
       "posted_source": "first_seen",
       "title": "2027 Summer Intern, PhD, Research, RSI for Autonomous Driving",
@@ -3132,7 +3130,7 @@
     "ebd8216078913873": {
       "company": "Lyft",
       "first_seen": "2026-10-06T21:41:13+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-06",
       "posted_source": "first_seen",
       "title": "PhD Machine Learning Software Engineer Intern (Summer 2027)",
@@ -3141,7 +3139,7 @@
     "ed20b924b7bc5307": {
       "company": "Nuro",
       "first_seen": "2026-08-11T15:59:05+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-08-11",
       "posted_source": "first_seen",
       "title": "Software Engineer, AI Platform - Intern",
@@ -3150,7 +3148,7 @@
     "ee9aa8b48f80b1fa": {
       "company": "Waymo",
       "first_seen": "2026-10-10T00:55:56+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-10",
       "posted_source": "first_seen",
       "title": "2027 Summer Intern, PhD, Research, AV Planning",
@@ -3159,7 +3157,7 @@
     "f024b1331e01b864": {
       "company": "Amazon.com Services LLC",
       "first_seen": "2026-09-30T06:47:09+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-30",
       "posted_source": "source",
       "title": "2027 Applied Science Internship - Natural Language Processing and Speech Technologies - United States, PhD Student Science Recruiting",
@@ -3168,7 +3166,7 @@
     "f0388f1b721392bd": {
       "company": "Waymo",
       "first_seen": "2026-09-10T21:41:13+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-10",
       "posted_source": "first_seen",
       "title": "2027 Summer Intern, PhD, Vehicle Intent and Prediction",
@@ -3177,7 +3175,7 @@
     "f1aa83a0e05382d2": {
       "company": "Pinterest",
       "first_seen": "2026-10-01T19:35:03+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-01",
       "posted_source": "first_seen",
       "title": "PhD Data Science Internship 2027 (USA)",
@@ -3186,7 +3184,7 @@
     "f501cb53695d6f5e": {
       "company": "Applied Intuition",
       "first_seen": "2026-08-11T15:59:05+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2024-09-21",
       "posted_source": "source",
       "title": "Research Intern - Reinforcement Learning, Self-Driving",
@@ -3195,7 +3193,7 @@
     "f72699cba3dca5f8": {
       "company": "Waymo",
       "first_seen": "2026-10-19T21:07:10+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-19",
       "posted_source": "first_seen",
       "title": "2027 Summer Intern, PhD, Machine Learning - Simulation & Closed-Loop Training",
@@ -3204,7 +3202,7 @@
     "f936984c17d26f73": {
       "company": "Sierra AI",
       "first_seen": "2026-10-31T05:47:51+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-31",
       "posted_source": "source",
       "title": "Research Intern",
@@ -3213,7 +3211,7 @@
     "fbcf5b4f5a7aeda6": {
       "company": "Skydio",
       "first_seen": "2026-10-26T20:32:08+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-26",
       "posted_source": "source",
       "title": "Autonomy Engineer Intern, Reinforcement Learning, 2027 (HQ)",
@@ -3222,7 +3220,7 @@
     "fbdbabd77bd5e44e": {
       "company": "Scale AI",
       "first_seen": "2026-09-04T16:25:17+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-04",
       "posted_source": "first_seen",
       "title": "Software Engineer - New Grad",
@@ -3231,7 +3229,7 @@
     "fc3ce7a92559885d": {
       "company": "Wing",
       "first_seen": "2026-10-08T22:07:43+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-10-08",
       "posted_source": "first_seen",
       "title": "Data Scientist Intern, Summer 2027",
@@ -3240,7 +3238,7 @@
     "ff7fad6f7eabf4ce": {
       "company": "Amazon.com Services LLC",
       "first_seen": "2026-09-30T06:47:09+00:00",
-      "last_seen": "2026-10-31T05:47:51+00:00",
+      "last_seen": "2026-10-31T12:38:23+00:00",
       "posted_at": "2026-09-30",
       "posted_source": "source",
       "title": "2027 Applied Science Internship - United States, PhD Student Science Recruiting Frontier AI & Robotics, Frontier AI & Robotics",
