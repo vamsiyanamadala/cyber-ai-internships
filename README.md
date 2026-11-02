@@ -1,6 +1,6 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **152 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **5 new** in the last 48h · **506 companies polled** · updated Nov 01, 2026 at 23:39 UTC.
+A self-updating engine that tracks **152 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **0 new** in the last 48h · **506 companies polled** · updated Nov 02, 2026 at 06:12 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -27,7 +27,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 |---|---|---|---|---|---|
 | Waymo ✓ | 2027 Summer Intern, BS/MS/PhD, AI-driven ML Performance Engineering Intern | Internship | Mountain View, CA, USA | 2026-10-30 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8248060) |
 | Waymo ✓ | 2027 Summer Intern, MS/PhD, Weather Perception | Internship | San Francisco, CA, USA | 2026-10-30 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8335511) |
-| Waymo ✓ | 2027 Summer Intern, PhD, Research Scientist Intern 🆕 | Internship | Mountain View, CA, USA | 2026-10-30 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8337719) |
+| Waymo ✓ | 2027 Summer Intern, PhD, Research Scientist Intern | Internship | Mountain View, CA, USA | 2026-10-30 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8337719) |
 | SambaNova Systems ✓ | Compiler Engineer - New Grad | New Grad | Austin, Texas, United States; San Jose, California, United States | 2026-10-27 ~ | [Apply](https://sambanova.ai/sambanova-available-positions/?gh_jid=6224835004) |
 | SambaNova Systems ✓ | ML Infrastructure Engineer - New Grad | New Grad | Austin, Texas, United States; San Jose, California, United States | 2026-10-27 ~ | [Apply](https://sambanova.ai/sambanova-available-positions/?gh_jid=6224938004) |
 | Waymo ✓ | 2027 Summer Intern, MS/PhD, Machine Learning, Driver Refinement Foundations | Internship | San Francisco, CA, USA | 2026-10-24 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8304574) |
@@ -114,12 +114,12 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Ginkgo Bioworks ✓ | Software Graduate Intern, Autonomous Lab | Internship | Emeryville, California · $45,100-$63,600 | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/ginkgobioworks/jobs/5033171007) |
 | Ginkgo Bioworks ✓ | Software Intern, Autonomous Lab | Internship | Emeryville, California · $37,700-$53,500 | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/ginkgobioworks/jobs/5033167007) |
 | Databricks ✓ | PhD GenAI Research Scientist Intern | Internship | San Francisco, California | 2026-07-25 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=7011263002) |
-| Sierra Space ✓ | Research Intern 🆕 | Internship | San Francisco, CA | 2026-10-31 | [Apply](https://jobs.ashbyhq.com/sierra/ef896ee9-e903-4a1f-84c2-537373cb9081/application) |
-| Sierra AI ✓ | Research Intern 🆕 | Internship | San Francisco, CA | 2026-10-31 | [Apply](https://jobs.ashbyhq.com/sierra/ef896ee9-e903-4a1f-84c2-537373cb9081/application) |
-| Sierra ✓ | Research Intern 🆕 | Internship | San Francisco, CA | 2026-10-31 | [Apply](https://jobs.ashbyhq.com/sierra/ef896ee9-e903-4a1f-84c2-537373cb9081/application) |
+| Sierra Space ✓ | Research Intern | Internship | San Francisco, CA | 2026-10-31 | [Apply](https://jobs.ashbyhq.com/sierra/ef896ee9-e903-4a1f-84c2-537373cb9081/application) |
+| Sierra AI ✓ | Research Intern | Internship | San Francisco, CA | 2026-10-31 | [Apply](https://jobs.ashbyhq.com/sierra/ef896ee9-e903-4a1f-84c2-537373cb9081/application) |
+| Sierra ✓ | Research Intern | Internship | San Francisco, CA | 2026-10-31 | [Apply](https://jobs.ashbyhq.com/sierra/ef896ee9-e903-4a1f-84c2-537373cb9081/application) |
 | Snowflake ✓ | Product Management Intern (Summer 2027) | Internship | US-CA-Menlo Park · $60 – $70 per hour | 2026-10-30 | [Apply](https://jobs.ashbyhq.com/snowflake/322b82f6-4b18-4f86-ae34-007f55c4bdbf/application) |
 | Amazon.com Services LLC ✓ | Software Development Engineer Intern, Machine Learning/Automated Reasoning- Summer 2027 | Internship | Seattle, Washington, USA | 2026-10-30 | [Apply](https://www.amazon.jobs/en/jobs/10593521/software-development-engineer-intern-machine-learning-automated-reasoning-summer-2027) |
-| Amazon.com Services LLC ✓ | Software Development Engineer (Database) Early Career- 2027 (US) 🆕 | New Grad | Seattle, Washington, USA | 2026-10-30 | [Apply](https://www.amazon.jobs/en/jobs/10593902/software-development-engineer-database-early-career-2027-us) |
+| Amazon.com Services LLC ✓ | Software Development Engineer (Database) Early Career- 2027 (US) | New Grad | Seattle, Washington, USA | 2026-10-30 | [Apply](https://www.amazon.jobs/en/jobs/10593902/software-development-engineer-database-early-career-2027-us) |
 | Amazon.com Services LLC ✓ | 2027 Applied Science Internship - Robotics - United States | Internship | North Reading, Massachusetts, USA | 2026-10-28 | [Apply](https://www.amazon.jobs/en/jobs/10591833/2027-applied-science-internship-robotics-united-states) |
 | Skydio ✓ | Autonomy Engineer Intern, Autonomy Infrastructure, Systems and Tools, 2027 (HQ) | Internship | San Mateo, California, United States · $47/hr | 2026-10-26 | [Apply](https://jobs.ashbyhq.com/skydio/ec82eb16-a5b4-46e7-827a-326b33d7d2cb/application) |
 | Skydio ✓ | Autonomy Engineer Intern, Simulation & Robotics, 2027 (HQ) | Internship | San Mateo, California, United States · $47/hr | 2026-10-26 | [Apply](https://jobs.ashbyhq.com/skydio/6f5caf41-fa1d-4208-9bdc-82c72e5d3f17/application) |
@@ -197,7 +197,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 455 feeds fetched · 152 open roles · 126.7s.
+Engine (last run): 506 companies · 453 feeds fetched · 152 open roles · 116.7s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
