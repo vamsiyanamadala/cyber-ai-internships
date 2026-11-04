@@ -1,6 +1,6 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **154 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **2 new** in the last 48h · **506 companies polled** · updated Nov 03, 2026 at 21:03 UTC.
+A self-updating engine that tracks **153 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **2 new** in the last 48h · **506 companies polled** · updated Nov 04, 2026 at 01:26 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -21,7 +21,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Prophet Security ✓ | Software Engineer, Backend Intern | Internship | Palo Alto (In office) | 2026-08-25 | [Apply](https://jobs.ashbyhq.com/prophet-security/6319cd03-3d5f-47b9-815b-0f8b0d184612/application) |
 | Palantir ✓ | Information Security Engineer, Internship | Internship | New York, NY | 2022-08-03 | [Apply](https://jobs.lever.co/palantir/ef725594-42dd-4f0d-ba8e-df8179dbc6cb) |
 
-## AI/ML (145 open)
+## AI/ML (144 open)
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
@@ -42,7 +42,6 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Wing ✓ | Guidance, Navigation, and Controls Engineering Intern, Summer 2027 | Internship | Palo Alto, California | 2026-10-19 ~ | [Apply](https://wing.com/careers/8872475002?gh_jid=8872475002) |
 | Waymo ✓ | 2027 Summer Intern, PhD, Machine Learning - Simulation & Closed-Loop Training | Internship | Mountain View, California, United States | 2026-10-19 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8283558) |
 | Waymo ✓ | 2027 Summer Intern, PhD, Research, Behavior Post-training | Internship | Mountain View, CA, USA; San Francisco, CA, USA | 2026-10-19 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8289816) |
-| Waymo ✓ | 2027 Summer Intern, PhD, Research, Perception Foundation Models | Internship | Mountain View, CA, USA | 2026-10-19 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8301804) |
 | Waymo ✓ | 2027 Summer Intern, PhD, Research Scientist, Visual Reasoning | Internship | Mountain View, CA, USA | 2026-10-19 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8292367) |
 | Waymo ✓ | 2027 Summer Intern, PhD, Research, VLM Harnesses for AV Planning | Internship | Mountain View, CA, USA | 2026-10-19 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8301854) |
 | Apptronik ✓ | CoRL 2026 - Robotics & AI Talent | New Grad | Austin, Texas & Sunnyvale, California | 2026-10-16 ~ | [Apply](https://boards.greenhouse.io/apptronik/jobs/6226572004?gh_jid=6226572004) |
@@ -173,7 +172,6 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 ## Recently closed — 18 in the last 14 days
 
-- Amazon.com Services LLC — Software Development Engineer, ROBOTICS, Early Career - 2027
 - Skydio — Hardware Product Management Intern - Fall 2026/Winter 2027
 - Waymo — 2027 Summer Intern, BS, Software Engineer, Model Eval
 - Otter.ai — Software Engineer, Backend (New Grad)
@@ -191,12 +189,13 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 - Path Robotics — Machine Learning & Robotics Internship 2027
 - Waymo — 2027 Summer Intern, MS/PhD, AI-driven ML Performance Engineering Intern
 - Affirm — Software Engineer (Machine Learning) Intern (Summer 2027)
+- Waymo — 2027 Summer Intern, PhD, Research, Perception Foundation Models
 
 ## How this stays current
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 450 feeds fetched · 154 open roles · 117.9s.
+Engine (last run): 506 companies · 451 feeds fetched · 153 open roles · 116.7s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
