@@ -1,6 +1,6 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **155 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **4 new** in the last 48h · **506 companies polled** · updated Nov 08, 2026 at 15:16 UTC.
+A self-updating engine that tracks **156 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **5 new** in the last 48h · **506 companies polled** · updated Nov 08, 2026 at 19:46 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -22,7 +22,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Prophet Security ✓ | Software Engineer, Backend Intern | Internship | Palo Alto (In office) | 2026-08-25 | [Apply](https://jobs.ashbyhq.com/prophet-security/6319cd03-3d5f-47b9-815b-0f8b0d184612/application) |
 | Palantir ✓ | Information Security Engineer, Internship | Internship | New York, NY | 2022-08-03 | [Apply](https://jobs.lever.co/palantir/ef725594-42dd-4f0d-ba8e-df8179dbc6cb) |
 
-## AI/ML (145 open)
+## AI/ML (146 open)
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
@@ -125,6 +125,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Amazon.com Services LLC ✓ | Software Development Engineer Intern, Machine Learning/Automated Reasoning- Summer 2027 | Internship | Seattle, Washington, USA | 2026-10-30 | [Apply](https://www.amazon.jobs/en/jobs/10593521/software-development-engineer-intern-machine-learning-automated-reasoning-summer-2027) |
 | Amazon.com Services LLC ✓ | Software Development Engineer (Database) Early Career- 2027 (US) | New Grad | Seattle, Washington, USA | 2026-10-30 | [Apply](https://www.amazon.jobs/en/jobs/10593902/software-development-engineer-database-early-career-2027-us) |
 | Amazon.com Services LLC ✓ | 2027 Applied Science Internship - Robotics - United States | Internship | North Reading, Massachusetts, USA | 2026-10-28 | [Apply](https://www.amazon.jobs/en/jobs/10591833/2027-applied-science-internship-robotics-united-states) |
+| Shield AI ✓ | Engineer I, Software - Perception - New Grad - 6135 🆕 | New Grad | Washington, D.C. | 2026-10-27 | [Apply](https://jobs.lever.co/shieldai/cd641bcb-f613-44dd-b66d-2df360067319) |
 | Skydio ✓ | Autonomy Engineer Intern, Autonomy Infrastructure, Systems and Tools, 2027 (HQ) | Internship | San Mateo, California, United States · $47/hr | 2026-10-26 | [Apply](https://jobs.ashbyhq.com/skydio/ec82eb16-a5b4-46e7-827a-326b33d7d2cb/application) |
 | Skydio ✓ | Autonomy Engineer Intern, Simulation & Robotics, 2027 (HQ) | Internship | San Mateo, California, United States · $47/hr | 2026-10-26 | [Apply](https://jobs.ashbyhq.com/skydio/6f5caf41-fa1d-4208-9bdc-82c72e5d3f17/application) |
 | Skydio ✓ | Autonomy Engineer Intern, Reinforcement Learning, 2027 (HQ) | Internship | San Mateo, California, United States · $47/hr | 2026-10-26 | [Apply](https://jobs.ashbyhq.com/skydio/19352f5e-c30d-4184-a070-3c25b0ebc048/application) |
@@ -193,7 +194,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 447 feeds fetched · 155 open roles · 106.9s.
+Engine (last run): 506 companies · 447 feeds fetched · 156 open roles · 116.7s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
