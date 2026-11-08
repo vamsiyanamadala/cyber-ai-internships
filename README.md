@@ -1,6 +1,6 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **156 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **5 new** in the last 48h · **506 companies polled** · updated Nov 08, 2026 at 19:46 UTC.
+A self-updating engine that tracks **156 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **3 new** in the last 48h · **506 companies polled** · updated Nov 08, 2026 at 23:46 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -26,8 +26,8 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
-| Waymo ✓ | 2027 Summer Intern, Machine Learning, MS/PhD, Simulation Realism (World Model) 🆕 | Internship | Mountain View, California, United States | 2026-11-06 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8358262) |
-| Waymo ✓ | 2027 Summer Intern, PhD, Machine Learning - Generative World Models & Controllable Simulation 🆕 | Internship | Mountain View, California, United States | 2026-11-06 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8351210) |
+| Waymo ✓ | 2027 Summer Intern, Machine Learning, MS/PhD, Simulation Realism (World Model) | Internship | Mountain View, California, United States | 2026-11-06 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8358262) |
+| Waymo ✓ | 2027 Summer Intern, PhD, Machine Learning - Generative World Models & Controllable Simulation | Internship | Mountain View, California, United States | 2026-11-06 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8351210) |
 | SambaNova Systems ✓ | Machine Learning Engineer - New Grad | New Grad | Austin, Texas, United States; San Jose, California, United States | 2026-11-03 ~ | [Apply](https://sambanova.ai/sambanova-available-positions/?gh_jid=6240725004) |
 | Waymo ✓ | 2027 Summer Intern, BS/MS/PhD, AI-driven ML Performance Engineering Intern | Internship | Mountain View, CA, USA | 2026-10-30 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8248060) |
 | Waymo ✓ | 2027 Summer Intern, MS/PhD, Weather Perception | Internship | San Francisco, CA, USA | 2026-10-30 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8335511) |
@@ -194,7 +194,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 447 feeds fetched · 156 open roles · 116.7s.
+Engine (last run): 506 companies · 447 feeds fetched · 156 open roles · 104.4s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
