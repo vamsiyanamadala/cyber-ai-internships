@@ -1,13 +1,13 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **160 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **13 new** in the last 48h · **506 companies polled** · updated Nov 13, 2026 at 22:41 UTC.
+A self-updating engine that tracks **161 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **10 new** in the last 48h · **506 companies polled** · updated Nov 14, 2026 at 03:20 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
 > Legend: **✓** = employer has an H-1B track record in USCIS data · **🆕** = seen in the last 48h · dates marked **~** are estimated from when the engine first saw the role (the source didn't publish one). Sponsorship signals are detected from posting text and USCIS history — strong hints, not guarantees. Always confirm on the source posting.
 
 
-## Cybersecurity (18 open)
+## Cybersecurity (19 open)
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
@@ -15,14 +15,15 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Kodiak Robotics ✓ | Winter 2027 Intern, Security | Internship | Mountain View, CA | 2026-10-02 ~ | [Apply](https://job-boards.greenhouse.io/kodiak/jobs/4430607009) |
 | Waymo ✓ | 2027 Summer Intern, MS/PhD, Systems Engineer, Autonomous Vehicle Networks & Diagnostics | Internship | Mountain View, CA, USA | 2026-09-25 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8231711) |
 | Coinbase ✓ | Software Engineer Intern | Internship | Hybrid - San Francisco, CA | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8168315?gh_jid=8168315) |
+| ServiceNow ✓ | Security Engineer Intern 🆕 | Internship | Kirkland, Washington, us | 2026-11-13 | [Apply](https://api.smartrecruiters.com/v1/companies/servicenow/postings/744000161592679) |
 | ServiceNow ✓ | Information Security Analyst Intern 🆕 | Internship | San Diego, CALIFORNIA, us | 2026-11-13 | [Apply](https://api.smartrecruiters.com/v1/companies/servicenow/postings/744000161550869) |
 | ServiceNow ✓ | Security Engineering & Automation Intern 🆕 | Internship | Kirkland, Washington, us | 2026-11-13 | [Apply](https://api.smartrecruiters.com/v1/companies/servicenow/postings/744000161548528) |
 | ServiceNow ✓ | AI Security Engineer Intern 🆕 | Internship | San Diego, California, us | 2026-11-13 | [Apply](https://api.smartrecruiters.com/v1/companies/servicenow/postings/744000161548289) |
 | ServiceNow ✓ | Product Security Intern 🆕 | Internship | San Diego, CALIFORNIA, us | 2026-11-12 | [Apply](https://api.smartrecruiters.com/v1/companies/servicenow/postings/744000161385779) |
-| ServiceNow ✓ | Assoc Detection Engineering Intern 🆕 | Internship | Kirkland, Washington, us | 2026-11-12 | [Apply](https://api.smartrecruiters.com/v1/companies/servicenow/postings/744000161210069) |
-| ServiceNow ✓ | Assoc Security Engineering & Automation Intern 🆕 | Internship | Santa Clara, CALIFORNIA, us | 2026-11-12 | [Apply](https://api.smartrecruiters.com/v1/companies/servicenow/postings/744000161209810) |
-| ServiceNow ✓ | Assoc AI Engineering (Cloud Security Automation) Intern 🆕 | Internship | Santa Clara, CALIFORNIA, us | 2026-11-12 | [Apply](https://api.smartrecruiters.com/v1/companies/servicenow/postings/744000161209600) |
-| ServiceNow ✓ | Assoc Information Security Engineer Intern 🆕 | Internship | San Diego, CALIFORNIA, us | 2026-11-12 | [Apply](https://api.smartrecruiters.com/v1/companies/servicenow/postings/744000161204235) |
+| ServiceNow ✓ | Assoc Detection Engineering Intern | Internship | Kirkland, Washington, us | 2026-11-12 | [Apply](https://api.smartrecruiters.com/v1/companies/servicenow/postings/744000161210069) |
+| ServiceNow ✓ | Assoc Security Engineering & Automation Intern | Internship | Santa Clara, CALIFORNIA, us | 2026-11-12 | [Apply](https://api.smartrecruiters.com/v1/companies/servicenow/postings/744000161209810) |
+| ServiceNow ✓ | Assoc AI Engineering (Cloud Security Automation) Intern | Internship | Santa Clara, CALIFORNIA, us | 2026-11-12 | [Apply](https://api.smartrecruiters.com/v1/companies/servicenow/postings/744000161209600) |
+| ServiceNow ✓ | Assoc Information Security Engineer Intern | Internship | San Diego, CALIFORNIA, us | 2026-11-12 | [Apply](https://api.smartrecruiters.com/v1/companies/servicenow/postings/744000161204235) |
 | Zoox ✓ | Information Technology & Applications Intern [Summer 2027] | Internship | Foster City, CA | 2026-11-02 | [Apply](https://jobs.lever.co/zoox/f35b2447-360f-4945-8ae8-16870e8d7558) |
 | Amazon.com Services LLC - A57 ✓ | Security Engineer Internship – 2027 (US) 🆕 | Internship | Seattle, Washington, USA | 2026-09-22 | [Apply](https://www.amazon.jobs/en/jobs/10557133/security-engineer-internship-2027-us) |
 | Semgrep ✓ | Software Engineer Intern | Internship | San Francisco Office | 2026-09-14 | [Apply](https://jobs.ashbyhq.com/semgrep/8e64dc7f-e925-4361-86d5-b01ee518c987/application) |
@@ -35,14 +36,13 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
 | Sezzle ✓ | Product Data Intern 🆕 | Internship | Colombia, Remote | 2026-11-13 ~ | [Apply](https://job-boards.greenhouse.io/sezzle/jobs/6685976003) |
-| Lightmatter ✓ | Packaging Thermal and Mechanical Analysis Internship - Summer 2027 🆕 | Internship | Mountain View, CA | 2026-11-12 ~ | [Apply](https://boards.greenhouse.io/lightmatter/jobs/5473871008?gh_jid=5473871008) |
+| Lightmatter ✓ | Packaging Thermal and Mechanical Analysis Internship - Summer 2027 | Internship | Mountain View, CA | 2026-11-12 ~ | [Apply](https://boards.greenhouse.io/lightmatter/jobs/5473871008?gh_jid=5473871008) |
 | Waymo ✓ | 2027 Summer Intern, PhD, Research Scientist, Foundation Models | Internship | Mountain View, CA, USA | 2026-11-11 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8227640) |
 | Lightmatter ✓ | Laser Firmware Intern - Summer 2027 | Internship | Boston, MA | 2026-11-11 ~ | [Apply](https://boards.greenhouse.io/lightmatter/jobs/5479596008?gh_jid=5479596008) |
 | Waymo ✓ | 2027 Summer Intern, BS/MS/PhD, Software Engineer, Eval Data Infra | Internship | Mountain View, CA, USA | 2026-11-10 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8257205) |
 | Waymo ✓ | 2027 Summer Intern, Machine Learning, MS/PhD, Simulation Realism (World Model) | Internship | Mountain View, California, United States | 2026-11-06 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8358262) |
 | Waymo ✓ | 2027 Summer Intern, PhD, Machine Learning - Generative World Models & Controllable Simulation | Internship | Mountain View, California, United States | 2026-11-06 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8351210) |
 | SambaNova Systems ✓ | Machine Learning Engineer - New Grad | New Grad | Austin, Texas, United States; San Jose, California, United States | 2026-11-03 ~ | [Apply](https://sambanova.ai/sambanova-available-positions/?gh_jid=6240725004) |
-| Waymo ✓ | 2027 Summer Intern, MS/PhD, Weather Perception | Internship | San Francisco, CA, USA | 2026-10-30 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8335511) |
 | Waymo ✓ | 2027 Summer Intern, PhD, Research Scientist Intern | Internship | Mountain View, CA, USA | 2026-10-30 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8337719) |
 | SambaNova Systems ✓ | Compiler Engineer - New Grad | New Grad | Austin, Texas, United States; San Jose, California, United States | 2026-10-27 ~ | [Apply](https://sambanova.ai/sambanova-available-positions/?gh_jid=6224835004) |
 | SambaNova Systems ✓ | ML Infrastructure Engineer - New Grad | New Grad | Austin, Texas, United States; San Jose, California, United States | 2026-10-27 ~ | [Apply](https://sambanova.ai/sambanova-available-positions/?gh_jid=6224938004) |
@@ -100,8 +100,8 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Databricks ✓ | AI Engineer – Forward Deployed Engineering (AI FDE) | New Grad | United States | 2026-09-21 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=8546367002) |
 | Waymo ✓ | 2027 Summer Intern, PhD, Learning-Based Behavior for Special Vehicles | Internship | Mountain View, California | 2026-09-18 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8203191) |
 | Waymo ✓ | 2027 Summer Intern, BS/MS, Scenes | Internship | Mountain View, California | 2026-09-17 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8210170) |
-| Lyft ✓ | Data Science Intern, Algorithms (Summer 2027 - SF/NYC) | Internship | New York, NY · $58-$62/hour | 2026-09-17 ~ | [Apply](https://app.careerpuck.com/job-board/lyft/job/8796124002?gh_jid=8796124002) |
 | Lyft ✓ | Data Science Intern, Algorithms (Summer 2027 - SF/NYC) | Internship | San Francisco, CA · $58-$62/hour | 2026-09-17 ~ | [Apply](https://app.careerpuck.com/job-board/lyft/job/8767723002?gh_jid=8767723002) |
+| Lyft ✓ | Data Science Intern, Algorithms (Summer 2027 - SF/NYC) | Internship | New York, NY · $58-$62/hour | 2026-09-17 ~ | [Apply](https://app.careerpuck.com/job-board/lyft/job/8796124002?gh_jid=8796124002) |
 | Haize Labs ✓ | Research Intern | Internship | New York, NY · $125,000 – $200,000 | 2026-09-16 ~ | [Apply](https://job-boards.greenhouse.io/haizelabs/jobs/4070377008) |
 | Datadog ✓ | Research Science Intern (PhD) | Internship | New York, New York, USA; Pittsburgh, Pennsylvania, USA | 2026-09-15 ~ | [Apply](https://careers.datadoghq.com/detail/8203657/?gh_jid=8203657) |
 | Waymo ✓ | 2027 Summer Intern, PhD, Safety Research, Human Behavior Analytics | Internship | Mountain View, CA, USA | 2026-09-14 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8197899) |
@@ -119,6 +119,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Nuro ✓ | Software Engineer, AI Platform - New Grad | New Grad | Mountain View, California (HQ) · $153,000 to $176,000 | 2026-08-11 ~ | [Apply](https://nuro.ai/careersitem?gh_jid=7351066) |
 | Ginkgo Bioworks ✓ | Software Graduate Intern, Autonomous Lab | Internship | Emeryville, California · $45,100-$63,600 | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/ginkgobioworks/jobs/5033171007) |
 | Ginkgo Bioworks ✓ | Software Intern, Autonomous Lab | Internship | Emeryville, California · $37,700-$53,500 | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/ginkgobioworks/jobs/5033167007) |
+| ServiceNow ✓ | AI Identity Intern 🆕 | Internship | Kirkland, Washington, us | 2026-11-13 | [Apply](https://api.smartrecruiters.com/v1/companies/servicenow/postings/744000161594249) |
 | Ramp ✓ | Risk Strategy Intern 🆕 | Internship | New York, NY (HQ) · $8K per month | 2026-11-13 | [Apply](https://jobs.ashbyhq.com/ramp/b87e898f-8d8b-447d-b3d5-9073ccf7d109/application) |
 | Zoox ✓ | Data Scientist Intern [Summer 2027] 🆕 | Internship | Foster City, CA | 2026-11-12 | [Apply](https://jobs.lever.co/zoox/0f42ac76-3821-4805-8b59-446477d1e1db) |
 | Zoox ✓ | AI Workflows Intern [Summer 2027] | Internship | Foster City, CA | 2026-11-07 | [Apply](https://jobs.lever.co/zoox/0168ad29-2fd8-4c91-865c-b9fff8aa30c1) |
@@ -177,7 +178,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Amazon.com Services LLC ✓ | 2026 Applied Science Internship - United States, PhD Student Science Recruiting, Frontier AI & Robotics | Internship | San Francisco, California, USA | 2025-11-17 | [Apply](https://www.amazon.jobs/en/jobs/3127861/2026-applied-science-internship-united-states-phd-student-science-recruiting-frontier-ai-robotics) |
 | Applied Intuition ✓ | Research Intern - Reinforcement Learning, Self-Driving | Internship | Sunnyvale · $65 per hour | 2024-09-21 | [Apply](https://jobs.ashbyhq.com/applied/ce58d9fd-f22b-4336-80b5-ba1e8d764526/application) |
 
-## Recently closed — 22 in the last 14 days
+## Recently closed — 23 in the last 14 days
 
 - Affirm — Software Engineer (Machine Learning) Intern (Summer 2027)
 - Waymo — 2027 Summer Intern, PhD, Research, Perception Foundation Models
@@ -201,12 +202,13 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 - Coinbase — Data Engineer Intern
 - Sezzle — A.I. Engineering Intern
 - Waymo — 2027 Summer Intern, MS/PhD, Machine Learning Engineer - Simulator Realism Evaluation
+- Waymo — 2027 Summer Intern, MS/PhD, Weather Perception
 
 ## How this stays current
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 445 feeds fetched · 160 open roles · 117.1s.
+Engine (last run): 506 companies · 445 feeds fetched · 161 open roles · 107.0s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
