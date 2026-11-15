@@ -1,6 +1,6 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **161 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **7 new** in the last 48h · **506 companies polled** · updated Nov 15, 2026 at 17:46 UTC.
+A self-updating engine that tracks **161 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **2 new** in the last 48h · **506 companies polled** · updated Nov 15, 2026 at 22:52 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -16,9 +16,9 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Waymo ✓ | 2027 Summer Intern, MS/PhD, Systems Engineer, Autonomous Vehicle Networks & Diagnostics | Internship | Mountain View, CA, USA | 2026-09-25 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8231711) |
 | Coinbase ✓ | Software Engineer Intern | Internship | Hybrid - San Francisco, CA | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8168315?gh_jid=8168315) |
 | ServiceNow ✓ | Security Engineer Intern 🆕 | Internship | Kirkland, Washington, us | 2026-11-13 | [Apply](https://api.smartrecruiters.com/v1/companies/servicenow/postings/744000161592679) |
-| ServiceNow ✓ | Information Security Analyst Intern 🆕 | Internship | San Diego, CALIFORNIA, us | 2026-11-13 | [Apply](https://api.smartrecruiters.com/v1/companies/servicenow/postings/744000161550869) |
-| ServiceNow ✓ | Security Engineering & Automation Intern 🆕 | Internship | Kirkland, Washington, us | 2026-11-13 | [Apply](https://api.smartrecruiters.com/v1/companies/servicenow/postings/744000161548528) |
-| ServiceNow ✓ | AI Security Engineer Intern 🆕 | Internship | San Diego, California, us | 2026-11-13 | [Apply](https://api.smartrecruiters.com/v1/companies/servicenow/postings/744000161548289) |
+| ServiceNow ✓ | Information Security Analyst Intern | Internship | San Diego, CALIFORNIA, us | 2026-11-13 | [Apply](https://api.smartrecruiters.com/v1/companies/servicenow/postings/744000161550869) |
+| ServiceNow ✓ | Security Engineering & Automation Intern | Internship | Kirkland, Washington, us | 2026-11-13 | [Apply](https://api.smartrecruiters.com/v1/companies/servicenow/postings/744000161548528) |
+| ServiceNow ✓ | AI Security Engineer Intern | Internship | San Diego, California, us | 2026-11-13 | [Apply](https://api.smartrecruiters.com/v1/companies/servicenow/postings/744000161548289) |
 | ServiceNow ✓ | Product Security Intern | Internship | San Diego, CALIFORNIA, us | 2026-11-12 | [Apply](https://api.smartrecruiters.com/v1/companies/servicenow/postings/744000161385779) |
 | ServiceNow ✓ | Assoc Detection Engineering Intern | Internship | Kirkland, Washington, us | 2026-11-12 | [Apply](https://api.smartrecruiters.com/v1/companies/servicenow/postings/744000161210069) |
 | ServiceNow ✓ | Assoc Security Engineering & Automation Intern | Internship | Santa Clara, CALIFORNIA, us | 2026-11-12 | [Apply](https://api.smartrecruiters.com/v1/companies/servicenow/postings/744000161209810) |
@@ -35,7 +35,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
-| Sezzle ✓ | Product Data Intern 🆕 | Internship | Colombia, Remote | 2026-11-13 ~ | [Apply](https://job-boards.greenhouse.io/sezzle/jobs/6685976003) |
+| Sezzle ✓ | Product Data Intern | Internship | Colombia, Remote | 2026-11-13 ~ | [Apply](https://job-boards.greenhouse.io/sezzle/jobs/6685976003) |
 | Lightmatter ✓ | Packaging Thermal and Mechanical Analysis Internship - Summer 2027 | Internship | Mountain View, CA | 2026-11-12 ~ | [Apply](https://boards.greenhouse.io/lightmatter/jobs/5473871008?gh_jid=5473871008) |
 | Waymo ✓ | 2027 Summer Intern, PhD, Research Scientist, Foundation Models | Internship | Mountain View, CA, USA | 2026-11-11 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8227640) |
 | Lightmatter ✓ | Laser Firmware Intern - Summer 2027 | Internship | Boston, MA | 2026-11-11 ~ | [Apply](https://boards.greenhouse.io/lightmatter/jobs/5479596008?gh_jid=5479596008) |
@@ -120,7 +120,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Ginkgo Bioworks ✓ | Software Graduate Intern, Autonomous Lab | Internship | Emeryville, California · $45,100-$63,600 | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/ginkgobioworks/jobs/5033171007) |
 | Ginkgo Bioworks ✓ | Software Intern, Autonomous Lab | Internship | Emeryville, California · $37,700-$53,500 | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/ginkgobioworks/jobs/5033167007) |
 | ServiceNow ✓ | AI Identity Intern 🆕 | Internship | Kirkland, Washington, us | 2026-11-13 | [Apply](https://api.smartrecruiters.com/v1/companies/servicenow/postings/744000161594249) |
-| Ramp ✓ | Risk Strategy Intern 🆕 | Internship | New York, NY (HQ) · $8K per month | 2026-11-13 | [Apply](https://jobs.ashbyhq.com/ramp/b87e898f-8d8b-447d-b3d5-9073ccf7d109/application) |
+| Ramp ✓ | Risk Strategy Intern | Internship | New York, NY (HQ) · $8K per month | 2026-11-13 | [Apply](https://jobs.ashbyhq.com/ramp/b87e898f-8d8b-447d-b3d5-9073ccf7d109/application) |
 | Zoox ✓ | Data Scientist Intern [Summer 2027] | Internship | Foster City, CA | 2026-11-12 | [Apply](https://jobs.lever.co/zoox/0f42ac76-3821-4805-8b59-446477d1e1db) |
 | Zoox ✓ | AI Workflows Intern [Summer 2027] | Internship | Foster City, CA | 2026-11-07 | [Apply](https://jobs.lever.co/zoox/0168ad29-2fd8-4c91-865c-b9fff8aa30c1) |
 | Zoox ✓ | Data Science Intern [Summer 2027] | Internship | Foster City, CA | 2026-11-06 | [Apply](https://jobs.lever.co/zoox/85c6aec7-8da2-445d-9c4d-812365dbce97) |
@@ -207,7 +207,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters, workable) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 445 feeds fetched · 161 open roles · 110.2s.
+Engine (last run): 506 companies · 445 feeds fetched · 161 open roles · 109.9s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
