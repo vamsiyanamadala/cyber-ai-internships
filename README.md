@@ -1,6 +1,6 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **157 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **6 new** in the last 48h · **506 companies polled** · updated Nov 21, 2026 at 23:22 UTC.
+A self-updating engine that tracks **157 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **3 new** in the last 48h · **506 companies polled** · updated Nov 22, 2026 at 06:54 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -11,7 +11,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
-| Lucid Motors ✓ | Product Security Engineering Intern, Summer 2027 🆕 | Internship | Newark, CA · $53 to $72 | 2026-11-20 ~ | [Apply](https://lucidmotors.com/careers/search/5290941007?gh_jid=5290941007) |
+| Lucid Motors ✓ | Product Security Engineering Intern, Summer 2027 | Internship | Newark, CA · $53 to $72 | 2026-11-20 ~ | [Apply](https://lucidmotors.com/careers/search/5290941007?gh_jid=5290941007) |
 | Lightmatter ✓ | IT and Security Intern – Summer 2027 | Internship | Boston, MA | 2026-11-19 ~ | [Apply](https://boards.greenhouse.io/lightmatter/jobs/5473539008?gh_jid=5473539008) |
 | Waymo ✓ | 2027 Summer Intern, MS/PhD, Systems Engineer, Autonomous Vehicle Networks & Diagnostics | Internship | Mountain View, CA, USA | 2026-09-25 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8231711) |
 | Coinbase ✓ | Software Engineer Intern | Internship | Hybrid - San Francisco, CA | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8168315?gh_jid=8168315) |
@@ -36,8 +36,8 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
-| Waymo ✓ | 2027 Summer Intern, PhD, Agentic AI 🆕 | Internship | Mountain View, California, United States | 2026-11-20 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8401116) |
-| Lucid Motors ✓ | Intern, AI & Data (Applied AI/Machine Learning), Summer 2027 🆕 | Internship | Newark, CA | 2026-11-20 ~ | [Apply](https://lucidmotors.com/careers/search/5290919007?gh_jid=5290919007) |
+| Waymo ✓ | 2027 Summer Intern, PhD, Agentic AI | Internship | Mountain View, California, United States | 2026-11-20 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8401116) |
+| Lucid Motors ✓ | Intern, AI & Data (Applied AI/Machine Learning), Summer 2027 | Internship | Newark, CA | 2026-11-20 ~ | [Apply](https://lucidmotors.com/careers/search/5290919007?gh_jid=5290919007) |
 | Lucid Motors ✓ | Intern, AI/ML, Vehicle Infotainment, Summer 2027 🆕 | Internship | Newark, CA | 2026-11-20 ~ | [Apply](https://lucidmotors.com/careers/search/5290923007?gh_jid=5290923007) |
 | Databricks ✓ | PhD GenAI Research Scientist Intern 🆕 | Internship | San Francisco, California | 2026-11-20 ~ | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=7011263002) |
 | Sezzle ✓ | A.I. Engineering Intern (Remote) | Internship | Türkiye, Remote | 2026-11-19 ~ | [Apply](https://job-boards.greenhouse.io/sezzle/jobs/7750229003) |
@@ -215,7 +215,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 440 feeds fetched · 157 open roles · 110.3s.
+Engine (last run): 506 companies · 440 feeds fetched · 157 open roles · 112.1s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
