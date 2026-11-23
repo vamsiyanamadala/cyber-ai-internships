@@ -1,6 +1,6 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **157 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **1 new** in the last 48h · **506 companies polled** · updated Nov 22, 2026 at 21:50 UTC.
+A self-updating engine that tracks **157 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **0 new** in the last 48h · **506 companies polled** · updated Nov 23, 2026 at 02:49 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -15,7 +15,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Lightmatter ✓ | IT and Security Intern – Summer 2027 | Internship | Boston, MA | 2026-11-19 ~ | [Apply](https://boards.greenhouse.io/lightmatter/jobs/5473539008?gh_jid=5473539008) |
 | Waymo ✓ | 2027 Summer Intern, MS/PhD, Systems Engineer, Autonomous Vehicle Networks & Diagnostics | Internship | Mountain View, CA, USA | 2026-09-25 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8231711) |
 | Coinbase ✓ | Software Engineer Intern | Internship | Hybrid - San Francisco, CA | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8168315?gh_jid=8168315) |
-| ServiceNow ✓ | Security Software Engineer Intern 🆕 | Internship | Kirkland, Washington, us | 2026-11-20 | [Apply](https://api.smartrecruiters.com/v1/companies/servicenow/postings/744000162827365) |
+| ServiceNow ✓ | Security Software Engineer Intern | Internship | Kirkland, Washington, us | 2026-11-20 | [Apply](https://api.smartrecruiters.com/v1/companies/servicenow/postings/744000162827365) |
 | Snowflake ✓ | Software Engineer Intern (Core, Infrastructure & Security) — Summer 2027 | Internship | US-CA-Menlo Park · $42 – $60 per hour | 2026-11-19 | [Apply](https://jobs.ashbyhq.com/snowflake/e194759e-3a20-47c9-868d-f47179613897/application) |
 | ServiceNow ✓ | Security Engineer Intern | Internship | Kirkland, Washington, us | 2026-11-13 | [Apply](https://api.smartrecruiters.com/v1/companies/servicenow/postings/744000161592679) |
 | ServiceNow ✓ | Information Security Analyst Intern | Internship | San Diego, CALIFORNIA, us | 2026-11-13 | [Apply](https://api.smartrecruiters.com/v1/companies/servicenow/postings/744000161550869) |
@@ -215,7 +215,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 440 feeds fetched · 157 open roles · 117.1s.
+Engine (last run): 506 companies · 440 feeds fetched · 157 open roles · 105.7s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
