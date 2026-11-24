@@ -1,13 +1,13 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **157 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **0 new** in the last 48h · **506 companies polled** · updated Nov 23, 2026 at 12:52 UTC.
+A self-updating engine that tracks **155 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **0 new** in the last 48h · **506 companies polled** · updated Nov 24, 2026 at 00:55 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
 > Legend: **✓** = employer has an H-1B track record in USCIS data · **🆕** = seen in the last 48h · dates marked **~** are estimated from when the engine first saw the role (the source didn't publish one). Sponsorship signals are detected from posting text and USCIS history — strong hints, not guarantees. Always confirm on the source posting.
 
 
-## Cybersecurity (20 open)
+## Cybersecurity (19 open)
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
@@ -16,7 +16,6 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Waymo ✓ | 2027 Summer Intern, MS/PhD, Systems Engineer, Autonomous Vehicle Networks & Diagnostics | Internship | Mountain View, CA, USA | 2026-09-25 ~ | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8231711) |
 | Coinbase ✓ | Software Engineer Intern | Internship | Hybrid - San Francisco, CA | 2026-09-09 ~ | [Apply](https://www.coinbase.com/careers/positions/8168315?gh_jid=8168315) |
 | ServiceNow ✓ | Security Software Engineer Intern | Internship | Kirkland, Washington, us | 2026-11-20 | [Apply](https://api.smartrecruiters.com/v1/companies/servicenow/postings/744000162827365) |
-| Snowflake ✓ | Software Engineer Intern (Core, Infrastructure & Security) — Summer 2027 | Internship | US-CA-Menlo Park · $42 – $60 per hour | 2026-11-19 | [Apply](https://jobs.ashbyhq.com/snowflake/e194759e-3a20-47c9-868d-f47179613897/application) |
 | ServiceNow ✓ | Security Engineer Intern | Internship | Kirkland, Washington, us | 2026-11-13 | [Apply](https://api.smartrecruiters.com/v1/companies/servicenow/postings/744000161592679) |
 | ServiceNow ✓ | Information Security Analyst Intern | Internship | San Diego, CALIFORNIA, us | 2026-11-13 | [Apply](https://api.smartrecruiters.com/v1/companies/servicenow/postings/744000161550869) |
 | ServiceNow ✓ | AI Security Engineer Intern | Internship | San Diego, California, us | 2026-11-13 | [Apply](https://api.smartrecruiters.com/v1/companies/servicenow/postings/744000161548289) |
@@ -32,7 +31,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Prophet Security ✓ | Software Engineer, Backend Intern | Internship | Palo Alto (In office) | 2026-08-25 | [Apply](https://jobs.ashbyhq.com/prophet-security/6319cd03-3d5f-47b9-815b-0f8b0d184612/application) |
 | Palantir ✓ | Information Security Engineer, Internship | Internship | New York, NY | 2022-08-03 | [Apply](https://jobs.lever.co/palantir/ef725594-42dd-4f0d-ba8e-df8179dbc6cb) |
 
-## AI/ML (137 open)
+## AI/ML (136 open)
 
 | Company | Role | Type | Location | Posted | Apply |
 |---|---|---|---|---|---|
@@ -120,7 +119,6 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Nuro ✓ | Software Engineer, AI Platform - New Grad | New Grad | Mountain View, California (HQ) · $153,000 to $176,000 | 2026-08-11 ~ | [Apply](https://nuro.ai/careersitem?gh_jid=7351066) |
 | Ginkgo Bioworks ✓ | Software Graduate Intern, Autonomous Lab | Internship | Emeryville, California · $45,100-$63,600 | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/ginkgobioworks/jobs/5033171007) |
 | Ginkgo Bioworks ✓ | Software Intern, Autonomous Lab | Internship | Emeryville, California · $37,700-$53,500 | 2026-08-11 ~ | [Apply](https://job-boards.greenhouse.io/ginkgobioworks/jobs/5033167007) |
-| Snowflake ✓ | Software Engineer Intern (AI / ML) - Summer 2027 | Internship | US-CA-Menlo Park · $42 – $60 per hour | 2026-11-19 | [Apply](https://jobs.ashbyhq.com/snowflake/185d165c-09c7-4b57-9281-ff7c2c541907/application) |
 | ServiceNow ✓ | AI Identity Intern | Internship | Kirkland, Washington, us | 2026-11-13 | [Apply](https://api.smartrecruiters.com/v1/companies/servicenow/postings/744000161594249) |
 | Ramp ✓ | Risk Strategy Intern | Internship | New York, NY (HQ) · $8K per month | 2026-11-13 | [Apply](https://jobs.ashbyhq.com/ramp/b87e898f-8d8b-447d-b3d5-9073ccf7d109/application) |
 | Zoox ✓ | Data Scientist Intern [Summer 2027] | Internship | Foster City, CA | 2026-11-12 | [Apply](https://jobs.lever.co/zoox/0f42ac76-3821-4805-8b59-446477d1e1db) |
@@ -174,7 +172,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | Cerebras Systems ✓ | CoDesign & NextGen - New College Grad | New Grad | Sunnyvale, CA · $145,000-$155,000 | 2026-01-07 | [Apply](https://jobs.ashbyhq.com/cerebras/987d7f64-c957-4c8f-b89d-2f9d64738507/application) |
 | Applied Intuition ✓ | Research Intern - Reinforcement Learning, Self-Driving | Internship | Sunnyvale · $65 per hour | 2024-09-21 | [Apply](https://jobs.ashbyhq.com/applied/ce58d9fd-f22b-4336-80b5-ba1e8d764526/application) |
 
-## Recently closed — 33 in the last 14 days
+## Recently closed — 35 in the last 14 days
 
 - Zoox — AI Workflows & Safety Decision Making Intern [2027]
 - Waymo — 2027 Summer Intern, MS/PhD, Software Engineer, Eval Data Infra
@@ -209,12 +207,14 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 - Waymo — 2027 Summer Intern, PhD, Perception/Road Understanding, ML Engineer
 - Waymo — 2027 Summer Intern, BS/MS, Scenes
 - Skydio — Autonomy Engineer Intern, Reinforcement Learning, 2027 (HQ)
+- Snowflake — Software Engineer Intern (Core, Infrastructure & Security) — Summer 2027
+- Snowflake — Software Engineer Intern (AI / ML) - Summer 2027
 
 ## How this stays current
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 439 feeds fetched · 157 open roles · 117.9s.
+Engine (last run): 506 companies · 439 feeds fetched · 155 open roles · 104.6s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
