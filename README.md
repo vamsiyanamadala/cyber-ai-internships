@@ -1,6 +1,6 @@
 # Cyber, AI & Software — Internships, Co-ops, Apprenticeships & New Grad (US)
 
-A self-updating engine that tracks **161 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **8 new** in the last 48h · **506 companies polled** · updated Nov 26, 2026 at 19:04 UTC.
+A self-updating engine that tracks **161 open** early-career Cybersecurity, AI/ML and Software roles in the United States and rebuilds this page automatically. **7 new** in the last 48h · **506 companies polled** · updated Nov 27, 2026 at 02:15 UTC.
 
 Sponsorship policy: **require_history** (min petitions = 1). Roles that state they won't sponsor are excluded, and citizenship/clearance-only roles are excluded.
 
@@ -129,7 +129,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 | ServiceNow ✓ | AI Identity Intern | Internship | Kirkland, Washington, us | 2026-11-13 | [Apply](https://api.smartrecruiters.com/v1/companies/servicenow/postings/744000161594249) |
 | Ramp ✓ | Risk Strategy Intern | Internship | New York, NY (HQ) · $8K per month | 2026-11-13 | [Apply](https://jobs.ashbyhq.com/ramp/b87e898f-8d8b-447d-b3d5-9073ccf7d109/application) |
 | Zoox ✓ | Data Scientist Intern [Summer 2027] | Internship | Foster City, CA | 2026-11-12 | [Apply](https://jobs.lever.co/zoox/0f42ac76-3821-4805-8b59-446477d1e1db) |
-| Zoox ✓ | AI Engineering Intern, Operational Safety [Summer 2027] 🆕 | Internship | Foster City, CA | 2026-11-07 | [Apply](https://jobs.lever.co/zoox/0168ad29-2fd8-4c91-865c-b9fff8aa30c1) |
+| Zoox ✓ | AI Engineering Intern, Operational Safety [Summer 2027] | Internship | Foster City, CA | 2026-11-07 | [Apply](https://jobs.lever.co/zoox/0168ad29-2fd8-4c91-865c-b9fff8aa30c1) |
 | Zoox ✓ | Data Science Intern [Summer 2027] | Internship | Foster City, CA | 2026-11-06 | [Apply](https://jobs.lever.co/zoox/85c6aec7-8da2-445d-9c4d-812365dbce97) |
 | Palantir ✓ | Software Engineer, Internship - Sovereign AI Systems | Internship | New York, NY | 2026-11-05 | [Apply](https://jobs.lever.co/palantir/cd64bcd4-50bb-4aeb-a135-4e0487ffd312) |
 | Sierra Space ✓ | Research Intern | Internship | San Francisco, CA | 2026-10-31 | [Apply](https://jobs.ashbyhq.com/Sierra/ef896ee9-e903-4a1f-84c2-537373cb9081/application) |
@@ -216,7 +216,7 @@ Sponsorship policy: **require_history** (min petitions = 1). Roles that state th
 
 A small async Python engine reads public ATS feeds (amazonjobs, ashby, greenhouse, lever, recruitee, smartrecruiters) directly, keeps only US cybersecurity/AI internships, co-ops, and apprenticeships, applies the sponsorship filter, de-duplicates across sources, records each role's first-seen date once so ordering never shifts, and regenerates this page. Full source and setup are in the repo.
 
-Engine (last run): 506 companies · 437 feeds fetched · 161 open roles · 110.0s.
+Engine (last run): 506 companies · 437 feeds fetched · 161 open roles · 117.2s.
 
 
 _Data files: [`data/internships.csv`](data/internships.csv) · [`data/internships.json`](data/internships.json) · [RSS](docs/feed.xml). Roles can close anytime — confirm before applying._
